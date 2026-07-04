@@ -1,0 +1,8 @@
+# Placeholder system prompt for the Gemini explanation call.
+#
+# Will instruct the model to:
+# - explain a neighborhood recommendation using only the provided
+#   scoring factors
+# - avoid inventing information not present in the scoring output
+#
+# To be authored during Sprint 3 implementation.

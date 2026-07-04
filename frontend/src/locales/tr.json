@@ -1,0 +1,124 @@
+{
+  "meta": {
+    "title": "SafeMatch AI | İstanbul'da Nerede Yaşamalıyım?",
+    "description": "Deprem güvenliği ve yaşam kalitesini birlikte değerlendiren yapay zekâ destekli mahalle karar platformu."
+  },
+  "navbar": {
+    "logo": "SafeMatch",
+    "howItWorks": "Nasıl Çalışır",
+    "about": "Hakkımızda",
+    "dataSources": "Veri Kaynakları",
+    "disclaimer": "Sorumluluk Reddi",
+    "cta": "Mahalle Analizine Başla"
+  },
+  "hero": {
+    "badge": "GÜVENLİ YARINLAR İÇİN DOĞRU KARAR",
+    "titleLine1": "İstanbul'da",
+    "titleLine2Prefix": "nerede",
+    "titleHighlight": "yaşamalıyım?",
+    "description": "Deprem güvenliği ve yaşam kalitesini birlikte değerlendiren yapay zekâ destekli karar platformu.",
+    "primaryCta": "Mahalle Analizine Başla",
+    "secondaryCta": "Nasıl Çalışır?",
+    "sourceTags": ["AFAD", "İBB", "TÜİK", "OSM"],
+    "map": {
+      "placeholderLabel": "İstanbul Deprem Güvenlik Haritası",
+      "placeholderNote": "MapLibre entegrasyonu ileride eklenecek",
+      "legendTitle": "Deprem Güvenlik Skoru",
+      "legend": {
+        "veryHigh": "Çok Güvenli",
+        "high": "Güvenli",
+        "medium": "Orta",
+        "low": "Riskli",
+        "veryLow": "Yüksek Riskli"
+      }
+    }
+  },
+  "howItWorks": {
+    "eyebrow": "SÜREÇ",
+    "title": "Nasıl Çalışır?",
+    "description": "Üç adımda size en uygun mahalleyi buluyoruz.",
+    "steps": [
+      {
+        "title": "Profil oluştur",
+        "description": "Yaşam tarzınızı ve ihtiyaçlarınızı birkaç soruyla tanımlayın."
+      },
+      {
+        "title": "Önceliklerini belirle",
+        "description": "Deprem güvenliği, ulaşım, eğitim gibi kriterleri kendinize göre ağırlıklandırın."
+      },
+      {
+        "title": "En uygun mahalleyi keşfet",
+        "description": "Yapay zekâ analiziyle açıklanabilir, kişiselleştirilmiş öneriler alın."
+      }
+    ]
+  },
+  "criteria": {
+    "eyebrow": "KRİTERLER",
+    "title": "Kapsamlı Analiz Kriterleri",
+    "description": "Her mahalleyi altı temel başlıkta, çok boyutlu veriyle değerlendiriyoruz.",
+    "items": [
+      {
+        "title": "Deprem Güvenliği",
+        "description": "Zemin etüdü, fay hattı yakınlığı ve bina stoku verileriyle risk analizi."
+      },
+      {
+        "title": "Ulaşım",
+        "description": "Toplu taşıma erişimi, ana arterlere yakınlık ve trafik yoğunluğu."
+      },
+      {
+        "title": "Sağlık",
+        "description": "Hastane, aile sağlığı merkezi ve acil müdahale noktalarına mesafe."
+      },
+      {
+        "title": "Eğitim",
+        "description": "Okul yoğunluğu, kalite göstergeleri ve erişilebilirlik."
+      },
+      {
+        "title": "Toplanma Alanları",
+        "description": "Afet sonrası acil toplanma ve barınma alanlarının yeterliliği."
+      },
+      {
+        "title": "Sosyal Yaşam",
+        "description": "Park, sosyal donatı ve günlük yaşam olanaklarının zenginliği."
+      }
+    ]
+  },
+  "dataSources": {
+    "eyebrow": "GÜVENİLİR VERİ",
+    "title": "Veri Kaynakları",
+    "description": "Analizlerimiz resmi ve açık veri kaynaklarına dayanır.",
+    "sources": ["AFAD", "İBB", "TÜİK", "MTA", "OSM", "DASK"]
+  },
+  "cta": {
+    "title": "İstanbul'da sizin için en doğru mahalleyi keşfedin.",
+    "button": "Mahalle Analizine Başla"
+  },
+  "footer": {
+    "brand": "SafeMatch",
+    "tagline": "İstanbul için yapay zekâ destekli mahalle karar platformu.",
+    "dataSources": "Veri kaynakları",
+    "github": "Github",
+    "linkedin": "Linkedin",
+    "disclaimer": "Sorumluluk Reddi",
+    "about": "Hakkımızda",
+    "rights": "Tüm hakları saklıdır."
+  },
+  "pages": {
+    "about": {
+      "title": "Hakkımızda",
+      "body": "SafeMatch AI, İstanbul'da yaşayacak kullanıcılar için deprem güvenliğini merkeze alan, yaşam kalitesi kriterleriyle kişiselleştirilmiş mahalle önerileri sunan bir yapay zekâ destekli karar destek sistemidir."
+    },
+    "disclaimer": {
+      "title": "Sorumluluk Reddi",
+      "body": "SafeMatch AI tarafından sunulan öneriler bilgilendirme amaçlıdır ve resmi bir risk raporu veya uzman görüşü yerine geçmez. Taşınma kararlarınızda ilgili resmi kurumların verilerini ve uzman görüşünü dikkate almanızı öneririz."
+    },
+    "dataSources": {
+      "title": "Veri Kaynakları",
+      "body": "Analizlerimizde AFAD, İBB, TÜİK, MTA, OSM ve DASK gibi resmi ve açık kaynaklardan elde edilen verileri kullanıyoruz."
+    },
+    "comingSoon": {
+      "title": "Yakında",
+      "body": "Bu sayfa bir sonraki sprintte geliştirilecektir."
+    }
+  }
+}

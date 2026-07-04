@@ -1,0 +1,9 @@
+# Placeholder system prompt for the Gemini weighting call.
+#
+# Will instruct the model to:
+# - read the user profile
+# - return ONLY a JSON object mapping criterion -> weight
+# - ensure weights sum to 1
+# - never place deprem_guvenlik below the enforced minimum
+#
+# To be authored during Sprint 3 implementation.

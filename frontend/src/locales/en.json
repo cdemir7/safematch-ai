@@ -1,0 +1,124 @@
+{
+  "meta": {
+    "title": "SafeMatch AI | Where Should I Live in Istanbul?",
+    "description": "An AI-powered decision platform that evaluates earthquake safety and quality of life together."
+  },
+  "navbar": {
+    "logo": "SafeMatch",
+    "howItWorks": "How It Works",
+    "about": "About",
+    "dataSources": "Data Sources",
+    "disclaimer": "Disclaimer",
+    "cta": "Start Neighborhood Analysis"
+  },
+  "hero": {
+    "badge": "THE RIGHT DECISION FOR SAFER TOMORROWS",
+    "titleLine1": "Where should I",
+    "titleLine2Prefix": "",
+    "titleHighlight": "live in Istanbul?",
+    "description": "An AI-powered decision platform that evaluates earthquake safety and quality of life together.",
+    "primaryCta": "Start Neighborhood Analysis",
+    "secondaryCta": "How It Works?",
+    "sourceTags": ["AFAD", "IMM", "TurkStat", "OSM"],
+    "map": {
+      "placeholderLabel": "Istanbul Earthquake Safety Map",
+      "placeholderNote": "MapLibre integration coming soon",
+      "legendTitle": "Earthquake Safety Score",
+      "legend": {
+        "veryHigh": "Very Safe",
+        "high": "Safe",
+        "medium": "Moderate",
+        "low": "Risky",
+        "veryLow": "High Risk"
+      }
+    }
+  },
+  "howItWorks": {
+    "eyebrow": "PROCESS",
+    "title": "How It Works",
+    "description": "We find the best-fit neighborhood for you in three steps.",
+    "steps": [
+      {
+        "title": "Create your profile",
+        "description": "Describe your lifestyle and needs with a few quick questions."
+      },
+      {
+        "title": "Set your priorities",
+        "description": "Weight criteria like earthquake safety, transport, and education to your own needs."
+      },
+      {
+        "title": "Discover the best-fit neighborhood",
+        "description": "Get explainable, personalized recommendations from our AI analysis."
+      }
+    ]
+  },
+  "criteria": {
+    "eyebrow": "CRITERIA",
+    "title": "Comprehensive Analysis Criteria",
+    "description": "We evaluate every neighborhood across six core dimensions, using multi-layered data.",
+    "items": [
+      {
+        "title": "Earthquake Safety",
+        "description": "Risk analysis using soil surveys, fault-line proximity, and building stock data."
+      },
+      {
+        "title": "Transportation",
+        "description": "Public transit access, proximity to main arteries, and traffic density."
+      },
+      {
+        "title": "Healthcare",
+        "description": "Distance to hospitals, family health centers, and emergency response points."
+      },
+      {
+        "title": "Education",
+        "description": "School density, quality indicators, and accessibility."
+      },
+      {
+        "title": "Assembly Areas",
+        "description": "Adequacy of post-disaster emergency assembly and shelter areas."
+      },
+      {
+        "title": "Social Life",
+        "description": "Richness of parks, social amenities, and everyday conveniences."
+      }
+    ]
+  },
+  "dataSources": {
+    "eyebrow": "TRUSTED DATA",
+    "title": "Data Sources",
+    "description": "Our analyses are built on official and open data sources.",
+    "sources": ["AFAD", "IMM", "TurkStat", "MTA", "OSM", "DASK"]
+  },
+  "cta": {
+    "title": "Discover the right neighborhood for you in Istanbul.",
+    "button": "Start Neighborhood Analysis"
+  },
+  "footer": {
+    "brand": "SafeMatch",
+    "tagline": "AI-powered neighborhood decision platform for Istanbul.",
+    "dataSources": "Data sources",
+    "github": "Github",
+    "linkedin": "Linkedin",
+    "disclaimer": "Disclaimer",
+    "about": "About",
+    "rights": "All rights reserved."
+  },
+  "pages": {
+    "about": {
+      "title": "About",
+      "body": "SafeMatch AI is an AI-powered decision support system that offers personalized neighborhood recommendations for people who will live in Istanbul, centered on earthquake safety and quality-of-life criteria."
+    },
+    "disclaimer": {
+      "title": "Disclaimer",
+      "body": "Recommendations provided by SafeMatch AI are for informational purposes only and do not replace an official risk report or expert opinion. We recommend consulting official institutions and experts before making relocation decisions."
+    },
+    "dataSources": {
+      "title": "Data Sources",
+      "body": "Our analyses use data from official and open sources such as AFAD, IMM, TurkStat, MTA, OSM, and DASK."
+    },
+    "comingSoon": {
+      "title": "Coming Soon",
+      "body": "This page will be built in an upcoming sprint."
+    }
+  }
+}

@@ -1,0 +1,6 @@
+# Placeholder user prompt template for the Gemini explanation call.
+#
+# Will be formatted with the ranked neighborhood result and its
+# contributing score breakdown before being sent to the model.
+#
+# To be authored during Sprint 3 implementation.

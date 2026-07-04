@@ -1,0 +1,6 @@
+# Placeholder user prompt template for the Gemini weighting call.
+#
+# Will be formatted with the user's profile data (preferences,
+# budget, priorities) before being sent to the model.
+#
+# To be authored during Sprint 3 implementation.
