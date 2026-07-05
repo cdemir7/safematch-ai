@@ -1,5 +1,7 @@
 # 🛡️ SafeMatch AI
 
+**Backlog & Proje Yönetim URL:** [ClickUp Board](https://app.clickup.com/9018979959/v/s/901811680269)
+
 ## 🎯 Proje Amacı
 İstanbul'da yaşayacağı bölgeyi seçmek isteyen bireylere, **deprem güvenliğini karar sürecinin merkezine koyarak** kişiselleştirilmiş mahalle önerileri sunan yapay zekâ destekli bir karar destek platformu sunmaktır.
 
@@ -40,12 +42,12 @@ Kullanıcılar platformu ziyaret ederek bütçe, iş yeri, çocuk, araç, deprem
 
 ## 🧑‍💻 Takım Üyeleri (Takım 46)
 
-| İsim | Rol |
-| :--- | :--- |
-| Muhammed Taha Alpbalta | Product Owner |
-| Cihan Demir | Scrum Master |
-| Azra Gül | Developer |
-| Süeda Ünal | Developer |
+| İsim | Rol | GitHub | LinkedIn |
+| :--- | :--- | :--- | :--- |
+| Muhammed Taha Alpbalta | Product Owner | [Eklenecek](#) | [LinkedIn](https://www.linkedin.com/in/tahalpbalta/) |
+| Cihan Demir | Scrum Master | [GitHub](https://github.com/cdemir7) | [LinkedIn](https://www.linkedin.com/in/demircihan/) |
+| Azra Gül | Developer | [GitHub](https://github.com/azraagull) | [LinkedIn](https://www.linkedin.com/in/azragul1l/) |
+| Süeda Ünal | Developer | [Eklenecek](#) | [LinkedIn](https://www.linkedin.com/in/suedaaunal/) |
 
 
 ---
@@ -54,7 +56,7 @@ Kullanıcılar platformu ziyaret ederek bütçe, iş yeri, çocuk, araç, deprem
 
 **Sprint Hedefi:** İstanbul mahallelerinin deprem, ulaşım ve yaşam kalitesi verilerini toplayarak veri boru hattını (data pipeline) kurmak, projenin veritabanı altyapısını ayağa kaldırmak ve kullanıcı profili formunun frontend iskeletini tasarlayarak uçtan uca çalışır bir temel sistem oluşturmak.
 
-### 🎯 Sprint Görevleri ve Puan Dağılımı
+### 🎯 Sprint Görevleri ve Puan Dağılımı (Toplam: 100 Puan)
 
 **Kurulum & Altyapı (30 Puan):**
 - Repo + klasör iskeleti, `.gitignore`, `.env.example` oluşturuldu.
@@ -72,7 +74,7 @@ Kullanıcılar platformu ziyaret ederek bütçe, iş yeri, çocuk, araç, deprem
 - Kullanıcı analiz bileşenleri (Bento Box, hap butonlar) kodlandı.
 - Sonuç ekranı konseptinin (5 mahalle kartı, skorlar, ortalama fiyat, AI açıklaması) temelleri atıldı.
 
-### 📝 Sprint Notları
+### 📝 Sprint Notları & Ürün Geliştirme Durumu
 
 **Tamamlananlar:**
 - Proje iskeleti ve GitHub reposu başarıyla kuruldu.
@@ -81,7 +83,8 @@ Kullanıcılar platformu ziyaret ederek bütçe, iş yeri, çocuk, araç, deprem
 - Frontend tarafında kullanıcının kendini özel hissetmesini sağlayacak çok adımlı onboarding (wizard) arayüzü tasarlandı. 
 - Next.js ve TailwindCSS ile frontend iskeleti oluşturuldu.
 
-**Arayüz Tasarımlarımız:**
+**Ürün Geliştirme Durumu (Arayüz Tasarımlarımız):**
+Aşağıda kullanıcının veri girdiği form alanları ve landing page tasarımlarımızın güncel ekran görüntüleri yer almaktadır.
 
 <img width="1666" height="865" alt="safematch-ai landing page" src="https://github.com/user-attachments/assets/e7cb95a5-a731-4057-a01c-3cf7415efe22" />
 
@@ -91,13 +94,14 @@ Kullanıcılar platformu ziyaret ederek bütçe, iş yeri, çocuk, araç, deprem
 **Karşılaşılan Zorluklar ve Çözümler:**
 - Projenin ilk başta Türkiye geneli olması planlanırken veri yetersizliği nedeniyle projenin öncelikle İstanbul odaklı olmasına karar verildi.
 
-### 🔄 Daily Scrum & Proje Yönetimi
-Proje yönetimi ClickUp üzerinden yürütülmektedir. Aktif biten taskların ekran görüntüsü:
+### 🔄 Proje Yönetimi & Daily Scrum 
+**Proje Yönetimi:**
+Görev dağılımı ve proje yönetimi (Product Backlog) ClickUp üzerinden yürütülmektedir. Ana görevler (Task) ve alt görevler (Subtask) detaylı açıklamaları ve kabul kriterleri ile birlikte oluşturulmuş; önceliklendirme (priority) ve bitiş tarihleri (due date) atanarak görev kontrolü ve proje takibi sistemli bir şekilde sağlanmıştır.
 
 <img width="1916" height="826" alt="Clickup task screeansot" src="https://github.com/user-attachments/assets/22caae43-5fb0-49d0-8faa-a9c953613e11" />
 
-
-Daily Scrum toplantılarımızı 16:00 - 18:00 saatleri arasında Google Meet üzerinden gerçekleştirdik. Yoğunluğa göre WhatsApp üzerinden mesajlaşma yolu ile iletişime geçildi. Toplantılarda özellikle 'Ne planlanmıştı? Neredeyiz? Nasıl ilerleyeceğiz' soruları üzerinde duruldu.
+**Daily Scrum:**
+Daily Scrum toplantılarımızı iki günde bir, 16:00 - 18:00 saatleri arasında Google Meet üzerinden gerçekleştirdik. Ekstra yoğun olduğumuz günlerde ise iletişimimizi ve süreç takibimizi WhatsApp üzerinden mesajlaşarak sürdürdük. Toplantılarımızda özellikle *"Ne planlanmıştı? Neredeyiz? Nasıl ilerleyeceğiz?"* soruları üzerinde durarak sürecin kontrolünü ve bir sonraki adımların planlamasını sağladık. Toplantılarımızdan kareler:
 
 <img width="1918" height="866" alt="meet screenshot 1" src="https://github.com/user-attachments/assets/80f1f507-6e21-41e2-9136-3d8596f1422f" />
 
@@ -118,9 +122,23 @@ Daily Scrum toplantılarımızı 16:00 - 18:00 saatleri arasında Google Meet ü
 - **İyileştirilmesi Gerekenler:**
   - Takım içindeki görev dağılımıyla ilgili düzenleme yapılması kararı alınmıştır.
   - Kullanıcı analizi tamamladıktan sonra yapılacak yönlendirmeler netleştirilmelidir.
-  
-### 💯 Sprint Sonu Tamamlanan Puan
 
-**Sprint Başarı Oranı:** `[████████░░] %86`  *(86 / 100 Puan)*
+### 💯 Sprint Sonu Puan Değerlendirmesi
 
-> 📌 **Durum Özeti:** Veri toplama ve hazırlama bölümünde her İstanbul mahallesi için ham özelliklerin bulunduğu tek dosya hazırlanmaya devam etmektedir. Onun dışında hedeflenilen tüm görevler başarıyla tamamlanmıştır.
+Sprint 1 kapsamında belirlenen 100 puanlık hedefin görev bazlı tamamlanma oranları ve alınan puanlar aşağıdaki tabloda özetlenmiştir:
+
+| Görev Kategorisi | Hedeflenen Puan | Tamamlanan Puan | Durum |
+| :--- | :---: | :---: | :--- |
+| 🏗️ **Kurulum & Altyapı** | 30 | 30 | Tamamlandı |
+| 🎨 **Frontend** | 30 | 26 | 4 Puan Kırıldı |
+| 📊 **Veri Toplama & Hazırlama** | 40 | 30 | 10 Puan Kırıldı |
+| **🏆 TOPLAM** | **100** | **86** | 🟩🟩🟩🟩🟩🟩🟩🟩⬜⬜ **%86** |
+
+> **Puan Kırılan Noktalar & Kalan Görevler:** 
+> - **Veri Toplama (-10 Puan):** Her İstanbul mahallesi için ham özelliklerin bulunduğu tek dosyanın nihai hale getirilmesi ve eşleştirilmesi işlemine devam edilmektedir.
+> - **Frontend (-4 Puan):** Çok adımlı profil formundaki UI/UX eksiklikleri ve son rötüşlar bir sonraki sprinte sarkmıştır.
+> 
+> **Sonuç:** Kalan veri hazırlama ve frontend adımları dışında, planlanan tüm altyapı görevleri Sprint 1 kapsamında başarıyla tamamlanmıştır.
+
+
+
