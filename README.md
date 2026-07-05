@@ -1,80 +1,104 @@
-# **Takım İsmi**
+# 🛡️ SafeMatch AI
 
-Takım 46
+## 🎯 Proje Amacı
+İstanbul'da yaşayacağı bölgeyi seçmek isteyen bireylere, **deprem güvenliğini karar sürecinin merkezine koyarak** kişiselleştirilmiş mahalle önerileri sunan yapay zekâ destekli bir karar destek platformu sunmaktır.
 
-# Ürün İle İlgili Bilgiler
+## 📝 Proje Özeti
+Kullanıcılar platformu ziyaret ederek bütçe, iş yeri, çocuk, araç, deprem önceliği, sosyal yaşam gibi kriterleri içeren çok adımlı bir profil formu doldurur. Sistem arka planda bu verileri işler ve süreci uçtan uca yürütür:
+1. **Veri Toplama ve Hazırlama:** İstanbul'daki tüm mahallelerin idari sınırları, İBB deprem kayıp verileri, ulaşım, POI (hastane, okul vb.) ve toplanma alanı verileri eşleştirilerek skorlanır.
+2. **Kişiselleştirilmiş Skorlama:** Kullanıcının formdaki tercihlerine göre yapay zeka (AI) destekli bir ağırlıklandırma algoritması çalıştırılarak en uygun mahalleler belirlenir.
+3. **Görselleştirme ve Sonuç:** Seçilen ilk 5 mahalle, uygunluk, deprem, yaşam ve ulaşım skorları ile birlikte harita üzerinde sunulur ve yapay zeka tarafından kullanıcının profiline özel Türkçe açıklama oluşturulur.
 
-## Takım Elemanları
-
-- Muhammed Taha Alpbalta: Product Owner
-- Cihan Demir: Scrum Master
-- Azra Gül: Developer
-- Süeda Ünal: Developer
-
-## Ürün İsmi
-
-SafeMatch AI
-
-## Ürün Açıklaması
-
-- İstanbul'da yaşayacağı bölgeyi seçmek isteyen bireylere,
-**deprem güvenliğini karar sürecinin merkezine koyarak** kişiselleştirilmiş
-mahalle önerileri sunan yapay zekâ destekli bir karar destek platformudur.
-
-## Ürün Özellikleri
-
+## ✨ Ürün Özellikleri
 - Yaşam kalitesi analizi
 - Deprem riski analizi
 - AI açıklamalı öneri sistemi
 - Kişiselleştirilmiş bölge uygunluk skoru
+- Çok adımlı profil formu (wizard)
+- Harita (MapLibre) destekli görselleştirme ve mahalle kıyaslaması
 
-## Hedef Kitle
-
+## 👥 Hedef Kitle
 - Bireysel Kullanıcılar
 - Yatırımcılar
 - Gayrimenkul sektöründeki şirketler
 - Deprem riski konusunda bilinçli kullanıcılar
 
-## Product Backlog URL
+## 💻 Kullanılan Teknolojiler
+**Frontend:**
+- Next.js
+- TailwindCSS
 
-[Miro Backlog Board](https://miro.com/app/board/uXjVOSSCpsI=/)
+**Backend & Veritabanı:**
+- Python
+- PostgreSQL + PostGIS (Supabase)
+- Docker (docker-compose)
 
----
+**AI & Haritalama:**
+- Gemini-2.5 Flash
+- MapLibre (Harita entegrasyonu)
+- GeoJSON & OSM Overpass (Veri setleri)
 
-# Sprint 1
+## 🧑‍💻 Takım Üyeleri (Takım 46)
 
-- **Kurulum ve Altyapı**: Github reposu ve proje iskeleti oluşturuldu. `env.example` dosyası oluşturuldu. Api seçimi yapıldı. `docker-compose.yml` oluşturuldu. 
-- **Veri Toplama & Hazırlama**: İstanbul için mahalle/ilçe olacak şekilde idari sınırlar belirlendi. Deprem analiziiçin İBB verileri alındı. Ulaşım, hastane, okul ve toplanma alanları verileri alındı. Verilerin hepsi mahallleler ile eşleştirildi. Sonucunda her İstanbul mahallesi için ham özelliklerin bulunduğu tek dosya oluşturuldu.
-- **Frontend & Harita**: 
-
-Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözüken kırmızı item'lar yapılacak işleri (task) gösterirken, mavi item'lar story'leri temsil etmektedir.
-
-- **Daily Scrum**: Daily Scrum toplantılarının zamansal sebeplerden ötürü Slack üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: [Sprint 1 Daily Scrum Chats](https://github.com/OyunveUygulamaAkademisi/BootcampScrumTemplate/blob/main/ProjectManagement/Sprint1Documents/DailyScrumMeetingNotesSprint1.docx?raw=true)
-
-- **Sprint board update**: Sprint board screenshotları: 
-![Backlog 1](https://raw.githubusercontent.com/OyunveUygulamaAkademisi/BootcampScrumTemplate/main/ProjectManagement/Sprint1Documents/backlog1.png) 
-![Backlog 2](https://raw.githubusercontent.com/OyunveUygulamaAkademisi/BootcampScrumTemplate/main/ProjectManagement/Sprint1Documents/backlog2.png) 
-![Backlog 3](https://raw.githubusercontent.com/OyunveUygulamaAkademisi/BootcampScrumTemplate/main/ProjectManagement/Sprint1Documents/backlog3.png)
-
-- **Ürün Durumu**: Ekran görüntüleri:
-  ![Screenshot 1](https://github.com/OyunveUygulamaAkademisi/BootcampScrumTemplate/blob/main/ProjectManagement/Sprint1Documents/productss1.png?raw=true)
-  ![Screenshot 2](https://github.com/OyunveUygulamaAkademisi/BootcampScrumTemplate/blob/main/ProjectManagement/Sprint1Documents/productss2.png?raw=true)
-
-- **Sprint Review**: 
-Alınan kararlar: Veritabanı oluşturması email ile toplanacak veriler için gerekli görülmüştür. Fakat bir yandan da veritabanı form sayfası için gerekli olmamıştır. O sebeple PBI bir sonraki sprint'e aktarılmıştır. Çıkan ürünün çalışmasında ve testlerinde bir problem görülmemiştir. Ekstra koyulması gereken özellikler belirlenmiştir. Sprint Review katılımcıları: ......
-
-- **Sprint Retrospective:**
-  - Takım içindeki görev dağılımıyla ilgili düzenleme yapılması kararı alınmıştır
-  - Tahmin puanları gözden geçirilmeli ve sprint planlama toplantılarında gerekli geri bildirimlerin developer'lar tarafından verildiğine emin olunmalı
-  - Unit test'ler için ayrılan efor/saat arttırılmalı 
-
----
-
-# Sprint 2
+| İsim | Rol |
+| :--- | :--- |
+| Muhammed Taha Alpbalta | Product Owner |
+| Cihan Demir | Scrum Master |
+| Azra Gül | Developer |
+| Süeda Ünal | Developer |
 
 
 ---
 
-# Sprint 3
+# 📋 Sprint 1
 
----
+**Sprint Hedefi:** İstanbul mahallelerinin deprem, ulaşım ve yaşam kalitesi verilerini toplayarak veri boru hattını (data pipeline) kurmak, projenin veritabanı altyapısını ayağa kaldırmak ve kullanıcı profili formunun frontend iskeletini tasarlayarak uçtan uca çalışır bir temel sistem oluşturmak.
+
+### 🎯 Sprint Görevleri ve Puan Dağılımı
+
+**Kurulum & Altyapı (30 Puan):**
+- Repo + klasör iskeleti, `.gitignore`, `.env.example` oluşturuldu.
+- `docker-compose.yml` dosyası oluşturuldu.
+- Frontend ve backend "hello world" iskeletleri çalıştırıldı. 
+
+**Veri Toplama & Hazırlama (Data Pipeline) (40 Puan):**
+- İstanbul mahalle/ilçe GeoJSON verileri indirildi.
+- İBB ilçe kayıp tahminleri, zemin sınıfı verileri derlendi.
+- Metro/İETT durakları ve OSM Overpass ile POI (hastane/okul) verileri çekildi.
+- Tüm bu veriler mahallere eşleştirildi ve tek bir dosya haline getirildi.
+
+**Frontend (30 Puan):**
+- Çok adımlı profil formu mimarisi kurgulandı (bütçe, iş yeri, vb.).
+- Kullanıcı analiz bileşenleri (Bento Box, hap butonlar) kodlandı.
+- Sonuç ekranı konseptinin (5 mahalle kartı, skorlar, ortalama fiyat, AI açıklaması) temelleri atıldı.
+
+### 📝 Sprint Notları
+
+**Tamamlananlar:**
+- Proje iskeleti ve GitHub reposu başarıyla kuruldu.
+- Docker compose dosyası oluşturuldu.
+- İstanbul mahalle/ilçe idari sınırları belirlendi, İBB deprem analizleri, ulaşım, hastane, okul ve toplanma alanı verileri çekilip tek bir mahalle özellik dosyasına (`mahalle_features.geojson`) indirgendi.
+- Frontend tarafında kullanıcının kendini özel hissetmesini sağlayacak çok adımlı onboarding (wizard) arayüzü tasarlandı. 
+- Next.js ve TailwindCSS ile frontend iskeleti oluşturuldu.
+
+**Karşılaşılan Zorluklar ve Çözümler:**
+- Projenin ilk başta Türkiye geneli olması planlanırken veri yetersizliği nedeniyle projenin öncelikle İstanbul odaklı olmasına karar verildi.
+
+### 🔄 Daily Scrum & Proje Yönetimi
+Proje yönetimi ClickUp üzerinden yürütülmektedir. Aktif biten taskların ekran görüntüsü:
+
+### 📊 Sprint Review
+**Alınan Kararlar:**
+- Ham değerlerin 0-100 arasında normalize edilmesi (Bir sonraki aşamanın hazırlığı).
+- Profilden ağırlık türeten kural tabanlı fonksiyon oluşturulması kararlaştırıldı.
+- Oluşturulan profilin AI ile yorumlanması planlandı.
+- Kullanıcı analizi tamamladıktan sonra isteğe bağlı olarak bir üyeliğe yönlendirilmesi planlandı.
+
+### 💡 Sprint Retrospective
+- **Ne İyi Gitti:** Projenin temel taşları (veri toplama, altyapı ve arayüz iskeleti) detaylıca atıldı.
+- **İyileştirilmesi Gerekenler:**
+  - Takım içindeki görev dağılımıyla ilgili düzenleme yapılması kararı alınmıştır.
+  - Kullanıcı analizi tamamladıktan sonra yapılacak yönlendirmeler netleştirilmelidir.
+  
+### 💯 Sprint Sonu Tamamlanan Puan
+**86/100**: Veri toplama ve hazırlama bölümünde her İstanbul mahallesi için ham özelliklerin bulunduğu tek dosya hazırlanmaya devam etmektedir. Onun dışında hedeflenilen tüm görevler tamamlanmıştır.
