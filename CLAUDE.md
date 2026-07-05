@@ -293,31 +293,7 @@ bitirmeden diğerine geçme. Deprem verisi ve skorlama motoru **en kritik** fazl
 - [ ] `SOURCES.md`: her verinin kaynağı, tarihi, lisansı, kapsamı.
 - ✅ **Çıktı:** Her İstanbul mahallesi için ham özelliklerin bulunduğu tek dosya.
 
-### 🧮 Faz 2 — Skorlama Motoru (Scoring Engine) ⭐
-- [ ] `normalize`: ham değerleri 0-100'e çevir (yönleri doğru ayarla — 6.3).
-- [ ] `scorer.py`: bütçe filtresi + ağırlıklı toplam (6.2).
-- [ ] `weights.py`: profilden ağırlık türeten kural tabanlı taban fonksiyon.
-- [ ] `constants.py`: `DEPREM_MIN_AGIRLIK` ve normalizasyon parametreleri.
-- [ ] **Birim testleri:** sabit girdiyle beklenen sıralama; taban ağırlık kuralı;
-      bütçe filtresi sınır durumları.
-- ✅ **Çıktı:** Örnek profille terminalden ilk 5 mahalle + skor kırılımı üretiliyor (AI yok).
-
-### 🤖 Faz 3 — AI Katmanı (Ağırlık + Açıklama)
-- [ ] `ai/weighting.py`: profil → Claude → **sadece JSON ağırlık**. Parse + doğrula.
-- [ ] Taban ağırlık kuralını AI çıktısı üstünde tekrar uygula.
-- [ ] `ai/explain.py`: skor + profil → Türkçe açıklama (skorla tutarlı).
-- [ ] Prompt'ları `ai/prompts/`'ta versiyonla; hata/timeout durumunda kural tabanlı
-      ağırlığa geri düş (graceful fallback).
-- ✅ **Çıktı:** Doğal profil → AI ağırlığı → sıralı sonuç → doğal dil açıklaması.
-
-### 🌐 Faz 4 — Backend API
-- [ ] `POST /api/recommend` — gövde: profil; yanıt: ilk 5 + alternatifler + skorlar + açıklama.
-- [ ] `GET /api/mahalle/{id}` — tek mahalle detay skorları.
-- [ ] `GET /api/mahalleler` — harita için tüm poligonlar + temel skor (renklendirme).
-- [ ] CORS, hata yönetimi, (opsiyonel) Redis cache.
-- ✅ **Çıktı:** API'ye profil POST'la, tam sonuç JSON'u dönüyor.
-
-### 🖥️ Faz 5 — Frontend & Harita
+### 🖥️ Faz 2 — Frontend & Harita
 - [ ] Çok adımlı **profil formu** (bütçe, iş yeri, çocuk, araç, deprem önceliği,
       hastane/okul, ulaşım, sosyal yaşam).
 - [ ] **Sonuç ekranı:** 5 mahalle kartı — uygunluk, deprem, yaşam, ulaşım skorları
@@ -326,6 +302,30 @@ bitirmeden diğerine geçme. Deprem verisi ve skorlama motoru **en kritik** fazl
       seçili mahalleye zoom, tıklayınca detay.
 - [ ] **Disclaimer** her sonuç ekranında görünür (Bölüm 2.1).
 - ✅ **Çıktı:** Uçtan uca akış tarayıcıda çalışıyor.
+
+### 🧮 Faz 3 — Skorlama Motoru (Scoring Engine) ⭐
+- [ ] `normalize`: ham değerleri 0-100'e çevir (yönleri doğru ayarla — 6.3).
+- [ ] `scorer.py`: bütçe filtresi + ağırlıklı toplam (6.2).
+- [ ] `weights.py`: profilden ağırlık türeten kural tabanlı taban fonksiyon.
+- [ ] `constants.py`: `DEPREM_MIN_AGIRLIK` ve normalizasyon parametreleri.
+- [ ] **Birim testleri:** sabit girdiyle beklenen sıralama; taban ağırlık kuralı;
+      bütçe filtresi sınır durumları.
+- ✅ **Çıktı:** Örnek profille terminalden ilk 5 mahalle + skor kırılımı üretiliyor (AI yok).
+
+### 🤖 Faz 4 — AI Katmanı (Ağırlık + Açıklama)
+- [ ] `ai/weighting.py`: profil → Claude → **sadece JSON ağırlık**. Parse + doğrula.
+- [ ] Taban ağırlık kuralını AI çıktısı üstünde tekrar uygula.
+- [ ] `ai/explain.py`: skor + profil → Türkçe açıklama (skorla tutarlı).
+- [ ] Prompt'ları `ai/prompts/`'ta versiyonla; hata/timeout durumunda kural tabanlı
+      ağırlığa geri düş (graceful fallback).
+- ✅ **Çıktı:** Doğal profil → AI ağırlığı → sıralı sonuç → doğal dil açıklaması.
+
+### 🌐 Faz 5 — Backend API
+- [ ] `POST /api/recommend` — gövde: profil; yanıt: ilk 5 + alternatifler + skorlar + açıklama.
+- [ ] `GET /api/mahalle/{id}` — tek mahalle detay skorları.
+- [ ] `GET /api/mahalleler` — harita için tüm poligonlar + temel skor (renklendirme).
+- [ ] CORS, hata yönetimi, (opsiyonel) Redis cache.
+- ✅ **Çıktı:** API'ye profil POST'la, tam sonuç JSON'u dönüyor.
 
 ### ✨ Faz 6 — Açıklanabilirlik Görselleştirme & Cila
 - [ ] **Skor kırılımı görseli** ("neden bu mahalle?" — her boyutun katkısı, bar/radar).

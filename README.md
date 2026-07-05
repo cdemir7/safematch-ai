@@ -17,24 +17,23 @@ SafeMatch AI
 
 ## Ürün Açıklaması
 
-- İstanbul'da yaşayacağı bölgeyi seçen bireylere,
+- İstanbul'da yaşayacağı bölgeyi seçmek isteyen bireylere,
 **deprem güvenliğini karar sürecinin merkezine koyarak** kişiselleştirilmiş
 mahalle önerileri sunan yapay zekâ destekli bir karar destek platformudur.
 
 ## Ürün Özellikleri
 
-- Filmleri türüne göre ayırma
-- Filmlerin yönetmen, aktör, aktris vb. bilgilerini posteriyle birlikte gösterme
-- IMDB ve Rotten Tomatoes puanlarını gösterme
-- Netflix'te ve Prime'da bulunurluğunu gösterme
+- Yaşam kalitesi analizi
+- Deprem riski analizi
+- AI açıklamalı öneri sistemi
+- Kişiselleştirilmiş bölge uygunluk skoru
 
 ## Hedef Kitle
 
-- Netflix kullanıcıları
-- Prime kullanıcıları
-- Sinema severler
-- Dizi severler
-- 15 - 65 yaş arası kullanıcılar
+- Bireysel Kullanıcılar
+- Yatırımcılar
+- Gayrimenkul sektöründeki şirketler
+- Deprem riski konusunda bilinçli kullanıcılar
 
 ## Product Backlog URL
 
@@ -44,7 +43,9 @@ mahalle önerileri sunan yapay zekâ destekli bir karar destek platformudur.
 
 # Sprint 1
 
-- **Backlog düzeni ve Story seçimleri**: Backlog'umuz ilk yapılacak story'lere göre düzenlenmiştir. Sprint başına tahmin edilen puan sayısını geçmeyecek şekilde sıradan seçimler yapılmaktadır. Story başına çıkan tahmin puanı, toplam puanın yarısından az tutulmuştur. 
+- **Kurulum ve Altyapı**: Github reposu ve proje iskeleti oluşturuldu. `env.example` dosyası oluşturuldu. Api seçimi yapıldı. `docker-compose.yml` oluşturuldu. 
+- **Veri Toplama & Hazırlama**: İstanbul için mahalle/ilçe olacak şekilde idari sınırlar belirlendi. Deprem analiziiçin İBB verileri alındı. Ulaşım, hastane, okul ve toplanma alanları verileri alındı. Verilerin hepsi mahallleler ile eşleştirildi. Sonucunda her İstanbul mahallesi için ham özelliklerin bulunduğu tek dosya oluşturuldu.
+- **Frontend & Harita**: 
 
 Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözüken kırmızı item'lar yapılacak işleri (task) gösterirken, mavi item'lar story'leri temsil etmektedir.
 
