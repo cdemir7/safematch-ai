@@ -81,11 +81,30 @@ Kullanıcılar platformu ziyaret ederek bütçe, iş yeri, çocuk, araç, deprem
 - Frontend tarafında kullanıcının kendini özel hissetmesini sağlayacak çok adımlı onboarding (wizard) arayüzü tasarlandı. 
 - Next.js ve TailwindCSS ile frontend iskeleti oluşturuldu.
 
+**Arayüz Tasarımlarımız:**
+
+<img width="1666" height="865" alt="safematch-ai landing page" src="https://github.com/user-attachments/assets/e7cb95a5-a731-4057-a01c-3cf7415efe22" />
+
+<img width="1692" height="868" alt="safematch-ai form" src="https://github.com/user-attachments/assets/4bbd47e4-9a1e-4593-beca-7b8ed4f2a8de" />
+
+
 **Karşılaşılan Zorluklar ve Çözümler:**
 - Projenin ilk başta Türkiye geneli olması planlanırken veri yetersizliği nedeniyle projenin öncelikle İstanbul odaklı olmasına karar verildi.
 
 ### 🔄 Daily Scrum & Proje Yönetimi
 Proje yönetimi ClickUp üzerinden yürütülmektedir. Aktif biten taskların ekran görüntüsü:
+
+<img width="1916" height="826" alt="Clickup task screeansot" src="https://github.com/user-attachments/assets/22caae43-5fb0-49d0-8faa-a9c953613e11" />
+
+
+Daily Scrum toplantılarımızı 16:00 - 18:00 saatleri arasında Google Meet üzerinden gerçekleştirdik. Yoğunluğa göre WhatsApp üzerinden mesajlaşma yolu ile iletişime geçildi. Toplantılarda özellikle 'Ne planlanmıştı? Neredeyiz? Nasıl ilerleyeceğiz' soruları üzerinde duruldu.
+
+<img width="1918" height="866" alt="meet screenshot 1" src="https://github.com/user-attachments/assets/80f1f507-6e21-41e2-9136-3d8596f1422f" />
+
+<img width="1918" height="797" alt="meet screenshot 2" src="https://github.com/user-attachments/assets/1654f414-93e8-4e9b-896b-5c4a63f9f675" />
+
+<img width="1918" height="866" alt="meet screenshot 3" src="https://github.com/user-attachments/assets/c8aa86ec-d38b-4e97-a8e5-00cf9aea866c" />
+
 
 ### 📊 Sprint Review
 **Alınan Kararlar:**
@@ -101,4 +120,7 @@ Proje yönetimi ClickUp üzerinden yürütülmektedir. Aktif biten taskların ek
   - Kullanıcı analizi tamamladıktan sonra yapılacak yönlendirmeler netleştirilmelidir.
   
 ### 💯 Sprint Sonu Tamamlanan Puan
-**86/100**: Veri toplama ve hazırlama bölümünde her İstanbul mahallesi için ham özelliklerin bulunduğu tek dosya hazırlanmaya devam etmektedir. Onun dışında hedeflenilen tüm görevler tamamlanmıştır.
+
+**Sprint Başarı Oranı:** `[████████░░] %86`  *(86 / 100 Puan)*
+
+> 📌 **Durum Özeti:** Veri toplama ve hazırlama bölümünde her İstanbul mahallesi için ham özelliklerin bulunduğu tek dosya hazırlanmaya devam etmektedir. Onun dışında hedeflenilen tüm görevler başarıyla tamamlanmıştır.
