@@ -47,7 +47,7 @@ Kullanıcılar platformu ziyaret ederek bütçe, iş yeri, çocuk, araç, deprem
 | Muhammed Taha Alpbalta | Product Owner | [Eklenecek](#) | [LinkedIn](https://www.linkedin.com/in/tahalpbalta/) |
 | Cihan Demir | Scrum Master | [GitHub](https://github.com/cdemir7) | [LinkedIn](https://www.linkedin.com/in/demircihan/) |
 | Azra Gül | Developer | [GitHub](https://github.com/azraagull) | [LinkedIn](https://www.linkedin.com/in/azragul1l/) |
-| Süeda Ünal | Developer | [Eklenecek](#) | [LinkedIn](https://www.linkedin.com/in/suedaaunal/) |
+| Süeda Ünal | Developer | [https://www.linkedin.com/in/suedaaunal?utm_source=share_via&utm_content=profile&utm_medium=member_android](#) | [LinkedIn](https://www.linkedin.com/in/suedaaunal/) |
 
 
 ---
