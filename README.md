@@ -44,7 +44,7 @@ Kullanıcılar platformu ziyaret ederek bütçe, iş yeri, çocuk, araç, deprem
 
 | İsim | Rol | GitHub | LinkedIn |
 | :--- | :--- | :--- | :--- |
-| Muhammed Taha Alpbalta | Product Owner | [Eklenecek](#) | [LinkedIn](https://www.linkedin.com/in/tahalpbalta/) |
+| Muhammed Taha Alpbalta | Product Owner | [GitHub](https://github.com/tahalpbalta) | [LinkedIn](https://www.linkedin.com/in/tahalpbalta/) |
 | Cihan Demir | Scrum Master | [GitHub](https://github.com/cdemir7) | [LinkedIn](https://www.linkedin.com/in/demircihan/) |
 | Azra Gül | Developer | [GitHub](https://github.com/azraagull) | [LinkedIn](https://www.linkedin.com/in/azragul1l/) |
 | Süeda Ünal | Developer | [GitHub](https://github.com/suedaunal) | [LinkedIn](https://www.linkedin.com/in/suedaaunal/) |
