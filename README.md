@@ -1,22 +1,25 @@
 # **Takım İsmi**
 
-Takım X
+Takım 46
 
 # Ürün İle İlgili Bilgiler
 
 ## Takım Elemanları
 
-- John Doe: Product Owner
-- Jane Doe: Scrum Master
-- Atıl Samancıoğlu: Team Member/Developer
+- Muhammed Taha Alpbalta: Product Owner
+- Cihan Demir: Scrum Master
+- Azra Gül: Developer
+- Süeda Ünal: Developer
 
 ## Ürün İsmi
 
---Movie App--
+SafeMatch AI
 
 ## Ürün Açıklaması
 
-- Movie App uygulamamız ile insanların izlemek istediği filmlere ve dizilere daha kolay karar vermesini sağlayacağız. İçerisinde binlerce filmi barındıran uygulamamız aynı zamanda Netflix, Prime vb. platformlarda yayınlanıp yayınlanmadığını ve IMDB puanlarını da gösterecek.
+- İstanbul'da yaşayacağı bölgeyi seçen bireylere,
+**deprem güvenliğini karar sürecinin merkezine koyarak** kişiselleştirilmiş
+mahalle önerileri sunan yapay zekâ destekli bir karar destek platformudur.
 
 ## Ürün Özellikleri
 
