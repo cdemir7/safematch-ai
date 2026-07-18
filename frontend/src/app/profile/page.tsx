@@ -1,14 +1,10 @@
-"use client";
-
-import { useTranslation } from "@/hooks/useTranslation";
-import { ComingSoon } from "@/components/shared/ComingSoon";
+import { OnboardingProvider } from "@/components/onboarding/OnboardingContext";
+import { StepWizardLayout } from "@/components/onboarding/StepWizardLayout";
 
 export default function ProfilePage() {
-  const t = useTranslation();
   return (
-    <ComingSoon
-      title={t.pages.comingSoon.title}
-      body={t.pages.comingSoon.body}
-    />
+    <OnboardingProvider>
+      <StepWizardLayout />
+    </OnboardingProvider>
   );
 }

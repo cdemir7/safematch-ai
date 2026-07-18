@@ -3,8 +3,11 @@
 @theme {
   --color-primary: #2563eb;
   --color-primary-dark: #1d4ed8;
+  --color-primary-soft: #eff6ff;
   --color-dark: #0f172a;
   --color-success: #10b981;
+  --color-success-dark: #059669;
+  --color-success-soft: #ecfdf5;
   --color-background: #f8fafc;
   --color-gray: #64748b;
 

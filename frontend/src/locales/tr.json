@@ -93,6 +93,99 @@
     "title": "İstanbul'da sizin için en doğru mahalleyi keşfedin.",
     "button": "Mahalle Analizine Başla"
   },
+  "onboarding": {
+    "back": "Geri",
+    "next": "Devam Et",
+    "progressLabel": "Adım {current} / {total}",
+    "step1": {
+      "eyebrow": "TAHMİNİ SÜRE: 3 DAKİKA",
+      "title": "İstanbul'da nasıl bir yaşam hayal ediyorsunuz?",
+      "description": "Birkaç kısa adımda sizi tanıyalım; formu değil, hayalinizdeki hayatı dolduralım.",
+      "cta": "Analize Başla"
+    },
+    "step2": {
+      "title": "Yaşam profiliniz nasıl?",
+      "description": "Size uyan tüm kartları seçebilirsiniz.",
+      "options": [
+        {
+          "id": "family",
+          "title": "Aile Odaklı",
+          "description": "Okul, park ve güvenlik önceliğim."
+        },
+        {
+          "id": "city",
+          "title": "Şehir Hayatı",
+          "description": "Enerjik, merkezi ve hareketli bir yaşam istiyorum."
+        },
+        {
+          "id": "calm",
+          "title": "Sakin Yaşam",
+          "description": "Huzurlu, yeşil ve az gürültülü bir çevre istiyorum."
+        },
+        {
+          "id": "career",
+          "title": "Kariyer Odaklı",
+          "description": "İşe yakınlık ve ulaşım kolaylığı önemli."
+        },
+        {
+          "id": "social",
+          "title": "Sosyal Yaşam",
+          "description": "Kafeler, etkinlikler ve arkadaş çevresi önemli."
+        },
+        {
+          "id": "budget",
+          "title": "Bütçe Dostu",
+          "description": "Uygun maliyetli bir yaşam alanı arıyorum."
+        }
+      ]
+    },
+    "step3": {
+      "title": "Aile yapınız nedir?",
+      "description": "Size en uygun seçeneği seçin.",
+      "options": [
+        { "id": "single", "label": "Bekar" },
+        { "id": "couple", "label": "Çift" },
+        { "id": "married", "label": "Evli" },
+        { "id": "withChildren", "label": "Çocuklu" }
+      ],
+      "childCountLabel": "Çocuk sayısı",
+      "childAgeLabel": "Yaş aralığı"
+    },
+    "step4": {
+      "title": "Çalışma düzeniniz nedir?",
+      "description": "Ofis seçerseniz, işe gidiş süresini birlikte hesaplayalım.",
+      "options": [
+        { "id": "remote", "label": "Evden" },
+        { "id": "hybrid", "label": "Hibrit" },
+        { "id": "office", "label": "Ofis" }
+      ],
+      "mapPrompt": "Ofis konumunuzu haritada işaretleyin",
+      "commuteLabel": "Maksimum işe gidiş süresi"
+    },
+    "step5": {
+      "title": "Sizin için neler önemli?",
+      "description": "Her kriter için önem derecesini seçin.",
+      "criteria": ["Deprem Güvenliği", "Yeşil Alan", "Sosyal Yaşam", "Ulaşım", "Bütçe"],
+      "importance": ["Çok önemli", "Önemli", "Pek önemli değil"]
+    },
+    "step6": {
+      "title": "Bize hayalinizdeki mahalleyi anlatın",
+      "description": "Aklınıza gelen her şeyi yazabilirsiniz, geri kalanını yapay zekâ tamamlar.",
+      "placeholder": "Örneğin: Sabahları yürüyerek gidebileceğim bir kahveci olsun, evim güneş alsın, deprem konusunda gönlüm rahat olsun..."
+    },
+    "step7": {
+      "title": "Sizi böyle anladık",
+      "description": "Bir etikete dokunarak düzenleyebilirsiniz."
+    },
+    "step8": {
+      "loadingMessages": [
+        "Deprem verileri inceleniyor...",
+        "Ulaşım ağları hesaplanıyor...",
+        "Yaşam kalitesi puanlanıyor...",
+        "Size özel mahalleler eşleştiriliyor..."
+      ]
+    }
+  },
   "footer": {
     "brand": "SafeMatch",
     "tagline": "İstanbul için yapay zekâ destekli mahalle karar platformu.",

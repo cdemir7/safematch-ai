@@ -93,6 +93,99 @@
     "title": "Discover the right neighborhood for you in Istanbul.",
     "button": "Start Neighborhood Analysis"
   },
+  "onboarding": {
+    "back": "Back",
+    "next": "Continue",
+    "progressLabel": "Step {current} of {total}",
+    "step1": {
+      "eyebrow": "ESTIMATED TIME: 3 MINUTES",
+      "title": "What kind of life do you picture in Istanbul?",
+      "description": "Let's get to know you in a few quick steps — no boring forms, just your ideal life.",
+      "cta": "Start the Analysis"
+    },
+    "step2": {
+      "title": "What's your lifestyle profile?",
+      "description": "Pick every card that fits you.",
+      "options": [
+        {
+          "id": "family",
+          "title": "Family Focused",
+          "description": "Schools, parks, and safety come first for me."
+        },
+        {
+          "id": "city",
+          "title": "City Life",
+          "description": "I want an energetic, central, lively life."
+        },
+        {
+          "id": "calm",
+          "title": "Calm Living",
+          "description": "I want a peaceful, green, quiet environment."
+        },
+        {
+          "id": "career",
+          "title": "Career Focused",
+          "description": "Proximity to work and easy commuting matter."
+        },
+        {
+          "id": "social",
+          "title": "Social Life",
+          "description": "Cafes, events, and my circle of friends matter."
+        },
+        {
+          "id": "budget",
+          "title": "Budget Friendly",
+          "description": "I'm looking for an affordable place to live."
+        }
+      ]
+    },
+    "step3": {
+      "title": "What's your family structure?",
+      "description": "Pick the option that fits you best.",
+      "options": [
+        { "id": "single", "label": "Single" },
+        { "id": "couple", "label": "Couple" },
+        { "id": "married", "label": "Married" },
+        { "id": "withChildren", "label": "With Children" }
+      ],
+      "childCountLabel": "Number of children",
+      "childAgeLabel": "Age range"
+    },
+    "step4": {
+      "title": "What's your work arrangement?",
+      "description": "If you pick office, we'll work out your commute together.",
+      "options": [
+        { "id": "remote", "label": "Remote" },
+        { "id": "hybrid", "label": "Hybrid" },
+        { "id": "office", "label": "Office" }
+      ],
+      "mapPrompt": "Pin your office location on the map",
+      "commuteLabel": "Maximum commute time"
+    },
+    "step5": {
+      "title": "What matters most to you?",
+      "description": "Choose an importance level for each criterion.",
+      "criteria": ["Earthquake Safety", "Green Space", "Social Life", "Transport", "Budget"],
+      "importance": ["Very important", "Important", "Not that important"]
+    },
+    "step6": {
+      "title": "Tell us about your dream neighborhood",
+      "description": "Write whatever comes to mind — the AI fills in the rest.",
+      "placeholder": "For example: I'd love a coffee shop I can walk to in the morning, a sunny apartment, and real peace of mind about earthquakes..."
+    },
+    "step7": {
+      "title": "Here's what we understood",
+      "description": "Tap a tag to edit it."
+    },
+    "step8": {
+      "loadingMessages": [
+        "Reviewing earthquake data...",
+        "Calculating transit networks...",
+        "Scoring quality of life...",
+        "Matching your personalized neighborhoods..."
+      ]
+    }
+  },
   "footer": {
     "brand": "SafeMatch",
     "tagline": "AI-powered neighborhood decision platform for Istanbul.",
