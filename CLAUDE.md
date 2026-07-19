@@ -277,10 +277,10 @@ Her faz **çalışan, gösterilebilir** bir çıktı üretmeli. Sırayla ilerle;
 bitirmeden diğerine geçme. Deprem verisi ve skorlama motoru **en kritik** fazlardır.
 
 ### 🔧 Faz 0 — Kurulum & Altyapı
-- [ ] Repo + klasör iskeleti (Bölüm 5), `.gitignore`, `.env.example`.
-- [ ] `ANTHROPIC_API_KEY` ortam değişkeni + gizli anahtar yönetimi (asla commit etme).
-- [ ] `docker-compose.yml` ile PostgreSQL + PostGIS ayağa kalksın (3.1 yolundaysan).
-- [ ] Frontend ve backend "hello world" iskeletleri çalışsın.
+- [x] Repo + klasör iskeleti (Bölüm 5), `.gitignore`, `.env.example`.
+- [x] `ANTHROPIC_API_KEY` ortam değişkeni + gizli anahtar yönetimi (asla commit etme).
+- [x] `docker-compose.yml` ile PostgreSQL + PostGIS ayağa kalksın (3.1 yolundaysan).
+- [x] Frontend ve backend "hello world" iskeletleri çalışsın.
 - ✅ **Çıktı:** `docker-compose up` çalışıyor, boş sayfa açılıyor.
 
 ### 📥 Faz 1 — Veri Toplama & Hazırlama (Data Pipeline)
@@ -288,7 +288,7 @@ bitirmeden diğerine geçme. Deprem verisi ve skorlama motoru **en kritik** fazl
 - [ ] Deprem: İBB ilçe kayıp tahminleri + zemin sınıfı + (mümkünse) PGA'yı derle (4.2).
 - [ ] Ulaşım: metro/İETT durakları (4.3).
 - [ ] POI: OSM Overpass ile hastane/okul (4.5).
-- [ ] Toplanma alanları (4.4), demografi (4.6), fiyat proxy (4.7).
+- [x] Toplanma alanları (4.4), demografi (4.6), fiyat proxy (4.7).
 - [ ] `06_build_features.py`: hepsini mahalleye eşleştirip **tek** `mahalle_features.geojson` üret.
 - [ ] `SOURCES.md`: her verinin kaynağı, tarihi, lisansı, kapsamı.
 - ✅ **Çıktı:** Her İstanbul mahallesi için ham özelliklerin bulunduğu tek dosya.
