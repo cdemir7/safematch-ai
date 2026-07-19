@@ -160,6 +160,9 @@
         { "id": "office", "label": "Office" }
       ],
       "mapPrompt": "Pin your office location on the map",
+      "mapClickHint": "Click the map to pin your location (you can also drag the marker to adjust it).",
+      "resolvingAddress": "Looking up address...",
+      "addressUnavailable": "Couldn't resolve an address, but the location was saved.",
       "commuteLabel": "Maximum commute time"
     },
     "step5": {
@@ -195,6 +198,42 @@
     "disclaimer": "Disclaimer",
     "about": "About",
     "rights": "All rights reserved."
+  },
+  "results": {
+    "title": "Your Personalized Neighborhood Recommendations",
+    "subtitle": "Istanbul neighborhoods scored against your priorities, best match first.",
+    "loading": "Matching your neighborhoods...",
+    "errorTitle": "Couldn't load recommendations",
+    "errorBody": "We couldn't reach the server, or something went wrong. Please try again.",
+    "retry": "Try Again",
+    "backToProfile": "Restart the Profile",
+    "topPicksTitle": "Top 5 Picks",
+    "alternativesTitle": "Alternatives",
+    "scoreLabel": "Fit Score",
+    "priceLabel": "Avg. Price / m²",
+    "priceUnit": "TL/m²",
+    "noPriceData": "No price data",
+    "commuteLabel": "Est. commute to office",
+    "commuteModeLabels": {
+      "karayolu": "driving",
+      "raylı_sistem": "rail",
+      "vapur": "ferry"
+    },
+    "weightSourceAi": "Weights determined by AI",
+    "weightSourceRuleBased": "Weights determined by rules",
+    "appliedWeightsTitle": "Applied Criteria Weights",
+    "disclaimerLabel": "Important Notice",
+    "yasamKalitesiLabel": "Quality of Life",
+    "matchTickPositive": "Matches your {criterion} priority",
+    "matchTickWarning": "You prioritized {criterion}, but this neighborhood scores low",
+    "earthquakeNote": "Earthquake safety is always evaluated, regardless of your priority.",
+    "expandLabel": "See score breakdown",
+    "collapseLabel": "Collapse",
+    "aiExplanationLabel": "Why this neighborhood?",
+    "emptyTitle": "No results yet",
+    "emptyBody": "You need to complete the profile form first.",
+    "startProfile": "Go to Profile Form",
+    "totalConsidered": "Selected from {count} neighborhoods"
   },
   "pages": {
     "about": {

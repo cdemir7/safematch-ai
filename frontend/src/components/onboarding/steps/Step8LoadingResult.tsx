@@ -1,18 +1,25 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import { AnimatePresence, motion } from "framer-motion";
 import { useTranslation } from "@/hooks/useTranslation";
-import { ROUTES } from "@/lib/constants";
+import { useOnboarding } from "@/components/onboarding/OnboardingContext";
+import { ROUTES, STORAGE_KEYS } from "@/lib/constants";
+import { getRecommendations } from "@/lib/api";
+import { toUserProfile } from "@/lib/profileMapping";
 
 const MESSAGE_INTERVAL_MS = 1400;
+const MIN_DISPLAY_MS = 2200;
 
 export function Step8LoadingResult() {
   const t = useTranslation();
   const router = useRouter();
+  const { data } = useOnboarding();
   const messages = t.onboarding.step8.loadingMessages;
   const [messageIndex, setMessageIndex] = useState(0);
+  const [error, setError] = useState(false);
+  const [attempt, setAttempt] = useState(0);
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -21,14 +28,64 @@ export function Step8LoadingResult() {
     return () => clearInterval(interval);
   }, [messages.length]);
 
+  const criteriaLabels = t.onboarding.step5.criteria;
+
+  const fetchRecommendations = useCallback(
+    async (signal: { cancelled: boolean }) => {
+      setError(false);
+      const startedAt = Date.now();
+      try {
+        const profile = toUserProfile(data, criteriaLabels);
+        const response = await getRecommendations(profile);
+
+        const elapsed = Date.now() - startedAt;
+        await new Promise((resolve) =>
+          setTimeout(resolve, Math.max(MIN_DISPLAY_MS - elapsed, 0))
+        );
+        if (signal.cancelled) return;
+
+        window.sessionStorage.setItem(
+          STORAGE_KEYS.recommendation,
+          JSON.stringify(response)
+        );
+        window.sessionStorage.setItem(
+          STORAGE_KEYS.profile,
+          JSON.stringify(profile)
+        );
+        router.push(ROUTES.results);
+      } catch (err) {
+        if (signal.cancelled) return;
+        console.error("Failed to fetch recommendations", err);
+        setError(true);
+      }
+    },
+    [data, criteriaLabels, router]
+  );
+
   useEffect(() => {
-    // Skeleton wiring only: once the backend call resolves, this redirect
-    // moves the user to /results with real data instead of a fixed delay.
-    const timeout = setTimeout(() => {
-      router.push(ROUTES.results);
-    }, MESSAGE_INTERVAL_MS * messages.length);
-    return () => clearTimeout(timeout);
-  }, [messages.length, router]);
+    const signal = { cancelled: false };
+    fetchRecommendations(signal);
+    return () => {
+      signal.cancelled = true;
+    };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [attempt]);
+
+  if (error) {
+    return (
+      <div className="mx-auto flex max-w-md flex-col items-center text-center">
+        <p className="text-lg font-semibold text-dark">{t.results.errorTitle}</p>
+        <p className="mt-2 text-sm text-gray">{t.results.errorBody}</p>
+        <button
+          type="button"
+          onClick={() => setAttempt((n) => n + 1)}
+          className="mt-6 rounded-full bg-primary px-6 py-2.5 text-sm font-semibold text-white hover:bg-primary-dark"
+        >
+          {t.results.retry}
+        </button>
+      </div>
+    );
+  }
 
   return (
     <div className="mx-auto flex max-w-md flex-col items-center text-center">

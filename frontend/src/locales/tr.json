@@ -160,6 +160,9 @@
         { "id": "office", "label": "Ofis" }
       ],
       "mapPrompt": "Ofis konumunuzu haritada işaretleyin",
+      "mapClickHint": "Konumunuzu işaretlemek için haritaya tıklayın (işaretçiyi sürükleyerek de ayarlayabilirsiniz).",
+      "resolvingAddress": "Adres bulunuyor...",
+      "addressUnavailable": "Adres bilgisi alınamadı, ancak konum kaydedildi.",
       "commuteLabel": "Maksimum işe gidiş süresi"
     },
     "step5": {
@@ -195,6 +198,42 @@
     "disclaimer": "Sorumluluk Reddi",
     "about": "Hakkımızda",
     "rights": "Tüm hakları saklıdır."
+  },
+  "results": {
+    "title": "Size Özel Mahalle Önerileri",
+    "subtitle": "Önceliklerinize göre puanlanan İstanbul mahalleleri, en uygundan başlayarak.",
+    "loading": "Mahalleler eşleştiriliyor...",
+    "errorTitle": "Öneriler alınamadı",
+    "errorBody": "Sunucuya ulaşılamadı ya da bir hata oluştu. Lütfen tekrar deneyin.",
+    "retry": "Tekrar Dene",
+    "backToProfile": "Profili Baştan Doldur",
+    "topPicksTitle": "İlk 5 Öneri",
+    "alternativesTitle": "Alternatifler",
+    "scoreLabel": "Uygunluk Skoru",
+    "priceLabel": "Ort. m² Fiyatı",
+    "priceUnit": "TL/m²",
+    "noPriceData": "Fiyat verisi yok",
+    "commuteLabel": "Ofise tahmini süre",
+    "commuteModeLabels": {
+      "karayolu": "karayolu",
+      "raylı_sistem": "raylı sistem",
+      "vapur": "vapur"
+    },
+    "weightSourceAi": "Ağırlıklar yapay zekâ ile belirlendi",
+    "weightSourceRuleBased": "Ağırlıklar kural tabanlı belirlendi",
+    "appliedWeightsTitle": "Uygulanan Kriter Ağırlıkları",
+    "disclaimerLabel": "Önemli Uyarı",
+    "yasamKalitesiLabel": "Yaşam Kalitesi",
+    "matchTickPositive": "{criterion} önceliğinize uygun",
+    "matchTickWarning": "{criterion} önceliğiniz yüksek, bu mahallede skor düşük",
+    "earthquakeNote": "Deprem güvenliği önceliğiniz ne olursa olsun her zaman değerlendirilir.",
+    "expandLabel": "Skor kırılımını gör",
+    "collapseLabel": "Daralt",
+    "aiExplanationLabel": "Neden bu mahalle?",
+    "emptyTitle": "Henüz bir sonuç yok",
+    "emptyBody": "Önce profil formunu doldurmanız gerekiyor.",
+    "startProfile": "Profil Formuna Git",
+    "totalConsidered": "{count} mahalle arasından seçildi"
   },
   "pages": {
     "about": {

@@ -13,5 +13,6 @@ dependencies = [
     "geopandas>=1.1.4",
     "shapely>=2.1.2",
     "supabase>=2.31.0",
-    "pydantic-settings>=2.14.2"
+    "pydantic-settings>=2.14.2",
+    "httpx>=0.27.0"
 ]
