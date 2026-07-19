@@ -1,0 +1,969 @@
+﻿ilce_adi,mahalle_adi,vs30_ortalama,vs30_min,vs30_max,vs30_piksel_sayisi,vs30_guven_seviyesi
+Adalar,Nizam Mahallesi,432.91,180.0,590.02,14,yuksek
+Adalar,Maden Mahallesi,426.98,180.0,600.0,18,yuksek
+Adalar,Kınalıada Mahallesi,313.9,192.81,442.66,6,orta
+Adalar,Heybeliada Mahallesi,400.25,232.8,600.0,13,yuksek
+Adalar,Burgazada Mahallesi,441.64,180.0,600.0,12,yuksek
+Küçükçekmece,Atakent Mahallesi,397.61,262.23,547.67,23,yuksek
+Küçükçekmece,Atatürk Mahallesi,359.42,314.42,434.39,8,orta
+Küçükçekmece,Beşyol Mahallesi,325.97,284.16,373.08,3,dusuk
+Küçükçekmece,Cennet Mahallesi,405.35,337.64,467.26,5,orta
+Küçükçekmece,Cumhuriyet Mahallesi,451.22,324.83,522.49,5,orta
+Küçükçekmece,Fatih Mahallesi,347.37,180.0,497.01,12,yuksek
+Küçükçekmece,Fevzi Çakmak Mahallesi,409.78,324.83,467.93,4,orta
+Küçükçekmece,Gültepe Mahallesi,357.56,320.68,414.38,5,orta
+Küçükçekmece,Halkalı Merkez Mahallesi,426.68,358.01,547.67,18,yuksek
+Küçükçekmece,İnönü Mahallesi,421.99,328.68,508.67,10,yuksek
+Küçükçekmece,İstasyon Mahallesi,407.39,262.23,547.67,13,yuksek
+Küçükçekmece,Kanarya Mahallesi,435.33,324.83,522.49,9,orta
+Küçükçekmece,Kartaltepe Mahallesi,381.58,269.42,488.74,8,orta
+Küçükçekmece,Kemalpaşa Mahallesi,362.48,324.83,414.38,4,orta
+Küçükçekmece,Mehmet Akif Mahallesi,355.75,298.32,434.39,8,orta
+Küçükçekmece,Söğütlü Çeşme Mahallesi,425.49,359.05,467.93,6,orta
+Küçükçekmece,Sultan Murat Mahallesi,331.24,324.83,337.64,2,dusuk
+Küçükçekmece,Tevfikbey Mahallesi,423.12,312.71,508.67,7,orta
+Küçükçekmece,Yarımburgaz Mahallesi,382.47,262.23,490.6,16,yuksek
+Küçükçekmece,Yeni Mahalle,431.13,324.83,522.49,7,orta
+Küçükçekmece,Yeşilova Mahallesi,368.53,337.64,425.93,3,dusuk
+Beşiktaş,Arnavutköy Mahallesi,537.89,363.67,649.19,4,orta
+Beşiktaş,Balmumcu Mahallesi,422.04,290.85,478.22,5,orta
+Beşiktaş,Bebek Mahallesi,510.97,360.78,649.19,9,orta
+Beşiktaş,Etiler Mahallesi,439.07,261.11,628.72,8,orta
+Beşiktaş,Gayrettepe Mahallesi,423.61,360.68,478.22,5,orta
+Beşiktaş,Kültür Mahallesi,459.62,298.83,649.19,6,orta
+Beşiktaş,Kuruçeşme Mahallesi,522.26,390.01,649.19,6,orta
+Beşiktaş,Levazım Mahallesi,415.2,290.85,465.75,5,orta
+Beşiktaş,Mecidiye Mahallesi,470.22,442.99,529.55,5,orta
+Beşiktaş,Nispetiye Mahallesi,375.04,290.85,465.75,6,orta
+Beşiktaş,Ortaköy Mahallesi,476.07,442.99,529.55,6,orta
+Beşiktaş,Ulus Mahallesi,444.85,390.01,479.61,4,orta
+Beşiktaş,Yıldız Mahallesi,441.91,348.63,495.38,9,orta
+Beşiktaş,Muradiye Mahallesi,473.64,454.44,492.85,2,dusuk
+Beşiktaş,Abbasağa Mahallesi,461.48,454.44,468.52,2,dusuk
+Beşiktaş,Dikilitaş Mahallesi,442.62,384.91,478.22,5,orta
+Beşiktaş,Türkali Mahallesi,461.48,454.44,468.52,2,dusuk
+Beşiktaş,Cihannüma Mahallesi,474.14,454.44,495.38,4,orta
+Beşiktaş,Sinanpaşa Mahallesi,401.53,348.63,454.44,2,dusuk
+Beşiktaş,Vişnezade Mahallesi,457.36,348.63,533.52,4,orta
+Beşiktaş,Konaklar Mahallesi,367.4,261.11,426.87,9,orta
+Beşiktaş,Levent Mahallesi,365.57,290.85,444.02,6,orta
+Beşiktaş,Akat Mahallesi,367.36,261.11,451.42,6,orta
+Bahçelievler,Bahçelievler Mahallesi,391.66,315.43,440.21,12,yuksek
+Bahçelievler,Soğanlı Mahallesi,370.38,300.16,443.39,6,orta
+Bahçelievler,Siyavuşpaşa Mahallesi,385.86,328.61,432.7,4,orta
+Bahçelievler,Cumhuriyet Mahallesi,349.81,254.19,443.39,6,orta
+Bahçelievler,Yenibosna Merkez Mahallesi,409.55,269.42,508.67,18,yuksek
+Bahçelievler,Zafer Mahallesi,401.91,330.52,454.71,5,orta
+Bahçelievler,Çobançeşme Mahallesi,402.29,269.42,480.5,6,orta
+Bahçelievler,Şirinevler Mahallesi,352.49,281.37,432.7,5,orta
+Beylikdüzü,Yakuplu Mahallesi,455.69,284.92,588.76,22,yuksek
+Beylikdüzü,Sahil Mahallesi,468.45,385.43,552.94,12,yuksek
+Beylikdüzü,Marmara Mahallesi,440.36,192.81,572.65,18,yuksek
+Beylikdüzü,Kavaklı Mahallesi,441.37,287.05,552.94,15,yuksek
+Beylikdüzü,Gürpınar Mahallesi,491.96,386.97,587.09,11,yuksek
+Beylikdüzü,Dereağzı Mahallesi,449.12,180.0,552.94,19,yuksek
+Beylikdüzü,Cumhuriyet Mahallesi,393.14,377.38,417.77,7,orta
+Beylikdüzü,Büyükşehir Mahallesi,417.89,377.38,486.63,7,orta
+Beylikdüzü,Barış Mahallesi,441.52,362.97,579.77,11,yuksek
+Beylikdüzü,Adnan Kahveci Mahallesi,447.66,377.01,564.65,16,yuksek
+Bakırköy,Ataköy 1. Kısım Mahallesi,317.61,257.3,368.47,5,orta
+Bakırköy,Ataköy 2-5-6. Kısım Mahallesi,280.96,245.36,347.75,6,orta
+Bakırköy,Ataköy 3-4-11. Kısım Mahallesi,345.11,269.41,404.08,5,orta
+Bakırköy,Ataköy 7-8-9-10. Kısım Mahallesi,336.14,268.93,432.7,13,yuksek
+Bakırköy,Basınköy Mahallesi,409.36,329.76,467.26,8,orta
+Bakırköy,Cevizlik Mahallesi,345.43,298.15,369.68,3,dusuk
+Bakırköy,Kartaltepe Mahallesi,348.01,267.26,395.82,8,orta
+Bakırköy,Osmaniye Mahallesi,363.76,267.26,423.44,11,yuksek
+Bakırköy,Sakızağacı Mahallesi,331.21,298.15,369.68,3,dusuk
+Bakırköy,Şenlik Mahallesi,376.62,284.16,467.26,13,yuksek
+Bakırköy,Yenimahalle Mahallesi,347.73,325.79,369.68,2,dusuk
+Bakırköy,Yeşilköy Mahallesi,334.1,268.93,488.74,33,yuksek
+Bakırköy,Yeşilyurt Mahallesi,305.02,245.36,350.12,6,orta
+Bakırköy,Zeytinlik Mahallesi,338.17,298.15,369.68,4,orta
+Bakırköy,Zuhuratbaba Mahallesi,369.56,319.17,432.7,8,orta
+Bayrampaşa,Yıldırım Mahallesi,373.61,278.53,469.79,8,orta
+Bayrampaşa,Yenidoğan Mahallesi,362.74,254.22,496.3,6,orta
+Bayrampaşa,Vatan Mahallesi,377.54,305.87,438.46,4,orta
+Bayrampaşa,Terazidere Mahallesi,358.95,241.11,438.46,4,orta
+Bayrampaşa,Ortamahalle Mahallesi,372.66,305.87,438.46,5,orta
+Bayrampaşa,Muratpaşa Mahallesi,336.97,254.22,439.95,4,orta
+Bayrampaşa,Kocatepe Mahallesi,397.33,352.53,439.95,8,orta
+Bayrampaşa,Kartaltepe Mahallesi,366.72,254.22,439.95,6,orta
+Bayrampaşa,İsmetpaşa Mahallesi,374.54,301.18,439.95,5,orta
+Bayrampaşa,Cevatpaşa Mahallesi,329.08,278.53,355.76,3,dusuk
+Bayrampaşa,Altıntepsi Mahallesi,366.57,241.11,439.95,6,orta
+Esenyurt,Bağlarçeşme Mahallesi,435.42,295.51,505.69,5,orta
+Esenyurt,Üçevler Mahallesi,486.52,449.6,551.88,3,dusuk
+Esenyurt,Fatih Mahallesi,422.17,295.51,551.88,5,orta
+Esenyurt,Talatpaşa Mahallesi,452.41,299.66,551.88,3,dusuk
+Esenyurt,Akevler Mahallesi,455.08,299.66,551.88,4,orta
+Esenyurt,Mehmet Akif Ersoy Mahallesi,481.23,299.66,579.77,5,orta
+Esenyurt,Mehterçeşme Mahallesi,474.32,299.66,579.77,7,orta
+Esenyurt,Yeşilkent Mahallesi,488.75,320.96,569.64,5,orta
+Esenyurt,Pınar Mahallesi,429.64,320.96,505.69,4,orta
+Esenyurt,Battalgazi Mahallesi,413.97,320.96,505.55,5,orta
+Esenyurt,Şehitler Mahallesi,431.63,320.96,505.55,4,orta
+Esenyurt,Necip Fazıl Kısakürek Mahallesi,457.64,320.96,509.68,5,orta
+Esenyurt,Hürriyet Mahallesi,474.08,426.13,509.68,5,orta
+Esenyurt,İstiklal Mahallesi,507.61,505.55,509.68,2,dusuk
+Esenyurt,Güzelyurt Mahallesi,492.21,339.67,579.77,6,orta
+Esenyurt,Mevlana Mahallesi,484.91,377.38,579.77,4,orta
+Esenyurt,Piri Reis Mahallesi,505.98,462.47,569.64,4,orta
+Esenyurt,Cumhuriyet Mahallesi,483.98,377.38,569.64,4,orta
+Esenyurt,Barbaros Hayrettin Paşa Mahallesi,438.66,377.38,502.27,6,orta
+Esenyurt,Selahaddin Eyyubi Mahallesi,394.46,251.28,457.08,10,yuksek
+Esenyurt,Çınar Mahallesi,415.38,341.74,481.47,4,orta
+Esenyurt,Örnek Mahallesi,394.05,295.51,481.47,7,orta
+Esenyurt,Zafer Mahallesi,455.38,339.67,565.99,9,orta
+Esenyurt,Namık Kemal Mahallesi,470.25,339.67,565.99,5,orta
+Esenyurt,Turgut Özal Mahallesi,517.51,434.72,557.98,4,orta
+Esenyurt,Saadetdere Mahallesi,423.66,309.99,528.67,4,orta
+Esenyurt,Sultaniye Mahallesi,422.86,295.51,488.27,4,orta
+Esenyurt,Balıkyolu Mahallesi,506.09,449.6,535.24,6,orta
+Esenyurt,İnönü Mahallesi,460.65,348.27,531.01,5,orta
+Esenyurt,Yunus Emre Mahallesi,469.37,348.27,531.01,4,orta
+Esenyurt,İncirtepe Mahallesi,417.18,348.27,486.1,2,dusuk
+Esenyurt,Gökevler Mahallesi,431.65,378.41,482.56,5,orta
+Esenyurt,Atatürk Mahallesi,437.29,273.58,530.27,8,orta
+Esenyurt,Yenikent Mahallesi,438.84,295.51,535.24,4,orta
+Esenyurt,Süleymaniye Mahallesi,486.61,436.32,535.24,3,dusuk
+Esenyurt,Osmangazi Mahallesi,412.44,251.28,509.68,13,yuksek
+Esenyurt,Orhangazi Mahallesi,382.43,291.49,469.16,13,yuksek
+Esenyurt,Koza Mahallesi,376.4,251.28,434.17,9,orta
+Esenyurt,Akçaburgaz Mahallesi,403.3,251.28,526.21,20,yuksek
+Esenyurt,Ardıçlı Mahallesi,448.41,341.74,535.24,6,orta
+Esenyurt,Aşık Veysel Mahallesi,411.97,309.03,492.66,7,orta
+Esenyurt,Esenkent Mahallesi,476.06,365.0,529.95,5,orta
+Esenyurt,Akşemseddin Mahallesi,480.69,348.27,565.99,8,orta
+Avcılar,Cihangir Mahallesi,455.97,338.03,557.98,14,yuksek
+Avcılar,Merkez Mahallesi,466.01,382.88,533.47,6,orta
+Avcılar,Üniversite Mahallesi,468.77,338.03,574.82,11,yuksek
+Avcılar,Mustafa Kemal Paşa Mahallesi,459.96,309.99,557.98,7,orta
+Avcılar,Yeşilkent Mahallesi,463.17,228.18,546.09,19,yuksek
+Avcılar,Gümüşpala Mahallesi,415.42,240.57,533.47,7,orta
+Avcılar,Denizköşkler Mahallesi,402.18,237.82,480.79,9,orta
+Avcılar,Ambarlı Mahallesi,422.79,284.92,509.63,9,orta
+Avcılar,Firuzköy Mahallesi,415.07,228.18,624.14,34,yuksek
+Avcılar,Tahtakale Mahallesi,439.13,323.05,573.08,34,yuksek
+Sultangazi,Malkoçoğlu Mahallesi,346.94,251.3,447.33,4,orta
+Sultangazi,50. Yıl Mahallesi,378.02,277.97,436.89,6,orta
+Sultangazi,75. Yıl Mahallesi,415.62,319.36,460.93,8,orta
+Sultangazi,Cebeci Mahallesi,403.35,251.3,544.39,30,yuksek
+Sultangazi,Cumhuriyet Mahallesi,367.72,232.71,451.42,6,orta
+Sultangazi,Esentepe Mahallesi,397.53,232.71,520.24,12,yuksek
+Sultangazi,Eski Habipler Mahallesi,351.43,268.83,429.21,9,orta
+Sultangazi,Gazi Mahallesi,441.48,393.68,487.73,5,orta
+Sultangazi,Habipler Mahallesi,425.52,268.83,554.61,21,yuksek
+Sultangazi,İsmetpaşa Mahallesi,360.67,251.3,423.4,6,orta
+Sultangazi,Sultançiftliği Mahallesi,334.99,277.97,409.48,5,orta
+Sultangazi,Uğurmumcu Mahallesi,362.1,274.92,520.24,7,orta
+Sultangazi,Yayla Mahallesi,434.95,299.02,554.61,18,yuksek
+Sultangazi,Yunus Emre Mahallesi,373.78,232.71,451.42,8,orta
+Sultangazi,Zübeyde Hanım Mahallesi,443.31,341.08,551.66,13,yuksek
+Başakşehir,Bahçeşehir 2. Kısım Mahallesi,465.27,290.61,586.77,28,yuksek
+Başakşehir,Bahçeşehir 1. Kısım Mahallesi,465.89,290.61,581.63,28,yuksek
+Başakşehir,Şahintepe Mahallesi,490.64,192.81,642.96,31,yuksek
+Başakşehir,Kayabaşı Mahallesi,395.92,192.81,582.84,38,yuksek
+Başakşehir,Güvercintepe Mahallesi,399.97,213.63,539.45,19,yuksek
+Başakşehir,Şamlar Mahallesi,459.74,192.81,617.55,33,yuksek
+Başakşehir,Başak Mahallesi,377.28,266.51,502.4,56,yuksek
+Başakşehir,Başakşehir Mahallesi,371.48,239.59,459.9,25,yuksek
+Başakşehir,Altınşehir Mahallesi,427.44,298.32,490.6,5,orta
+Başakşehir,Organize Sanayi Bölgesi Mahallesi,366.08,272.21,434.9,22,yuksek
+Başakşehir,Ziya Gökalp Mahallesi,365.22,265.59,490.6,23,yuksek
+Esenler,Havaalanı Mahallesi,378.36,306.85,420.41,6,orta
+Esenler,Yavuz Selim Mahallesi,283.88,241.11,326.64,2,dusuk
+Esenler,Turgut Reis Mahallesi,368.29,306.85,420.41,3,dusuk
+Esenler,Tuna Mahallesi,349.21,306.85,391.35,4,orta
+Esenler,Oruçreis Mahallesi,359.84,277.97,434.19,32,yuksek
+Esenler,Nenehatun Mahallesi,366.91,326.64,395.88,4,orta
+Esenler,Namık Kemal Mahallesi,293.49,241.11,345.86,2,dusuk
+Esenler,Mimar Sinan Mahallesi,316.68,241.11,382.28,3,dusuk
+Esenler,Menderes Mahallesi,378.32,356.62,395.88,4,orta
+Esenler,Kemer Mahallesi,393.02,366.05,425.92,6,orta
+Esenler,Kazım Karabekir Mahallesi,377.01,356.62,395.88,3,dusuk
+Esenler,Fevzi Çakmak Mahallesi,368.07,326.64,386.88,5,orta
+Esenler,Fatih Mahallesi,362.98,342.03,395.88,4,orta
+Esenler,Davutpaşa Mahallesi,302.28,241.11,345.86,4,orta
+Esenler,Çiftehavuzlar Mahallesi,343.33,295.5,397.03,5,orta
+Esenler,Birlik Mahallesi,365.19,306.85,420.26,6,orta
+Eyüpsultan,Çiftalan Mahallesi,412.9,233.73,600.0,44,yuksek
+Eyüpsultan,Ağaçlı Mahallesi,399.68,241.32,490.33,38,yuksek
+Eyüpsultan,Akpınar Mahallesi,382.57,180.0,533.7,65,yuksek
+Eyüpsultan,Odayeri Mahallesi,368.37,241.32,522.73,26,yuksek
+Eyüpsultan,İhsaniye Mahallesi,376.63,256.94,466.25,16,yuksek
+Eyüpsultan,Işıklar Mahallesi,393.76,279.44,554.6,29,yuksek
+Eyüpsultan,Pirinççi Mahallesi,409.22,246.09,554.61,65,yuksek
+Eyüpsultan,Göktürk Merkez Mahallesi,384.43,238.31,522.73,63,yuksek
+Eyüpsultan,Mithatpaşa Mahallesi,388.17,233.73,551.66,113,yuksek
+Eyüpsultan,Mimar Sinan Mahallesi,383.29,261.12,479.17,41,yuksek
+Eyüpsultan,Akşemsettin Mahallesi,401.37,273.6,497.33,7,orta
+Eyüpsultan,Alibeyköy Mahallesi,403.2,299.54,517.43,5,orta
+Eyüpsultan,Çırçır Mahallesi,437.9,374.74,517.43,5,orta
+Eyüpsultan,Defterdar Mahallesi,387.59,250.63,512.62,8,orta
+Eyüpsultan,Emniyettepe Mahallesi,356.66,274.55,480.54,4,orta
+Eyüpsultan,Esentepe Mahallesi,408.5,299.54,562.65,5,orta
+Eyüpsultan,Güzeltepe Mahallesi,389.49,261.12,534.96,28,yuksek
+Eyüpsultan,İslambey Mahallesi,477.95,380.12,559.73,4,orta
+Eyüpsultan,Karadolap Mahallesi,396.94,299.54,517.43,6,orta
+Eyüpsultan,Merkez Mahallesi,484.74,372.01,562.65,7,orta
+Eyüpsultan,Nişancı Mahallesi,464.8,380.12,526.01,4,orta
+Eyüpsultan,Sakarya Mahallesi,419.66,299.54,562.65,4,orta
+Eyüpsultan,Silahtarağa Mahallesi,467.33,372.01,562.65,2,dusuk
+Eyüpsultan,Yeşilpınar Mahallesi,350.89,273.6,437.28,6,orta
+Eyüpsultan,Topçular Mahallesi,370.96,250.63,526.01,10,yuksek
+Eyüpsultan,Rami Yeni Mahalle,374.41,254.22,496.3,4,orta
+Eyüpsultan,Rami Cuma Mahallesi,507.0,445.95,559.73,4,orta
+Eyüpsultan,Düğmeciler Mahallesi,487.58,440.44,526.01,3,dusuk
+Bağcılar,Kirazlı Mahallesi,389.39,294.55,470.46,4,orta
+Bağcılar,Yıldıztepe Mahallesi,345.76,254.19,446.92,5,orta
+Bağcılar,Yenimahalle Mahallesi,377.61,315.63,470.46,6,orta
+Bağcılar,Yenigün Mahallesi,367.04,254.19,446.92,4,orta
+Bağcılar,Yavuzselim Mahallesi,379.78,294.55,463.23,6,orta
+Bağcılar,Sancaktepe Mahallesi,400.38,357.37,463.23,3,dusuk
+Bağcılar,Kemalpaşa Mahallesi,379.65,359.29,391.35,4,orta
+Bağcılar,Kazımkarabekir Mahallesi,358.37,294.55,458.4,3,dusuk
+Bağcılar,İnönü Mahallesi,381.71,294.55,463.23,4,orta
+Bağcılar,Hürriyet Mahallesi,409.43,359.5,458.4,4,orta
+Bağcılar,Güneşli Mahallesi,424.58,315.63,492.68,8,orta
+Bağcılar,Göztepe Mahallesi,390.57,321.88,443.9,9,orta
+Bağcılar,Fevzi Çakmak Mahallesi,371.52,306.85,463.23,7,orta
+Bağcılar,Fatih Mahallesi,396.88,359.29,443.9,3,dusuk
+Bağcılar,Demirkapı Mahallesi,397.06,315.63,457.81,6,orta
+Bağcılar,Çınar Mahallesi,405.49,357.37,463.23,3,dusuk
+Bağcılar,Barbaros Mahallesi,379.39,294.55,458.4,4,orta
+Bağcılar,Bağlar Mahallesi,402.16,328.68,484.08,6,orta
+Bağcılar,Bağcılar Merkez Mahallesi,404.54,356.09,463.23,6,orta
+Bağcılar,100. Yıl Mahallesi,373.82,321.88,404.34,8,orta
+Bağcılar,15 Temmuz Mahallesi,416.17,328.29,492.68,8,orta
+Bağcılar,Mahmutbey Mahallesi,390.48,298.32,495.24,14,yuksek
+Arnavutköy,Yeniköy Mahallesi,380.91,192.81,522.51,74,yuksek
+Arnavutköy,Tayakadın Mahallesi,398.62,253.75,547.83,80,yuksek
+Arnavutköy,Dursunköy Mahallesi,429.86,266.47,567.77,59,yuksek
+Arnavutköy,Haraççı Mahallesi,380.63,251.31,491.02,30,yuksek
+Arnavutköy,Çilingir Mahallesi,409.44,241.22,552.5,38,yuksek
+Arnavutköy,Baklalı Mahallesi,398.41,229.73,502.4,41,yuksek
+Arnavutköy,İmrahor Mahallesi,365.24,192.81,533.7,81,yuksek
+Arnavutköy,Fatih Mahallesi,386.63,287.83,455.47,9,orta
+Arnavutköy,Adnan Menderes Mahallesi,371.63,251.31,459.66,10,yuksek
+Arnavutköy,Mareşal Fevzi Çakmak Mahallesi,395.32,276.99,493.96,12,yuksek
+Arnavutköy,Mehmet Akif Ersoy Mahallesi,395.25,276.99,459.66,9,orta
+Arnavutköy,Yavuz Selim Mahallesi,404.37,256.83,494.81,12,yuksek
+Arnavutköy,İslambey Mahallesi,400.19,256.83,459.43,8,orta
+Arnavutköy,Karlıbayır Mahallesi,385.63,320.64,462.88,9,orta
+Arnavutköy,Boyalık Mahallesi,398.43,229.73,523.32,67,yuksek
+Arnavutköy,Sazlıbosna Mahallesi,469.79,297.54,617.55,49,yuksek
+Arnavutköy,Hadımköy Mahallesi,411.28,257.89,554.35,32,yuksek
+Arnavutköy,Hastane Mahallesi,426.89,257.89,530.1,20,yuksek
+Arnavutköy,Taşoluk Mahallesi,402.34,369.12,437.4,6,orta
+Arnavutköy,Deliklikaya Mahallesi,465.57,290.61,581.63,18,yuksek
+Arnavutköy,Ömerli Mahallesi,433.25,291.49,560.11,30,yuksek
+Arnavutköy,Hacımaşlı Mahallesi,445.28,233.73,563.14,71,yuksek
+Arnavutköy,Durusu Mahallesi,354.56,290.8,437.64,5,orta
+Arnavutköy,Boğazköy İstiklal Mahallesi,408.12,249.29,543.6,67,yuksek
+Arnavutköy,Nenehatun Mahallesi,429.54,389.17,494.81,6,orta
+Arnavutköy,Mustafa Kemal Paşa Mahallesi,420.71,389.17,462.88,7,orta
+Arnavutköy,Arnavutköy Merkez Mahallesi,418.3,241.78,544.91,21,yuksek
+Arnavutköy,Anadolu Mahallesi,433.43,318.25,476.08,7,orta
+Arnavutköy,Terkos Mahallesi,364.25,233.73,490.1,45,yuksek
+Arnavutköy,Karaburun Mahallesi,373.36,228.19,514.06,26,yuksek
+Arnavutköy,Balaban Mahallesi,330.47,180.0,494.31,104,yuksek
+Arnavutköy,Yeşilbayır Mahallesi,444.46,287.98,541.96,36,yuksek
+Arnavutköy,Yassıören Mahallesi,409.76,241.32,561.62,90,yuksek
+Arnavutköy,Bolluca Mahallesi,369.99,260.89,478.91,31,yuksek
+Arnavutköy,Hicret Mahallesi,367.59,292.33,447.55,7,orta
+Arnavutköy,Atatürk Mahallesi,422.57,329.71,476.08,4,orta
+Arnavutköy,Mavigöl Mahallesi,358.3,292.33,412.07,9,orta
+Arnavutköy,Yunus Emre Mahallesi,423.29,318.25,507.71,6,orta
+Gaziosmanpaşa,Bağlarbaşı Mahallesi,352.58,315.67,430.85,4,orta
+Gaziosmanpaşa,Barbaros Hayrettin Paşa,399.43,278.53,475.91,6,orta
+Gaziosmanpaşa,Fevzi Çakmak Mahallesi,375.74,233.72,516.3,4,orta
+Gaziosmanpaşa,Hürriyet Mahallesi,427.28,327.18,516.3,4,orta
+Gaziosmanpaşa,Karadeniz Mahallesi,366.76,232.71,475.91,7,orta
+Gaziosmanpaşa,Karayolları Mahallesi,336.77,232.71,475.91,7,orta
+Gaziosmanpaşa,Karlıtepe Mahallesi,437.49,306.79,559.73,3,dusuk
+Gaziosmanpaşa,Kazımkarabekir Mahallesi,326.57,233.72,437.28,6,orta
+Gaziosmanpaşa,Merkez Mahallesi,377.53,254.22,516.3,7,orta
+Gaziosmanpaşa,Mevlana Mahallesi,397.14,273.6,497.33,7,orta
+Gaziosmanpaşa,Pazariçi Mahallesi,479.77,306.79,562.65,4,orta
+Gaziosmanpaşa,Sarıgöl Mahallesi,358.97,254.22,445.95,5,orta
+Gaziosmanpaşa,Şemsipaşa Mahallesi,397.5,315.67,516.3,4,orta
+Gaziosmanpaşa,Yenidoğan Mahallesi,410.73,306.79,559.73,4,orta
+Gaziosmanpaşa,Yeni Mahalle,397.67,233.72,516.3,5,orta
+Gaziosmanpaşa,Yıldıztabya Mahallesi,389.81,306.79,562.65,6,orta
+Güngören,Tozkoparan Mahallesi,367.44,311.48,415.37,7,orta
+Güngören,Sanayi Mahallesi,340.94,295.5,408.53,6,orta
+Güngören,Mehmet Nesih Özmen Mahallesi,369.99,296.59,423.44,7,orta
+Güngören,Mareşal Çakmak Mahallesi,367.73,254.19,440.21,4,orta
+Güngören,Haznedar Mahallesi,398.11,368.0,440.21,3,dusuk
+Güngören,Güven Mahallesi,380.59,315.43,440.21,3,dusuk
+Güngören,Güngören Merkez Mahallesi,371.89,296.59,440.21,6,orta
+Güngören,Güneştepe Mahallesi,356.65,254.19,408.53,4,orta
+Güngören,Gençosman Mahallesi,362.53,295.5,407.77,7,orta
+Güngören,Akıncılar Mahallesi,383.04,315.43,440.21,4,orta
+Güngören,Abdurrahman Nafiz Gürman Mahallesi,401.02,364.76,423.44,5,orta
+Zeytinburnu,Beştelsiz Mahallesi,358.22,297.93,405.91,4,orta
+Zeytinburnu,Çırpıcı Mahallesi,352.18,297.93,393.98,4,orta
+Zeytinburnu,Gökalp Mahallesi,383.76,344.72,405.91,4,orta
+Zeytinburnu,Kazlıçeşme Mahallesi,341.88,232.8,405.91,11,yuksek
+Zeytinburnu,Merkezefendi Mahallesi,355.83,322.69,387.05,6,orta
+Zeytinburnu,Nuripaşa Mahallesi,348.63,317.1,396.41,4,orta
+Zeytinburnu,Seyitnizam Mahallesi,354.68,297.93,393.98,8,orta
+Zeytinburnu,Sümer Mahallesi,328.5,267.26,372.1,5,orta
+Zeytinburnu,Telsiz Mahallesi,362.71,297.93,405.91,3,dusuk
+Zeytinburnu,Veliefendi Mahallesi,338.25,297.93,372.1,3,dusuk
+Zeytinburnu,Yenidoğan Mahallesi,392.21,388.01,396.41,2,dusuk
+Zeytinburnu,Yeşiltepe Mahallesi,368.36,344.72,396.41,4,orta
+Zeytinburnu,Maltepe Mahallesi,356.7,266.38,410.36,14,yuksek
+Fatih,Hırka-i Şerif Mahallesi,291.21,250.63,344.48,3,dusuk
+Fatih,Aksaray Mahallesi,336.69,232.8,425.43,7,orta
+Fatih,Atikali Mahallesi,344.59,250.63,504.73,4,orta
+Fatih,Ayvansaray Mahallesi,420.98,250.63,512.62,4,orta
+Fatih,Derviş Ali Mahallesi,377.68,250.63,504.73,2,dusuk
+Fatih,Karagümrük Mahallesi,288.7,250.63,359.25,4,orta
+Fatih,Katip Kasım Mahallesi,375.52,375.52,375.52,1,dusuk
+Fatih,Muhsine Hatun Mahallesi,422.64,422.64,422.64,1,dusuk
+Fatih,Nişanca Mahallesi,359.17,279.36,422.64,3,dusuk
+Fatih,Ali Kuşçu Mahallesi,439.66,344.48,504.73,5,orta
+Fatih,Balat Mahallesi,435.74,344.48,504.73,5,orta
+Fatih,Yavuz Sultan Selim Mahallesi,435.52,380.47,467.33,3,dusuk
+Fatih,Akşemsettin Mahallesi,357.98,278.53,425.43,4,orta
+Fatih,İskenderpaşa Mahallesi,412.92,344.48,458.75,4,orta
+Fatih,Molla Gürani Mahallesi,362.48,278.53,425.43,3,dusuk
+Fatih,Topkapı Mahallesi,353.28,278.53,425.43,6,orta
+Fatih,Hobyar Mahallesi,358.39,287.05,441.49,4,orta
+Fatih,Molla Fenari,389.97,376.51,403.43,2,dusuk
+Fatih,Sururi Mahallesi,376.51,376.51,376.51,1,dusuk
+Fatih,Alemdar Mahallesi,394.38,356.07,441.49,4,orta
+Fatih,Binbirdirek Mahallesi,378.67,356.07,403.43,3,dusuk
+Fatih,Küçük Ayasofya Mahallesi,379.75,356.07,403.43,2,dusuk
+Fatih,Sultan Ahmet Mahallesi,379.75,356.07,403.43,2,dusuk
+Fatih,Seyyid Ömer Mahallesi,381.13,321.5,450.87,5,orta
+Fatih,Silivrikapı Mahallesi,374.89,355.76,394.02,2,dusuk
+Fatih,Sümbül Efendi Mahallesi,372.76,352.47,394.02,4,orta
+Fatih,Yedikule Mahallesi,333.04,281.37,388.79,5,orta
+Fatih,Cerrahpaşa Mahallesi,381.32,237.82,450.87,7,orta
+Fatih,Koca Mustafapaşa Mahallesi,403.04,378.49,450.87,4,orta
+Fatih,Haseki Sultan Mahallesi,414.73,383.49,450.87,4,orta
+Fatih,Şehremini Mahallesi,354.75,321.5,383.49,3,dusuk
+Fatih,Mevlanakapı Mahallesi,359.2,321.5,394.02,6,orta
+Fatih,Balabanağa Mahallesi,351.19,279.36,423.01,2,dusuk
+Fatih,Kemalpaşa Mahallesi,351.19,279.36,423.01,2,dusuk
+Fatih,Mesihpaşa Mahallesi,399.27,375.52,423.01,2,dusuk
+Fatih,Mimar Kemalettin Mahallesi,375.13,279.36,423.01,4,orta
+Fatih,Mimar Hayrettin Mahallesi,370.48,279.36,422.64,4,orta
+Fatih,Saraç İshak Mahallesi,422.64,422.64,422.64,1,dusuk
+Fatih,Cankurtaran Mahallesi,341.78,226.79,441.49,5,orta
+Fatih,Hocapaşa Mahallesi,340.72,226.79,441.49,5,orta
+Fatih,Hacı Kadın Mahallesi,403.91,279.36,473.61,3,dusuk
+Fatih,Hoca Gıyasettin Mahallesi,376.49,279.36,473.61,2,dusuk
+Fatih,Molla Hüsrev Mahallesi,408.68,279.36,473.61,4,orta
+Fatih,Kalenderhane Mahallesi,351.19,279.36,423.01,2,dusuk
+Fatih,Süleymaniye Mahallesi,364.5,279.36,473.61,4,orta
+Fatih,Cibali Mahallesi,445.04,380.47,473.61,4,orta
+Fatih,Zeyrek Mahallesi,440.88,423.01,458.75,2,dusuk
+Fatih,Beyazıt Mahallesi,327.94,279.36,376.51,2,dusuk
+Fatih,Mercan Mahallesi,327.94,279.36,376.51,2,dusuk
+Fatih,Taya Hatun Mahallesi,376.51,376.51,376.51,1,dusuk
+Fatih,Rüstempaşa Mahallesi,352.51,328.51,376.51,2,dusuk
+Fatih,Demirtaş Mahallesi,364.5,279.36,473.61,4,orta
+Fatih,Sarıdemir Mahallesi,401.06,328.51,473.61,2,dusuk
+Fatih,Tahtakale Mahallesi,352.51,328.51,376.51,2,dusuk
+Fatih,Yavuz Sinan Mahallesi,473.61,473.61,473.61,1,dusuk
+Fatih,Şehsuvar Bey Mahallesi,413.03,403.43,422.64,2,dusuk
+Fatih,Emin Sinan Mahallesi,389.97,376.51,403.43,2,dusuk
+Beyoğlu,Yenişehir Mahallesi,452.35,420.48,484.22,2,dusuk
+Beyoğlu,Yahya Kahya Mahallesi,401.88,376.83,426.93,2,dusuk
+Beyoğlu,Tomtom Mahallesi,467.22,450.21,484.22,2,dusuk
+Beyoğlu,Sururi Mehmet Efendi Mahallesi,376.83,376.83,376.83,1,dusuk
+Beyoğlu,Sütlüce Mahallesi,468.82,380.12,517.12,5,orta
+Beyoğlu,Şehit Muhtar Mahallesi,494.66,484.22,505.09,2,dusuk
+Beyoğlu,Piri Paşa Mahallesi,467.47,415.95,517.12,5,orta
+Beyoğlu,Piyalepaşa Mahallesi,416.02,335.35,503.88,4,orta
+Beyoğlu,Pürtelaş Hasan Efendi Mahallesi,496.99,496.99,496.99,1,dusuk
+Beyoğlu,Şahkulu Mahallesi,438.57,426.93,450.21,2,dusuk
+Beyoğlu,Ömer Avni Mahallesi,451.44,270.15,533.52,4,orta
+Beyoğlu,Örnektepe Mahallesi,468.11,372.01,517.12,4,orta
+Beyoğlu,Müeyyedzade Mahallesi,373.17,287.05,450.21,4,orta
+Beyoğlu,Kadı Mehmet Efendi Mahallesi,412.05,380.47,443.62,2,dusuk
+Beyoğlu,Kalyoncu Kulluğu Mahallesi,430.53,376.83,484.22,2,dusuk
+Beyoğlu,Kamer Hatun Mahallesi,434.55,376.83,484.22,4,orta
+Beyoğlu,Kaptanpaşa Mahallesi,411.33,376.83,443.62,4,orta
+Beyoğlu,Katip Mustafa Çelebi Mahallesi,484.13,450.21,505.09,4,orta
+Beyoğlu,Keçeci Piri Mahallesi,447.45,415.95,503.88,5,orta
+Beyoğlu,Kemankeş Karamustafa Paşa Mahallesi,355.26,287.05,450.21,3,dusuk
+Beyoğlu,Kocatepe Mahallesi,445.18,370.92,505.09,4,orta
+Beyoğlu,Küçük Piyale Mahallesi,410.22,376.83,443.62,2,dusuk
+Beyoğlu,Kulaksız Mahallesi,439.15,427.59,446.23,3,dusuk
+Beyoğlu,Kuloğlu Mahallesi,477.14,450.21,496.99,3,dusuk
+Beyoğlu,Kılıçali Paşa Mahallesi,473.6,450.21,496.99,2,dusuk
+Beyoğlu,Hüseyinağa Mahallesi,484.22,484.22,484.22,1,dusuk
+Beyoğlu,Halıcıoğlu Mahallesi,494.49,454.17,517.12,4,orta
+Beyoğlu,Fetihtepe Mahallesi,445.99,335.35,517.12,4,orta
+Beyoğlu,Firuzağa Mahallesi,450.21,450.21,450.21,1,dusuk
+Beyoğlu,Gümüşsuyu Mahallesi,511.86,496.99,533.52,3,dusuk
+Beyoğlu,Hacıahmet Mahallesi,419.7,376.83,484.22,4,orta
+Beyoğlu,Hacımimi Mahallesi,368.63,287.05,450.21,2,dusuk
+Beyoğlu,Bedrettin Mahallesi,403.7,380.47,426.93,2,dusuk
+Beyoğlu,Bereketzade Mahallesi,347.5,287.05,426.93,3,dusuk
+Beyoğlu,Bostan Mahallesi,430.53,376.83,484.22,2,dusuk
+Beyoğlu,Bülbül Mahallesi,484.22,484.22,484.22,1,dusuk
+Beyoğlu,Camiikebir Mahallesi,414.82,376.83,446.23,5,orta
+Beyoğlu,Çatma Mescit Mahallesi,401.88,376.83,426.93,2,dusuk
+Beyoğlu,Cihangir Mahallesi,484.1,450.21,505.09,3,dusuk
+Beyoğlu,Çukur Mahallesi,484.22,484.22,484.22,1,dusuk
+Beyoğlu,Emekyemez Mahallesi,377.72,328.51,426.93,2,dusuk
+Beyoğlu,Arap Cami Mahallesi,347.5,287.05,426.93,3,dusuk
+Beyoğlu,Asmalı Mescit Mahallesi,453.79,426.93,484.22,3,dusuk
+Sarıyer,Garipçe Mahallesi,547.46,414.82,804.01,14,yuksek
+Sarıyer,Rumeli Feneri Mahallesi,455.25,340.97,804.01,34,yuksek
+Sarıyer,Demirciköy Mahallesi,407.01,267.29,513.38,30,yuksek
+Sarıyer,Rumeli Kavağı Mahallesi,559.54,394.5,804.01,16,yuksek
+Sarıyer,Kumköy Mahallesi,417.21,301.24,499.15,14,yuksek
+Sarıyer,Zekeriyaköy Mahallesi,450.26,244.84,547.91,33,yuksek
+Sarıyer,Uskumruköy Mahallesi,444.8,267.29,547.91,43,yuksek
+Sarıyer,Yeni Mahalle,508.65,394.5,577.85,5,orta
+Sarıyer,Merkez Mahallesi,527.09,336.57,659.26,7,orta
+Sarıyer,Büyükdere Mahallesi,533.03,336.57,659.26,8,orta
+Sarıyer,Çayırbaşı Mahallesi,509.65,392.48,598.62,4,orta
+Sarıyer,Kocataş Mahallesi,543.78,447.23,669.28,12,yuksek
+Sarıyer,Tarabya Mahallesi,471.35,287.54,572.03,12,yuksek
+Sarıyer,Kireçburnu Mahallesi,485.74,392.48,572.03,7,orta
+Sarıyer,Yeniköy Mahallesi,428.26,287.53,537.68,9,orta
+Sarıyer,Kazım Karabekir Paşa Mahallesi,515.69,363.14,669.28,17,yuksek
+Sarıyer,Cumhuriyet Mahallesi,448.32,287.54,572.03,7,orta
+Sarıyer,Bahçeköy Merkez Mahallesi,410.44,244.84,527.82,34,yuksek
+Sarıyer,Bahçeköy Yeni Mahalle,464.77,363.14,575.78,8,orta
+Sarıyer,Bahçeköy Kemer Mahallesi,406.72,256.8,566.7,40,yuksek
+Sarıyer,PTT Evleri Mahallesi,442.75,273.5,592.68,18,yuksek
+Sarıyer,İstinye Mahallesi,441.23,287.53,529.16,9,orta
+Sarıyer,Ferahevler Mahallesi,421.21,287.53,506.36,8,orta
+Sarıyer,Çamlıtepe Mahallesi,375.17,287.54,484.15,6,orta
+Sarıyer,Darüşşafaka Mahallesi,383.3,256.77,492.04,8,orta
+Sarıyer,Poligon Mahallesi,429.43,287.53,529.16,4,orta
+Sarıyer,Baltalimanı Mahallesi,452.43,395.55,557.49,7,orta
+Sarıyer,Emirgan Mahallesi,441.93,259.04,529.16,10,yuksek
+Sarıyer,Fatih Sultan Mehmet Mahallesi,405.35,261.11,489.86,8,orta
+Sarıyer,Reşitpaşa Mahallesi,386.48,256.77,529.16,12,yuksek
+Sarıyer,Rumeli Hisarı Mahallesi,478.31,432.23,557.49,3,dusuk
+Sarıyer,Pınar Mahallesi,406.21,256.77,492.04,7,orta
+Sarıyer,Huzur Mahallesi,420.69,312.63,497.29,13,yuksek
+Sarıyer,Ayazağa Mahallesi,417.29,256.78,497.29,38,yuksek
+Sarıyer,Maslak Mahallesi,375.3,256.77,473.82,17,yuksek
+Sarıyer,Gümüşdere Mahallesi,440.61,317.98,523.36,26,yuksek
+Sarıyer,Kısırkaya Mahallesi,432.17,294.04,528.98,30,yuksek
+Sarıyer,Maden Mahallesi,489.32,256.93,659.26,16,yuksek
+Kağıthane,Emniyetevleri Mahallesi,354.84,354.84,354.84,1,dusuk
+Kağıthane,Ortabayır Mahallesi,422.47,360.68,484.99,3,dusuk
+Kağıthane,Mehmet Akif Ersoy Mahallesi,446.76,335.35,528.76,5,orta
+Kağıthane,Çağlayan Mahallesi,474.72,375.1,524.45,5,orta
+Kağıthane,Çeliktepe Mahallesi,450.93,354.84,542.15,4,orta
+Kağıthane,Gültepe Mahallesi,487.02,484.99,489.06,2,dusuk
+Kağıthane,Gürsel Mahallesi,432.17,304.54,590.2,6,orta
+Kağıthane,Hamidiye Mahallesi,412.47,261.12,534.96,13,yuksek
+Kağıthane,Harmantepe Mahallesi,509.52,484.99,542.15,4,orta
+Kağıthane,Hürriyet Mahallesi,480.65,445.99,524.45,4,orta
+Kağıthane,Merkez Mahallesi,447.77,274.55,590.2,15,yuksek
+Kağıthane,Nurtepe Mahallesi,367.11,274.55,475.47,5,orta
+Kağıthane,Sultan Selim Mahallesi,434.6,354.84,542.15,5,orta
+Kağıthane,Seyrantepe Mahallesi,433.49,359.39,521.91,9,orta
+Kağıthane,Şirintepe Mahallesi,491.87,442.55,542.15,4,orta
+Kağıthane,Talatpaşa Mahallesi,450.71,304.54,590.2,7,orta
+Kağıthane,Telsizler Mahallesi,422.47,360.68,484.99,3,dusuk
+Kağıthane,Yahya Kemal Mahallesi,482.05,375.1,542.15,4,orta
+Kağıthane,Yeşilce Mahallesi,407.56,372.58,442.55,2,dusuk
+Şişli,19 Mayıs Mahallesi,373.3,277.95,455.77,4,orta
+Şişli,Bozkurt Mahallesi,410.08,370.92,450.21,4,orta
+Şişli,Cumhuriyet Mahallesi,404.63,335.45,450.21,4,orta
+Şişli,Duatepe Mahallesi,424.45,398.7,450.21,2,dusuk
+Şişli,Ergenekon Mahallesi,384.81,370.92,398.7,2,dusuk
+Şişli,Esentepe Mahallesi,371.48,290.85,425.7,8,orta
+Şişli,Eskişehir Mahallesi,395.7,370.92,420.48,2,dusuk
+Şişli,Feriköy Mahallesi,422.65,397.26,450.21,3,dusuk
+Şişli,Fulya Mahallesi,406.13,360.68,468.52,5,orta
+Şişli,Gülbahar Mahallesi,390.7,301.19,484.99,5,orta
+Şişli,Halaskargazi Mahallesi,384.81,370.92,398.7,2,dusuk
+Şişli,Halide Edip Adıvar Mahallesi,404.57,335.45,450.21,4,orta
+Şişli,Halil Rıfat Paşa Mahallesi,424.18,335.35,528.76,4,orta
+Şişli,Harbiye Mahallesi,459.47,370.92,533.52,6,orta
+Şişli,İnönü Mahallesi,445.18,370.92,505.09,4,orta
+Şişli,İzzetpaşa Mahallesi,454.54,445.99,463.09,2,dusuk
+Şişli,Kaptanpaşa Mahallesi,446.8,335.45,590.2,4,orta
+Şişli,Mahmut Şevket Paşa Mahallesi,398.59,335.35,434.16,4,orta
+Şişli,Mecidiyeköy Mahallesi,378.51,301.19,484.99,5,orta
+Şişli,Merkez Mahallesi,379.17,277.95,463.09,8,orta
+Şişli,Meşrutiyet Mahallesi,427.24,398.7,455.77,2,dusuk
+Şişli,Paşa Mahallesi,427.21,397.26,450.21,3,dusuk
+Şişli,Teşvikiye Mahallesi,454.05,398.7,492.85,5,orta
+Şişli,Yayla Mahallesi,425.53,397.26,450.21,4,orta
+Şişli,Kuştepe Mahallesi,430.31,301.19,489.06,4,orta
+Üsküdar,Bahçelievler Mahallesi,414.83,308.2,485.28,8,orta
+Üsküdar,Yavuztürk Mahallesi,414.8,345.27,519.42,9,orta
+Üsküdar,Güzeltepe Mahallesi,436.65,308.2,520.77,6,orta
+Üsküdar,Küçüksu Mahallesi,467.6,308.2,562.72,10,yuksek
+Üsküdar,Mehmet Akif Ersoy Mahallesi,496.58,400.57,568.64,6,orta
+Üsküdar,Ferah Mahallesi,509.26,351.02,594.75,6,orta
+Üsküdar,Kirazlıtepe Mahallesi,516.86,351.02,594.75,7,orta
+Üsküdar,Küplüce Mahallesi,540.79,469.38,594.75,5,orta
+Üsküdar,Altunizade Mahallesi,442.69,362.93,514.59,8,orta
+Üsküdar,Acıbadem Mahallesi,466.88,295.47,552.96,8,orta
+Üsküdar,Kuleli Mahallesi,548.41,520.77,582.35,4,orta
+Üsküdar,Burhaniye Mahallesi,483.15,362.93,594.75,8,orta
+Üsküdar,Küçük Çamlıca Mahallesi,490.65,362.93,552.96,10,yuksek
+Üsküdar,Çengelköy Mahallesi,498.93,308.2,568.64,7,orta
+Üsküdar,Beylerbeyi Mahallesi,494.3,397.1,565.17,6,orta
+Üsküdar,İcadiye Mahallesi,460.24,422.72,532.34,3,dusuk
+Üsküdar,Kandilli Mahallesi,512.74,373.04,582.35,7,orta
+Üsküdar,Kuzguncuk Mahallesi,466.33,302.33,532.34,8,orta
+Üsküdar,Selami Ali Mahallesi,468.31,422.72,532.34,6,orta
+Üsküdar,Muratreis Mahallesi,446.28,422.72,475.56,3,dusuk
+Üsküdar,Valide-i Atik Mahallesi,428.47,384.58,475.56,5,orta
+Üsküdar,Barbaros Mahallesi,418.4,362.93,475.56,9,orta
+Üsküdar,Zeynep Kamil Mahallesi,429.0,384.58,471.92,4,orta
+Üsküdar,Sultantepe Mahallesi,483.54,405.25,532.34,3,dusuk
+Üsküdar,Mimar Sinan Mahallesi,444.92,405.25,513.02,4,orta
+Üsküdar,Ahmediye Mahallesi,429.48,384.58,471.92,4,orta
+Üsküdar,Aziz Mahmut Hüdayi Mahallesi,403.16,383.37,420.88,3,dusuk
+Üsküdar,Salacak Mahallesi,415.18,383.37,471.92,4,orta
+Üsküdar,Selimiye Mahallesi,380.0,226.63,471.92,8,orta
+Üsküdar,Cumhuriyet Mahallesi,485.85,441.48,534.78,5,orta
+Üsküdar,Bulgurlu Mahallesi,468.58,401.55,501.41,6,orta
+Üsküdar,Kısıklı Mahallesi,453.91,351.02,594.75,8,orta
+Üsküdar,Ünalan Mahallesi,433.83,277.87,552.96,7,orta
+Ümraniye,Cemil Meriç Mahallesi,344.83,267.27,420.8,11,yuksek
+Ümraniye,Altınşehir Mahallesi,372.83,300.16,431.21,4,orta
+Ümraniye,Mehmet Akif Mahallesi,414.61,377.38,452.36,5,orta
+Ümraniye,Tepeüstü Mahallesi,359.09,300.25,452.36,4,orta
+Ümraniye,Ihlamurkuyu Mahallesi,340.18,300.25,409.04,6,orta
+Ümraniye,Çakmak Mahallesi,385.21,306.38,454.47,5,orta
+Ümraniye,Tatlısu Mahallesi,401.96,334.26,452.36,6,orta
+Ümraniye,Çamlık Mahallesi,389.83,289.07,454.47,7,orta
+Ümraniye,Site Mahallesi,421.4,349.29,469.71,6,orta
+Ümraniye,Armağanevler Mahallesi,406.33,335.45,469.71,6,orta
+Ümraniye,Finanskent Mahallesi,365.62,289.07,421.7,6,orta
+Ümraniye,Atakent Mahallesi,407.88,349.29,469.71,5,orta
+Ümraniye,Yenişehir Mahallesi,411.04,349.29,454.87,4,orta
+Ümraniye,İstiklal Mahallesi,381.43,276.3,454.87,6,orta
+Ümraniye,Esenevler Mahallesi,425.7,389.55,461.23,4,orta
+Ümraniye,Fatih Sultan Mehmet Mahallesi,360.84,274.42,431.79,14,yuksek
+Ümraniye,Namık Kemal Mahallesi,442.54,401.55,471.37,5,orta
+Ümraniye,Yamanevler Mahallesi,332.75,276.3,391.34,5,orta
+Ümraniye,Atatürk Mahallesi,351.98,276.3,428.12,5,orta
+Ümraniye,Saray Mahallesi,332.41,274.42,411.11,10,yuksek
+Ümraniye,Tantavi Mahallesi,389.15,287.5,519.42,6,orta
+Ümraniye,Elmalıkent Mahallesi,346.74,276.3,415.93,7,orta
+Ümraniye,Dumlupınar Mahallesi,397.06,383.66,415.93,6,orta
+Ümraniye,İnkılap Mahallesi,339.21,276.3,416.82,10,yuksek
+Ümraniye,Kazım Karabekir Mahallesi,331.19,276.3,406.33,7,orta
+Ümraniye,Topağacı Mahallesi,382.46,283.37,416.82,8,orta
+Ümraniye,Hekimbaşı Mahallesi,408.97,355.29,550.0,8,orta
+Ümraniye,Parseller Mahallesi,326.65,267.27,386.02,7,orta
+Ümraniye,Adem Yavuz Mahallesi,313.85,246.01,355.76,7,orta
+Ümraniye,Huzur Mahallesi,339.11,279.55,418.03,5,orta
+Ümraniye,Aşağı Dudullu Mahallesi,304.86,246.01,351.47,5,orta
+Ümraniye,Necip Fazıl Mahallesi,326.5,246.01,421.75,8,orta
+Ümraniye,Madenler Mahallesi,321.48,269.42,376.67,6,orta
+Ümraniye,Esenkent Mahallesi,340.16,279.49,410.24,14,yuksek
+Ümraniye,Esenşehir Mahallesi,308.56,246.01,376.67,9,orta
+Ümraniye,Şerifali Mahallesi,378.21,307.66,431.21,6,orta
+Ümraniye,Yukarı Dudullu Mahallesi,308.93,246.01,382.59,8,orta
+Beykoz,Acarlar Mahallesi,483.11,345.66,648.67,18,yuksek
+Beykoz,Akbaba Mahallesi,415.78,290.99,514.1,16,yuksek
+Beykoz,Alibahadır Mahallesi,437.86,209.11,587.23,34,yuksek
+Beykoz,Anadolu Feneri Mahallesi,426.43,274.53,525.36,39,yuksek
+Beykoz,Anadolu Kavağı Mahallesi,521.42,241.28,746.35,22,yuksek
+Beykoz,Baklacı Mahallesi,423.39,277.9,567.0,33,yuksek
+Beykoz,Bozhane Mahallesi,418.38,251.05,600.0,43,yuksek
+Beykoz,Çamlıbahçe Mahallesi,478.61,405.74,525.76,4,orta
+Beykoz,Cumhuriyet Mahallesi,427.27,250.72,558.41,28,yuksek
+Beykoz,Dereseki Mahallesi,432.74,303.78,539.28,25,yuksek
+Beykoz,Elmalı Mahallesi,456.0,305.88,556.84,16,yuksek
+Beykoz,Göllü Mahallesi,392.6,244.84,550.01,39,yuksek
+Beykoz,Görele Mahallesi,445.02,317.98,593.68,13,yuksek
+Beykoz,Gümüşsuyu Mahallesi,525.53,410.95,662.6,11,yuksek
+Beykoz,İncirköy Mahallesi,490.73,420.94,622.57,12,yuksek
+Beykoz,İshaklı Mahallesi,421.29,213.63,549.84,32,yuksek
+Beykoz,Kaynarca Mahallesi,422.81,280.84,514.1,18,yuksek
+Beykoz,Kılıçlı Mahallesi,392.38,213.63,557.65,48,yuksek
+Beykoz,Mahmutşevketpaşa Mahallesi,435.0,238.29,587.23,41,yuksek
+Beykoz,Merkez Mahallesi,497.3,305.88,662.6,15,yuksek
+Beykoz,Öğümce Mahallesi,416.46,244.84,572.23,33,yuksek
+Beykoz,Örnekköy Mahallesi,443.84,303.78,547.7,17,yuksek
+Beykoz,Ortaçeşme Mahallesi,418.56,305.88,525.76,6,orta
+Beykoz,Paşabahçe Mahallesi,459.24,420.94,494.39,5,orta
+Beykoz,Paşamandıra Mahallesi,428.27,244.84,576.05,31,yuksek
+Beykoz,Polonezköy Mahallesi,426.67,250.72,551.33,66,yuksek
+Beykoz,Poyrazköy Mahallesi,468.11,219.28,596.96,24,yuksek
+Beykoz,Riva Mahallesi,404.03,209.11,516.76,54,yuksek
+Beykoz,Soğuksu Mahallesi,503.9,395.29,622.57,7,orta
+Beykoz,Tokatköy Mahallesi,459.55,241.28,666.33,15,yuksek
+Beykoz,Yalıköy Mahallesi,461.98,393.85,600.0,8,orta
+Beykoz,Zerzavatçı Mahallesi,430.74,309.82,530.43,14,yuksek
+Beykoz,Yavuz Selim Mahallesi,455.64,289.89,661.2,36,yuksek
+Beykoz,Çengeldere Mahallesi,427.4,317.98,648.67,21,yuksek
+Beykoz,Çiftlik Mahallesi,386.85,221.58,479.58,15,yuksek
+Beykoz,Göksu Mahallesi,468.46,373.04,539.7,5,orta
+Beykoz,Göztepe Mahallesi,444.99,299.46,553.26,12,yuksek
+Beykoz,Yeni Mahalle,462.24,355.29,553.26,11,yuksek
+Beykoz,Fatih Mahallesi,460.25,345.66,593.68,13,yuksek
+Beykoz,Rüzgarlıbahçe Mahallesi,456.01,299.46,558.24,13,yuksek
+Beykoz,Anadolu Hisarı Mahallesi,466.7,324.55,559.84,8,orta
+Beykoz,Kanlıca Mahallesi,453.22,259.04,553.52,6,orta
+Beykoz,Çubuklu Mahallesi,461.06,408.99,498.23,11,yuksek
+Beykoz,Çiğdem Mahallesi,472.49,442.26,494.39,6,orta
+Beykoz,Kavacık Mahallesi,462.48,299.46,559.84,9,orta
+Maltepe,Esenkent Mahallesi,574.08,449.34,685.51,8,orta
+Maltepe,Gülsuyu Mahallesi,591.12,464.0,701.02,8,orta
+Maltepe,Cevizli Mahallesi,431.95,306.24,527.75,10,yuksek
+Maltepe,Gülensu Mahallesi,639.42,435.13,779.25,6,orta
+Maltepe,Bağlarbaşı Mahallesi,437.8,333.76,527.75,9,orta
+Maltepe,Zümrütevler Mahallesi,544.95,348.12,779.25,13,yuksek
+Maltepe,Girne Mahallesi,453.1,398.11,526.16,6,orta
+Maltepe,Altayçeşme Mahallesi,402.7,333.76,439.5,7,orta
+Maltepe,Feyzullah Mahallesi,374.56,331.22,406.99,5,orta
+Maltepe,Yalı Mahallesi,341.95,216.09,415.72,13,yuksek
+Maltepe,İdealtepe Mahallesi,364.6,216.09,425.96,8,orta
+Maltepe,Çınar Mahallesi,353.19,226.79,425.96,6,orta
+Maltepe,Büyükbakkalköy Mahallesi,486.63,277.48,779.25,52,yuksek
+Maltepe,Başıbüyük Mahallesi,511.23,348.12,779.25,31,yuksek
+Maltepe,Aydınevler Mahallesi,423.3,393.04,505.21,9,orta
+Maltepe,Küçükyalı Merkez Mahallesi,364.43,226.79,426.54,8,orta
+Maltepe,Fındıklı Mahallesi,456.56,403.43,522.75,6,orta
+Maltepe,Altıntepe Mahallesi,372.08,260.82,426.54,6,orta
+Kadıköy,19 Mayıs Mahallesi,359.03,304.11,423.73,7,orta
+Kadıköy,Erenköy Mahallesi,368.73,282.8,418.78,7,orta
+Kadıköy,Sahrayıcedit Mahallesi,337.63,284.16,434.9,6,orta
+Kadıköy,Caddebostan Mahallesi,376.07,286.81,420.86,8,orta
+Kadıköy,Merdivenköy Mahallesi,327.99,277.87,384.66,9,orta
+Kadıköy,Göztepe Mahallesi,365.36,282.8,420.86,7,orta
+Kadıköy,Dumlupınar Mahallesi,318.9,277.87,368.09,4,orta
+Kadıköy,Fenerbahçe Mahallesi,350.06,209.11,600.0,11,yuksek
+Kadıköy,Feneryolu Mahallesi,368.37,334.15,415.21,8,orta
+Kadıköy,Fikirtepe Mahallesi,346.14,295.47,374.86,3,dusuk
+Kadıköy,Rasimpaşa Mahallesi,355.14,226.81,430.55,8,orta
+Kadıköy,Suadiye Mahallesi,373.17,257.3,423.73,9,orta
+Kadıköy,Kozyatağı Mahallesi,383.13,304.11,423.73,7,orta
+Kadıköy,Bostancı Mahallesi,381.92,260.82,426.54,10,yuksek
+Kadıköy,Eğitim Mahallesi,351.61,295.47,393.09,7,orta
+Kadıköy,Zühtüpaşa Mahallesi,364.36,340.21,393.09,4,orta
+Kadıköy,Acıbadem Mahallesi,404.97,355.4,449.46,8,orta
+Kadıköy,Hasanpaşa Mahallesi,366.93,295.47,465.68,8,orta
+Kadıköy,Koşuyolu Mahallesi,427.42,380.53,449.46,6,orta
+Kadıköy,Caferağa Mahallesi,303.57,219.28,373.4,9,orta
+Kadıköy,Osmanağa Mahallesi,342.43,305.86,373.4,6,orta
+Ataşehir,Yenişehir Mahallesi,377.25,334.26,426.05,6,orta
+Ataşehir,Yenisahra Mahallesi,345.66,245.91,434.9,6,orta
+Ataşehir,Yeni Çamlıca Mahallesi,388.92,321.72,478.08,6,orta
+Ataşehir,Örnek Mahallesi,345.05,245.91,441.48,5,orta
+Ataşehir,Mustafa Kemal Mahallesi,361.08,245.91,437.56,5,orta
+Ataşehir,Mimar Sinan Mahallesi,509.84,426.05,625.09,4,orta
+Ataşehir,Mevlana Mahallesi,426.82,355.4,510.13,5,orta
+Ataşehir,Kayışdağı Mahallesi,471.11,336.49,768.92,9,orta
+Ataşehir,İnönü Mahallesi,491.73,396.22,768.92,8,orta
+Ataşehir,Fetih Mahallesi,432.49,369.05,534.78,4,orta
+Ataşehir,Esatpaşa Mahallesi,409.44,245.91,501.41,6,orta
+Ataşehir,Barbaros Mahallesi,351.27,245.91,434.9,12,yuksek
+Ataşehir,Aşık Veysel Mahallesi,396.94,245.91,461.23,5,orta
+Ataşehir,Ferhatpaşa Mahallesi,447.88,343.86,625.09,14,yuksek
+Ataşehir,Atatürk Mahallesi,361.64,273.88,418.8,12,yuksek
+Ataşehir,İçerenköy Mahallesi,382.95,304.11,447.92,13,yuksek
+Ataşehir,Küçükbakkalköy Mahallesi,362.54,273.88,418.8,11,yuksek
+Sancaktepe,Abdurrahmangazi Mahallesi,302.81,204.6,462.29,14,yuksek
+Sancaktepe,Merve Mahallesi,323.29,227.44,462.29,7,orta
+Sancaktepe,Mevlana Mahallesi,402.79,287.75,517.31,6,orta
+Sancaktepe,Safa Mahallesi,381.87,227.44,462.29,6,orta
+Sancaktepe,Hilal Mahallesi,403.1,287.75,517.31,10,yuksek
+Sancaktepe,Yunus Emre Mahallesi,415.21,290.99,517.31,7,orta
+Sancaktepe,Yenidoğan Mahallesi,332.26,227.44,450.82,6,orta
+Sancaktepe,Osmangazi Mahallesi,330.04,229.64,462.29,16,yuksek
+Sancaktepe,Eyüp Sultan Mahallesi,362.48,204.6,491.25,19,yuksek
+Sancaktepe,Atatürk Mahallesi,314.64,270.22,378.3,8,orta
+Sancaktepe,Kemal Türkler Mahallesi,292.73,204.6,378.3,7,orta
+Sancaktepe,İnönü Mahallesi,299.16,270.22,326.61,3,dusuk
+Sancaktepe,Sarıgazi Mahallesi,307.27,204.6,384.55,9,orta
+Sancaktepe,Kuzudere Devlet Ormanı,514.92,378.69,675.1,11,yuksek
+Sancaktepe,Veysel Karani Mahallesi,432.6,343.71,565.06,7,orta
+Sancaktepe,Meclis Mahallesi,301.37,249.18,354.63,7,orta
+Sancaktepe,Emek Mahallesi,340.63,249.18,398.96,9,orta
+Sancaktepe,Akpınar Mahallesi,401.26,316.59,521.2,8,orta
+Sancaktepe,Fatih Mahallesi,388.94,316.59,434.37,12,yuksek
+Sancaktepe,Paşaköy Mahallesi,435.65,226.64,635.46,65,yuksek
+Sultanbeyli,Akşemsettin Mahallesi,388.13,324.44,452.56,8,orta
+Sultanbeyli,Necip Fazıl Mahallesi,530.25,400.82,680.43,8,orta
+Sultanbeyli,Orhangazi Mahallesi,416.41,384.48,452.56,4,orta
+Sultanbeyli,Adil Mahallesi,379.06,229.64,470.33,7,orta
+Sultanbeyli,Battalgazi Mahallesi,459.76,320.68,606.33,10,yuksek
+Sultanbeyli,Hasanpaşa Mahallesi,481.63,406.12,565.06,4,orta
+Sultanbeyli,Mimar Sinan Mahallesi,348.74,229.64,482.67,13,yuksek
+Sultanbeyli,Abdurrahmangazi Mahallesi,523.68,410.3,722.35,6,orta
+Sultanbeyli,Ahmet Yesevi Mahallesi,481.35,386.0,606.33,8,orta
+Sultanbeyli,Şalgamlı Devlet Ormanı,651.33,440.54,782.28,15,yuksek
+Sultanbeyli,Fatih Mahallesi,527.71,346.19,782.28,7,orta
+Sultanbeyli,Hamidiye Mahallesi,429.34,346.19,470.02,8,orta
+Sultanbeyli,Kavaklı Ormanı,511.21,346.19,606.33,10,yuksek
+Sultanbeyli,Mecidiye Mahallesi,410.69,324.44,469.04,10,yuksek
+Sultanbeyli,Mehmet Akif Mahallesi,514.05,346.19,782.28,9,orta
+Sultanbeyli,Turgut Reis Mahallesi,458.55,346.19,584.59,8,orta
+Sultanbeyli,Yavuz Selim Mahallesi,541.33,452.56,782.28,6,orta
+Kartal,Orhantepe Mahallesi,358.95,243.92,456.36,12,yuksek
+Kartal,Kordonboyu Mahallesi,389.7,241.14,600.0,15,yuksek
+Kartal,Atalar Mahallesi,394.59,341.25,456.36,6,orta
+Kartal,Cevizli Mahallesi,413.01,341.25,497.92,9,orta
+Kartal,Yakacık Çarşı Mahallesi,600.63,382.47,805.61,18,yuksek
+Kartal,Petrol-İş Mahallesi,416.94,340.22,486.54,7,orta
+Kartal,Esentepe Mahallesi,403.35,340.22,469.59,11,yuksek
+Kartal,Yukarı Mahalle,433.43,362.82,486.54,4,orta
+Kartal,Karlıktepe Mahallesi,405.85,340.22,447.81,9,orta
+Kartal,Çavuşoğlu Mahallesi,418.73,388.89,436.55,6,orta
+Kartal,Yunus Mahallesi,395.09,326.43,469.59,9,orta
+Kartal,Topselvi Mahalesi,431.44,368.67,506.36,7,orta
+Kartal,Yalı Mahallesi,432.78,368.67,506.36,3,dusuk
+Kartal,Cumhuriyet Mahallesi,511.25,423.31,718.8,8,orta
+Kartal,Orta Mahalle,451.65,417.86,514.77,7,orta
+Kartal,Soğanlık Yeni Mahalle,430.96,341.25,488.6,9,orta
+Kartal,Gümüşpınar Mahallesi,481.55,417.86,604.37,8,orta
+Kartal,Hürriyet Mahallesi,602.0,490.49,731.33,9,orta
+Kartal,Uğur Mumcu Mahallesi,483.95,384.51,650.52,10,yuksek
+Kartal,Yakacık Yeni Mahalle,592.53,513.2,749.23,6,orta
+Kartal,Aydos Ormanı,561.16,382.47,805.61,22,yuksek
+Çekmeköy,Cumhuriyet Mahallesi,308.37,273.99,354.08,3,dusuk
+Çekmeköy,Güngören Mahallesi,373.84,273.99,437.99,4,orta
+Çekmeköy,Soğukpınar Mahallesi,332.29,290.99,386.12,6,orta
+Çekmeköy,Ömerli Mahallesi,439.63,226.64,556.71,109,yuksek
+Çekmeköy,Koçullu Mahallesi,400.52,180.0,556.71,36,yuksek
+Çekmeköy,Sırapınar Mahallesi,420.42,266.74,578.42,29,yuksek
+Çekmeköy,Hüseyinli Mahallesi,402.7,277.23,578.42,41,yuksek
+Çekmeköy,Alemdağ Askerî Bölge,391.29,346.84,460.31,8,orta
+Çekmeköy,Nişantepe Mahallesi,409.66,229.65,519.48,16,yuksek
+Çekmeköy,Reşadiye Mahallesi,444.75,294.74,606.29,50,yuksek
+Çekmeköy,Alemdağ Ormanı,488.65,362.82,609.81,23,yuksek
+Çekmeköy,Çatalmeşe Mahallesi,392.49,229.65,484.61,19,yuksek
+Çekmeköy,Alemdağ Mahallesi,434.57,362.82,522.67,9,orta
+Çekmeköy,Taşdelen Ormanı,502.21,394.31,577.6,10,yuksek
+Çekmeköy,Ekşioğlu Mahallesi,391.22,308.01,460.31,8,orta
+Çekmeköy,Çekmeköy Askerî Bölge,405.56,269.42,557.72,24,yuksek
+Çekmeköy,Kirazlıdere Mahallesi,309.76,269.42,376.51,7,orta
+Çekmeköy,Merkez Mahallesi,413.25,279.55,567.0,23,yuksek
+Çekmeköy,Mimar Sinan Mahallesi,382.13,277.2,451.57,8,orta
+Çekmeköy,Hamidiye Mahallesi,345.32,277.2,421.75,6,orta
+Çekmeköy,Çamlık Mahallesi,330.91,269.42,393.95,4,orta
+Çekmeköy,Mehmet Akif Mahallesi,340.8,277.2,421.75,6,orta
+Çekmeköy,Taşdelen Mahallesi,376.26,308.01,453.8,4,orta
+Çekmeköy,Aydınlar Mahallesi,288.42,270.22,326.61,6,orta
+Çekmeköy,Sultançiftliği Mahallesi,400.27,273.99,500.49,7,orta
+Tuzla,Tuzla Askeri Bölge,419.31,310.55,568.75,30,yuksek
+Tuzla,Akfırat Mahallesi,410.29,204.59,617.09,57,yuksek
+Tuzla,Anadolu Mahallesi,397.48,245.85,473.18,9,orta
+Tuzla,Aydınlı Mahallesi,393.5,251.66,493.49,45,yuksek
+Tuzla,Aydıntepe Mahallesi,413.39,268.48,568.75,12,yuksek
+Tuzla,Cami Mahallesi,286.72,243.92,319.16,6,orta
+Tuzla,Cumhuriyet Mahallesi,373.95,256.6,467.92,14,yuksek
+Tuzla,Evliya Çelebi Mahallesi,253.61,180.0,417.04,16,yuksek
+Tuzla,Fatih Mahallesi,316.72,244.83,417.12,10,yuksek
+Tuzla,İçmeler Mahallesi,412.89,300.11,482.33,8,orta
+Tuzla,İstasyon Mahallesi,364.32,229.58,483.1,17,yuksek
+Tuzla,Mescit Mahallesi,341.08,262.85,433.24,14,yuksek
+Tuzla,Mimar Sinan Mahallesi,359.81,281.34,399.83,6,orta
+Tuzla,Orhanlı Mahallesi,364.83,245.85,465.78,28,yuksek
+Tuzla,Orta Mahallesi,436.5,359.09,480.32,12,yuksek
+Tuzla,Postane Mahallesi,250.49,180.0,348.0,23,yuksek
+Tuzla,Şifa Mahallesi,354.67,290.4,409.46,10,yuksek
+Tuzla,Tepeören Mahallesi,383.42,204.59,493.49,65,yuksek
+Tuzla,Yayla Mahallesi,318.49,229.58,424.36,9,orta
+Pendik,Yeşilbağlar Mahallesi,412.41,367.16,490.49,4,orta
+Pendik,Güzelyalı Mahallesi,343.97,192.81,421.66,9,orta
+Pendik,Esenyalı Mahallesi,432.45,398.95,470.91,4,orta
+Pendik,Orhangazi Mahallesi,386.76,311.86,438.28,5,orta
+Pendik,Fatih Mahallesi,399.47,382.55,438.28,4,orta
+Pendik,Ahmet Yesevi Mahallesi,350.3,251.66,436.99,7,orta
+Pendik,Kaynarca Mahallesi,356.55,180.0,528.97,14,yuksek
+Pendik,Doğu Mahallesi,413.76,250.94,587.09,7,orta
+Pendik,Batı Mahallesi,304.37,237.82,386.69,7,orta
+Pendik,Sapanbağları Mahallesi,342.96,312.62,368.67,3,dusuk
+Pendik,Bahçelievler Mahallesi,470.85,367.16,587.09,6,orta
+Pendik,Yeni Mahalle,383.07,312.62,515.67,6,orta
+Pendik,Çınardere Mahallesi,501.69,367.16,585.2,8,orta
+Pendik,Orta Mahalle,566.86,515.67,587.09,4,orta
+Pendik,Dumlupınar Mahallesi,518.39,462.89,587.09,8,orta
+Pendik,Fevzi Çakmak Mahallesi,447.54,393.27,528.97,8,orta
+Pendik,Çamçeşme Mahallesi,390.74,311.86,420.4,7,orta
+Pendik,Kavakpınar Mahallesi,379.75,311.86,420.4,11,yuksek
+Pendik,Esenler Mahallesi,437.53,386.01,507.11,7,orta
+Pendik,Velibaba Mahallesi,520.14,425.7,734.93,11,yuksek
+Pendik,Yayalar Mahallesi,479.7,425.7,520.92,8,orta
+Pendik,Güllü Bağlar Mahallesi,448.38,386.01,520.92,7,orta
+Pendik,Ramazanoğlu Mahallesi,378.46,309.15,456.96,12,yuksek
+Pendik,Sanayi Mahallesi,365.53,241.01,464.8,38,yuksek
+Pendik,Kurtköy Mahallesi,406.02,341.25,469.29,9,orta
+Pendik,Şeyhli Mahallesi,438.2,352.81,487.54,6,orta
+Pendik,Sülüntepe Mahallesi,472.98,442.75,503.72,7,orta
+Pendik,Ertuğrul Gazi Mahallesi,560.72,425.7,734.93,7,orta
+Pendik,Çamlık Mahallesi,502.18,400.82,680.43,10,yuksek
+Pendik,Yenişehir Mahallesi,420.93,363.95,469.29,18,yuksek
+Pendik,Harmandere Mahallesi,410.6,353.95,465.54,8,orta
+Pendik,Kurna Mahallesi,406.49,204.59,584.59,74,yuksek
+Pendik,Kurtdoğmuş Mahallesi,376.66,180.0,573.93,76,yuksek
+Pendik,Emirli Mahallesi,406.28,260.83,552.58,39,yuksek
+Pendik,Ballıca Mahallesi,393.28,204.59,617.09,60,yuksek
+Pendik,Göçbeyli Mahallesi,436.81,234.88,576.93,56,yuksek
+Çatalca,Çatalca Devlet Ormanı,431.54,253.76,666.45,72,yuksek
+Çatalca,Hallaçlı Mahallesi,318.95,221.98,404.22,75,yuksek
+Çatalca,Fatih Mahallesi,465.95,204.7,689.41,331,yuksek
+Çatalca,Yalıköy Mahallesi,479.79,204.7,655.98,164,yuksek
+Çatalca,Atatürk Mahallesi,356.37,246.16,508.69,82,yuksek
+Çatalca,Karacaköy Merkez Mahallesi,411.75,199.42,606.38,138,yuksek
+Çatalca,Aydınlar Mahallesi,373.95,229.75,559.6,83,yuksek
+Çatalca,Yaylacık Mahallesi,331.07,249.39,379.08,15,yuksek
+Çatalca,Karamandere Mahallesi,472.9,235.02,649.65,68,yuksek
+Çatalca,Ormanlı Mahallesi,370.66,227.59,600.0,74,yuksek
+Çatalca,Çiftlikköy Merkez Mahallesi,390.96,227.59,666.45,61,yuksek
+Çatalca,Belgrat Mahallesi,457.19,226.88,666.45,64,yuksek
+Çatalca,Hisarbeyli Mahallesi,393.69,229.76,522.5,27,yuksek
+Çatalca,Gümüşpınar Mahallesi,400.08,232.77,603.0,56,yuksek
+Çatalca,Başak Mahallesi,366.23,229.76,507.95,35,yuksek
+Çatalca,Celepköy Mahallesi,362.82,180.0,502.75,65,yuksek
+Çatalca,Örencik Mahallesi,403.33,251.3,522.5,57,yuksek
+Çatalca,Kalfa Mahallesi,467.16,259.51,686.11,59,yuksek
+Çatalca,Yazlık Mahallesi,400.71,180.0,546.48,52,yuksek
+Çatalca,Dağyenice Mahallesi,434.07,283.71,607.17,48,yuksek
+Çatalca,İhsaniye Mahallesi,396.62,253.76,504.68,74,yuksek
+Çatalca,Çanakça Mahallesi,430.2,290.74,607.17,40,yuksek
+Çatalca,Kızılcaali Mahallesi,456.56,295.5,569.3,33,yuksek
+Çatalca,Örcünlü Mahallesi,398.62,217.88,521.6,32,yuksek
+Çatalca,Kestanelik Mahallesi,437.95,217.88,563.36,34,yuksek
+Çatalca,Oklalı Mahallesi,419.42,284.99,553.46,23,yuksek
+Çatalca,Subaşı Mahallesi,429.81,284.99,608.13,50,yuksek
+Çatalca,Akalan Mahallesi,422.78,238.49,590.7,43,yuksek
+Çatalca,Kabakça Mahallesi,391.34,256.93,516.78,50,yuksek
+Çatalca,Gökçeali Mahallesi,395.35,301.9,489.22,23,yuksek
+Çatalca,İnceğiz Mahallesi,418.19,238.49,573.51,57,yuksek
+Çatalca,Elbasan Mahallesi,418.26,239.6,570.42,47,yuksek
+Çatalca,Ovayenice Mahallesi,409.37,294.59,530.21,50,yuksek
+Çatalca,Çakıl Mahallesi,449.65,310.0,729.18,50,yuksek
+Çatalca,İzzettin Mahallesi,345.9,226.68,522.19,53,yuksek
+Çatalca,Kaleiçi Mahallesi,467.37,268.74,789.28,56,yuksek
+Çatalca,Ferhatpaşa Mahallesi,396.83,217.85,765.98,61,yuksek
+Çatalca,Nakkaş Mahallesi,415.06,227.5,583.22,96,yuksek
+Çatalca,Bahşayış Mahallesi,374.89,257.3,470.01,26,yuksek
+Çatalca,Muratbey Merkez Mahallesi,435.71,213.62,729.18,46,yuksek
+Silivri,Sancaktepe Mahallesi,398.39,232.8,625.23,46,yuksek
+Silivri,Kurfallı Mahallesi,414.96,236.15,513.81,79,yuksek
+Silivri,Silivri Orman Alanı,361.8,236.15,483.44,103,yuksek
+Silivri,Büyükkılıçlı Mahallesi,414.27,256.02,557.11,56,yuksek
+Silivri,Seymen Mahallesi,391.81,246.04,531.31,105,yuksek
+Silivri,Beyciler Mahallesi,362.46,251.67,461.35,63,yuksek
+Silivri,Büyüksinekli Mahallesi,402.09,263.13,512.63,43,yuksek
+Silivri,Küçüksinekli Mahallesi,363.71,263.13,456.2,20,yuksek
+Silivri,Büyükçavuşlu Mahallesi,379.54,256.01,500.95,109,yuksek
+Silivri,Çayırdere Mahallesi,341.54,221.98,443.61,124,yuksek
+Silivri,Balaban Mahallesi,416.3,232.73,625.23,99,yuksek
+Silivri,İsmetpaşa Mahallesi,411.48,213.63,539.73,93,yuksek
+Silivri,Yolçatı Mahallesi,408.05,288.8,531.31,29,yuksek
+Silivri,Çeltik Mahallesi,413.78,237.82,566.61,78,yuksek
+Silivri,Fevzipaşa Mahallesi,352.43,221.58,488.94,38,yuksek
+Silivri,Sayalar Mahallesi,327.62,228.19,418.18,92,yuksek
+Silivri,Danamandıra Mahallesi,341.73,228.19,463.89,85,yuksek
+Silivri,Semizkumlar Mahallesi,387.97,240.58,477.65,37,yuksek
+Silivri,Bekirli Mahallesi,399.14,311.67,462.96,43,yuksek
+Silivri,Akören Mahallesi,407.57,243.46,530.22,97,yuksek
+Silivri,Küçükkılıçlı Mahallesi,386.32,304.35,480.38,28,yuksek
+Silivri,Fener Mahallesi,425.24,284.35,531.97,86,yuksek
+Silivri,Mimar Sinan Mahallesi,384.7,241.72,479.85,27,yuksek
+Silivri,Piri Mehmet Paşa Mahallesi,322.72,241.72,438.33,5,orta
+Silivri,Alibey Mahallesi,405.92,303.23,477.58,5,orta
+Silivri,Fatih Mahallesi,439.23,401.78,477.58,3,dusuk
+Silivri,Yeni Mahalle,384.17,241.72,510.7,62,yuksek
+Silivri,Alipaşa Mahallesi,390.8,245.39,509.08,80,yuksek
+Silivri,Kadıköy Mahallesi,403.33,239.6,538.5,54,yuksek
+Silivri,Gazitepe Mahallesi,392.95,252.99,538.31,47,yuksek
+Silivri,Cumhuriyet Mahallesi,460.24,401.78,510.7,15,yuksek
+Silivri,Kavaklı Mahallesi,374.64,285.15,467.12,28,yuksek
+Silivri,Hürriyet Mahallesi,410.81,320.95,469.52,22,yuksek
+Silivri,Ortaköy Mahallesi,448.92,296.88,536.57,40,yuksek
+Silivri,Selimpaşa Mahallesi,396.91,209.11,542.42,45,yuksek
+Büyükçekmece,Cumhuriyet Mahallesi,504.73,378.41,591.78,13,yuksek
+Büyükçekmece,Atatürk Mahallesi,519.44,417.63,591.62,7,orta
+Büyükçekmece,Fatih Mahallesi,415.89,209.11,600.0,14,yuksek
+Büyükçekmece,Pınartepe Mahallesi,518.14,378.41,591.62,14,yuksek
+Büyükçekmece,Dizdariye Mahallesi,288.72,209.11,426.19,6,orta
+Büyükçekmece,19 Mayıs Mahallesi,446.16,252.26,582.63,25,yuksek
+Büyükçekmece,Çakmaklı Mahallesi,469.62,273.58,582.63,17,yuksek
+Büyükçekmece,Alkent 2000 Mahallesi,439.2,273.61,574.68,24,yuksek
+Büyükçekmece,Karaağaç Mahallesi,413.56,259.02,541.25,63,yuksek
+Büyükçekmece,Hürriyet Mahallesi,421.66,213.62,523.32,24,yuksek
+Büyükçekmece,Ulus Mahallesi,355.5,226.65,517.26,20,yuksek
+Büyükçekmece,Ekinoba Mahallesi,436.94,400.52,497.98,6,orta
+Büyükçekmece,Mimaroba Mahallesi,448.54,400.52,497.98,8,orta
+Büyükçekmece,Sinanoba Mahallesi,391.79,246.0,474.05,7,orta
+Büyükçekmece,Murat Çeşme Mahallesi,452.03,415.8,523.32,9,orta
+Büyükçekmece,Mimar Sinan Merkez Mahallesi,359.88,209.11,517.26,10,yuksek
+Büyükçekmece,Güzelce Mahallesi,447.34,221.9,600.0,17,yuksek
+Büyükçekmece,Türkoba Mahallesi,427.96,221.9,532.22,31,yuksek
+Büyükçekmece,Bahçelievler Mahallesi,456.09,221.9,617.85,22,yuksek
+Büyükçekmece,Yenimahalle Mahallesi,501.27,237.82,617.85,9,orta
+Büyükçekmece,Kumburgaz Mahallesi,444.12,237.82,571.36,15,yuksek
+Büyükçekmece,Kamiloba Mahallesi,451.84,290.99,599.03,39,yuksek
+Büyükçekmece,Celaliye Mahallesi,445.14,246.04,599.03,32,yuksek
+Büyükçekmece,Ahmediye Mahallesi,357.35,213.62,497.62,14,yuksek
+Şile,Osmanköy Mahallesi,425.22,229.67,693.81,30,yuksek
+Şile,Sortullu Mahallesi,486.64,338.05,606.63,20,yuksek
+Şile,Ağaçdere Mahallesi,404.9,266.46,602.9,20,yuksek
+Şile,Ahmetli Mahallesi,416.41,233.73,518.82,21,yuksek
+Şile,Akçakese Mahallesi,460.29,354.73,596.67,23,yuksek
+Şile,Alacalı Mahallesi,387.67,278.22,490.52,44,yuksek
+Şile,Avcıkoru Mahallesi,358.22,247.43,465.13,51,yuksek
+Şile,Balibey Mahallesi,409.83,298.83,485.54,20,yuksek
+Şile,Bozgoca Mahallesi,461.25,343.87,545.43,14,yuksek
+Şile,Bucaklı Mahallesi,425.13,209.11,572.74,34,yuksek
+Şile,Bıçkıdere Mahallesi,374.4,243.92,475.67,30,yuksek
+Şile,Çataklı Mahallesi,533.35,283.39,840.03,46,yuksek
+Şile,Çavuş Mahallesi,369.43,192.81,482.04,18,yuksek
+Şile,Çayırbaşı Mahallesi,446.92,398.43,506.17,12,yuksek
+Şile,Çelebi Mahallesi,404.52,320.18,533.6,5,orta
+Şile,Çengilli Mahallesi,409.43,283.33,523.78,36,yuksek
+Şile,Darlık Mahallesi,455.87,234.42,588.48,48,yuksek
+Şile,Değirmen Çayırı Mahallesi,467.9,298.32,670.93,31,yuksek
+Şile,Doğancılı Mahallesi,367.18,273.62,490.52,40,yuksek
+Şile,Erenler Mahallesi,431.62,243.41,587.78,45,yuksek
+Şile,Esenceli Mahallesi,399.4,180.0,569.68,46,yuksek
+Şile,Geredeli Mahallesi,449.66,294.02,761.59,37,yuksek
+Şile,Göçe Mahallesi,386.15,233.73,554.59,20,yuksek
+Şile,Gökmaşlı Mahallesi,458.63,280.81,595.23,17,yuksek
+Şile,Göksu Mahallesi,445.87,270.16,602.43,53,yuksek
+Şile,Hacı Kasım Mahallesi,345.75,180.0,442.42,3,dusuk
+Şile,Hacıllı Mahallesi,496.98,339.83,660.94,36,yuksek
+Şile,Hasanlı Mahallesi,428.74,259.67,523.78,31,yuksek
+Şile,İmrendere Mahallesi,439.36,295.11,544.86,27,yuksek
+Şile,İmrenli Mahallesi,448.96,333.22,600.0,23,yuksek
+Şile,İsaköy Mahallesi,451.92,283.7,595.23,15,yuksek
+Şile,Kabakoz Mahallesi,459.19,249.25,600.0,48,yuksek
+Şile,Kadıköy Mahallesi,489.41,417.31,533.6,3,dusuk
+Şile,Kalem Mahallesi,525.52,249.22,761.59,51,yuksek
+Şile,Karabeyli Mahallesi,414.38,229.67,596.67,29,yuksek
+Şile,Karacaköy Mahallesi,458.94,302.33,559.99,24,yuksek
+Şile,Karakiraz Mahallesi,397.59,265.33,521.14,48,yuksek
+Şile,Karamandere Mahallesi,444.85,256.91,563.82,33,yuksek
+Şile,Kervansaray Mahallesi,410.18,234.88,580.92,90,yuksek
+Şile,Kömürlük Mahallesi,398.88,236.2,552.8,30,yuksek
+Şile,Korucu Mahallesi,468.54,329.19,587.78,17,yuksek
+Şile,Kumbaba Mahallesi,335.37,192.81,448.5,7,orta
+Şile,Kurfallı Mahallesi,407.09,261.81,546.87,16,yuksek
+Şile,Kurna Mahallesi,388.4,263.0,492.97,34,yuksek
+Şile,Kızılcaköy Mahallesi,431.41,304.6,548.0,53,yuksek
+Şile,Meşrutiyet Mahallesi,401.63,254.3,475.96,13,yuksek
+Şile,Oruçoğlu Mahallesi,392.06,234.42,518.74,53,yuksek
+Şile,Ovacık Mahallesi,446.42,262.96,588.96,25,yuksek
+Şile,Sahilköy Mahallesi,374.31,219.28,489.19,49,yuksek
+Şile,Satmazlı Mahallesi,429.87,243.41,587.78,26,yuksek
+Şile,Sofular Mahallesi,408.27,262.24,496.74,42,yuksek
+Şile,Soğullu Mahallesi,513.66,249.22,840.03,44,yuksek
+Şile,Şuayipli Mahallesi,455.0,302.33,533.73,29,yuksek
+Şile,Teke Mahallesi,453.24,180.0,605.02,83,yuksek
+Şile,Ulupelit Mahallesi,409.24,273.53,517.26,40,yuksek
+Şile,Üvezli Mahallesi,372.89,284.25,495.99,39,yuksek
+Şile,Yaka Mahallesi,475.97,298.32,670.93,44,yuksek
+Şile,Yaylalı Mahallesi,384.91,180.0,525.23,26,yuksek
+Şile,Yazımanayır Mahallesi,382.7,180.0,485.51,32,yuksek
+Şile,Yeniköy Mahallesi,431.59,229.67,588.96,56,yuksek
+Şile,Yeşilvadi Mahallesi,408.66,262.24,538.64,41,yuksek
+Şile,Ağva Merkez Mahallesi,355.41,233.73,472.89,9,orta
