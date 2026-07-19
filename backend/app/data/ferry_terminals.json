@@ -1,0 +1,21 @@
+{
+  "terminals": [
+    { "name": "Beşiktaş", "lat": 41.0422, "lon": 29.0068 },
+    { "name": "Kabataş", "lat": 41.0328, "lon": 28.9930 },
+    { "name": "Karaköy", "lat": 41.0246, "lon": 28.9770 },
+    { "name": "Eminönü", "lat": 41.0175, "lon": 28.9705 },
+    { "name": "Üsküdar", "lat": 41.0225, "lon": 29.0158 },
+    { "name": "Kadıköy", "lat": 40.9925, "lon": 29.0244 },
+    { "name": "Beykoz", "lat": 41.1250, "lon": 29.0930 },
+    { "name": "Sarıyer", "lat": 41.1670, "lon": 29.0500 }
+  ],
+  "routes": [
+    ["Üsküdar", "Beşiktaş"],
+    ["Üsküdar", "Kabataş"],
+    ["Üsküdar", "Eminönü"],
+    ["Kadıköy", "Karaköy"],
+    ["Kadıköy", "Eminönü"],
+    ["Kadıköy", "Beşiktaş"],
+    ["Beykoz", "Sarıyer"]
+  ]
+}
