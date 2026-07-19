@@ -140,5 +140,77 @@ Sprint 1 kapsamında belirlenen 100 puanlık hedefin görev bazlı tamamlanma or
 > 
 > **Sonuç:** Kalan veri hazırlama ve frontend adımları dışında, planlanan tüm altyapı görevleri Sprint 1 kapsamında başarıyla tamamlanmıştır.
 
+---
+
+# 📋 Sprint 2
+
+**Sprint Hedefi:** Toplanan mahalle verilerini temel alarak LLM içermeyen, deterministik ve test edilebilir bir skorlama motoru inşa etmek; ardından bu motoru AI destekli ağırlıklandırma ve doğal dil açıklama katmanı ile genişleterek, bir kullanıcı profilinin uçtan uca işlenip açıklanabilir ilk 5 mahalle önerisine dönüştüğü, terminalden çalıştırılabilir bir sistem ortaya koymak.
+
+### 🎯 Sprint Görevleri ve Puan Dağılımı (Toplam: 100 Puan)
+
+** Skorlama Motoru (50 Puan):**
+- Ham değerler normalize edildi.
+- Bütçe filtresi + ağırlıklı toplam yapıldı.
+- Profilden ağırlık türeten kural tabanlı taban fonksiyon oluşturuldu. 
+- Deprem parametresinin ağırlığı belirlendi.
+- Birim hazırlandı.
+
+**AI Katmanı (50 Puan):**
+- Profil çıkarıldı ve API'a gönderildi.
+- Taban ağırlık kuralını AI çıktısı üstünde tekrar uygulandı. 
+- Skor + profil ile Türkçe açıklaması yapıldı.
+
+### 📝 Sprint Notları & Ürün Geliştirme Durumu
+
+**Tamamlananlar:**
+- Ham değerler normalize edildi.
+- Bütçe filtresi + ağırlıklı toplam yapıldı.
+- Profilden ağırlık türeten kural tabanlı taban fonksiyon oluşturuldu. 
+- Profil çıkarıldı ve API'a gönderildi.
+- Taban ağırlık kuralını AI çıktısı üstünde tekrar uygulandı.
+
+### 🔄 Proje Yönetimi & Daily Scrum 
+**Proje Yönetimi:**
+Görev dağılımı ve proje yönetimi (Product Backlog) ClickUp üzerinden yürütülmektedir. Ana görevler (Task) ve alt görevler (Subtask) detaylı açıklamaları ve kabul kriterleri ile birlikte oluşturulmuş; önceliklendirme (priority) ve bitiş tarihleri (due date) atanarak görev kontrolü ve proje takibi sistemli bir şekilde sağlanmıştır.
+
+<img width="1916" height="826" alt="Clickup task screeansot" src="https://github.com/user-attachments/assets/22caae43-5fb0-49d0-8faa-a9c953613e11" />
+
+**Daily Scrum:**
+Daily Scrum toplantılarımızı iki günde bir, 16:00 - 18:00 saatleri arasında Google Meet üzerinden gerçekleştirdik. Ekstra yoğun olduğumuz günlerde ise iletişimimizi ve süreç takibimizi WhatsApp üzerinden mesajlaşarak sürdürdük. Toplantılarımızda özellikle *"Ne planlanmıştı? Neredeyiz? Nasıl ilerleyeceğiz?"* soruları üzerinde durarak sürecin kontrolünü ve bir sonraki adımların planlamasını sağladık. Toplantılarımızdan kareler:
+
+<img width="1918" height="866" alt="meet screenshot 1" src="https://github.com/user-attachments/assets/80f1f507-6e21-41e2-9136-3d8596f1422f" />
+
+<img width="1918" height="797" alt="meet screenshot 2" src="https://github.com/user-attachments/assets/1654f414-93e8-4e9b-896b-5c4a63f9f675" />
+
+<img width="1918" height="866" alt="meet screenshot 3" src="https://github.com/user-attachments/assets/c8aa86ec-d38b-4e97-a8e5-00cf9aea866c" />
 
 
+### 📊 Sprint Review
+**Alınan Kararlar:**
+- Ham değerlerin 0-100 arasında normalize edilmesi (Bir sonraki aşamanın hazırlığı).
+- Profilden ağırlık türeten kural tabanlı fonksiyon oluşturulması kararlaştırıldı.
+- Oluşturulan profilin AI ile yorumlanması planlandı.
+- Kullanıcı analizi tamamladıktan sonra isteğe bağlı olarak bir üyeliğe yönlendirilmesi planlandı.
+
+### 💡 Sprint Retrospective
+- **Ne İyi Gitti:** Projenin temel taşları (veri toplama, altyapı ve arayüz iskeleti) detaylıca atıldı.
+- **İyileştirilmesi Gerekenler:**
+  - Takım içindeki görev dağılımıyla ilgili düzenleme yapılması kararı alınmıştır.
+  - Kullanıcı analizi tamamladıktan sonra yapılacak yönlendirmeler netleştirilmelidir.
+
+### 💯 Sprint Sonu Puan Değerlendirmesi
+
+Sprint 1 kapsamında belirlenen 100 puanlık hedefin görev bazlı tamamlanma oranları ve alınan puanlar aşağıdaki tabloda özetlenmiştir:
+
+| Görev Kategorisi | Hedeflenen Puan | Tamamlanan Puan | Durum |
+| :--- | :---: | :---: | :--- |
+| 🏗️ **Kurulum & Altyapı** | 30 | 30 | Tamamlandı |
+| 🎨 **Frontend** | 30 | 26 | 4 Puan Kırıldı |
+| 📊 **Veri Toplama & Hazırlama** | 40 | 30 | 10 Puan Kırıldı |
+| **🏆 TOPLAM** | **100** | **86** | 🟩🟩🟩🟩🟩🟩🟩🟩⬜⬜ **%86** |
+
+> **Puan Kırılan Noktalar & Kalan Görevler:** 
+> - **Veri Toplama (-10 Puan):** Her İstanbul mahallesi için ham özelliklerin bulunduğu tek dosyanın nihai hale getirilmesi ve eşleştirilmesi işlemine devam edilmektedir.
+> - **Frontend (-4 Puan):** Çok adımlı profil formundaki UI/UX eksiklikleri ve son rötüşlar bir sonraki sprinte sarkmıştır.
+> 
+> **Sonuç:** Kalan veri hazırlama ve frontend adımları dışında, planlanan tüm altyapı görevleri Sprint 1 kapsamında başarıyla tamamlanmıştır.
