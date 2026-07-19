@@ -21,7 +21,22 @@ node_modules/
 .idea/
 
 # Data
-data-pipeline/sources/
+data-pipeline/sources/**
+!data-pipeline/sources/boundaries/
+!data-pipeline/sources/earthquake/
+!data-pipeline/sources/boundaries/.gitkeep
+!data-pipeline/sources/earthquake/.gitkeep
+
+# Büyük/ara mikrobölgeleme görselleri
+data-pipeline/output/microzonation_preview/
+data-pipeline/output/microzonation_map_extract/
+
+# Ham kaynaklar
+data-pipeline/sources/**
+!data-pipeline/sources/boundaries/
+!data-pipeline/sources/earthquake/
+!data-pipeline/sources/boundaries/.gitkeep
+!data-pipeline/sources/earthquake/.gitkeep
 
 # OS
 .DS_Store
