@@ -1,12 +1,25 @@
 "use client";
 
+import dynamic from "next/dynamic";
 import { AnimatePresence, motion } from "framer-motion";
-import { MapPin } from "lucide-react";
 import { useTranslation } from "@/hooks/useTranslation";
 import { PillButton } from "@/components/ui/PillButton";
 import { useOnboarding } from "@/components/onboarding/OnboardingContext";
 import { StepNavButtons } from "@/components/onboarding/StepNavButtons";
 import type { WorkArrangement } from "@/types";
+
+const OfficeLocationMap = dynamic(
+  () =>
+    import("@/components/onboarding/OfficeLocationMap").then(
+      (mod) => mod.OfficeLocationMap
+    ),
+  {
+    ssr: false,
+    loading: () => (
+      <div className="h-64 w-full animate-pulse rounded-xl border border-slate-200 bg-slate-100" />
+    ),
+  }
+);
 
 const COMMUTE_OPTIONS = [15, 30, 45, 60];
 
@@ -15,6 +28,7 @@ export function Step4WorkArrangement() {
   const { data, update } = useOnboarding();
   const s = t.onboarding.step4;
   const showMap = data.workArrangement === "office";
+  const needsLocation = showMap && !data.officeLocation;
 
   return (
     <div className="mx-auto max-w-2xl">
@@ -47,10 +61,12 @@ export function Step4WorkArrangement() {
           >
             <div className="mt-6 rounded-2xl border border-slate-200 bg-white p-6">
               <p className="text-sm font-medium text-dark">{s.mapPrompt}</p>
-              {/* Minimal MapLibre placeholder — swapped for a real pin-drop
-                  map when the maps integration lands. */}
-              <div className="mt-3 flex h-40 items-center justify-center rounded-xl border border-dashed border-slate-300 bg-gradient-to-br from-primary-soft to-success-soft">
-                <MapPin className="h-6 w-6 text-primary/60" />
+
+              <div className="mt-3">
+                <OfficeLocationMap
+                  value={data.officeLocation}
+                  onChange={(loc) => update({ officeLocation: loc })}
+                />
               </div>
 
               <label className="mt-6 block text-sm font-medium text-dark">
@@ -72,7 +88,7 @@ export function Step4WorkArrangement() {
         )}
       </AnimatePresence>
 
-      <StepNavButtons disabled={!data.workArrangement} />
+      <StepNavButtons disabled={!data.workArrangement || needsLocation} />
     </div>
   );
 }
