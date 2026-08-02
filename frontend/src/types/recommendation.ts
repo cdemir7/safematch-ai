@@ -66,3 +66,17 @@ export interface RecommendationResponse {
   weight_source: "ai" | "rule_based";
   total_considered: number;
 }
+
+/** GET /api/v1/mahalleler — genel harita için, profilden bağımsız. */
+export interface MahalleSummary {
+  mahalle_id: string;
+  mahalle_adi: string;
+  ilce: string;
+  deprem_guvenlik: number;
+  geometry: Record<string, unknown>;
+}
+
+export interface MahallelerResponse {
+  mahalleler: MahalleSummary[];
+  total: number;
+}

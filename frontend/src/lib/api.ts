@@ -6,6 +6,7 @@
  * have a single place to configure the base URL and request behavior.
  */
 import type {
+  MahallelerResponse,
   RecommendationResponse,
   UserProfile,
 } from "@/types/recommendation";
@@ -49,4 +50,8 @@ export function getRecommendations(
   profile: UserProfile
 ): Promise<RecommendationResponse> {
   return api.post<RecommendationResponse>("/api/v1/recommend", profile);
+}
+
+export function getMahalleler(): Promise<MahallelerResponse> {
+  return api.get<MahallelerResponse>("/api/v1/mahalleler");
 }
