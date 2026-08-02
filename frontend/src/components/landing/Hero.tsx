@@ -1,12 +1,22 @@
 "use client";
 
 import Link from "next/link";
+import dynamic from "next/dynamic";
 import { useTranslation } from "@/hooks/useTranslation";
 import { Container } from "@/components/ui/Container";
 import { buttonVariants } from "@/components/ui/Button";
-import { IstanbulMap } from "@/components/maps/IstanbulMap";
 import { ROUTES } from "@/lib/constants";
 import { cn } from "@/lib/utils";
+
+const IstanbulMap = dynamic(
+  () => import("@/components/maps/IstanbulMap").then((mod) => mod.IstanbulMap),
+  {
+    ssr: false,
+    loading: () => (
+      <div className="aspect-[4/5] w-full max-w-md animate-pulse rounded-3xl border border-slate-800 bg-slate-900 sm:aspect-square lg:aspect-[4/5]" />
+    ),
+  }
+);
 
 export function Hero() {
   const t = useTranslation();
