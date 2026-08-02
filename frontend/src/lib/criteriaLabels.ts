@@ -2,9 +2,8 @@ import type { Translations } from "@/contexts/LanguageContext";
 import type { ScoreCriterion } from "@/types/recommendation";
 
 /**
- * Five of the six ScoreBreakdown criteria already have a localized label in
- * t.criteria.items (shared with the marketing page); yasam_kalitesi is
- * results-page-only and lives in t.results instead.
+ * All five ScoreBreakdown criteria have a localized label in t.criteria.items
+ * (shared with the marketing page).
  */
 export function getCriterionLabels(
   t: Translations
@@ -15,6 +14,5 @@ export function getCriterionLabels(
     saglik: t.criteria.items[2].title,
     egitim: t.criteria.items[3].title,
     sosyal_yasam: t.criteria.items[5].title,
-    yasam_kalitesi: t.results.yasamKalitesiLabel,
   };
 }

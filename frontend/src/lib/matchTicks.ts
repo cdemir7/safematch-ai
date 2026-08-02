@@ -16,10 +16,7 @@ const STRONG_SCORE = 65;
 const WEAK_SCORE = 40;
 const HIGH_PRIORITY = 4; // 1-5 slider, >=4 counts as "user cares about this"
 
-const PRIORITY_BY_CRITERION: Record<
-  Exclude<ScoreCriterion, "yasam_kalitesi">,
-  keyof UserProfile
-> = {
+const PRIORITY_BY_CRITERION: Record<ScoreCriterion, keyof UserProfile> = {
   deprem_guvenlik: "deprem_onceligi",
   saglik: "saglik_onceligi",
   egitim: "egitim_onceligi",
@@ -42,7 +39,7 @@ export function getMatchTicks(
 
   for (const [criterion, priorityField] of Object.entries(
     PRIORITY_BY_CRITERION
-  ) as [Exclude<ScoreCriterion, "yasam_kalitesi">, keyof UserProfile][]) {
+  ) as [ScoreCriterion, keyof UserProfile][]) {
     const priority = profile[priorityField] as number;
     const isPriority = criterion === "deprem_guvenlik" || priority >= HIGH_PRIORITY;
     if (!isPriority) continue;

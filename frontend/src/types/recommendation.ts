@@ -30,7 +30,6 @@ export interface ScoreBreakdown {
   egitim: number;
   ulasim: number;
   sosyal_yasam: number;
-  yasam_kalitesi: number;
 }
 
 export type ScoreCriterion = keyof ScoreBreakdown;
