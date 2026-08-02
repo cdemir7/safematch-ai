@@ -19,13 +19,12 @@ Rules
 """
 from __future__ import annotations
 
-import asyncio
 import json
 import logging
 import pathlib
 import os
 
-from app.ai.explain import get_explanation
+from app.ai.explain import get_explanations_batch
 from app.ai.weighting import get_weights_from_ai
 from app.schemas.profile import UserProfile
 from app.schemas.recommendation import (
@@ -193,7 +192,6 @@ def _to_neighborhood_result(
             egitim=sb.get("egitim", 50.0),
             ulasim=sb.get("ulasim", 50.0),
             sosyal_yasam=sb.get("sosyal_yasam", 50.0),
-            yasam_kalitesi=sb.get("yasam_kalitesi", 50.0),
         ),
         raw=RawData(
             hastane_count=raw.get("hastane_count", 0),
@@ -268,18 +266,18 @@ async def get_recommendations(profile: UserProfile) -> RecommendationResponse:
         hizli_transit_stops=transit_stops,
         ferry=ferry,
     )
-    total_considered = len(top_scored) + len(alt_scored)
+    # NOT: top_scored + alt_scored her zaman sabit (TOP_N + ALTERNATIVE_N =
+    # 8) olduğu için o toplam burada anlamlı bir sayı değil — asıl bilgi
+    # verici olan, bütçe filtresini geçip skorlamaya giren mahalle sayısı.
+    total_considered = len(filter_by_budget(neighborhoods, profile.budget_m2))
 
-    # 4. AI açıklamaları (eşzamanlı)
-    explain_tasks = [
-        get_explanation(r, profile, weights) for r in top_scored
-    ]
-    explanations = await asyncio.gather(*explain_tasks, return_exceptions=True)
-
-    # Exception'ları None'a çevir
+    # 4. AI açıklamaları — TEK istekte tüm top-N mahalle için birlikte
+    # (bkz. ai/explain.py::get_explanations_batch — ücretsiz Gemini katmanı
+    # dakika başına çok az istek kabul ediyor; her mahalle için ayrı istek
+    # kotayı anında dolduruyordu).
+    explanations_by_id = await get_explanations_batch(top_scored, profile, weights)
     explanations_clean: list[str | None] = [
-        e if isinstance(e, str) else None
-        for e in explanations
+        explanations_by_id.get(r.mahalle_id) for r in top_scored
     ]
 
     # Alternatifler için açıklama istemiyoruz (hız için)
