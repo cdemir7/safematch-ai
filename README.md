@@ -323,3 +323,12 @@ Sprint 3 kapsamında belirlenen 100 puanlık hedefin görev bazlı tamamlanma or
 > - **Frontend (-3 Puan):** Skor kırılımı bar/radar görseli yok, kapsamlı manuel uçtan uca tarayıcı testi tamamlanmadı.
 >
 > **Sonuç:** Sprint 2 sonunda kırık işaretlenen maddelerin (gerçek POI verisi, Gemini API entegrasyonu, `GET /api/v1/mahalleler`, harita ve karşılaştırma ekranı) büyük çoğunluğu bu sprintte tamamlandı; kalan eksikler (PostGIS, fiyat scraping, skor kırılımı görseli) Sprint 4'e devredildi.
+
+## 🤝 Katkıda Bulunanlar
+
+Bu proje **YZTA Bootcamp 2026** kapsamında geliştirilmiştir.
+
+---
+<div align="center">
+  <sub>Made with ❤️ and ☕ — by Takım 46 </sub>
+</div>
