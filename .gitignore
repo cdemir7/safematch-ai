@@ -31,6 +31,10 @@ data-pipeline/sources/**
 data-pipeline/output/microzonation_preview/
 data-pipeline/output/microzonation_map_extract/
 
+# Ham Overpass çıktıları (script tekrar çalıştırılarak yeniden üretilebilir)
+data-pipeline/data/poi_raw.json
+data-pipeline/data/transit_raw.json
+
 # Ham kaynaklar
 data-pipeline/sources/**
 !data-pipeline/sources/boundaries/
