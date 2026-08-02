@@ -22,7 +22,8 @@
     "sourceTags": ["AFAD", "IMM", "TurkStat", "OSM"],
     "map": {
       "placeholderLabel": "Istanbul Earthquake Safety Map",
-      "placeholderNote": "MapLibre integration coming soon",
+      "placeholderNote": "Loading map...",
+      "loadErrorNote": "Couldn't load the map right now, try again shortly.",
       "legendTitle": "Earthquake Safety Score",
       "legend": {
         "veryHigh": "Very Safe",
@@ -200,8 +201,8 @@
     "rights": "All rights reserved."
   },
   "results": {
-    "title": "Your Personalized Neighborhood Recommendations",
-    "subtitle": "Istanbul neighborhoods scored against your priorities, best match first.",
+    "title": "Here Are Your Best-Matched Neighborhoods",
+    "subtitle": "Based on your answers, we found the best fit for you among hundreds of Istanbul neighborhoods.",
     "loading": "Matching your neighborhoods...",
     "errorTitle": "Couldn't load recommendations",
     "errorBody": "We couldn't reach the server, or something went wrong. Please try again.",
@@ -213,17 +214,14 @@
     "priceLabel": "Avg. Price / m²",
     "priceUnit": "TL/m²",
     "noPriceData": "No price data",
-    "commuteLabel": "Est. commute to office",
+    "commuteLabel": "Avg. est. commute to office",
     "commuteModeLabels": {
       "karayolu": "driving",
       "raylı_sistem": "rail",
       "vapur": "ferry"
     },
-    "weightSourceAi": "Weights determined by AI",
-    "weightSourceRuleBased": "Weights determined by rules",
     "appliedWeightsTitle": "Applied Criteria Weights",
     "disclaimerLabel": "Important Notice",
-    "yasamKalitesiLabel": "Quality of Life",
     "matchTickPositive": "Matches your {criterion} priority",
     "matchTickWarning": "You prioritized {criterion}, but this neighborhood scores low",
     "earthquakeNote": "Earthquake safety is always evaluated, regardless of your priority.",
@@ -233,7 +231,11 @@
     "emptyTitle": "No results yet",
     "emptyBody": "You need to complete the profile form first.",
     "startProfile": "Go to Profile Form",
-    "totalConsidered": "Selected from {count} neighborhoods"
+    "totalConsidered": "Best matches selected from {count} Istanbul neighborhoods",
+    "comingSoonBadge": "New",
+    "comingSoonTitle": "Compare Neighborhoods Side by Side",
+    "comingSoonBody": "See your recommended neighborhoods compared criterion by criterion (earthquake safety, health, education, transport, social life) in a single table.",
+    "comingSoonCta": "Open Comparison"
   },
   "pages": {
     "about": {
@@ -252,5 +254,14 @@
       "title": "Coming Soon",
       "body": "This page will be built in an upcoming sprint."
     }
+  },
+  "compare": {
+    "title": "Compare Neighborhoods",
+    "subtitle": "Your recommended neighborhoods, side by side by criterion.",
+    "criterionColumn": "Criterion",
+    "overallScore": "Match Score",
+    "priceRow": "Avg. Price / m²",
+    "mapTitle": "Recommended Neighborhoods on the Map",
+    "officeMarkerLabel": "Your entered office location"
   }
 }

@@ -22,7 +22,8 @@
     "sourceTags": ["AFAD", "İBB", "TÜİK", "OSM"],
     "map": {
       "placeholderLabel": "İstanbul Deprem Güvenlik Haritası",
-      "placeholderNote": "MapLibre entegrasyonu ileride eklenecek",
+      "placeholderNote": "Harita yükleniyor...",
+      "loadErrorNote": "Harita şu an yüklenemedi, birazdan tekrar deneyin.",
       "legendTitle": "Deprem Güvenlik Skoru",
       "legend": {
         "veryHigh": "Çok Güvenli",
@@ -200,8 +201,8 @@
     "rights": "Tüm hakları saklıdır."
   },
   "results": {
-    "title": "Size Özel Mahalle Önerileri",
-    "subtitle": "Önceliklerinize göre puanlanan İstanbul mahalleleri, en uygundan başlayarak.",
+    "title": "İşte Sizin İçin En Uygun Mahalleler",
+    "subtitle": "Verdiğiniz cevaplara göre İstanbul'un yüzlerce mahallesi arasından size en uygun olanları bulduk.",
     "loading": "Mahalleler eşleştiriliyor...",
     "errorTitle": "Öneriler alınamadı",
     "errorBody": "Sunucuya ulaşılamadı ya da bir hata oluştu. Lütfen tekrar deneyin.",
@@ -213,17 +214,14 @@
     "priceLabel": "Ort. m² Fiyatı",
     "priceUnit": "TL/m²",
     "noPriceData": "Fiyat verisi yok",
-    "commuteLabel": "Ofise tahmini süre",
+    "commuteLabel": "Ofise ortalama tahmini süre",
     "commuteModeLabels": {
       "karayolu": "karayolu",
       "raylı_sistem": "raylı sistem",
       "vapur": "vapur"
     },
-    "weightSourceAi": "Ağırlıklar yapay zekâ ile belirlendi",
-    "weightSourceRuleBased": "Ağırlıklar kural tabanlı belirlendi",
     "appliedWeightsTitle": "Uygulanan Kriter Ağırlıkları",
     "disclaimerLabel": "Önemli Uyarı",
-    "yasamKalitesiLabel": "Yaşam Kalitesi",
     "matchTickPositive": "{criterion} önceliğinize uygun",
     "matchTickWarning": "{criterion} önceliğiniz yüksek, bu mahallede skor düşük",
     "earthquakeNote": "Deprem güvenliği önceliğiniz ne olursa olsun her zaman değerlendirilir.",
@@ -233,7 +231,11 @@
     "emptyTitle": "Henüz bir sonuç yok",
     "emptyBody": "Önce profil formunu doldurmanız gerekiyor.",
     "startProfile": "Profil Formuna Git",
-    "totalConsidered": "{count} mahalle arasından seçildi"
+    "totalConsidered": "İstanbul'un {count} mahallesi arasından size en uygun olanlar seçildi",
+    "comingSoonBadge": "Yeni",
+    "comingSoonTitle": "Mahalleleri Yan Yana Karşılaştırın",
+    "comingSoonBody": "Önerilen mahalleleri kriter bazında (deprem güvenliği, sağlık, eğitim, ulaşım, sosyal yaşam) karşılaştırmalı bir tabloda inceleyin.",
+    "comingSoonCta": "Karşılaştırmayı Aç"
   },
   "pages": {
     "about": {
@@ -252,5 +254,14 @@
       "title": "Yakında",
       "body": "Bu sayfa bir sonraki sprintte geliştirilecektir."
     }
+  },
+  "compare": {
+    "title": "Mahalleleri Karşılaştır",
+    "subtitle": "Size önerilen mahalleler, kriter bazında yan yana.",
+    "criterionColumn": "Kriter",
+    "overallScore": "Uygunluk Skoru",
+    "priceRow": "Ortalama m² Fiyatı",
+    "mapTitle": "Önerilen Mahalleler Haritada",
+    "officeMarkerLabel": "Girdiğiniz iş yeri konumu"
   }
 }
