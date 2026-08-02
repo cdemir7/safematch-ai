@@ -58,7 +58,6 @@ def profile_to_weights(
         "egitim":          float(egitim_onceligi),
         "ulasim":          float(ulasim_onceligi),
         "sosyal_yasam":    float(sosyal_onceligi),
-        "yasam_kalitesi":  3.0,   # sabit orta ağırlık (profilde slider yok)
     }
 
     # --- Kural tabanlı düzeltmeler ---

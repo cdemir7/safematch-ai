@@ -20,7 +20,6 @@ class ScoreBreakdown(BaseModel):
     egitim:          float
     ulasim:          float
     sosyal_yasam:    float
-    yasam_kalitesi:  float
 
 
 class RawData(BaseModel):

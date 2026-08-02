@@ -384,16 +384,23 @@ def _compute_composite(
     Ofis/hibrit çalışanlar için ulaşım skoru yerine
     "ulasim_hizli" (metro + metrobüs + Marmaray) kullanılır.
 
-    commute_proximity verildiyse (kullanıcı ofis konumu işaretlediyse),
-    genel ulaşım skoruyla eşit ağırlıkta harmanlanır — böylece hem POI
-    yoğunluğu hem de gerçek ofise yakınlık ulaşım kriterine yansır.
+    commute_proximity verildiyse (kullanıcı ofis konumu işaretlediyse) genel
+    ulaşım skoruyla eşit ağırlıkta harmanlanır — böylece hem POI yoğunluğu
+    hem de gerçek ofise yakınlık ulaşım kriterine yansır. Bu harmanlama
+    calisma_tipi'den BAĞIMSIZ uygulanır: kullanıcı "uzaktan" seçmiş olsa
+    bile haritada bir ofis konumu işaretlediyse, o mesafeyi önemsediğini
+    göstermiş olur — sadece "ulasim_hizli" mi yoksa genel "ulasim" mı temel
+    alınacağı calisma_tipi'ye göre değişir.
     """
     total = 0.0
     for criterion in CRITERIA:
         w = weights.get(criterion, 0.0)
-        if criterion == "ulasim" and calisma_tipi in ("ofis", "hibrit"):
-            # Hızlı transit skoru varsa onu kullan, yoksa genel skora düş
-            s = scores.get("ulasim_hizli") or scores.get(criterion, DEFAULT_SCORE)
+        if criterion == "ulasim":
+            if calisma_tipi in ("ofis", "hibrit"):
+                # Hızlı transit skoru varsa onu kullan, yoksa genel skora düş
+                s = scores.get("ulasim_hizli") or scores.get(criterion, DEFAULT_SCORE)
+            else:
+                s = scores.get(criterion, DEFAULT_SCORE)
             if commute_proximity is not None:
                 s = (s + commute_proximity) / 2
         else:

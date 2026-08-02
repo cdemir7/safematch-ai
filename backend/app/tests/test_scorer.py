@@ -8,6 +8,7 @@ from app.scoring.constants import (
     ALTERNATIVE_N,
     BUDGET_TOLERANCE,
     RAIL_CROSS_BOSPHORUS_PENALTY_MIN,
+    RAIL_WALK_WAIT_MIN,
     ROAD_CROSS_BOSPHORUS_PENALTY_MIN,
     TOP_N,
     TRAFFIC_MULTIPLIER,
@@ -40,7 +41,6 @@ def _make_mahalle(
     egitim: float = 50.0,
     ulasim: float = 50.0,
     sosyal: float = 50.0,
-    yasam: float = 50.0,
     fiyat: int | None = 30_000,
     centroid: tuple[float, float] | None = None,
 ) -> dict:
@@ -65,19 +65,17 @@ def _make_mahalle(
             "egitim": egitim,
             "ulasim": ulasim,
             "sosyal_yasam": sosyal,
-            "yasam_kalitesi": yasam,
         },
         "raw": {},
     }
 
 
 EQUAL_WEIGHTS: dict[str, float] = {
-    "deprem_guvenlik": 1 / 6,
-    "saglik":          1 / 6,
-    "egitim":          1 / 6,
-    "ulasim":          1 / 6,
-    "sosyal_yasam":    1 / 6,
-    "yasam_kalitesi":  1 / 6,
+    "deprem_guvenlik": 1 / 5,
+    "saglik":          1 / 5,
+    "egitim":          1 / 5,
+    "ulasim":          1 / 5,
+    "sosyal_yasam":    1 / 5,
 }
 
 # 9 mahalle: farklı deprem skorlarıyla
@@ -220,6 +218,29 @@ class TestOfficeCommute:
         assert len(top) == 1
         assert top[0].raw.get("ofis_mesafesi_km") is None
 
+    def test_commute_proximity_still_applies_when_uzaktan(self):
+        """
+        Regresyon testi: kullanıcı "uzaktan" seçse bile haritada bir ofis
+        konumu işaretlediyse, o mesafe hâlâ skora yansımalı — önceden
+        _compute_composite bu harmanlamayı sadece calisma_tipi
+        "ofis"/"hibrit" olduğunda uyguluyordu, "uzaktan" için ofis
+        konumu tamamen yok sayılıyordu (bkz. scorer.py::_compute_composite
+        docstring'i).
+        """
+        neighborhoods = [
+            _make_mahalle("NEAR", ulasim=50.0, centroid=self.NEAR),
+            _make_mahalle("FAR", ulasim=50.0, centroid=self.FAR),
+        ]
+        top, _ = score_neighborhoods(
+            neighborhoods,
+            EQUAL_WEIGHTS,
+            calisma_tipi="uzaktan",
+            office_lat=self.NEAR[0],
+            office_lon=self.NEAR[1],
+            max_commute_minutes=90,
+        )
+        assert top[0].mahalle_id == "NEAR"
+
 
 class TestHybridCommuteFormula:
     """_hybrid_commute_minutes: pure OSRM + raylı sistem birleştirme mantığı."""
@@ -232,7 +253,7 @@ class TestHybridCommuteFormula:
             has_rail_at_neighborhood=True,
             office_has_metro=True,
         )
-        assert rail_minutes == pytest.approx(30.0 + 10.0)  # + yürüme/bekleme
+        assert rail_minutes == pytest.approx(30.0 + RAIL_WALK_WAIT_MIN)  # + yürüme/bekleme
         assert mode == "raylı_sistem"
 
     def test_road_used_when_neighborhood_has_no_rail(self):
@@ -282,14 +303,20 @@ class TestHybridCommuteFormula:
         assert minutes == 12.0
 
     def test_cross_bosphorus_penalty_applied_to_rail(self):
-        same, _ = _hybrid_commute_minutes(
-            road_distance_km=10.0, road_duration_min=20.0,
+        # road_duration_min kasıtlı yüksek — raylı sistemin her iki tarafta
+        # da (same/cross) net kazanan mod olduğundan emin olmak için (aksi
+        # halde TRAFFIC_MULTIPLIER'a göre karayolu ile raylı sistem birbirine
+        # çok yakınlaşıp hangisinin kazandığı taraf değiştirebilir).
+        same, mode_same = _hybrid_commute_minutes(
+            road_distance_km=10.0, road_duration_min=30.0,
             same_side=True, has_rail_at_neighborhood=True, office_has_metro=True,
         )
-        cross, _ = _hybrid_commute_minutes(
-            road_distance_km=10.0, road_duration_min=20.0,
+        cross, mode_cross = _hybrid_commute_minutes(
+            road_distance_km=10.0, road_duration_min=30.0,
             same_side=False, has_rail_at_neighborhood=True, office_has_metro=True,
         )
+        assert mode_same == "raylı_sistem"
+        assert mode_cross == "raylı_sistem"
         assert cross - same == pytest.approx(RAIL_CROSS_BOSPHORUS_PENALTY_MIN)
 
     def test_cross_bosphorus_penalty_applied_to_road(self):
@@ -397,8 +424,8 @@ class TestRoadDataIntegration:
             road_data={"M": RoadEstimate(distance_km=17.5, duration_min=60.0)},
             hizli_transit_stops=stops_near_office,
         )
-        # Rail branch: 17.5/35*60 + 10 = 40.0, not 60*1.4 = 84.0
-        assert top[0].raw["ofis_tahmini_sure_dk"] == pytest.approx(40.0, abs=0.1)
+        # Rail branch: 17.5/35*60 + RAIL_WALK_WAIT_MIN, not karayolu (60*TRAFFIC_MULTIPLIER)
+        assert top[0].raw["ofis_tahmini_sure_dk"] == pytest.approx(30.0 + RAIL_WALK_WAIT_MIN, abs=0.1)
 
     def test_office_far_from_metro_uses_road_branch_despite_rail_neighborhood(self):
         m = _make_mahalle("M", centroid=self.NEAR)

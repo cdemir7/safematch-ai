@@ -16,7 +16,6 @@ CRITERIA = [
     "egitim",
     "ulasim",
     "sosyal_yasam",
-    "yasam_kalitesi",
 ]
 
 # ---------------------------------------------------------------------------
@@ -96,16 +95,20 @@ OFFICE_METRO_PROXIMITY_M: float = 800.0
 # (km/h) süreye çevrilir — trafik yerine tren/metro hızını temsil eder.
 RAIL_AVG_SPEED_KMH: float = 35.0
 
-# Durum A'ya eklenen sabit yürüme + bekleme süresi (dakika).
-RAIL_WALK_WAIT_MIN: float = 10.0
+# Durum A'ya eklenen sabit yürüme + bekleme süresi (dakika). Gerçek
+# yolculuklarda genelde en az bir aktarma olur — 10 dk tek durak/aktarmasız
+# senaryo için bile iyimserdi, 15'e çıkarıldı.
+RAIL_WALK_WAIT_MIN: float = 15.0
 
 # Durum A'da mahalle ve ofis farklı yakadaysa (Marmaray/Metrobüs
 # aktarması) eklenen ek süre (dakika).
 RAIL_CROSS_BOSPHORUS_PENALTY_MIN: float = 15.0
 
 # Durum B (Trafikli Karayolu): OSRM'in sürüş süresi İstanbul trafiğini
-# yansıtmak için bu katsayıyla çarpılır.
-TRAFFIC_MULTIPLIER: float = 1.4
+# yansıtmak için bu katsayıyla çarpılır. 1.4 sakin saatler için gerçekçiydi
+# ama yoğun saatleri (işe gidiş/dönüş) yansıtmıyordu — kullanıcı geri
+# bildirimiyle 1.6'ya çıkarıldı (daha "ortalama" bir tahmin, en iyi durum değil).
+TRAFFIC_MULTIPLIER: float = 1.6
 
 # Durum B'de mahalle ve ofis farklı yakadaysa (köprü/tünel trafiği)
 # eklenen ek süre (dakika).
