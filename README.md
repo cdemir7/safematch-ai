@@ -194,11 +194,7 @@ Sprint 1 kapsamında belirlenen 100 puanlık hedefin görev bazlı tamamlanma or
 - Gemini tabanlı AI ağırlıklandırma + açıklama katmanı, kural tabanlı fallback'leriyle birlikte ilk kez implemente edildi.
 - `/api/v1/recommend` ve yakındaki POI endpoint'i backend'de uçtan uca çalışır durumda; frontend sonuç ekranı bu API'ye bağlandı.
 
-<img width="1666" height="865" alt="safematch-ai landing page" src="screenshots/s3-1.jpeg" />
-
-<img width="1692" height="868" alt="safematch-ai form" src="screenshots/s3-2.jpeg" />
-
-<img width="1692" height="868" alt="safematch-ai form" src="screenshots/s3-3.jpeg" />
+<img width="1666" height="865" alt="safematch-ai landing page" src="screenshots/s2-1.jpeg" />
 
 ### 🔄 Proje Yönetimi & Daily Scrum
 
@@ -208,7 +204,7 @@ Sprint 2 kapsamındaki görev dağılımı ve süreç takibi ClickUp üzerinden 
 **Daily Scrum:**
 Daily Scrum toplantılarımız iki günde bir, 16.00–18.00 saatleri arasında Google Meet üzerinden gerçekleştirilmiştir. Ekstra yoğun olunan günlerde ise takım içi iletişim ve süreç takibi WhatsApp üzerinden sürdürülmüştür. Toplantılarda tamamlanan görevler, devam eden çalışmalar, karşılaşılan teknik sorunlar ve bir sonraki toplantıya kadar yapılması planlanan işler değerlendirilmiştir. Sprint 2 süresince özellikle veri normalizasyonu, bütçe filtresi, ağırlıklı skorlama, kullanıcı profilinden ağırlık çıkarılması ve AI çıktılarının kural tabanlı sistemle kontrol edilmesi üzerinde durulmuştur.
 
-<img width="1692" height="868" alt="safematch-ai form" src="screenshots/s3-4.jpeg" />
+<img width="1666" height="865" alt="safematch-ai landing page" src="screenshots/s2-2.jpeg" />
 
 ### 📊 Sprint Review
 **Alınan Kararlar:**
@@ -230,9 +226,6 @@ Daily Scrum toplantılarımız iki günde bir, 16.00–18.00 saatleri arasında 
   - Skorlama motorunun backend ve frontend ile entegrasyonu tamamlanmalıdır.
   - AI servisinin çalışmadığı durumlar için alternatif bir ağırlıklandırma ve açıklama mekanizması hazırlanmalıdır.
 
-<img width="1916" height="826" alt="Clickup task screeansot" src="screenshots/s2-1.jpeg" />
-
-<img width="1916" height="826" alt="Clickup task screeansot" src="screenshots/s2-2.jpeg" />
 
 ### 💯 Sprint Sonu Puan Değerlendirmesi
 
@@ -302,6 +295,14 @@ Sprint 2 kapsamında belirlenen 100 puanlık hedefin görev bazlı tamamlanma or
 > - **Veri Toplama:** Konut fiyatı web scraping'i hâlâ elle derlenmiş proxy ile yapılıyor, gerçek scraping yok.
 > - **Backend/Altyapı:** PostGIS/veritabanı entegrasyonu hiç başlamadı (968 kayıt statik JSON'dan okunuyor, bu ölçekte sorun değil).
 > - **Frontend:** Skor kırılımı için ayrı bar/radar görseli yok; tarayıcıda kapsamlı manuel uçtan uca test tamamlanmadı.
+
+<img width="1666" height="865" alt="safematch-ai landing page" src="screenshots/s3-1.jpeg" />
+
+<img width="1692" height="868" alt="safematch-ai form" src="screenshots/s3-2.jpeg" />
+
+<img width="1692" height="868" alt="safematch-ai form" src="screenshots/s3-3.jpeg" />
+
+<img width="1692" height="868" alt="safematch-ai form" src="screenshots/s3-4.jpeg" />
 
 ### 💯 Sprint Sonu Puan Değerlendirmesi
 
