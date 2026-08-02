@@ -12,6 +12,7 @@ Responsibilities
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
+from app.api.routes import mahalleler as mahalleler_router
 from app.api.routes import neighborhood as neighborhood_router
 from app.api.routes import recommend as recommend_router
 
@@ -42,6 +43,7 @@ app.add_middleware(
 
 app.include_router(neighborhood_router.router, prefix="/api/v1")
 app.include_router(recommend_router.router, prefix="/api/v1")
+app.include_router(mahalleler_router.router, prefix="/api/v1")
 
 
 # ---------------------------------------------------------------------------
