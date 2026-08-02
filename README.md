@@ -2,6 +2,8 @@
 
 **Backlog & Proje Yönetim URL:** [ClickUp Board](https://app.clickup.com/9018979959/v/s/901811680269)
 
+**Demo Videosu:** [Youtube](https://app.clickup.com/9018979959/v/s/901811680269)
+
 ## 🎯 Proje Amacı
 İstanbul'da yaşayacağı bölgeyi seçmek isteyen bireylere, **deprem güvenliğini karar sürecinin merkezine koyarak** kişiselleştirilmiş mahalle önerileri sunan yapay zekâ destekli bir karar destek platformu sunmaktır.
 
@@ -197,6 +199,10 @@ Sprint 1 kapsamında belirlenen 100 puanlık hedefin görev bazlı tamamlanma or
 > - **Veri Toplama:** Konut fiyatı web scraping'i hâlâ elle derlenmiş proxy ile yapılıyor, gerçek scraping yok.
 > - **Backend/Altyapı:** PostGIS/veritabanı entegrasyonu hiç başlamadı (968 kayıt statik JSON'dan okunuyor, bu ölçekte sorun değil).
 > - **Frontend:** Skor kırılımı için ayrı bar/radar görseli yok (şimdilik `/compare` tablosu bunu karşılıyor); tarayıcıda kapsamlı manuel uçtan uca test (ör. free-text alanı, edge-case profiller) tamamlanmadı.
+
+<img width="1916" height="826" alt="Clickup task screeansot" src="screenshots/s2-1.jpeg" />
+
+<img width="1916" height="826" alt="Clickup task screeansot" src="screenshots/s2-2.jpeg" />
 
 ### 💯 Sprint Sonu Puan Değerlendirmesi
 
