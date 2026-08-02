@@ -2,7 +2,7 @@
 
 **Backlog & Proje Yönetim URL:** [ClickUp Board](https://app.clickup.com/9018979959/v/s/901811680269)
 
-**Demo Videosu:** [Youtube](https://app.clickup.com/9018979959/v/s/901811680269)
+**Demo Videosu:** [Youtube](https://youtu.be/A2UgSJtXOSI)
 
 ## 🎯 Proje Amacı
 İstanbul'da yaşayacağı bölgeyi seçmek isteyen bireylere, **deprem güvenliğini karar sürecinin merkezine koyarak** kişiselleştirilmiş mahalle önerileri sunan yapay zekâ destekli bir karar destek platformu sunmaktır.
