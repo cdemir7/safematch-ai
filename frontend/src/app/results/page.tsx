@@ -76,10 +76,6 @@ export default function ResultsPage() {
               "{count}",
               String(response.total_considered)
             )}
-            {" · "}
-            {response.weight_source === "ai"
-              ? t.results.weightSourceAi
-              : t.results.weightSourceRuleBased}
           </p>
 
           <h2 className="mt-10 text-xl font-bold text-dark">{t.results.topPicksTitle}</h2>
@@ -106,6 +102,26 @@ export default function ResultsPage() {
               </div>
             </>
           )}
+
+          <div className="mt-12 flex flex-col items-start gap-4 rounded-2xl border border-dashed border-slate-300 bg-slate-50 p-6 sm:flex-row sm:items-center sm:justify-between">
+            <div>
+              <span className="inline-flex items-center rounded-full bg-primary-soft px-3 py-1 text-xs font-semibold text-primary">
+                {t.results.comingSoonBadge}
+              </span>
+              <p className="mt-2 text-base font-semibold text-dark">
+                {t.results.comingSoonTitle}
+              </p>
+              <p className="mt-1 max-w-xl text-sm text-gray">
+                {t.results.comingSoonBody}
+              </p>
+            </div>
+            <Link
+              href={ROUTES.compare}
+              className="shrink-0 rounded-full border border-slate-300 bg-white px-5 py-2.5 text-sm font-semibold text-dark hover:border-slate-400"
+            >
+              {t.results.comingSoonCta}
+            </Link>
+          </div>
         </Container>
       </main>
       <Footer />
