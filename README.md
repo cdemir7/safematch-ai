@@ -220,3 +220,32 @@ Sprint 2 kapsamında belirlenen 100 puanlık hedefin görev bazlı tamamlanma or
 
 
 
+### 📊 Sprint Review
+**Alınan Kararlar:**
+- Ham değerlerin 0-100 arasında normalize edilmesi (Bir sonraki aşamanın hazırlığı).
+- Profilden ağırlık türeten kural tabanlı fonksiyon oluşturulması kararlaştırıldı.
+- Oluşturulan profilin AI ile yorumlanması planlandı.
+- Kullanıcı analizi tamamladıktan sonra isteğe bağlı olarak bir üyeliğe yönlendirilmesi planlandı.
+
+### 💡 Sprint Retrospective
+- **Ne İyi Gitti:** Projenin temel taşları (veri toplama, altyapı ve arayüz iskeleti) detaylıca atıldı.
+- **İyileştirilmesi Gerekenler:**
+  - Takım içindeki görev dağılımıyla ilgili düzenleme yapılması kararı alınmıştır.
+  - Kullanıcı analizi tamamladıktan sonra yapılacak yönlendirmeler netleştirilmelidir.
+
+### 💯 Sprint Sonu Puan Değerlendirmesi
+
+Sprint 1 kapsamında belirlenen 100 puanlık hedefin görev bazlı tamamlanma oranları ve alınan puanlar aşağıdaki tabloda özetlenmiştir:
+
+| Görev Kategorisi | Hedeflenen Puan | Tamamlanan Puan | Durum |
+| :--- | :---: | :---: | :--- |
+| 🏗️ **Kurulum & Altyapı** | 30 | 30 | Tamamlandı |
+| 🎨 **Frontend** | 30 | 26 | 4 Puan Kırıldı |
+| 📊 **Veri Toplama & Hazırlama** | 40 | 30 | 10 Puan Kırıldı |
+| **🏆 TOPLAM** | **100** | **86** | 🟩🟩🟩🟩🟩🟩🟩🟩⬜⬜ **%86** |
+
+> **Puan Kırılan Noktalar & Kalan Görevler:** 
+> - **Veri Toplama (-10 Puan):** Her İstanbul mahallesi için ham özelliklerin bulunduğu tek dosyanın nihai hale getirilmesi ve eşleştirilmesi işlemine devam edilmektedir.
+> - **Frontend (-4 Puan):** Çok adımlı profil formundaki UI/UX eksiklikleri ve son rötüşlar bir sonraki sprinte sarkmıştır.
+> 
+> **Sonuç:** Kalan veri hazırlama ve frontend adımları dışında, planlanan tüm altyapı görevleri Sprint 1 kapsamında başarıyla tamamlanmıştır.
