@@ -16,11 +16,11 @@ Safety rules
 """
 from __future__ import annotations
 
-import json
 import logging
 import os
 import pathlib
 
+from app.ai.json_utils import log_token_usage, parse_json_loose
 from app.schemas.profile import UserProfile
 from app.scoring.constants import CRITERIA, DEPREM_MIN_WEIGHT, MAX_SINGLE_WEIGHT
 from app.scoring.normalizer import normalize_weights
@@ -30,6 +30,9 @@ logger = logging.getLogger(__name__)
 
 _PROMPT_PATH = pathlib.Path(__file__).parent / "prompts" / "weighting_v1.txt"
 _PROMPT_TEMPLATE = _PROMPT_PATH.read_text(encoding="utf-8")
+
+# bkz. ai/explain.py — lite varyant free-tier'da ~2x RPM kotasına sahip.
+_MODEL_NAME = "gemini-flash-lite-latest"
 
 
 def _enforce_constraints(weights: dict[str, float]) -> dict[str, float]:
@@ -59,11 +62,11 @@ def _enforce_constraints(weights: dict[str, float]) -> dict[str, float]:
 
 
 def _parse_ai_weights(raw_json: str) -> dict[str, float] | None:
-    """JSON string'i parse eder ve şema doğrulaması yapar."""
-    try:
-        data = json.loads(raw_json.strip())
-    except json.JSONDecodeError as exc:
-        logger.error("AI weight JSON parse hatası: %s | raw: %s", exc, raw_json[:200])
+    """JSON string'i parse eder (bkz. json_utils.parse_json_loose — bozuk
+    JSON'u json-repair ile onarmayı dener) ve şema doğrulaması yapar."""
+    data = parse_json_loose(raw_json.strip())
+    if data is None:
+        logger.error("AI weight JSON parse hatası (repair sonrası da) | raw: %s", raw_json[:200])
         return None
 
     if not isinstance(data, dict):
@@ -101,20 +104,33 @@ async def get_weights_from_ai(profile: UserProfile) -> tuple[dict[str, float], s
         return _fallback(profile), "rule_based"
 
     try:
-        import google as genai
+        from google import genai
+        from google.genai import types
     except ImportError:
-        logger.warning("google kurulu değil — kural tabanlı fallback.")
+        logger.warning("google-genai kurulu değil — kural tabanlı fallback.")
         return _fallback(profile), "rule_based"
 
     profile_json = profile.model_dump_json(indent=2)
     prompt = _PROMPT_TEMPLATE.format(profile_json=profile_json)
 
     try:
-        genai.configure(api_key=api_key)
-        model = genai.GenerativeModel("gemini-2.5-flash")
-        response = await model.generate_content_async(
-            prompt,
-            generation_config={"temperature": 0.1, "max_output_tokens": 256},
+        client = genai.Client(api_key=api_key)
+        await log_token_usage(client, _MODEL_NAME, prompt, label="weighting")
+        response = await client.aio.models.generate_content(
+            model=_MODEL_NAME,
+            contents=prompt,
+            config=types.GenerateContentConfig(
+                temperature=0.1,
+                # NOT: bu model dahili "thinking" için
+                # değişken miktarda (gözlemlenen: ~250-1200) görünmez token
+                # harcıyor; bunlar da max_output_tokens'tan düşülüyor. Düşük
+                # bir limit (örn. 256) gerçek JSON çıktısını MAX_TOKENS ile
+                # yarıda kesiyordu — bu yüzden geniş bir pay bırakıyoruz.
+                # thinking_config(thinking_budget=0) ile kapatmayı denedik,
+                # bu model 400 INVALID_ARGUMENT ile reddetti.
+                max_output_tokens=2048,
+                response_mime_type="application/json",
+            ),
         )
         raw_text = response.text.strip()
         logger.debug("Gemini weighting yanıtı: %s", raw_text)
