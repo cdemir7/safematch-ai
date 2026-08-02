@@ -194,6 +194,12 @@ Sprint 1 kapsamında belirlenen 100 puanlık hedefin görev bazlı tamamlanma or
 - Gemini tabanlı AI ağırlıklandırma + açıklama katmanı, kural tabanlı fallback'leriyle birlikte ilk kez implemente edildi.
 - `/api/v1/recommend` ve yakındaki POI endpoint'i backend'de uçtan uca çalışır durumda; frontend sonuç ekranı bu API'ye bağlandı.
 
+<img width="1666" height="865" alt="safematch-ai landing page" src="screenshots/s3-1.jpeg" />
+
+<img width="1692" height="868" alt="safematch-ai form" src="screenshots/s3-2.jpeg" />
+
+<img width="1692" height="868" alt="safematch-ai form" src="screenshots/s3-3.jpeg" />
+
 ### 🔄 Proje Yönetimi & Daily Scrum
 
 **Proje Yönetimi:**
@@ -201,6 +207,8 @@ Sprint 2 kapsamındaki görev dağılımı ve süreç takibi ClickUp üzerinden 
 
 **Daily Scrum:**
 Daily Scrum toplantılarımız iki günde bir, 16.00–18.00 saatleri arasında Google Meet üzerinden gerçekleştirilmiştir. Ekstra yoğun olunan günlerde ise takım içi iletişim ve süreç takibi WhatsApp üzerinden sürdürülmüştür. Toplantılarda tamamlanan görevler, devam eden çalışmalar, karşılaşılan teknik sorunlar ve bir sonraki toplantıya kadar yapılması planlanan işler değerlendirilmiştir. Sprint 2 süresince özellikle veri normalizasyonu, bütçe filtresi, ağırlıklı skorlama, kullanıcı profilinden ağırlık çıkarılması ve AI çıktılarının kural tabanlı sistemle kontrol edilmesi üzerinde durulmuştur.
+
+<img width="1692" height="868" alt="safematch-ai form" src="screenshots/s3-4.jpeg" />
 
 ### 📊 Sprint Review
 **Alınan Kararlar:**
