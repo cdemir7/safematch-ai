@@ -158,7 +158,7 @@ Sprint 1 kapsamında belirlenen 100 puanlık hedefin görev bazlı tamamlanma or
 - [x] Deprem güvenlik skorunun gerçek veriden (Vs30 + İBB ilçe hasar tahmini) hesaplanması.
 - [x] AFAD toplanma alanı eşleştirmesi.
 - [x] Elle düzeltme (manual override) mekanizması — otomasyon + elle düzeltmeye uygun yapı.
-- [x] Gerçek POI verisi (hastane/okul/durak/sosyal yaşam sayımı, OSM Overpass) — saglik/egitim/ulasim/sosyal_yasam artık gerçek sayımlardan percentile-normalize skorlar. `yasam_kalitesi` (gerçek veri kaynağı olmadığı için) tamamen kaldırıldı; cami_count hâlâ 0 (OSM'de ayrı kategori değil, "toplanma"ya karışıyor — SOURCES.md'de belgeli).
+- [ ] Gerçek POI verisi (hastane/okul/cami/durak sayımı) — **hâlâ çekilmedi**, saglik/egitim/ulasim/sosyal_yasam/yasam_kalitesi skorları varsayılan (50) değerde.
 - [ ] Konut fiyatı web scraping — hâlâ elle derlenmiş `ilce_fiyat.csv` proxy'si kullanılıyor.
 
 **Skorlama Motoru (20 Puan):**
@@ -171,34 +171,56 @@ Sprint 1 kapsamında belirlenen 100 puanlık hedefin görev bazlı tamamlanma or
 - [x] `weighting.py`: profil → Gemini → JSON ağırlık, kod tarafında taban ağırlık kuralının tekrar uygulanması, hata/timeout'ta rule-based fallback.
 - [x] `explain.py`: skor + profil → Türkçe açıklama, hata durumunda template fallback.
 - [x] Prompt'ların `ai/prompts/` altında versiyonlanması.
-- [x] Gerçek Gemini API'ye karşı canlı test — `GEMINI_API_KEY` eklendi, `google-genai` SDK'ya (deprecated `google-generativeai`'dan) geçildi, `gemini-flash-lite-latest` ile hem weighting hem batched explain gerçek API'ye karşı doğrulandı; free_text'in ağırlıkları gerçekten etkilediği canlı testle kanıtlandı.
+- [ ] Gerçek Gemini API'ye karşı canlı test — ortamda `GEMINI_API_KEY` yok, sadece rule-based/template fallback yolu doğrulandı.
 
 **Backend API (20 Puan):**
 - [x] `POST /api/v1/recommend` — profil → ilk 5 + skor kırılımı + açıklama.
 - [x] Yakındaki POI endpoint'i (Overpass tabanlı).
-- [x] `GET /api/v1/mahalleler` (harita için tüm 968 poligon + deprem_guvenlik skoru) eklendi.
+- [ ] `GET /api/mahalleler` (harita için tüm poligonlar + temel skor) — **henüz yok**.
 - [ ] PostgreSQL + PostGIS entegrasyonu — **yapılmadı**, veri hâlâ JSON dosyasından okunuyor; `app/core/config.py` hâlâ boş mimari stub.
 
 **Frontend (20 Puan):**
 - [x] Sonuç ekranı (mahalle kartı, skor çubukları) ve ofis konumu haritası (pin).
 - [x] Onboarding → API entegrasyonu (`profileMapping.ts`, `Step8LoadingResult`).
-- [x] Mahalle poligonlarının deprem güvenliğine göre renk kodlu gösterimi — Leaflet ile (MapLibre yerine): landing page'de genel İstanbul haritası, `/compare` sayfasında kişiye özel top-5 haritası (ofis pin'i dahil).
-- [x] Mahalle karşılaştırma ekranı (`/compare`) — kriter bazlı skor tablosu + fiyat + harita. Skor kırılımı için ayrı bar/radar görseli hâlâ yok (tablo bunu şimdilik karşılıyor).
+- [ ] MapLibre ile mahalle poligonlarının deprem güvenliğine göre renk kodlu gösterimi — **yok**.
+- [ ] Skor kırılımı görseli ("neden bu mahalle?") ve mahalle karşılaştırma ekranı — **başlamadı**.
 - [ ] Tarayıcıda uçtan uca manuel test — bu sprintte sadece backend test suite'i çalıştırıldı, frontend `npm run build`/browser testi yapılmadı.
 
 ### 📝 Sprint Notları & Ürün Geliştirme Durumu
 
 **Tamamlananlar:**
-- Deprem güvenlik skoru artık gerçek veriye (Vs30 + İBB ilçe hasar tahmini) dayanıyor; saglik/egitim/ulasim/sosyal_yasam artık gerçek OSM POI sayımlarından (percentile normalize) hesaplanıyor. `yasam_kalitesi` veri kaynağı olmadığı için kaldırıldı — sahte skor üretmek yerine kriteri tamamen çıkardık.
-- Skorlama motoruna bütçe filtresi, taban ağırlık kuralı ve OSRM/raylı sistem/vapur destekli hibrit işe gidiş süresi hesabı eklendi; ayrıca `calisma_tipi="uzaktan"` seçildiğinde ofis konumunun sessizce yok sayıldığı gerçek bir skorlama hatası bulunup düzeltildi.
-- Gemini tabanlı AI ağırlıklandırma + açıklama katmanı, güncel `google-genai` SDK'sı ile gerçek API'ye karşı test edildi (kural tabanlı fallback'leri korunarak); free_text alanının ağırlıkları etkilemesi sağlandı; free-tier rate limit'e takılmamak için açıklama çağrıları tek bir batch isteğe indirildi.
-- `/api/v1/recommend`, yakındaki POI endpoint'i ve yeni `GET /api/v1/mahalleler` backend'de uçtan uca çalışır durumda; frontend sonuç ekranı + gerçek `/compare` karşılaştırma sayfası + iki Leaflet haritası (landing + compare) bu API'lere bağlandı.
+- Deprem güvenlik skoru artık gerçek veriye (Vs30 + İBB ilçe hasar tahmini) dayanıyor; kalan kriterler için veri eksikliği uydurulmadan `data_quality` alanıyla açıkça işaretleniyor.
+- Skorlama motoruna bütçe filtresi, taban ağırlık kuralı ve OSRM/raylı sistem/vapur destekli hibrit işe gidiş süresi hesabı eklendi.
+- Gemini tabanlı AI ağırlıklandırma + açıklama katmanı, kural tabanlı fallback'leriyle birlikte ilk kez implemente edildi.
+- `/api/v1/recommend` ve yakındaki POI endpoint'i backend'de uçtan uca çalışır durumda; frontend sonuç ekranı bu API'ye bağlandı.
 
-**Puan Kırılan Noktalar & Kalan Görevler (Sprint 3'e Devredilecek):**
-> Yukarıdaki `[ ]` işaretli maddelerin tamamı henüz tamamlanmadı — puanlama toplantısında bu maddeler üzerinden ilgili kategorilerden puan kırılacak. Özetle:
-> - **Veri Toplama:** Konut fiyatı web scraping'i hâlâ elle derlenmiş proxy ile yapılıyor, gerçek scraping yok.
-> - **Backend/Altyapı:** PostGIS/veritabanı entegrasyonu hiç başlamadı (968 kayıt statik JSON'dan okunuyor, bu ölçekte sorun değil).
-> - **Frontend:** Skor kırılımı için ayrı bar/radar görseli yok (şimdilik `/compare` tablosu bunu karşılıyor); tarayıcıda kapsamlı manuel uçtan uca test (ör. free-text alanı, edge-case profiller) tamamlanmadı.
+### 🔄 Proje Yönetimi & Daily Scrum
+
+**Proje Yönetimi:**
+Sprint 2 kapsamındaki görev dağılımı ve süreç takibi ClickUp üzerinden yürütülmüştür. Görevler, Skorlama Motoru ve AI Katmanı olmak üzere iki ana başlık altında oluşturulmuş; ana görevler alt görevlere ayrılarak takım üyelerine atanmıştır. Görevler için öncelik seviyeleri, bitiş tarihleri ve kabul kriterleri belirlenmiştir. Sprint boyunca tamamlanan ve devam eden işler ClickUp üzerinden takip edilmiştir.
+
+**Daily Scrum:**
+Daily Scrum toplantılarımız iki günde bir, 16.00–18.00 saatleri arasında Google Meet üzerinden gerçekleştirilmiştir. Ekstra yoğun olunan günlerde ise takım içi iletişim ve süreç takibi WhatsApp üzerinden sürdürülmüştür. Toplantılarda tamamlanan görevler, devam eden çalışmalar, karşılaşılan teknik sorunlar ve bir sonraki toplantıya kadar yapılması planlanan işler değerlendirilmiştir. Sprint 2 süresince özellikle veri normalizasyonu, bütçe filtresi, ağırlıklı skorlama, kullanıcı profilinden ağırlık çıkarılması ve AI çıktılarının kural tabanlı sistemle kontrol edilmesi üzerinde durulmuştur.
+
+### 📊 Sprint Review
+**Alınan Kararlar:**
+- Farklı ölçeklerdeki mahalle verilerinin ortak bir değerlendirme yapısında kullanılabilmesi için normalizasyon işleminin korunmasına karar verildi.
+- Kullanıcının bütçesine uygun olmayan mahallelerin skorlama öncesinde filtrelenmesi kararlaştırıldı.
+- Mahalle uygunluk skorlarının normalize edilmiş değerler ve kullanıcı ağırlıkları kullanılarak ağırlıklı toplam yöntemiyle hesaplanmasına karar verildi.
+- Kullanıcı profilinden ağırlık üreten kural tabanlı fonksiyonun sistemin temel ağırlıklandırma mekanizması olarak kullanılması kararlaştırıldı.
+- AI tarafından oluşturulan ağırlıkların doğrudan kullanılmamasına, taban ağırlık kurallarının AI çıktısı üzerine yeniden uygulanmasına karar verildi.
+- Türkçe açıklama üretimi ve ilk 5 mahalle önerisinin uçtan uca çalıştırılması sonraki geliştirme adımlarına bırakıldı.
+- Skorlama motorunun birim testlerinin genişletilmesi gerektiği belirlendi.
+
+### 💡 Sprint Retrospective
+- **Ne İyi Gitti:** Sprint 1'de toplanan mahalle verileri normalize edilerek skorlama sisteminde kullanılabilir hâle getirildi. Bütçe filtresi ve ağırlıklı toplam hesaplaması oluşturuldu. Kullanıcı profilinden kural tabanlı ağırlık üretimi sağlandı ve AI tarafından oluşturulan ağırlıkların sistem kurallarıyla yeniden kontrol edilmesi için temel yapı kuruldu.
+- **İyileştirilmesi Gerekenler:**
+  - Skorlama motorunun birim testleri hazırlanmalı ve farklı kullanıcı senaryoları üzerinde denenmelidir.
+  - Deprem parametresinin ağırlığı ve alt sınırları netleştirilmelidir.
+  - Skor ve kullanıcı profili üzerinden Türkçe açıklama üretimi tamamlanmalıdır.
+  - Kullanıcıya uygun ilk 5 mahallenin uçtan uca üretilmesi sağlanmalıdır.
+  - Skorlama motorunun backend ve frontend ile entegrasyonu tamamlanmalıdır.
+  - AI servisinin çalışmadığı durumlar için alternatif bir ağırlıklandırma ve açıklama mekanizması hazırlanmalıdır.
 
 <img width="1916" height="826" alt="Clickup task screeansot" src="screenshots/s2-1.jpeg" />
 
@@ -207,6 +229,75 @@ Sprint 1 kapsamında belirlenen 100 puanlık hedefin görev bazlı tamamlanma or
 ### 💯 Sprint Sonu Puan Değerlendirmesi
 
 Sprint 2 kapsamında belirlenen 100 puanlık hedefin görev bazlı tamamlanma oranları ve alınan puanlar aşağıdaki tabloda özetlenmiştir:
+
+| Görev Kategorisi | Hedeflenen Puan | Tamamlanan Puan | Durum |
+| :--- | :---: | :---: | :--- |
+| 📊 **Veri Toplama & Zenginleştirme** | 20 | 12 | 8 Puan Kırıldı |
+| 🧮 **Skorlama Motoru** | 20 | 20 | Tamamlandı |
+| 🤖 **AI Katmanı** | 20 | 17 | 3 Puan Kırıldı |
+| 🔌 **Backend API** | 20 | 12 | 8 Puan Kırıldı |
+| 🎨 **Frontend** | 20 | 10 | 10 Puan Kırıldı |
+| **🏆 TOPLAM** | **100** | **71** | 🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ **%71** |
+
+> **Puan Kırılan Noktalar & Kalan Görevler (Sprint 3'e Devredilecek):**
+> - **Veri Toplama (-8 Puan):** Gerçek POI (hastane/okul/durak) verilerinde eksiklik mevcut — 6 kriterden 5'i varsayılan değerde.
+> - **AI Katmanı (-3 Puan):** Gemini API'ye karşı canlı test yapılamadı, sadece rule-based/template fallback yolu doğrulandı.
+> - **Backend API (-8 Puan):** `GET /api/mahalleler` (harita için) yok, PostgreSQL + PostGIS entegrasyonu hiç başlamadı.
+> - **Frontend (-10 Puan):** Harita görselleştirmesi, skor kırılımı grafiği, mahalle karşılaştırma ekranı yok; tarayıcıda detaylı manuel test yapılmadı.
+>
+> **Sonuç:** Skorlama motoru tam puanla tamamlandı; kalan dört kategoride veritabanı, harita ve gerçek POI verisi gibi Sprint 3'e devredilecek net eksikler var.
+
+---
+
+# 📋 Sprint 3
+
+**Sprint Hedefi:** Sprint 2 sonunda "kırılan" tüm kalemleri kapatmak — gerçek OSM POI verisiyle kalan skorlama kriterlerini tamamlamak, Gemini API'ye karşı canlı entegrasyonu doğrulamak (SDK migrasyonu dahil), genel harita için `GET /api/v1/mahalleler` endpoint'ini eklemek, ve frontend'de gerçek bir mahalle karşılaştırma ekranı + iki harita (landing page + compare) ile uçtan uca akışı tamamlamak.
+
+### 🎯 Sprint Görevleri ve Puan Dağılımı (Toplam: 100 Puan)
+
+**Veri Toplama & Zenginleştirme (20 Puan):**
+- [x] Gerçek POI verisi (hastane/okul/durak/sosyal yaşam sayımı, OSM Overpass) — saglik/egitim/ulasim/sosyal_yasam artık gerçek sayımlardan percentile-normalize skorlar.
+- [x] `yasam_kalitesi` kriterinin kaldırılması — gerçek veri kaynağı olmadığı için sahte skor üretmek yerine kriter tamamen çıkarıldı.
+- [ ] Konut fiyatı web scraping — hâlâ elle derlenmiş `ilce_fiyat.csv` proxy'si kullanılıyor.
+
+**Skorlama Motoru Düzeltmeleri:**
+- [x] `calisma_tipi="uzaktan"` seçildiğinde ofis konumunun skorlamada sessizce yok sayıldığı gerçek bir hata bulunup düzeltildi (regresyon testiyle).
+- [x] `free_text` alanının AI ağırlıklandırmasını gerçekten etkilemesi sağlandı (daha önce hiçbir etkisi yoktu).
+- [x] Hibrit işe gidiş süresi tahminlerinin gerçekçiliği artırıldı (trafik çarpanı, aktarma süresi).
+
+**AI Katmanı (20 Puan):**
+- [x] Gerçek Gemini API'ye karşı canlı test — `GEMINI_API_KEY` eklendi, deprecated `google-generativeai`'dan güncel `google-genai` SDK'sına geçildi.
+- [x] `gemini-flash-lite-latest` modeline geçilerek gizli "thinking token" tüketimi ve free-tier rate limit sorunları çözüldü; açıklama çağrıları tek bir batch isteğe indirildi (6 çağrı → 2 çağrı).
+- [x] Bozuk/eksik LLM JSON çıktısı için `json-repair` tabanlı kurtarma katmanı eklendi.
+
+**Backend API (20 Puan):**
+- [x] `GET /api/v1/mahalleler` — tüm 968 mahallenin poligonu + deprem_guvenlik skoru, profilden bağımsız genel harita için.
+- [x] `total_considered` alanındaki hatalı sabit değer (her zaman 8) düzeltildi — artık gerçek bütçe filtresi sonucu sayılıyor.
+- [ ] PostgreSQL + PostGIS entegrasyonu — bu ölçekte (968 statik kayıt) fonksiyonel bir eksiklik oluşturmadığı için ertelendi.
+
+**Frontend (20 Puan):**
+- [x] Mahalle poligonlarının deprem güvenliğine göre renk kodlu gösterimi — Leaflet ile (landing page'de genel İstanbul haritası, `/compare` sayfasında kişiye özel top-5 haritası + ofis pin'i).
+- [x] Gerçek mahalle karşılaştırma ekranı (`/compare`) — kriter bazlı skor tablosu + fiyat + harita.
+- [x] Sonuç ekranı metni sadeleştirildi, boş görünen alan için `/compare`'e yönlendiren teaser eklendi.
+- [ ] Skor kırılımı için ayrı bar/radar görseli — tablo şimdilik bunu karşılıyor, ayrı görsel yok.
+- [ ] Tarayıcıda kapsamlı manuel uçtan uca test (ör. free-text alanı, edge-case profiller) tamamlanmadı.
+
+### 📝 Sprint Notları & Ürün Geliştirme Durumu
+
+**Tamamlananlar:**
+- Deprem güvenlik skoru artık gerçek veriye (Vs30 + İBB ilçe hasar tahmini) dayanıyor; saglik/egitim/ulasim/sosyal_yasam artık gerçek OSM POI sayımlarından (percentile normalize) hesaplanıyor. `yasam_kalitesi` veri kaynağı olmadığı için kaldırıldı.
+- `calisma_tipi="uzaktan"` seçildiğinde ofis konumunun sessizce yok sayıldığı gerçek bir skorlama hatası bulunup düzeltildi.
+- Gemini tabanlı AI ağırlıklandırma + açıklama katmanı, güncel `google-genai` SDK'sı ile gerçek API'ye karşı test edildi; `free_text` alanının ağırlıkları etkilemesi sağlandı; free-tier rate limit'e takılmamak için açıklama çağrıları tek bir batch isteğe indirildi.
+- `/api/v1/recommend`, yakındaki POI endpoint'i ve yeni `GET /api/v1/mahalleler` backend'de uçtan uca çalışır durumda; frontend sonuç ekranı + gerçek `/compare` karşılaştırma sayfası + iki Leaflet haritası (landing + compare) bu API'lere bağlandı.
+
+**Puan Kırılan Noktalar & Kalan Görevler (Sprint 4'e Devredilecek):**
+> - **Veri Toplama:** Konut fiyatı web scraping'i hâlâ elle derlenmiş proxy ile yapılıyor, gerçek scraping yok.
+> - **Backend/Altyapı:** PostGIS/veritabanı entegrasyonu hiç başlamadı (968 kayıt statik JSON'dan okunuyor, bu ölçekte sorun değil).
+> - **Frontend:** Skor kırılımı için ayrı bar/radar görseli yok; tarayıcıda kapsamlı manuel uçtan uca test tamamlanmadı.
+
+### 💯 Sprint Sonu Puan Değerlendirmesi
+
+Sprint 3 kapsamında belirlenen 100 puanlık hedefin görev bazlı tamamlanma oranları ve alınan puanlar aşağıdaki tabloda özetlenmiştir:
 
 | Görev Kategorisi | Hedeflenen Puan | Tamamlanan Puan | Durum |
 | :--- | :---: | :---: | :--- |
@@ -222,36 +313,4 @@ Sprint 2 kapsamında belirlenen 100 puanlık hedefin görev bazlı tamamlanma or
 > - **Backend API (-3 Puan):** PostgreSQL + PostGIS entegrasyonu hiç başlamadı (bu ölçekte fonksiyonel bir eksiklik değil, statik JSON yeterli).
 > - **Frontend (-3 Puan):** Skor kırılımı bar/radar görseli yok, kapsamlı manuel uçtan uca tarayıcı testi tamamlanmadı.
 >
-> **Sonuç:** Bu sprintte gerçek POI verisi, Gemini API entegrasyonu, `GET /api/v1/mahalleler` ve iki Leaflet haritası dahil olmak üzere önceki sprint sonunda eksik işaretlenen maddelerin büyük çoğunluğu tamamlandı; kalan eksikler (PostGIS, fiyat scraping, skor kırılımı görseli) Sprint 3'e devredildi.
-
-
-
-### 📊 Sprint Review
-**Alınan Kararlar:**
-- Ham değerlerin 0-100 arasında normalize edilmesi (Bir sonraki aşamanın hazırlığı).
-- Profilden ağırlık türeten kural tabanlı fonksiyon oluşturulması kararlaştırıldı.
-- Oluşturulan profilin AI ile yorumlanması planlandı.
-- Kullanıcı analizi tamamladıktan sonra isteğe bağlı olarak bir üyeliğe yönlendirilmesi planlandı.
-
-### 💡 Sprint Retrospective
-- **Ne İyi Gitti:** Projenin temel taşları (veri toplama, altyapı ve arayüz iskeleti) detaylıca atıldı.
-- **İyileştirilmesi Gerekenler:**
-  - Takım içindeki görev dağılımıyla ilgili düzenleme yapılması kararı alınmıştır.
-  - Kullanıcı analizi tamamladıktan sonra yapılacak yönlendirmeler netleştirilmelidir.
-
-### 💯 Sprint Sonu Puan Değerlendirmesi
-
-Sprint 1 kapsamında belirlenen 100 puanlık hedefin görev bazlı tamamlanma oranları ve alınan puanlar aşağıdaki tabloda özetlenmiştir:
-
-| Görev Kategorisi | Hedeflenen Puan | Tamamlanan Puan | Durum |
-| :--- | :---: | :---: | :--- |
-| 🏗️ **Kurulum & Altyapı** | 30 | 30 | Tamamlandı |
-| 🎨 **Frontend** | 30 | 26 | 4 Puan Kırıldı |
-| 📊 **Veri Toplama & Hazırlama** | 40 | 30 | 10 Puan Kırıldı |
-| **🏆 TOPLAM** | **100** | **86** | 🟩🟩🟩🟩🟩🟩🟩🟩⬜⬜ **%86** |
-
-> **Puan Kırılan Noktalar & Kalan Görevler:** 
-> - **Veri Toplama (-10 Puan):** Her İstanbul mahallesi için ham özelliklerin bulunduğu tek dosyanın nihai hale getirilmesi ve eşleştirilmesi işlemine devam edilmektedir.
-> - **Frontend (-4 Puan):** Çok adımlı profil formundaki UI/UX eksiklikleri ve son rötüşlar bir sonraki sprinte sarkmıştır.
-> 
-> **Sonuç:** Kalan veri hazırlama ve frontend adımları dışında, planlanan tüm altyapı görevleri Sprint 1 kapsamında başarıyla tamamlanmıştır.
+> **Sonuç:** Sprint 2 sonunda kırık işaretlenen maddelerin (gerçek POI verisi, Gemini API entegrasyonu, `GET /api/v1/mahalleler`, harita ve karşılaştırma ekranı) büyük çoğunluğu bu sprintte tamamlandı; kalan eksikler (PostGIS, fiyat scraping, skor kırılımı görseli) Sprint 4'e devredildi.
