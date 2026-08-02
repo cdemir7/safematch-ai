@@ -6,15 +6,19 @@ The API loads **`mahalle_features_full.json`** by default (see
 earthquake (Vs30 + İBB ilçe hasar tahmini), and AFAD toplanma alanı data in
 `data-pipeline/output/` (see `data-pipeline/SOURCES.md` §6–7).
 
-`saglik`, `egitim`, `ulasim`, `sosyal_yasam`, `yasam_kalitesi` are not backed
-by real data yet (no POI/transit pipeline run) — every one of the 968
-records gets the same default score (50). Since that's true for *all*
-records, it isn't repeated per-record; it's stated once, here, and in
-`PLACEHOLDER_CRITERIA` at the top of the script. Each record's
-`data_quality` block only carries labels that actually vary
-mahalle-to-mahalle (`deprem_guvenlik`, `toplanma`, `fiyat`, plus any manual
-override). `deprem_guvenlik` **is** real, computed from Vs30 + ilçe damage
-ratio (see the script's docstring).
+`saglik`, `egitim`, `ulasim`, `ulasim_hizli` are now backed by real OpenStreetMap
+POI/transit counts (see `data-pipeline/SOURCES.md` §8b) — percentile-ranked
+across all 968 neighborhoods (`data_quality.<criterion> == "hesaplanmis_poi_percentile"`).
+
+`sosyal_yasam` and `yasam_kalitesi` still have no data source (POI diversity /
+green space / noise data was never collected) — every one of the 968 records
+gets the same default score (50), labeled `"veri_yok"` in `data_quality`.
+`deprem_guvenlik` **is** real too, computed from Vs30 + ilçe damage ratio (see
+the script's docstring).
+
+To refresh the POI-backed scores after re-running `02_fetch_poi.py` /
+`03_count_pois.py`, just rerun `07_enrich_mahalle_features.py` — it picks up
+`data-pipeline/data/poi_counts.json` automatically if present.
 
 Fix specific records by hand via `data-pipeline/data/manual_overrides.json`
 (see `data-pipeline/data/MANUAL_OVERRIDES.md`) instead of editing the

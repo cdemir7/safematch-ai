@@ -8,6 +8,8 @@ Kategoriler
   saglik   : hastane, klinik, sağlık ocağı
   egitim   : okul, üniversite, kolej, anaokulu
   toplanma : acil toplanma alanı, barınak, CAMİ (afet sonrası toplanma noktası)
+  sosyal   : restoran, kafe, sinema, tiyatro, alışveriş merkezi, park
+             (sosyal_yasam skoru için — bkz. CLAUDE.md §4.6, §6.1)
   transit  : otobüs durağı, metro istasyonu, metrobüs, Marmaray, tramvay
 
 Not: Camiler ayrı bir kategori değildir; afet sonrası toplanma noktası
@@ -64,6 +66,16 @@ OVERPASS_POI_QL = f"""
   node[amenity=shelter]({ISTANBUL_BBOX});
   node[amenity=place_of_worship][religion=muslim]({ISTANBUL_BBOX});
   way[amenity=place_of_worship][religion=muslim]({ISTANBUL_BBOX});
+
+  node[amenity=restaurant]({ISTANBUL_BBOX});
+  node[amenity=cafe]({ISTANBUL_BBOX});
+  node[amenity=cinema]({ISTANBUL_BBOX});
+  node[amenity=theatre]({ISTANBUL_BBOX});
+  node[shop=mall]({ISTANBUL_BBOX});
+  way[shop=mall]({ISTANBUL_BBOX});
+  node[leisure=park]({ISTANBUL_BBOX});
+  way[leisure=park]({ISTANBUL_BBOX});
+  node[leisure=fitness_centre]({ISTANBUL_BBOX});
 );
 out center;
 """.strip()
@@ -72,7 +84,7 @@ out center;
 # 2) Transit sorgusu (otobüs + metro + metrobüs + Marmaray + tramvay)
 # ─────────────────────────────────────────────
 OVERPASS_TRANSIT_QL = f"""
-[out:json][timeout:90];
+[out:json][timeout:180];
 (
   node[highway=bus_stop]({ISTANBUL_BBOX});
   node[amenity=bus_station]({ISTANBUL_BBOX});
@@ -98,6 +110,8 @@ def _classify_poi(tags: dict) -> str:
     emergency = tags.get("emergency", "")
     amenity   = tags.get("amenity", "")
     religion  = tags.get("religion", "")
+    shop      = tags.get("shop", "")
+    leisure   = tags.get("leisure", "")
 
     if emergency == "assembly_point":
         return "toplanma"
@@ -110,6 +124,12 @@ def _classify_poi(tags: dict) -> str:
         return "saglik"
     if amenity in ("school", "university", "college", "kindergarten"):
         return "egitim"
+    if amenity in ("restaurant", "cafe", "cinema", "theatre"):
+        return "sosyal"
+    if shop == "mall":
+        return "sosyal"
+    if leisure in ("park", "fitness_centre"):
+        return "sosyal"
     return "diger"
 
 
@@ -156,7 +176,7 @@ def _element_latlon(el: dict) -> tuple[float, float] | None:
     return None
 
 
-def fetch_overpass(ql: str, retries: int = 2) -> dict:
+def fetch_overpass(ql: str, retries: int = 4) -> dict:
     data = urllib.parse.urlencode({"data": ql}).encode()
     headers = {
         "Content-Type": "application/x-www-form-urlencoded",
@@ -165,12 +185,12 @@ def fetch_overpass(ql: str, retries: int = 2) -> dict:
     for attempt in range(retries + 1):
         try:
             req = urllib.request.Request(OVERPASS_URL, data=data, headers=headers)
-            with urllib.request.urlopen(req, timeout=120) as resp:
+            with urllib.request.urlopen(req, timeout=200) as resp:
                 return json.loads(resp.read().decode("utf-8"))
         except urllib.error.HTTPError as exc:
-            if exc.code == 429 and attempt < retries:
-                wait = 10 * (attempt + 1)
-                print(f"  ⚠ 429 Too Many Requests — {wait}s bekleniyor…")
+            if exc.code in (429, 502, 503, 504) and attempt < retries:
+                wait = 15 * (attempt + 1)
+                print(f"  ⚠ HTTP {exc.code} — {wait}s bekleniyor (deneme {attempt + 1}/{retries})…")
                 time.sleep(wait)
             else:
                 raise

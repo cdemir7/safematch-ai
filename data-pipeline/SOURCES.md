@@ -89,6 +89,19 @@ veya `"veri_yok"`).
 ⚠️ Bu skor da resmi bir mühendislik değerlendirmesi değildir — bkz. CLAUDE.md
 §1.1 sorumluluk reddi.
 
+## 8b. saglik / egitim / ulasim / ulasim_hizli / sosyal_yasam — POI/Transit Sayımı
+
+| Alan | Değer |
+|---|---|
+| **Kaynak** | OpenStreetMap via Overpass API (`overpass-api.de`) — `data/poi_raw.json`, `data/transit_raw.json` |
+| **İndirilme** | Script: `02_fetch_poi.py` |
+| **Sayım** | Script: `03_count_pois.py` — her mahalle poligonuna ~300 m tampon (`BUFFER_DEG`) uygulanıp içindeki nokta sayısı hesaplanır → `data/poi_counts.json` |
+| **Skorlama** | Script: `07_enrich_mahalle_features.py` — ham sayım, 968 mahalle arasında **yüzdelik (percentile) sıralama** ile 0-100'e çevrilir (min-max değil; POI sayıları çok çarpık dağıldığı için — çoğu mahallede 0, birkaçında onlarca — min-max neredeyse tüm mahalleleri sıfıra yakın sıkıştırırdı) |
+| **Kriter eşlemesi** | `saglik`←hastane/klinik/sağlık ocağı sayımı, `egitim`←okul/üniversite sayımı, `ulasim`←tüm transit durakları, `ulasim_hizli`←sadece metro/metrobüs/Marmaray, `sosyal_yasam`←restoran/kafe/sinema/tiyatro/AVM/park/spor salonu sayımı |
+| **OSM taglar (sosyal_yasam)** | `amenity=restaurant/cafe/cinema/theatre`, `shop=mall`, `leisure=park/fitness_centre` |
+| **data_quality etiketi** | `"hesaplanmis_poi_percentile"` |
+| **Bilinen sınırlama** | `cami_count` alanı hâlâ 0 — camiler bu pipeline'da ayrı bir kategori değil, "toplanma" (afet sonrası toplanma noktası) kategorisine dahil edildiği için hastane/okuldan ayrı sayılmıyor. `yasam_kalitesi` için hâlâ hiçbir veri kaynağı yok (yeşil alan m²/kişi, gürültü haritası verisi toplanmadı) — `DEFAULT_SCORE` (50) + `"veri_yok"` olarak kalıyor. |
+
 ## 8. USGS Global Vs30 (Zemin Sınıfı Proxy'si)
 
 | Alan | Değer |

@@ -36,7 +36,7 @@ POI_FILE       = DATA_DIR / "poi_raw.json"
 TRANSIT_FILE   = DATA_DIR / "transit_raw.json"
 OUTPUT         = DATA_DIR / "poi_counts.json"
 
-POI_CATEGORIES     = ["saglik", "egitim", "toplanma"]
+POI_CATEGORIES     = ["saglik", "egitim", "toplanma", "sosyal"]
 # "transit_hizli" = metro + metrobüs + marmaray (öfis/hibrit çalışanlar için)
 HIZLI_TRANSIT_TYPES = {"metro", "metrobus", "marmaray"}
 

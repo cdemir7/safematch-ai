@@ -1,0 +1,7746 @@
+{
+  "9460396": {
+    "saglik": 2,
+    "egitim": 4,
+    "toplanma": 5,
+    "sosyal": 40,
+    "transit": 38,
+    "transit_hizli": 0
+  },
+  "9460397": {
+    "saglik": 2,
+    "egitim": 3,
+    "toplanma": 6,
+    "sosyal": 40,
+    "transit": 37,
+    "transit_hizli": 0
+  },
+  "9460393": {
+    "saglik": 1,
+    "egitim": 1,
+    "toplanma": 1,
+    "sosyal": 6,
+    "transit": 23,
+    "transit_hizli": 0
+  },
+  "9460395": {
+    "saglik": 0,
+    "egitim": 3,
+    "toplanma": 3,
+    "sosyal": 45,
+    "transit": 27,
+    "transit_hizli": 0
+  },
+  "9460394": {
+    "saglik": 1,
+    "egitim": 1,
+    "toplanma": 1,
+    "sosyal": 18,
+    "transit": 25,
+    "transit_hizli": 0
+  },
+  "7786499": {
+    "saglik": 9,
+    "egitim": 41,
+    "toplanma": 22,
+    "sosyal": 70,
+    "transit": 167,
+    "transit_hizli": 5
+  },
+  "7786500": {
+    "saglik": 1,
+    "egitim": 6,
+    "toplanma": 5,
+    "sosyal": 17,
+    "transit": 59,
+    "transit_hizli": 8
+  },
+  "7786485": {
+    "saglik": 1,
+    "egitim": 4,
+    "toplanma": 3,
+    "sosyal": 11,
+    "transit": 18,
+    "transit_hizli": 0
+  },
+  "7786481": {
+    "saglik": 2,
+    "egitim": 13,
+    "toplanma": 6,
+    "sosyal": 26,
+    "transit": 32,
+    "transit_hizli": 6
+  },
+  "7786489": {
+    "saglik": 2,
+    "egitim": 8,
+    "toplanma": 12,
+    "sosyal": 18,
+    "transit": 43,
+    "transit_hizli": 4
+  },
+  "7786497": {
+    "saglik": 0,
+    "egitim": 5,
+    "toplanma": 7,
+    "sosyal": 24,
+    "transit": 40,
+    "transit_hizli": 9
+  },
+  "7786480": {
+    "saglik": 1,
+    "egitim": 6,
+    "toplanma": 9,
+    "sosyal": 15,
+    "transit": 19,
+    "transit_hizli": 0
+  },
+  "7786484": {
+    "saglik": 4,
+    "egitim": 11,
+    "toplanma": 6,
+    "sosyal": 23,
+    "transit": 33,
+    "transit_hizli": 0
+  },
+  "7786495": {
+    "saglik": 3,
+    "egitim": 29,
+    "toplanma": 36,
+    "sosyal": 51,
+    "transit": 113,
+    "transit_hizli": 4
+  },
+  "7786493": {
+    "saglik": 4,
+    "egitim": 14,
+    "toplanma": 10,
+    "sosyal": 22,
+    "transit": 42,
+    "transit_hizli": 1
+  },
+  "7786494": {
+    "saglik": 2,
+    "egitim": 9,
+    "toplanma": 18,
+    "sosyal": 18,
+    "transit": 68,
+    "transit_hizli": 8
+  },
+  "7786491": {
+    "saglik": 0,
+    "egitim": 7,
+    "toplanma": 12,
+    "sosyal": 15,
+    "transit": 33,
+    "transit_hizli": 4
+  },
+  "7786486": {
+    "saglik": 2,
+    "egitim": 5,
+    "toplanma": 2,
+    "sosyal": 22,
+    "transit": 24,
+    "transit_hizli": 0
+  },
+  "7786487": {
+    "saglik": 3,
+    "egitim": 3,
+    "toplanma": 4,
+    "sosyal": 22,
+    "transit": 18,
+    "transit_hizli": 0
+  },
+  "7786501": {
+    "saglik": 1,
+    "egitim": 5,
+    "toplanma": 4,
+    "sosyal": 20,
+    "transit": 37,
+    "transit_hizli": 7
+  },
+  "7786492": {
+    "saglik": 2,
+    "egitim": 9,
+    "toplanma": 19,
+    "sosyal": 29,
+    "transit": 32,
+    "transit_hizli": 0
+  },
+  "7786488": {
+    "saglik": 2,
+    "egitim": 6,
+    "toplanma": 8,
+    "sosyal": 8,
+    "transit": 4,
+    "transit_hizli": 0
+  },
+  "7786490": {
+    "saglik": 3,
+    "egitim": 7,
+    "toplanma": 7,
+    "sosyal": 21,
+    "transit": 34,
+    "transit_hizli": 0
+  },
+  "7786496": {
+    "saglik": 2,
+    "egitim": 2,
+    "toplanma": 5,
+    "sosyal": 5,
+    "transit": 48,
+    "transit_hizli": 0
+  },
+  "7786482": {
+    "saglik": 2,
+    "egitim": 12,
+    "toplanma": 6,
+    "sosyal": 21,
+    "transit": 26,
+    "transit_hizli": 3
+  },
+  "7786483": {
+    "saglik": 3,
+    "egitim": 10,
+    "toplanma": 7,
+    "sosyal": 14,
+    "transit": 22,
+    "transit_hizli": 1
+  },
+  "9338586": {
+    "saglik": 0,
+    "egitim": 2,
+    "toplanma": 1,
+    "sosyal": 30,
+    "transit": 14,
+    "transit_hizli": 0
+  },
+  "9335348": {
+    "saglik": 1,
+    "egitim": 2,
+    "toplanma": 1,
+    "sosyal": 18,
+    "transit": 47,
+    "transit_hizli": 20
+  },
+  "9343684": {
+    "saglik": 4,
+    "egitim": 5,
+    "toplanma": 4,
+    "sosyal": 68,
+    "transit": 54,
+    "transit_hizli": 8
+  },
+  "9343698": {
+    "saglik": 4,
+    "egitim": 8,
+    "toplanma": 4,
+    "sosyal": 50,
+    "transit": 57,
+    "transit_hizli": 3
+  },
+  "9335346": {
+    "saglik": 7,
+    "egitim": 5,
+    "toplanma": 3,
+    "sosyal": 44,
+    "transit": 45,
+    "transit_hizli": 9
+  },
+  "9338584": {
+    "saglik": 2,
+    "egitim": 7,
+    "toplanma": 1,
+    "sosyal": 39,
+    "transit": 42,
+    "transit_hizli": 3
+  },
+  "9340106": {
+    "saglik": 2,
+    "egitim": 3,
+    "toplanma": 3,
+    "sosyal": 25,
+    "transit": 35,
+    "transit_hizli": 0
+  },
+  "9338580": {
+    "saglik": 2,
+    "egitim": 3,
+    "toplanma": 1,
+    "sosyal": 14,
+    "transit": 35,
+    "transit_hizli": 15
+  },
+  "9335638": {
+    "saglik": 0,
+    "egitim": 5,
+    "toplanma": 4,
+    "sosyal": 45,
+    "transit": 25,
+    "transit_hizli": 2
+  },
+  "9338583": {
+    "saglik": 8,
+    "egitim": 9,
+    "toplanma": 1,
+    "sosyal": 59,
+    "transit": 51,
+    "transit_hizli": 16
+  },
+  "9335689": {
+    "saglik": 2,
+    "egitim": 2,
+    "toplanma": 5,
+    "sosyal": 50,
+    "transit": 29,
+    "transit_hizli": 0
+  },
+  "9338582": {
+    "saglik": 2,
+    "egitim": 4,
+    "toplanma": 1,
+    "sosyal": 15,
+    "transit": 14,
+    "transit_hizli": 0
+  },
+  "9335350": {
+    "saglik": 0,
+    "egitim": 18,
+    "toplanma": 13,
+    "sosyal": 89,
+    "transit": 41,
+    "transit_hizli": 3
+  },
+  "9327636": {
+    "saglik": 2,
+    "egitim": 5,
+    "toplanma": 4,
+    "sosyal": 62,
+    "transit": 10,
+    "transit_hizli": 0
+  },
+  "9327673": {
+    "saglik": 0,
+    "egitim": 9,
+    "toplanma": 6,
+    "sosyal": 59,
+    "transit": 12,
+    "transit_hizli": 1
+  },
+  "9335349": {
+    "saglik": 8,
+    "egitim": 9,
+    "toplanma": 4,
+    "sosyal": 32,
+    "transit": 45,
+    "transit_hizli": 6
+  },
+  "9327651": {
+    "saglik": 0,
+    "egitim": 3,
+    "toplanma": 11,
+    "sosyal": 125,
+    "transit": 27,
+    "transit_hizli": 0
+  },
+  "9327672": {
+    "saglik": 0,
+    "egitim": 12,
+    "toplanma": 9,
+    "sosyal": 101,
+    "transit": 23,
+    "transit_hizli": 1
+  },
+  "9327671": {
+    "saglik": 0,
+    "egitim": 6,
+    "toplanma": 9,
+    "sosyal": 121,
+    "transit": 24,
+    "transit_hizli": 0
+  },
+  "9296001": {
+    "saglik": 1,
+    "egitim": 12,
+    "toplanma": 8,
+    "sosyal": 139,
+    "transit": 31,
+    "transit_hizli": 0
+  },
+  "9340873": {
+    "saglik": 3,
+    "egitim": 8,
+    "toplanma": 6,
+    "sosyal": 59,
+    "transit": 81,
+    "transit_hizli": 10
+  },
+  "9340882": {
+    "saglik": 9,
+    "egitim": 8,
+    "toplanma": 3,
+    "sosyal": 76,
+    "transit": 57,
+    "transit_hizli": 14
+  },
+  "9340899": {
+    "saglik": 3,
+    "egitim": 7,
+    "toplanma": 3,
+    "sosyal": 44,
+    "transit": 64,
+    "transit_hizli": 3
+  },
+  "6841016": {
+    "saglik": 21,
+    "egitim": 39,
+    "toplanma": 12,
+    "sosyal": 88,
+    "transit": 114,
+    "transit_hizli": 25
+  },
+  "9437877": {
+    "saglik": 5,
+    "egitim": 15,
+    "toplanma": 11,
+    "sosyal": 20,
+    "transit": 45,
+    "transit_hizli": 3
+  },
+  "6841110": {
+    "saglik": 7,
+    "egitim": 14,
+    "toplanma": 8,
+    "sosyal": 31,
+    "transit": 40,
+    "transit_hizli": 0
+  },
+  "9437947": {
+    "saglik": 4,
+    "egitim": 11,
+    "toplanma": 6,
+    "sosyal": 14,
+    "transit": 32,
+    "transit_hizli": 4
+  },
+  "9437993": {
+    "saglik": 4,
+    "egitim": 32,
+    "toplanma": 12,
+    "sosyal": 31,
+    "transit": 99,
+    "transit_hizli": 9
+  },
+  "9437992": {
+    "saglik": 3,
+    "egitim": 21,
+    "toplanma": 11,
+    "sosyal": 19,
+    "transit": 43,
+    "transit_hizli": 3
+  },
+  "9437994": {
+    "saglik": 5,
+    "egitim": 13,
+    "toplanma": 5,
+    "sosyal": 13,
+    "transit": 41,
+    "transit_hizli": 3
+  },
+  "9437990": {
+    "saglik": 6,
+    "egitim": 21,
+    "toplanma": 6,
+    "sosyal": 30,
+    "transit": 40,
+    "transit_hizli": 5
+  },
+  "9293239": {
+    "saglik": 4,
+    "egitim": 14,
+    "toplanma": 10,
+    "sosyal": 45,
+    "transit": 94,
+    "transit_hizli": 1
+  },
+  "9445744": {
+    "saglik": 0,
+    "egitim": 1,
+    "toplanma": 8,
+    "sosyal": 6,
+    "transit": 24,
+    "transit_hizli": 0
+  },
+  "9397725": {
+    "saglik": 0,
+    "egitim": 9,
+    "toplanma": 8,
+    "sosyal": 16,
+    "transit": 65,
+    "transit_hizli": 0
+  },
+  "9445745": {
+    "saglik": 3,
+    "egitim": 18,
+    "toplanma": 13,
+    "sosyal": 25,
+    "transit": 83,
+    "transit_hizli": 0
+  },
+  "9289261": {
+    "saglik": 1,
+    "egitim": 9,
+    "toplanma": 5,
+    "sosyal": 21,
+    "transit": 68,
+    "transit_hizli": 0
+  },
+  "9397727": {
+    "saglik": 0,
+    "egitim": 7,
+    "toplanma": 12,
+    "sosyal": 17,
+    "transit": 55,
+    "transit_hizli": 0
+  },
+  "9397785": {
+    "saglik": 2,
+    "egitim": 16,
+    "toplanma": 6,
+    "sosyal": 54,
+    "transit": 35,
+    "transit_hizli": 3
+  },
+  "9397784": {
+    "saglik": 2,
+    "egitim": 10,
+    "toplanma": 3,
+    "sosyal": 63,
+    "transit": 48,
+    "transit_hizli": 3
+  },
+  "9445707": {
+    "saglik": 3,
+    "egitim": 16,
+    "toplanma": 3,
+    "sosyal": 62,
+    "transit": 51,
+    "transit_hizli": 2
+  },
+  "9397726": {
+    "saglik": 5,
+    "egitim": 42,
+    "toplanma": 14,
+    "sosyal": 60,
+    "transit": 100,
+    "transit_hizli": 2
+  },
+  "9449359": {
+    "saglik": 6,
+    "egitim": 4,
+    "toplanma": 3,
+    "sosyal": 46,
+    "transit": 23,
+    "transit_hizli": 9
+  },
+  "9449572": {
+    "saglik": 0,
+    "egitim": 5,
+    "toplanma": 0,
+    "sosyal": 32,
+    "transit": 31,
+    "transit_hizli": 9
+  },
+  "9449571": {
+    "saglik": 5,
+    "egitim": 9,
+    "toplanma": 2,
+    "sosyal": 18,
+    "transit": 29,
+    "transit_hizli": 5
+  },
+  "9449682": {
+    "saglik": 2,
+    "egitim": 11,
+    "toplanma": 4,
+    "sosyal": 61,
+    "transit": 59,
+    "transit_hizli": 9
+  },
+  "7404512": {
+    "saglik": 0,
+    "egitim": 11,
+    "toplanma": 4,
+    "sosyal": 23,
+    "transit": 24,
+    "transit_hizli": 8
+  },
+  "9439860": {
+    "saglik": 4,
+    "egitim": 11,
+    "toplanma": 3,
+    "sosyal": 34,
+    "transit": 15,
+    "transit_hizli": 10
+  },
+  "9439829": {
+    "saglik": 12,
+    "egitim": 24,
+    "toplanma": 7,
+    "sosyal": 63,
+    "transit": 55,
+    "transit_hizli": 27
+  },
+  "9439702": {
+    "saglik": 4,
+    "egitim": 6,
+    "toplanma": 28,
+    "sosyal": 68,
+    "transit": 76,
+    "transit_hizli": 18
+  },
+  "9439861": {
+    "saglik": 0,
+    "egitim": 8,
+    "toplanma": 2,
+    "sosyal": 23,
+    "transit": 12,
+    "transit_hizli": 2
+  },
+  "9451432": {
+    "saglik": 0,
+    "egitim": 13,
+    "toplanma": 4,
+    "sosyal": 28,
+    "transit": 50,
+    "transit_hizli": 7
+  },
+  "9439859": {
+    "saglik": 0,
+    "egitim": 8,
+    "toplanma": 3,
+    "sosyal": 15,
+    "transit": 12,
+    "transit_hizli": 4
+  },
+  "9449714": {
+    "saglik": 3,
+    "egitim": 15,
+    "toplanma": 8,
+    "sosyal": 77,
+    "transit": 78,
+    "transit_hizli": 15
+  },
+  "9449760": {
+    "saglik": 1,
+    "egitim": 3,
+    "toplanma": 1,
+    "sosyal": 11,
+    "transit": 14,
+    "transit_hizli": 3
+  },
+  "9439884": {
+    "saglik": 6,
+    "egitim": 8,
+    "toplanma": 4,
+    "sosyal": 44,
+    "transit": 24,
+    "transit_hizli": 10
+  },
+  "9439830": {
+    "saglik": 24,
+    "egitim": 27,
+    "toplanma": 8,
+    "sosyal": 64,
+    "transit": 59,
+    "transit_hizli": 16
+  },
+  "9379637": {
+    "saglik": 4,
+    "egitim": 24,
+    "toplanma": 11,
+    "sosyal": 45,
+    "transit": 51,
+    "transit_hizli": 3
+  },
+  "9379494": {
+    "saglik": 3,
+    "egitim": 16,
+    "toplanma": 14,
+    "sosyal": 45,
+    "transit": 55,
+    "transit_hizli": 11
+  },
+  "8863399": {
+    "saglik": 1,
+    "egitim": 3,
+    "toplanma": 4,
+    "sosyal": 10,
+    "transit": 12,
+    "transit_hizli": 0
+  },
+  "9379509": {
+    "saglik": 2,
+    "egitim": 12,
+    "toplanma": 9,
+    "sosyal": 14,
+    "transit": 20,
+    "transit_hizli": 5
+  },
+  "9379470": {
+    "saglik": 1,
+    "egitim": 10,
+    "toplanma": 5,
+    "sosyal": 32,
+    "transit": 47,
+    "transit_hizli": 9
+  },
+  "9379597": {
+    "saglik": 1,
+    "egitim": 10,
+    "toplanma": 11,
+    "sosyal": 38,
+    "transit": 44,
+    "transit_hizli": 2
+  },
+  "9379638": {
+    "saglik": 4,
+    "egitim": 17,
+    "toplanma": 9,
+    "sosyal": 52,
+    "transit": 31,
+    "transit_hizli": 6
+  },
+  "9379598": {
+    "saglik": 3,
+    "egitim": 18,
+    "toplanma": 10,
+    "sosyal": 37,
+    "transit": 54,
+    "transit_hizli": 2
+  },
+  "9379589": {
+    "saglik": 4,
+    "egitim": 13,
+    "toplanma": 7,
+    "sosyal": 38,
+    "transit": 28,
+    "transit_hizli": 3
+  },
+  "9379636": {
+    "saglik": 4,
+    "egitim": 8,
+    "toplanma": 4,
+    "sosyal": 27,
+    "transit": 27,
+    "transit_hizli": 4
+  },
+  "9379510": {
+    "saglik": 4,
+    "egitim": 20,
+    "toplanma": 15,
+    "sosyal": 50,
+    "transit": 42,
+    "transit_hizli": 13
+  },
+  "9642964": {
+    "saglik": 3,
+    "egitim": 19,
+    "toplanma": 10,
+    "sosyal": 14,
+    "transit": 26,
+    "transit_hizli": 0
+  },
+  "9642965": {
+    "saglik": 2,
+    "egitim": 6,
+    "toplanma": 5,
+    "sosyal": 13,
+    "transit": 13,
+    "transit_hizli": 0
+  },
+  "9642966": {
+    "saglik": 5,
+    "egitim": 13,
+    "toplanma": 9,
+    "sosyal": 8,
+    "transit": 23,
+    "transit_hizli": 0
+  },
+  "9642967": {
+    "saglik": 2,
+    "egitim": 5,
+    "toplanma": 4,
+    "sosyal": 8,
+    "transit": 14,
+    "transit_hizli": 0
+  },
+  "9642968": {
+    "saglik": 0,
+    "egitim": 2,
+    "toplanma": 4,
+    "sosyal": 12,
+    "transit": 11,
+    "transit_hizli": 0
+  },
+  "9642969": {
+    "saglik": 1,
+    "egitim": 3,
+    "toplanma": 4,
+    "sosyal": 11,
+    "transit": 27,
+    "transit_hizli": 0
+  },
+  "9642893": {
+    "saglik": 1,
+    "egitim": 4,
+    "toplanma": 3,
+    "sosyal": 11,
+    "transit": 32,
+    "transit_hizli": 0
+  },
+  "9642894": {
+    "saglik": 3,
+    "egitim": 9,
+    "toplanma": 8,
+    "sosyal": 12,
+    "transit": 48,
+    "transit_hizli": 0
+  },
+  "9642812": {
+    "saglik": 3,
+    "egitim": 9,
+    "toplanma": 9,
+    "sosyal": 7,
+    "transit": 34,
+    "transit_hizli": 0
+  },
+  "9642813": {
+    "saglik": 1,
+    "egitim": 6,
+    "toplanma": 9,
+    "sosyal": 4,
+    "transit": 25,
+    "transit_hizli": 0
+  },
+  "9642814": {
+    "saglik": 0,
+    "egitim": 4,
+    "toplanma": 5,
+    "sosyal": 2,
+    "transit": 25,
+    "transit_hizli": 0
+  },
+  "9642815": {
+    "saglik": 0,
+    "egitim": 6,
+    "toplanma": 6,
+    "sosyal": 1,
+    "transit": 28,
+    "transit_hizli": 0
+  },
+  "9642816": {
+    "saglik": 0,
+    "egitim": 8,
+    "toplanma": 4,
+    "sosyal": 1,
+    "transit": 28,
+    "transit_hizli": 0
+  },
+  "9642817": {
+    "saglik": 2,
+    "egitim": 6,
+    "toplanma": 6,
+    "sosyal": 5,
+    "transit": 29,
+    "transit_hizli": 0
+  },
+  "9642765": {
+    "saglik": 1,
+    "egitim": 6,
+    "toplanma": 6,
+    "sosyal": 17,
+    "transit": 35,
+    "transit_hizli": 0
+  },
+  "9642748": {
+    "saglik": 5,
+    "egitim": 10,
+    "toplanma": 5,
+    "sosyal": 74,
+    "transit": 45,
+    "transit_hizli": 4
+  },
+  "9642750": {
+    "saglik": 0,
+    "egitim": 8,
+    "toplanma": 3,
+    "sosyal": 23,
+    "transit": 35,
+    "transit_hizli": 0
+  },
+  "9642749": {
+    "saglik": 4,
+    "egitim": 6,
+    "toplanma": 3,
+    "sosyal": 42,
+    "transit": 31,
+    "transit_hizli": 3
+  },
+  "9642751": {
+    "saglik": 0,
+    "egitim": 8,
+    "toplanma": 6,
+    "sosyal": 29,
+    "transit": 38,
+    "transit_hizli": 3
+  },
+  "9642646": {
+    "saglik": 1,
+    "egitim": 8,
+    "toplanma": 5,
+    "sosyal": 9,
+    "transit": 23,
+    "transit_hizli": 0
+  },
+  "9642645": {
+    "saglik": 1,
+    "egitim": 16,
+    "toplanma": 6,
+    "sosyal": 4,
+    "transit": 18,
+    "transit_hizli": 0
+  },
+  "9642644": {
+    "saglik": 1,
+    "egitim": 10,
+    "toplanma": 3,
+    "sosyal": 8,
+    "transit": 17,
+    "transit_hizli": 0
+  },
+  "9642609": {
+    "saglik": 2,
+    "egitim": 7,
+    "toplanma": 6,
+    "sosyal": 17,
+    "transit": 40,
+    "transit_hizli": 0
+  },
+  "9642610": {
+    "saglik": 1,
+    "egitim": 5,
+    "toplanma": 4,
+    "sosyal": 11,
+    "transit": 22,
+    "transit_hizli": 0
+  },
+  "9642611": {
+    "saglik": 0,
+    "egitim": 5,
+    "toplanma": 3,
+    "sosyal": 21,
+    "transit": 26,
+    "transit_hizli": 0
+  },
+  "9642612": {
+    "saglik": 0,
+    "egitim": 4,
+    "toplanma": 4,
+    "sosyal": 5,
+    "transit": 16,
+    "transit_hizli": 0
+  },
+  "9642576": {
+    "saglik": 3,
+    "egitim": 12,
+    "toplanma": 7,
+    "sosyal": 19,
+    "transit": 29,
+    "transit_hizli": 0
+  },
+  "9642577": {
+    "saglik": 1,
+    "egitim": 7,
+    "toplanma": 8,
+    "sosyal": 6,
+    "transit": 37,
+    "transit_hizli": 0
+  },
+  "9642578": {
+    "saglik": 1,
+    "egitim": 8,
+    "toplanma": 6,
+    "sosyal": 14,
+    "transit": 29,
+    "transit_hizli": 0
+  },
+  "9642530": {
+    "saglik": 0,
+    "egitim": 5,
+    "toplanma": 7,
+    "sosyal": 2,
+    "transit": 24,
+    "transit_hizli": 0
+  },
+  "9642531": {
+    "saglik": 1,
+    "egitim": 10,
+    "toplanma": 7,
+    "sosyal": 6,
+    "transit": 23,
+    "transit_hizli": 0
+  },
+  "9642513": {
+    "saglik": 1,
+    "egitim": 11,
+    "toplanma": 3,
+    "sosyal": 4,
+    "transit": 23,
+    "transit_hizli": 2
+  },
+  "9642514": {
+    "saglik": 0,
+    "egitim": 6,
+    "toplanma": 3,
+    "sosyal": 2,
+    "transit": 37,
+    "transit_hizli": 0
+  },
+  "9620448": {
+    "saglik": 3,
+    "egitim": 11,
+    "toplanma": 10,
+    "sosyal": 15,
+    "transit": 18,
+    "transit_hizli": 0
+  },
+  "9620447": {
+    "saglik": 2,
+    "egitim": 6,
+    "toplanma": 6,
+    "sosyal": 12,
+    "transit": 18,
+    "transit_hizli": 0
+  },
+  "9620439": {
+    "saglik": 2,
+    "egitim": 7,
+    "toplanma": 7,
+    "sosyal": 8,
+    "transit": 51,
+    "transit_hizli": 0
+  },
+  "9620429": {
+    "saglik": 0,
+    "egitim": 4,
+    "toplanma": 2,
+    "sosyal": 6,
+    "transit": 42,
+    "transit_hizli": 0
+  },
+  "9620430": {
+    "saglik": 1,
+    "egitim": 2,
+    "toplanma": 3,
+    "sosyal": 14,
+    "transit": 48,
+    "transit_hizli": 0
+  },
+  "9620409": {
+    "saglik": 0,
+    "egitim": 6,
+    "toplanma": 4,
+    "sosyal": 16,
+    "transit": 52,
+    "transit_hizli": 0
+  },
+  "9472573": {
+    "saglik": 2,
+    "egitim": 7,
+    "toplanma": 4,
+    "sosyal": 12,
+    "transit": 18,
+    "transit_hizli": 0
+  },
+  "9472571": {
+    "saglik": 4,
+    "egitim": 11,
+    "toplanma": 2,
+    "sosyal": 27,
+    "transit": 46,
+    "transit_hizli": 0
+  },
+  "9472572": {
+    "saglik": 5,
+    "egitim": 7,
+    "toplanma": 2,
+    "sosyal": 23,
+    "transit": 27,
+    "transit_hizli": 0
+  },
+  "8796814": {
+    "saglik": 1,
+    "egitim": 9,
+    "toplanma": 5,
+    "sosyal": 8,
+    "transit": 37,
+    "transit_hizli": 0
+  },
+  "9454022": {
+    "saglik": 4,
+    "egitim": 18,
+    "toplanma": 8,
+    "sosyal": 43,
+    "transit": 33,
+    "transit_hizli": 0
+  },
+  "9454020": {
+    "saglik": 2,
+    "egitim": 15,
+    "toplanma": 5,
+    "sosyal": 42,
+    "transit": 30,
+    "transit_hizli": 1
+  },
+  "9454013": {
+    "saglik": 4,
+    "egitim": 20,
+    "toplanma": 3,
+    "sosyal": 32,
+    "transit": 48,
+    "transit_hizli": 1
+  },
+  "9454014": {
+    "saglik": 1,
+    "egitim": 10,
+    "toplanma": 2,
+    "sosyal": 24,
+    "transit": 36,
+    "transit_hizli": 0
+  },
+  "9454000": {
+    "saglik": 1,
+    "egitim": 11,
+    "toplanma": 13,
+    "sosyal": 9,
+    "transit": 60,
+    "transit_hizli": 0
+  },
+  "9453999": {
+    "saglik": 3,
+    "egitim": 9,
+    "toplanma": 4,
+    "sosyal": 11,
+    "transit": 19,
+    "transit_hizli": 0
+  },
+  "9447736": {
+    "saglik": 3,
+    "egitim": 12,
+    "toplanma": 6,
+    "sosyal": 49,
+    "transit": 21,
+    "transit_hizli": 0
+  },
+  "9289098": {
+    "saglik": 1,
+    "egitim": 13,
+    "toplanma": 9,
+    "sosyal": 52,
+    "transit": 16,
+    "transit_hizli": 0
+  },
+  "8839337": {
+    "saglik": 3,
+    "egitim": 12,
+    "toplanma": 5,
+    "sosyal": 19,
+    "transit": 68,
+    "transit_hizli": 0
+  },
+  "9289128": {
+    "saglik": 1,
+    "egitim": 19,
+    "toplanma": 15,
+    "sosyal": 19,
+    "transit": 96,
+    "transit_hizli": 1
+  },
+  "9390850": {
+    "saglik": 0,
+    "egitim": 4,
+    "toplanma": 2,
+    "sosyal": 10,
+    "transit": 14,
+    "transit_hizli": 0
+  },
+  "9390752": {
+    "saglik": 6,
+    "egitim": 14,
+    "toplanma": 13,
+    "sosyal": 40,
+    "transit": 40,
+    "transit_hizli": 0
+  },
+  "9389916": {
+    "saglik": 3,
+    "egitim": 8,
+    "toplanma": 6,
+    "sosyal": 40,
+    "transit": 31,
+    "transit_hizli": 0
+  },
+  "9390851": {
+    "saglik": 5,
+    "egitim": 11,
+    "toplanma": 15,
+    "sosyal": 66,
+    "transit": 80,
+    "transit_hizli": 0
+  },
+  "9389934": {
+    "saglik": 1,
+    "egitim": 11,
+    "toplanma": 8,
+    "sosyal": 20,
+    "transit": 38,
+    "transit_hizli": 6
+  },
+  "9389950": {
+    "saglik": 1,
+    "egitim": 11,
+    "toplanma": 10,
+    "sosyal": 28,
+    "transit": 53,
+    "transit_hizli": 0
+  },
+  "9390946": {
+    "saglik": 0,
+    "egitim": 10,
+    "toplanma": 3,
+    "sosyal": 18,
+    "transit": 16,
+    "transit_hizli": 0
+  },
+  "8832577": {
+    "saglik": 1,
+    "egitim": 10,
+    "toplanma": 5,
+    "sosyal": 25,
+    "transit": 29,
+    "transit_hizli": 0
+  },
+  "9391290": {
+    "saglik": 0,
+    "egitim": 11,
+    "toplanma": 5,
+    "sosyal": 13,
+    "transit": 25,
+    "transit_hizli": 0
+  },
+  "9390849": {
+    "saglik": 4,
+    "egitim": 11,
+    "toplanma": 9,
+    "sosyal": 38,
+    "transit": 32,
+    "transit_hizli": 0
+  },
+  "9390800": {
+    "saglik": 8,
+    "egitim": 10,
+    "toplanma": 8,
+    "sosyal": 50,
+    "transit": 27,
+    "transit_hizli": 0
+  },
+  "9390753": {
+    "saglik": 11,
+    "egitim": 15,
+    "toplanma": 14,
+    "sosyal": 86,
+    "transit": 60,
+    "transit_hizli": 0
+  },
+  "9391277": {
+    "saglik": 0,
+    "egitim": 3,
+    "toplanma": 5,
+    "sosyal": 12,
+    "transit": 28,
+    "transit_hizli": 0
+  },
+  "8832578": {
+    "saglik": 3,
+    "egitim": 18,
+    "toplanma": 8,
+    "sosyal": 39,
+    "transit": 40,
+    "transit_hizli": 0
+  },
+  "8832576": {
+    "saglik": 0,
+    "egitim": 4,
+    "toplanma": 6,
+    "sosyal": 29,
+    "transit": 23,
+    "transit_hizli": 0
+  },
+  "9475457": {
+    "saglik": 4,
+    "egitim": 27,
+    "toplanma": 5,
+    "sosyal": 48,
+    "transit": 147,
+    "transit_hizli": 1
+  },
+  "9475458": {
+    "saglik": 4,
+    "egitim": 19,
+    "toplanma": 3,
+    "sosyal": 41,
+    "transit": 87,
+    "transit_hizli": 2
+  },
+  "9475448": {
+    "saglik": 1,
+    "egitim": 8,
+    "toplanma": 11,
+    "sosyal": 2,
+    "transit": 62,
+    "transit_hizli": 0
+  },
+  "9475447": {
+    "saglik": 1,
+    "egitim": 28,
+    "toplanma": 17,
+    "sosyal": 38,
+    "transit": 150,
+    "transit_hizli": 13
+  },
+  "9461576": {
+    "saglik": 0,
+    "egitim": 12,
+    "toplanma": 17,
+    "sosyal": 6,
+    "transit": 60,
+    "transit_hizli": 0
+  },
+  "9446484": {
+    "saglik": 0,
+    "egitim": 1,
+    "toplanma": 5,
+    "sosyal": 5,
+    "transit": 29,
+    "transit_hizli": 0
+  },
+  "9461411": {
+    "saglik": 3,
+    "egitim": 29,
+    "toplanma": 23,
+    "sosyal": 48,
+    "transit": 150,
+    "transit_hizli": 9
+  },
+  "9461575": {
+    "saglik": 7,
+    "egitim": 23,
+    "toplanma": 19,
+    "sosyal": 29,
+    "transit": 139,
+    "transit_hizli": 19
+  },
+  "9475439": {
+    "saglik": 1,
+    "egitim": 3,
+    "toplanma": 7,
+    "sosyal": 4,
+    "transit": 27,
+    "transit_hizli": 0
+  },
+  "9461611": {
+    "saglik": 5,
+    "egitim": 10,
+    "toplanma": 24,
+    "sosyal": 25,
+    "transit": 173,
+    "transit_hizli": 28
+  },
+  "9461512": {
+    "saglik": 2,
+    "egitim": 13,
+    "toplanma": 13,
+    "sosyal": 14,
+    "transit": 99,
+    "transit_hizli": 11
+  },
+  "9423103": {
+    "saglik": 6,
+    "egitim": 7,
+    "toplanma": 10,
+    "sosyal": 9,
+    "transit": 30,
+    "transit_hizli": 0
+  },
+  "9318613": {
+    "saglik": 1,
+    "egitim": 7,
+    "toplanma": 6,
+    "sosyal": 21,
+    "transit": 22,
+    "transit_hizli": 3
+  },
+  "9423121": {
+    "saglik": 1,
+    "egitim": 8,
+    "toplanma": 9,
+    "sosyal": 11,
+    "transit": 29,
+    "transit_hizli": 0
+  },
+  "9422209": {
+    "saglik": 7,
+    "egitim": 8,
+    "toplanma": 12,
+    "sosyal": 38,
+    "transit": 36,
+    "transit_hizli": 0
+  },
+  "9423122": {
+    "saglik": 9,
+    "egitim": 38,
+    "toplanma": 75,
+    "sosyal": 77,
+    "transit": 116,
+    "transit_hizli": 15
+  },
+  "9422004": {
+    "saglik": 2,
+    "egitim": 9,
+    "toplanma": 9,
+    "sosyal": 20,
+    "transit": 22,
+    "transit_hizli": 4
+  },
+  "9318612": {
+    "saglik": 0,
+    "egitim": 9,
+    "toplanma": 5,
+    "sosyal": 10,
+    "transit": 24,
+    "transit_hizli": 5
+  },
+  "9421908": {
+    "saglik": 0,
+    "egitim": 14,
+    "toplanma": 5,
+    "sosyal": 19,
+    "transit": 19,
+    "transit_hizli": 3
+  },
+  "9422033": {
+    "saglik": 3,
+    "egitim": 6,
+    "toplanma": 9,
+    "sosyal": 16,
+    "transit": 34,
+    "transit_hizli": 9
+  },
+  "9423100": {
+    "saglik": 1,
+    "egitim": 6,
+    "toplanma": 9,
+    "sosyal": 6,
+    "transit": 14,
+    "transit_hizli": 0
+  },
+  "9422082": {
+    "saglik": 4,
+    "egitim": 10,
+    "toplanma": 9,
+    "sosyal": 10,
+    "transit": 37,
+    "transit_hizli": 5
+  },
+  "9421907": {
+    "saglik": 3,
+    "egitim": 8,
+    "toplanma": 9,
+    "sosyal": 21,
+    "transit": 32,
+    "transit_hizli": 8
+  },
+  "9422081": {
+    "saglik": 3,
+    "egitim": 10,
+    "toplanma": 9,
+    "sosyal": 25,
+    "transit": 25,
+    "transit_hizli": 5
+  },
+  "9318611": {
+    "saglik": 0,
+    "egitim": 13,
+    "toplanma": 6,
+    "sosyal": 11,
+    "transit": 27,
+    "transit_hizli": 1
+  },
+  "9309109": {
+    "saglik": 0,
+    "egitim": 19,
+    "toplanma": 8,
+    "sosyal": 20,
+    "transit": 55,
+    "transit_hizli": 7
+  },
+  "9423101": {
+    "saglik": 8,
+    "egitim": 13,
+    "toplanma": 11,
+    "sosyal": 15,
+    "transit": 34,
+    "transit_hizli": 0
+  },
+  "9677586": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 0,
+    "sosyal": 3,
+    "transit": 5,
+    "transit_hizli": 0
+  },
+  "9677587": {
+    "saglik": 0,
+    "egitim": 1,
+    "toplanma": 3,
+    "sosyal": 0,
+    "transit": 29,
+    "transit_hizli": 0
+  },
+  "9677588": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 2,
+    "sosyal": 0,
+    "transit": 13,
+    "transit_hizli": 0
+  },
+  "9677573": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 0,
+    "sosyal": 0,
+    "transit": 9,
+    "transit_hizli": 0
+  },
+  "9677569": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 0,
+    "sosyal": 0,
+    "transit": 13,
+    "transit_hizli": 3
+  },
+  "9677566": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 1,
+    "sosyal": 1,
+    "transit": 19,
+    "transit_hizli": 0
+  },
+  "9677564": {
+    "saglik": 0,
+    "egitim": 3,
+    "toplanma": 12,
+    "sosyal": 15,
+    "transit": 42,
+    "transit_hizli": 0
+  },
+  "9677558": {
+    "saglik": 3,
+    "egitim": 6,
+    "toplanma": 12,
+    "sosyal": 7,
+    "transit": 74,
+    "transit_hizli": 2
+  },
+  "9677347": {
+    "saglik": 1,
+    "egitim": 8,
+    "toplanma": 2,
+    "sosyal": 16,
+    "transit": 68,
+    "transit_hizli": 5
+  },
+  "9675979": {
+    "saglik": 1,
+    "egitim": 4,
+    "toplanma": 5,
+    "sosyal": 11,
+    "transit": 63,
+    "transit_hizli": 5
+  },
+  "9381869": {
+    "saglik": 3,
+    "egitim": 12,
+    "toplanma": 8,
+    "sosyal": 55,
+    "transit": 74,
+    "transit_hizli": 10
+  },
+  "9357083": {
+    "saglik": 1,
+    "egitim": 8,
+    "toplanma": 13,
+    "sosyal": 43,
+    "transit": 76,
+    "transit_hizli": 5
+  },
+  "9381855": {
+    "saglik": 3,
+    "egitim": 17,
+    "toplanma": 8,
+    "sosyal": 55,
+    "transit": 69,
+    "transit_hizli": 9
+  },
+  "9381516": {
+    "saglik": 4,
+    "egitim": 8,
+    "toplanma": 25,
+    "sosyal": 55,
+    "transit": 49,
+    "transit_hizli": 2
+  },
+  "9356990": {
+    "saglik": 0,
+    "egitim": 4,
+    "toplanma": 11,
+    "sosyal": 34,
+    "transit": 41,
+    "transit_hizli": 0
+  },
+  "9381849": {
+    "saglik": 1,
+    "egitim": 8,
+    "toplanma": 9,
+    "sosyal": 36,
+    "transit": 42,
+    "transit_hizli": 0
+  },
+  "9357003": {
+    "saglik": 0,
+    "egitim": 14,
+    "toplanma": 24,
+    "sosyal": 54,
+    "transit": 138,
+    "transit_hizli": 9
+  },
+  "9381563": {
+    "saglik": 0,
+    "egitim": 11,
+    "toplanma": 23,
+    "sosyal": 41,
+    "transit": 33,
+    "transit_hizli": 0
+  },
+  "9381850": {
+    "saglik": 4,
+    "egitim": 15,
+    "toplanma": 10,
+    "sosyal": 63,
+    "transit": 59,
+    "transit_hizli": 6
+  },
+  "9381554": {
+    "saglik": 1,
+    "egitim": 12,
+    "toplanma": 22,
+    "sosyal": 41,
+    "transit": 36,
+    "transit_hizli": 0
+  },
+  "9381520": {
+    "saglik": 2,
+    "egitim": 6,
+    "toplanma": 24,
+    "sosyal": 37,
+    "transit": 35,
+    "transit_hizli": 0
+  },
+  "9381807": {
+    "saglik": 1,
+    "egitim": 10,
+    "toplanma": 8,
+    "sosyal": 26,
+    "transit": 43,
+    "transit_hizli": 0
+  },
+  "9381555": {
+    "saglik": 1,
+    "egitim": 6,
+    "toplanma": 6,
+    "sosyal": 11,
+    "transit": 20,
+    "transit_hizli": 0
+  },
+  "9381851": {
+    "saglik": 4,
+    "egitim": 13,
+    "toplanma": 14,
+    "sosyal": 57,
+    "transit": 67,
+    "transit_hizli": 10
+  },
+  "9381694": {
+    "saglik": 0,
+    "egitim": 17,
+    "toplanma": 14,
+    "sosyal": 46,
+    "transit": 80,
+    "transit_hizli": 16
+  },
+  "9381765": {
+    "saglik": 3,
+    "egitim": 12,
+    "toplanma": 49,
+    "sosyal": 40,
+    "transit": 43,
+    "transit_hizli": 3
+  },
+  "9381669": {
+    "saglik": 0,
+    "egitim": 8,
+    "toplanma": 9,
+    "sosyal": 23,
+    "transit": 27,
+    "transit_hizli": 2
+  },
+  "9381569": {
+    "saglik": 0,
+    "egitim": 9,
+    "toplanma": 14,
+    "sosyal": 41,
+    "transit": 36,
+    "transit_hizli": 1
+  },
+  "9424884": {
+    "saglik": 7,
+    "egitim": 22,
+    "toplanma": 10,
+    "sosyal": 74,
+    "transit": 64,
+    "transit_hizli": 13
+  },
+  "9423797": {
+    "saglik": 4,
+    "egitim": 10,
+    "toplanma": 7,
+    "sosyal": 30,
+    "transit": 32,
+    "transit_hizli": 8
+  },
+  "9424874": {
+    "saglik": 4,
+    "egitim": 21,
+    "toplanma": 11,
+    "sosyal": 59,
+    "transit": 47,
+    "transit_hizli": 4
+  },
+  "9423794": {
+    "saglik": 2,
+    "egitim": 4,
+    "toplanma": 5,
+    "sosyal": 14,
+    "transit": 25,
+    "transit_hizli": 3
+  },
+  "9424883": {
+    "saglik": 6,
+    "egitim": 16,
+    "toplanma": 11,
+    "sosyal": 62,
+    "transit": 42,
+    "transit_hizli": 4
+  },
+  "9424887": {
+    "saglik": 4,
+    "egitim": 9,
+    "toplanma": 6,
+    "sosyal": 46,
+    "transit": 30,
+    "transit_hizli": 4
+  },
+  "9424080": {
+    "saglik": 4,
+    "egitim": 13,
+    "toplanma": 7,
+    "sosyal": 44,
+    "transit": 34,
+    "transit_hizli": 4
+  },
+  "9424886": {
+    "saglik": 6,
+    "egitim": 13,
+    "toplanma": 8,
+    "sosyal": 39,
+    "transit": 43,
+    "transit_hizli": 14
+  },
+  "9424885": {
+    "saglik": 7,
+    "egitim": 14,
+    "toplanma": 7,
+    "sosyal": 50,
+    "transit": 43,
+    "transit_hizli": 9
+  },
+  "9424902": {
+    "saglik": 3,
+    "egitim": 26,
+    "toplanma": 6,
+    "sosyal": 77,
+    "transit": 29,
+    "transit_hizli": 0
+  },
+  "8824111": {
+    "saglik": 5,
+    "egitim": 37,
+    "toplanma": 11,
+    "sosyal": 77,
+    "transit": 53,
+    "transit_hizli": 4
+  },
+  "9424010": {
+    "saglik": 6,
+    "egitim": 18,
+    "toplanma": 18,
+    "sosyal": 18,
+    "transit": 57,
+    "transit_hizli": 17
+  },
+  "9424081": {
+    "saglik": 4,
+    "egitim": 17,
+    "toplanma": 11,
+    "sosyal": 42,
+    "transit": 34,
+    "transit_hizli": 0
+  },
+  "9424011": {
+    "saglik": 7,
+    "egitim": 29,
+    "toplanma": 12,
+    "sosyal": 45,
+    "transit": 44,
+    "transit_hizli": 5
+  },
+  "9424012": {
+    "saglik": 5,
+    "egitim": 34,
+    "toplanma": 13,
+    "sosyal": 57,
+    "transit": 63,
+    "transit_hizli": 11
+  },
+  "9424888": {
+    "saglik": 2,
+    "egitim": 9,
+    "toplanma": 7,
+    "sosyal": 47,
+    "transit": 39,
+    "transit_hizli": 9
+  },
+  "9424901": {
+    "saglik": 3,
+    "egitim": 11,
+    "toplanma": 8,
+    "sosyal": 24,
+    "transit": 21,
+    "transit_hizli": 1
+  },
+  "8824112": {
+    "saglik": 4,
+    "egitim": 22,
+    "toplanma": 6,
+    "sosyal": 85,
+    "transit": 50,
+    "transit_hizli": 3
+  },
+  "9423795": {
+    "saglik": 7,
+    "egitim": 12,
+    "toplanma": 13,
+    "sosyal": 64,
+    "transit": 58,
+    "transit_hizli": 9
+  },
+  "9424008": {
+    "saglik": 8,
+    "egitim": 16,
+    "toplanma": 55,
+    "sosyal": 37,
+    "transit": 52,
+    "transit_hizli": 8
+  },
+  "9424082": {
+    "saglik": 4,
+    "egitim": 21,
+    "toplanma": 12,
+    "sosyal": 48,
+    "transit": 65,
+    "transit_hizli": 5
+  },
+  "9424009": {
+    "saglik": 1,
+    "egitim": 12,
+    "toplanma": 14,
+    "sosyal": 40,
+    "transit": 96,
+    "transit_hizli": 19
+  },
+  "9680778": {
+    "saglik": 0,
+    "egitim": 3,
+    "toplanma": 2,
+    "sosyal": 9,
+    "transit": 18,
+    "transit_hizli": 0
+  },
+  "9680779": {
+    "saglik": 0,
+    "egitim": 4,
+    "toplanma": 3,
+    "sosyal": 22,
+    "transit": 47,
+    "transit_hizli": 5
+  },
+  "9680774": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 1,
+    "sosyal": 3,
+    "transit": 31,
+    "transit_hizli": 0
+  },
+  "9680772": {
+    "saglik": 0,
+    "egitim": 1,
+    "toplanma": 5,
+    "sosyal": 2,
+    "transit": 43,
+    "transit_hizli": 0
+  },
+  "9680766": {
+    "saglik": 0,
+    "egitim": 2,
+    "toplanma": 2,
+    "sosyal": 1,
+    "transit": 12,
+    "transit_hizli": 0
+  },
+  "9680749": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 2,
+    "sosyal": 1,
+    "transit": 26,
+    "transit_hizli": 0
+  },
+  "9680733": {
+    "saglik": 1,
+    "egitim": 3,
+    "toplanma": 5,
+    "sosyal": 20,
+    "transit": 38,
+    "transit_hizli": 3
+  },
+  "9680712": {
+    "saglik": 0,
+    "egitim": 2,
+    "toplanma": 3,
+    "sosyal": 1,
+    "transit": 36,
+    "transit_hizli": 0
+  },
+  "9680713": {
+    "saglik": 0,
+    "egitim": 5,
+    "toplanma": 4,
+    "sosyal": 2,
+    "transit": 34,
+    "transit_hizli": 0
+  },
+  "9680709": {
+    "saglik": 0,
+    "egitim": 3,
+    "toplanma": 9,
+    "sosyal": 8,
+    "transit": 59,
+    "transit_hizli": 4
+  },
+  "9680710": {
+    "saglik": 0,
+    "egitim": 5,
+    "toplanma": 6,
+    "sosyal": 5,
+    "transit": 60,
+    "transit_hizli": 4
+  },
+  "9680662": {
+    "saglik": 0,
+    "egitim": 2,
+    "toplanma": 6,
+    "sosyal": 4,
+    "transit": 33,
+    "transit_hizli": 0
+  },
+  "9680656": {
+    "saglik": 0,
+    "egitim": 5,
+    "toplanma": 8,
+    "sosyal": 14,
+    "transit": 35,
+    "transit_hizli": 0
+  },
+  "9680653": {
+    "saglik": 0,
+    "egitim": 2,
+    "toplanma": 4,
+    "sosyal": 3,
+    "transit": 20,
+    "transit_hizli": 0
+  },
+  "9680620": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 1,
+    "sosyal": 1,
+    "transit": 22,
+    "transit_hizli": 0
+  },
+  "9680610": {
+    "saglik": 0,
+    "egitim": 3,
+    "toplanma": 1,
+    "sosyal": 7,
+    "transit": 29,
+    "transit_hizli": 0
+  },
+  "9680605": {
+    "saglik": 1,
+    "egitim": 4,
+    "toplanma": 8,
+    "sosyal": 8,
+    "transit": 71,
+    "transit_hizli": 0
+  },
+  "9680598": {
+    "saglik": 0,
+    "egitim": 2,
+    "toplanma": 2,
+    "sosyal": 2,
+    "transit": 22,
+    "transit_hizli": 0
+  },
+  "9680573": {
+    "saglik": 0,
+    "egitim": 3,
+    "toplanma": 5,
+    "sosyal": 5,
+    "transit": 32,
+    "transit_hizli": 0
+  },
+  "9680568": {
+    "saglik": 0,
+    "egitim": 1,
+    "toplanma": 2,
+    "sosyal": 1,
+    "transit": 33,
+    "transit_hizli": 0
+  },
+  "9680567": {
+    "saglik": 0,
+    "egitim": 1,
+    "toplanma": 2,
+    "sosyal": 0,
+    "transit": 37,
+    "transit_hizli": 1
+  },
+  "9680547": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 13,
+    "sosyal": 6,
+    "transit": 38,
+    "transit_hizli": 0
+  },
+  "9680532": {
+    "saglik": 0,
+    "egitim": 2,
+    "toplanma": 2,
+    "sosyal": 0,
+    "transit": 6,
+    "transit_hizli": 0
+  },
+  "9680508": {
+    "saglik": 0,
+    "egitim": 1,
+    "toplanma": 12,
+    "sosyal": 6,
+    "transit": 58,
+    "transit_hizli": 0
+  },
+  "9680399": {
+    "saglik": 0,
+    "egitim": 4,
+    "toplanma": 6,
+    "sosyal": 7,
+    "transit": 27,
+    "transit_hizli": 0
+  },
+  "9680382": {
+    "saglik": 0,
+    "egitim": 4,
+    "toplanma": 3,
+    "sosyal": 12,
+    "transit": 29,
+    "transit_hizli": 0
+  },
+  "9680204": {
+    "saglik": 1,
+    "egitim": 3,
+    "toplanma": 7,
+    "sosyal": 15,
+    "transit": 38,
+    "transit_hizli": 3
+  },
+  "6648717": {
+    "saglik": 1,
+    "egitim": 6,
+    "toplanma": 10,
+    "sosyal": 15,
+    "transit": 52,
+    "transit_hizli": 3
+  },
+  "9680169": {
+    "saglik": 0,
+    "egitim": 2,
+    "toplanma": 1,
+    "sosyal": 0,
+    "transit": 18,
+    "transit_hizli": 0
+  },
+  "9680170": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 3,
+    "sosyal": 8,
+    "transit": 24,
+    "transit_hizli": 0
+  },
+  "9680133": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 1,
+    "sosyal": 1,
+    "transit": 7,
+    "transit_hizli": 0
+  },
+  "9623215": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 1,
+    "sosyal": 0,
+    "transit": 16,
+    "transit_hizli": 0
+  },
+  "9620132": {
+    "saglik": 0,
+    "egitim": 1,
+    "toplanma": 4,
+    "sosyal": 2,
+    "transit": 19,
+    "transit_hizli": 0
+  },
+  "6648854": {
+    "saglik": 1,
+    "egitim": 1,
+    "toplanma": 4,
+    "sosyal": 3,
+    "transit": 25,
+    "transit_hizli": 0
+  },
+  "6648841": {
+    "saglik": 1,
+    "egitim": 4,
+    "toplanma": 5,
+    "sosyal": 5,
+    "transit": 29,
+    "transit_hizli": 0
+  },
+  "6648277": {
+    "saglik": 1,
+    "egitim": 4,
+    "toplanma": 8,
+    "sosyal": 4,
+    "transit": 33,
+    "transit_hizli": 0
+  },
+  "6648907": {
+    "saglik": 1,
+    "egitim": 1,
+    "toplanma": 4,
+    "sosyal": 2,
+    "transit": 24,
+    "transit_hizli": 0
+  },
+  "6648205": {
+    "saglik": 1,
+    "egitim": 5,
+    "toplanma": 11,
+    "sosyal": 2,
+    "transit": 38,
+    "transit_hizli": 2
+  },
+  "9387822": {
+    "saglik": 3,
+    "egitim": 7,
+    "toplanma": 51,
+    "sosyal": 40,
+    "transit": 25,
+    "transit_hizli": 0
+  },
+  "9388925": {
+    "saglik": 3,
+    "egitim": 14,
+    "toplanma": 12,
+    "sosyal": 32,
+    "transit": 40,
+    "transit_hizli": 8
+  },
+  "9389050": {
+    "saglik": 4,
+    "egitim": 11,
+    "toplanma": 6,
+    "sosyal": 36,
+    "transit": 40,
+    "transit_hizli": 0
+  },
+  "9388951": {
+    "saglik": 3,
+    "egitim": 12,
+    "toplanma": 11,
+    "sosyal": 21,
+    "transit": 39,
+    "transit_hizli": 2
+  },
+  "9388924": {
+    "saglik": 1,
+    "egitim": 12,
+    "toplanma": 12,
+    "sosyal": 30,
+    "transit": 61,
+    "transit_hizli": 12
+  },
+  "9389046": {
+    "saglik": 4,
+    "egitim": 16,
+    "toplanma": 14,
+    "sosyal": 21,
+    "transit": 71,
+    "transit_hizli": 10
+  },
+  "9381933": {
+    "saglik": 0,
+    "egitim": 5,
+    "toplanma": 7,
+    "sosyal": 9,
+    "transit": 18,
+    "transit_hizli": 0
+  },
+  "9389063": {
+    "saglik": 3,
+    "egitim": 12,
+    "toplanma": 12,
+    "sosyal": 34,
+    "transit": 60,
+    "transit_hizli": 10
+  },
+  "9387789": {
+    "saglik": 7,
+    "egitim": 18,
+    "toplanma": 56,
+    "sosyal": 53,
+    "transit": 62,
+    "transit_hizli": 2
+  },
+  "9389048": {
+    "saglik": 3,
+    "egitim": 7,
+    "toplanma": 12,
+    "sosyal": 27,
+    "transit": 57,
+    "transit_hizli": 11
+  },
+  "9381914": {
+    "saglik": 1,
+    "egitim": 5,
+    "toplanma": 5,
+    "sosyal": 11,
+    "transit": 21,
+    "transit_hizli": 0
+  },
+  "9387779": {
+    "saglik": 3,
+    "egitim": 12,
+    "toplanma": 48,
+    "sosyal": 37,
+    "transit": 26,
+    "transit_hizli": 0
+  },
+  "9388968": {
+    "saglik": 1,
+    "egitim": 10,
+    "toplanma": 13,
+    "sosyal": 23,
+    "transit": 41,
+    "transit_hizli": 0
+  },
+  "9381934": {
+    "saglik": 0,
+    "egitim": 4,
+    "toplanma": 5,
+    "sosyal": 6,
+    "transit": 18,
+    "transit_hizli": 0
+  },
+  "9388940": {
+    "saglik": 4,
+    "egitim": 16,
+    "toplanma": 11,
+    "sosyal": 30,
+    "transit": 53,
+    "transit_hizli": 6
+  },
+  "9381909": {
+    "saglik": 0,
+    "egitim": 7,
+    "toplanma": 9,
+    "sosyal": 10,
+    "transit": 33,
+    "transit_hizli": 0
+  },
+  "9391469": {
+    "saglik": 1,
+    "egitim": 15,
+    "toplanma": 3,
+    "sosyal": 32,
+    "transit": 46,
+    "transit_hizli": 6
+  },
+  "9393065": {
+    "saglik": 0,
+    "egitim": 10,
+    "toplanma": 8,
+    "sosyal": 23,
+    "transit": 26,
+    "transit_hizli": 0
+  },
+  "9391461": {
+    "saglik": 0,
+    "egitim": 14,
+    "toplanma": 6,
+    "sosyal": 24,
+    "transit": 40,
+    "transit_hizli": 0
+  },
+  "9393125": {
+    "saglik": 3,
+    "egitim": 8,
+    "toplanma": 2,
+    "sosyal": 5,
+    "transit": 30,
+    "transit_hizli": 4
+  },
+  "9309043": {
+    "saglik": 5,
+    "egitim": 8,
+    "toplanma": 4,
+    "sosyal": 14,
+    "transit": 35,
+    "transit_hizli": 6
+  },
+  "9393094": {
+    "saglik": 0,
+    "egitim": 5,
+    "toplanma": 3,
+    "sosyal": 20,
+    "transit": 23,
+    "transit_hizli": 0
+  },
+  "9393153": {
+    "saglik": 4,
+    "egitim": 18,
+    "toplanma": 8,
+    "sosyal": 32,
+    "transit": 40,
+    "transit_hizli": 0
+  },
+  "9393147": {
+    "saglik": 6,
+    "egitim": 13,
+    "toplanma": 8,
+    "sosyal": 27,
+    "transit": 40,
+    "transit_hizli": 0
+  },
+  "9393066": {
+    "saglik": 3,
+    "egitim": 23,
+    "toplanma": 13,
+    "sosyal": 35,
+    "transit": 58,
+    "transit_hizli": 5
+  },
+  "9393126": {
+    "saglik": 1,
+    "egitim": 5,
+    "toplanma": 2,
+    "sosyal": 11,
+    "transit": 27,
+    "transit_hizli": 3
+  },
+  "9391449": {
+    "saglik": 0,
+    "egitim": 10,
+    "toplanma": 4,
+    "sosyal": 24,
+    "transit": 37,
+    "transit_hizli": 4
+  },
+  "7965031": {
+    "saglik": 5,
+    "egitim": 14,
+    "toplanma": 16,
+    "sosyal": 90,
+    "transit": 13,
+    "transit_hizli": 0
+  },
+  "7965032": {
+    "saglik": 6,
+    "egitim": 11,
+    "toplanma": 26,
+    "sosyal": 49,
+    "transit": 14,
+    "transit_hizli": 1
+  },
+  "7965521": {
+    "saglik": 5,
+    "egitim": 8,
+    "toplanma": 12,
+    "sosyal": 66,
+    "transit": 15,
+    "transit_hizli": 0
+  },
+  "7965519": {
+    "saglik": 13,
+    "egitim": 10,
+    "toplanma": 40,
+    "sosyal": 116,
+    "transit": 60,
+    "transit_hizli": 6
+  },
+  "7964551": {
+    "saglik": 4,
+    "egitim": 20,
+    "toplanma": 47,
+    "sosyal": 66,
+    "transit": 54,
+    "transit_hizli": 2
+  },
+  "7965522": {
+    "saglik": 2,
+    "egitim": 15,
+    "toplanma": 7,
+    "sosyal": 77,
+    "transit": 25,
+    "transit_hizli": 3
+  },
+  "7964967": {
+    "saglik": 6,
+    "egitim": 19,
+    "toplanma": 54,
+    "sosyal": 106,
+    "transit": 44,
+    "transit_hizli": 4
+  },
+  "7965524": {
+    "saglik": 1,
+    "egitim": 10,
+    "toplanma": 9,
+    "sosyal": 63,
+    "transit": 27,
+    "transit_hizli": 0
+  },
+  "7965030": {
+    "saglik": 12,
+    "egitim": 8,
+    "toplanma": 11,
+    "sosyal": 61,
+    "transit": 25,
+    "transit_hizli": 2
+  },
+  "7965525": {
+    "saglik": 8,
+    "egitim": 15,
+    "toplanma": 16,
+    "sosyal": 46,
+    "transit": 14,
+    "transit_hizli": 0
+  },
+  "7965520": {
+    "saglik": 1,
+    "egitim": 8,
+    "toplanma": 3,
+    "sosyal": 55,
+    "transit": 18,
+    "transit_hizli": 3
+  },
+  "7965523": {
+    "saglik": 4,
+    "egitim": 14,
+    "toplanma": 6,
+    "sosyal": 67,
+    "transit": 14,
+    "transit_hizli": 0
+  },
+  "7964540": {
+    "saglik": 5,
+    "egitim": 32,
+    "toplanma": 17,
+    "sosyal": 67,
+    "transit": 120,
+    "transit_hizli": 18
+  },
+  "2468219": {
+    "saglik": 13,
+    "egitim": 18,
+    "toplanma": 30,
+    "sosyal": 116,
+    "transit": 22,
+    "transit_hizli": 5
+  },
+  "7648822": {
+    "saglik": 7,
+    "egitim": 12,
+    "toplanma": 22,
+    "sosyal": 247,
+    "transit": 60,
+    "transit_hizli": 24
+  },
+  "2464768": {
+    "saglik": 4,
+    "egitim": 25,
+    "toplanma": 61,
+    "sosyal": 116,
+    "transit": 19,
+    "transit_hizli": 0
+  },
+  "2463274": {
+    "saglik": 4,
+    "egitim": 17,
+    "toplanma": 26,
+    "sosyal": 134,
+    "transit": 23,
+    "transit_hizli": 0
+  },
+  "2463390": {
+    "saglik": 6,
+    "egitim": 27,
+    "toplanma": 29,
+    "sosyal": 133,
+    "transit": 23,
+    "transit_hizli": 2
+  },
+  "2468218": {
+    "saglik": 9,
+    "egitim": 15,
+    "toplanma": 12,
+    "sosyal": 56,
+    "transit": 31,
+    "transit_hizli": 8
+  },
+  "7648823": {
+    "saglik": 1,
+    "egitim": 0,
+    "toplanma": 9,
+    "sosyal": 74,
+    "transit": 31,
+    "transit_hizli": 18
+  },
+  "7648845": {
+    "saglik": 1,
+    "egitim": 0,
+    "toplanma": 12,
+    "sosyal": 64,
+    "transit": 6,
+    "transit_hizli": 2
+  },
+  "7648835": {
+    "saglik": 0,
+    "egitim": 4,
+    "toplanma": 15,
+    "sosyal": 59,
+    "transit": 9,
+    "transit_hizli": 2
+  },
+  "7648818": {
+    "saglik": 9,
+    "egitim": 27,
+    "toplanma": 57,
+    "sosyal": 217,
+    "transit": 24,
+    "transit_hizli": 0
+  },
+  "2463371": {
+    "saglik": 4,
+    "egitim": 31,
+    "toplanma": 66,
+    "sosyal": 131,
+    "transit": 30,
+    "transit_hizli": 0
+  },
+  "2464918": {
+    "saglik": 4,
+    "egitim": 20,
+    "toplanma": 60,
+    "sosyal": 105,
+    "transit": 23,
+    "transit_hizli": 0
+  },
+  "7648817": {
+    "saglik": 11,
+    "egitim": 20,
+    "toplanma": 30,
+    "sosyal": 250,
+    "transit": 29,
+    "transit_hizli": 6
+  },
+  "7648821": {
+    "saglik": 11,
+    "egitim": 15,
+    "toplanma": 28,
+    "sosyal": 347,
+    "transit": 38,
+    "transit_hizli": 5
+  },
+  "7648816": {
+    "saglik": 12,
+    "egitim": 17,
+    "toplanma": 32,
+    "sosyal": 288,
+    "transit": 50,
+    "transit_hizli": 10
+  },
+  "2468242": {
+    "saglik": 13,
+    "egitim": 30,
+    "toplanma": 30,
+    "sosyal": 112,
+    "transit": 46,
+    "transit_hizli": 11
+  },
+  "7648849": {
+    "saglik": 6,
+    "egitim": 13,
+    "toplanma": 22,
+    "sosyal": 354,
+    "transit": 19,
+    "transit_hizli": 6
+  },
+  "7648848": {
+    "saglik": 4,
+    "egitim": 13,
+    "toplanma": 34,
+    "sosyal": 318,
+    "transit": 9,
+    "transit_hizli": 2
+  },
+  "8111527": {
+    "saglik": 3,
+    "egitim": 12,
+    "toplanma": 23,
+    "sosyal": 218,
+    "transit": 2,
+    "transit_hizli": 2
+  },
+  "7648853": {
+    "saglik": 6,
+    "egitim": 13,
+    "toplanma": 21,
+    "sosyal": 360,
+    "transit": 11,
+    "transit_hizli": 4
+  },
+  "7648852": {
+    "saglik": 5,
+    "egitim": 14,
+    "toplanma": 27,
+    "sosyal": 386,
+    "transit": 7,
+    "transit_hizli": 0
+  },
+  "7648851": {
+    "saglik": 1,
+    "egitim": 8,
+    "toplanma": 17,
+    "sosyal": 161,
+    "transit": 5,
+    "transit_hizli": 0
+  },
+  "7648850": {
+    "saglik": 1,
+    "egitim": 5,
+    "toplanma": 13,
+    "sosyal": 257,
+    "transit": 8,
+    "transit_hizli": 1
+  },
+  "7648809": {
+    "saglik": 9,
+    "egitim": 26,
+    "toplanma": 65,
+    "sosyal": 221,
+    "transit": 14,
+    "transit_hizli": 0
+  },
+  "7648810": {
+    "saglik": 7,
+    "egitim": 20,
+    "toplanma": 48,
+    "sosyal": 151,
+    "transit": 9,
+    "transit_hizli": 0
+  },
+  "7648811": {
+    "saglik": 7,
+    "egitim": 20,
+    "toplanma": 41,
+    "sosyal": 154,
+    "transit": 16,
+    "transit_hizli": 0
+  },
+  "7648813": {
+    "saglik": 3,
+    "egitim": 11,
+    "toplanma": 15,
+    "sosyal": 100,
+    "transit": 26,
+    "transit_hizli": 4
+  },
+  "7648814": {
+    "saglik": 13,
+    "egitim": 22,
+    "toplanma": 28,
+    "sosyal": 246,
+    "transit": 32,
+    "transit_hizli": 1
+  },
+  "7648812": {
+    "saglik": 9,
+    "egitim": 24,
+    "toplanma": 22,
+    "sosyal": 216,
+    "transit": 24,
+    "transit_hizli": 2
+  },
+  "7648815": {
+    "saglik": 8,
+    "egitim": 16,
+    "toplanma": 31,
+    "sosyal": 301,
+    "transit": 40,
+    "transit_hizli": 5
+  },
+  "6868850": {
+    "saglik": 10,
+    "egitim": 30,
+    "toplanma": 40,
+    "sosyal": 157,
+    "transit": 17,
+    "transit_hizli": 0
+  },
+  "7648808": {
+    "saglik": 5,
+    "egitim": 17,
+    "toplanma": 61,
+    "sosyal": 79,
+    "transit": 25,
+    "transit_hizli": 1
+  },
+  "7648834": {
+    "saglik": 2,
+    "egitim": 36,
+    "toplanma": 17,
+    "sosyal": 103,
+    "transit": 14,
+    "transit_hizli": 3
+  },
+  "7648825": {
+    "saglik": 3,
+    "egitim": 31,
+    "toplanma": 17,
+    "sosyal": 173,
+    "transit": 25,
+    "transit_hizli": 3
+  },
+  "7648824": {
+    "saglik": 1,
+    "egitim": 6,
+    "toplanma": 8,
+    "sosyal": 114,
+    "transit": 31,
+    "transit_hizli": 14
+  },
+  "7648841": {
+    "saglik": 1,
+    "egitim": 21,
+    "toplanma": 20,
+    "sosyal": 170,
+    "transit": 18,
+    "transit_hizli": 3
+  },
+  "7648843": {
+    "saglik": 1,
+    "egitim": 3,
+    "toplanma": 23,
+    "sosyal": 197,
+    "transit": 9,
+    "transit_hizli": 2
+  },
+  "7648842": {
+    "saglik": 0,
+    "egitim": 1,
+    "toplanma": 17,
+    "sosyal": 106,
+    "transit": 11,
+    "transit_hizli": 2
+  },
+  "7648855": {
+    "saglik": 5,
+    "egitim": 6,
+    "toplanma": 23,
+    "sosyal": 324,
+    "transit": 16,
+    "transit_hizli": 6
+  },
+  "7648854": {
+    "saglik": 5,
+    "egitim": 8,
+    "toplanma": 21,
+    "sosyal": 308,
+    "transit": 15,
+    "transit_hizli": 6
+  },
+  "7648828": {
+    "saglik": 4,
+    "egitim": 12,
+    "toplanma": 25,
+    "sosyal": 100,
+    "transit": 11,
+    "transit_hizli": 0
+  },
+  "7648829": {
+    "saglik": 3,
+    "egitim": 21,
+    "toplanma": 22,
+    "sosyal": 130,
+    "transit": 23,
+    "transit_hizli": 2
+  },
+  "7648827": {
+    "saglik": 3,
+    "egitim": 43,
+    "toplanma": 18,
+    "sosyal": 115,
+    "transit": 10,
+    "transit_hizli": 3
+  },
+  "7648826": {
+    "saglik": 3,
+    "egitim": 47,
+    "toplanma": 17,
+    "sosyal": 139,
+    "transit": 17,
+    "transit_hizli": 3
+  },
+  "7648833": {
+    "saglik": 1,
+    "egitim": 45,
+    "toplanma": 34,
+    "sosyal": 238,
+    "transit": 24,
+    "transit_hizli": 3
+  },
+  "7648819": {
+    "saglik": 7,
+    "egitim": 15,
+    "toplanma": 32,
+    "sosyal": 102,
+    "transit": 17,
+    "transit_hizli": 0
+  },
+  "7648820": {
+    "saglik": 12,
+    "egitim": 22,
+    "toplanma": 44,
+    "sosyal": 174,
+    "transit": 17,
+    "transit_hizli": 0
+  },
+  "7648840": {
+    "saglik": 0,
+    "egitim": 19,
+    "toplanma": 26,
+    "sosyal": 167,
+    "transit": 5,
+    "transit_hizli": 0
+  },
+  "7648838": {
+    "saglik": 0,
+    "egitim": 8,
+    "toplanma": 20,
+    "sosyal": 170,
+    "transit": 2,
+    "transit_hizli": 0
+  },
+  "7648839": {
+    "saglik": 0,
+    "egitim": 6,
+    "toplanma": 21,
+    "sosyal": 149,
+    "transit": 2,
+    "transit_hizli": 0
+  },
+  "7648837": {
+    "saglik": 0,
+    "egitim": 1,
+    "toplanma": 21,
+    "sosyal": 144,
+    "transit": 10,
+    "transit_hizli": 0
+  },
+  "7648831": {
+    "saglik": 0,
+    "egitim": 7,
+    "toplanma": 23,
+    "sosyal": 135,
+    "transit": 24,
+    "transit_hizli": 2
+  },
+  "7648832": {
+    "saglik": 2,
+    "egitim": 0,
+    "toplanma": 23,
+    "sosyal": 130,
+    "transit": 32,
+    "transit_hizli": 5
+  },
+  "7648836": {
+    "saglik": 0,
+    "egitim": 2,
+    "toplanma": 20,
+    "sosyal": 121,
+    "transit": 6,
+    "transit_hizli": 0
+  },
+  "7648830": {
+    "saglik": 2,
+    "egitim": 1,
+    "toplanma": 19,
+    "sosyal": 69,
+    "transit": 26,
+    "transit_hizli": 2
+  },
+  "7648846": {
+    "saglik": 1,
+    "egitim": 4,
+    "toplanma": 18,
+    "sosyal": 158,
+    "transit": 8,
+    "transit_hizli": 2
+  },
+  "7648847": {
+    "saglik": 2,
+    "egitim": 7,
+    "toplanma": 21,
+    "sosyal": 222,
+    "transit": 6,
+    "transit_hizli": 0
+  },
+  "7982471": {
+    "saglik": 1,
+    "egitim": 1,
+    "toplanma": 3,
+    "sosyal": 12,
+    "transit": 5,
+    "transit_hizli": 0
+  },
+  "7982480": {
+    "saglik": 2,
+    "egitim": 1,
+    "toplanma": 8,
+    "sosyal": 75,
+    "transit": 10,
+    "transit_hizli": 0
+  },
+  "7980977": {
+    "saglik": 3,
+    "egitim": 12,
+    "toplanma": 16,
+    "sosyal": 340,
+    "transit": 17,
+    "transit_hizli": 4
+  },
+  "8040979": {
+    "saglik": 0,
+    "egitim": 3,
+    "toplanma": 14,
+    "sosyal": 23,
+    "transit": 9,
+    "transit_hizli": 0
+  },
+  "8041154": {
+    "saglik": 0,
+    "egitim": 5,
+    "toplanma": 5,
+    "sosyal": 13,
+    "transit": 29,
+    "transit_hizli": 0
+  },
+  "7982477": {
+    "saglik": 3,
+    "egitim": 7,
+    "toplanma": 6,
+    "sosyal": 197,
+    "transit": 17,
+    "transit_hizli": 5
+  },
+  "8041156": {
+    "saglik": 2,
+    "egitim": 4,
+    "toplanma": 12,
+    "sosyal": 24,
+    "transit": 30,
+    "transit_hizli": 0
+  },
+  "8041159": {
+    "saglik": 3,
+    "egitim": 2,
+    "toplanma": 12,
+    "sosyal": 23,
+    "transit": 30,
+    "transit_hizli": 0
+  },
+  "7982397": {
+    "saglik": 2,
+    "egitim": 4,
+    "toplanma": 7,
+    "sosyal": 111,
+    "transit": 8,
+    "transit_hizli": 0
+  },
+  "7980653": {
+    "saglik": 6,
+    "egitim": 11,
+    "toplanma": 16,
+    "sosyal": 236,
+    "transit": 16,
+    "transit_hizli": 7
+  },
+  "7982396": {
+    "saglik": 2,
+    "egitim": 4,
+    "toplanma": 7,
+    "sosyal": 58,
+    "transit": 25,
+    "transit_hizli": 5
+  },
+  "8041157": {
+    "saglik": 2,
+    "egitim": 4,
+    "toplanma": 6,
+    "sosyal": 27,
+    "transit": 29,
+    "transit_hizli": 0
+  },
+  "7980655": {
+    "saglik": 5,
+    "egitim": 8,
+    "toplanma": 14,
+    "sosyal": 273,
+    "transit": 13,
+    "transit_hizli": 6
+  },
+  "8040974": {
+    "saglik": 2,
+    "egitim": 0,
+    "toplanma": 11,
+    "sosyal": 7,
+    "transit": 12,
+    "transit_hizli": 0
+  },
+  "7982473": {
+    "saglik": 0,
+    "egitim": 4,
+    "toplanma": 6,
+    "sosyal": 97,
+    "transit": 7,
+    "transit_hizli": 0
+  },
+  "7982479": {
+    "saglik": 2,
+    "egitim": 4,
+    "toplanma": 6,
+    "sosyal": 128,
+    "transit": 7,
+    "transit_hizli": 0
+  },
+  "8041035": {
+    "saglik": 0,
+    "egitim": 2,
+    "toplanma": 16,
+    "sosyal": 12,
+    "transit": 17,
+    "transit_hizli": 0
+  },
+  "7982393": {
+    "saglik": 3,
+    "egitim": 9,
+    "toplanma": 6,
+    "sosyal": 249,
+    "transit": 20,
+    "transit_hizli": 5
+  },
+  "8041036": {
+    "saglik": 0,
+    "egitim": 2,
+    "toplanma": 9,
+    "sosyal": 12,
+    "transit": 27,
+    "transit_hizli": 0
+  },
+  "7968242": {
+    "saglik": 6,
+    "egitim": 6,
+    "toplanma": 17,
+    "sosyal": 219,
+    "transit": 11,
+    "transit_hizli": 1
+  },
+  "7982476": {
+    "saglik": 3,
+    "egitim": 2,
+    "toplanma": 5,
+    "sosyal": 118,
+    "transit": 28,
+    "transit_hizli": 6
+  },
+  "8040976": {
+    "saglik": 2,
+    "egitim": 4,
+    "toplanma": 20,
+    "sosyal": 9,
+    "transit": 11,
+    "transit_hizli": 0
+  },
+  "8041037": {
+    "saglik": 2,
+    "egitim": 2,
+    "toplanma": 16,
+    "sosyal": 7,
+    "transit": 19,
+    "transit_hizli": 0
+  },
+  "7982482": {
+    "saglik": 4,
+    "egitim": 10,
+    "toplanma": 11,
+    "sosyal": 305,
+    "transit": 9,
+    "transit_hizli": 0
+  },
+  "7980975": {
+    "saglik": 3,
+    "egitim": 8,
+    "toplanma": 14,
+    "sosyal": 238,
+    "transit": 10,
+    "transit_hizli": 0
+  },
+  "7982478": {
+    "saglik": 1,
+    "egitim": 6,
+    "toplanma": 3,
+    "sosyal": 210,
+    "transit": 10,
+    "transit_hizli": 0
+  },
+  "8041155": {
+    "saglik": 0,
+    "egitim": 4,
+    "toplanma": 9,
+    "sosyal": 13,
+    "transit": 28,
+    "transit_hizli": 0
+  },
+  "8041158": {
+    "saglik": 3,
+    "egitim": 1,
+    "toplanma": 9,
+    "sosyal": 21,
+    "transit": 21,
+    "transit_hizli": 0
+  },
+  "7980976": {
+    "saglik": 4,
+    "egitim": 9,
+    "toplanma": 15,
+    "sosyal": 275,
+    "transit": 9,
+    "transit_hizli": 0
+  },
+  "7982395": {
+    "saglik": 4,
+    "egitim": 10,
+    "toplanma": 9,
+    "sosyal": 190,
+    "transit": 45,
+    "transit_hizli": 10
+  },
+  "8040978": {
+    "saglik": 0,
+    "egitim": 4,
+    "toplanma": 12,
+    "sosyal": 16,
+    "transit": 12,
+    "transit_hizli": 0
+  },
+  "7980654": {
+    "saglik": 5,
+    "egitim": 9,
+    "toplanma": 20,
+    "sosyal": 277,
+    "transit": 9,
+    "transit_hizli": 3
+  },
+  "7980980": {
+    "saglik": 3,
+    "egitim": 2,
+    "toplanma": 11,
+    "sosyal": 134,
+    "transit": 28,
+    "transit_hizli": 11
+  },
+  "7968240": {
+    "saglik": 5,
+    "egitim": 8,
+    "toplanma": 17,
+    "sosyal": 219,
+    "transit": 21,
+    "transit_hizli": 8
+  },
+  "7982472": {
+    "saglik": 0,
+    "egitim": 2,
+    "toplanma": 7,
+    "sosyal": 26,
+    "transit": 6,
+    "transit_hizli": 0
+  },
+  "7982475": {
+    "saglik": 1,
+    "egitim": 1,
+    "toplanma": 3,
+    "sosyal": 110,
+    "transit": 12,
+    "transit_hizli": 0
+  },
+  "8040975": {
+    "saglik": 2,
+    "egitim": 3,
+    "toplanma": 14,
+    "sosyal": 16,
+    "transit": 22,
+    "transit_hizli": 0
+  },
+  "7982481": {
+    "saglik": 2,
+    "egitim": 1,
+    "toplanma": 8,
+    "sosyal": 143,
+    "transit": 22,
+    "transit_hizli": 5
+  },
+  "7982394": {
+    "saglik": 3,
+    "egitim": 8,
+    "toplanma": 11,
+    "sosyal": 200,
+    "transit": 20,
+    "transit_hizli": 5
+  },
+  "7982474": {
+    "saglik": 0,
+    "egitim": 3,
+    "toplanma": 4,
+    "sosyal": 126,
+    "transit": 11,
+    "transit_hizli": 0
+  },
+  "7968241": {
+    "saglik": 4,
+    "egitim": 3,
+    "toplanma": 12,
+    "sosyal": 122,
+    "transit": 17,
+    "transit_hizli": 9
+  },
+  "7968243": {
+    "saglik": 5,
+    "egitim": 6,
+    "toplanma": 16,
+    "sosyal": 162,
+    "transit": 18,
+    "transit_hizli": 8
+  },
+  "7980978": {
+    "saglik": 2,
+    "egitim": 6,
+    "toplanma": 8,
+    "sosyal": 271,
+    "transit": 17,
+    "transit_hizli": 7
+  },
+  "9645159": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 0,
+    "sosyal": 1,
+    "transit": 15,
+    "transit_hizli": 0
+  },
+  "9645160": {
+    "saglik": 1,
+    "egitim": 1,
+    "toplanma": 2,
+    "sosyal": 16,
+    "transit": 31,
+    "transit_hizli": 0
+  },
+  "9645153": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 1,
+    "sosyal": 4,
+    "transit": 19,
+    "transit_hizli": 0
+  },
+  "9645141": {
+    "saglik": 0,
+    "egitim": 1,
+    "toplanma": 3,
+    "sosyal": 8,
+    "transit": 45,
+    "transit_hizli": 0
+  },
+  "9645135": {
+    "saglik": 0,
+    "egitim": 3,
+    "toplanma": 4,
+    "sosyal": 10,
+    "transit": 11,
+    "transit_hizli": 0
+  },
+  "9645084": {
+    "saglik": 3,
+    "egitim": 6,
+    "toplanma": 5,
+    "sosyal": 31,
+    "transit": 96,
+    "transit_hizli": 0
+  },
+  "9645050": {
+    "saglik": 3,
+    "egitim": 7,
+    "toplanma": 3,
+    "sosyal": 42,
+    "transit": 51,
+    "transit_hizli": 0
+  },
+  "9644953": {
+    "saglik": 1,
+    "egitim": 0,
+    "toplanma": 5,
+    "sosyal": 9,
+    "transit": 20,
+    "transit_hizli": 0
+  },
+  "9644954": {
+    "saglik": 1,
+    "egitim": 4,
+    "toplanma": 7,
+    "sosyal": 27,
+    "transit": 50,
+    "transit_hizli": 0
+  },
+  "9644824": {
+    "saglik": 0,
+    "egitim": 1,
+    "toplanma": 4,
+    "sosyal": 9,
+    "transit": 39,
+    "transit_hizli": 0
+  },
+  "9644790": {
+    "saglik": 1,
+    "egitim": 2,
+    "toplanma": 4,
+    "sosyal": 4,
+    "transit": 33,
+    "transit_hizli": 0
+  },
+  "9644785": {
+    "saglik": 0,
+    "egitim": 2,
+    "toplanma": 3,
+    "sosyal": 1,
+    "transit": 31,
+    "transit_hizli": 0
+  },
+  "9644762": {
+    "saglik": 0,
+    "egitim": 2,
+    "toplanma": 10,
+    "sosyal": 12,
+    "transit": 76,
+    "transit_hizli": 5
+  },
+  "9644763": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 4,
+    "sosyal": 7,
+    "transit": 23,
+    "transit_hizli": 0
+  },
+  "9644764": {
+    "saglik": 2,
+    "egitim": 2,
+    "toplanma": 7,
+    "sosyal": 36,
+    "transit": 34,
+    "transit_hizli": 0
+  },
+  "9644728": {
+    "saglik": 1,
+    "egitim": 4,
+    "toplanma": 4,
+    "sosyal": 3,
+    "transit": 44,
+    "transit_hizli": 0
+  },
+  "9644714": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 4,
+    "sosyal": 9,
+    "transit": 37,
+    "transit_hizli": 5
+  },
+  "9644695": {
+    "saglik": 1,
+    "egitim": 7,
+    "toplanma": 7,
+    "sosyal": 14,
+    "transit": 19,
+    "transit_hizli": 0
+  },
+  "9644696": {
+    "saglik": 0,
+    "egitim": 7,
+    "toplanma": 4,
+    "sosyal": 15,
+    "transit": 20,
+    "transit_hizli": 0
+  },
+  "9644665": {
+    "saglik": 1,
+    "egitim": 4,
+    "toplanma": 7,
+    "sosyal": 20,
+    "transit": 23,
+    "transit_hizli": 0
+  },
+  "9644656": {
+    "saglik": 1,
+    "egitim": 3,
+    "toplanma": 7,
+    "sosyal": 15,
+    "transit": 55,
+    "transit_hizli": 4
+  },
+  "9644648": {
+    "saglik": 2,
+    "egitim": 4,
+    "toplanma": 10,
+    "sosyal": 29,
+    "transit": 61,
+    "transit_hizli": 0
+  },
+  "9644592": {
+    "saglik": 0,
+    "egitim": 3,
+    "toplanma": 4,
+    "sosyal": 7,
+    "transit": 41,
+    "transit_hizli": 0
+  },
+  "9644584": {
+    "saglik": 1,
+    "egitim": 6,
+    "toplanma": 5,
+    "sosyal": 10,
+    "transit": 66,
+    "transit_hizli": 11
+  },
+  "9644572": {
+    "saglik": 1,
+    "egitim": 7,
+    "toplanma": 6,
+    "sosyal": 12,
+    "transit": 73,
+    "transit_hizli": 10
+  },
+  "9644555": {
+    "saglik": 0,
+    "egitim": 5,
+    "toplanma": 3,
+    "sosyal": 15,
+    "transit": 49,
+    "transit_hizli": 0
+  },
+  "9343795": {
+    "saglik": 7,
+    "egitim": 3,
+    "toplanma": 11,
+    "sosyal": 19,
+    "transit": 42,
+    "transit_hizli": 0
+  },
+  "9345828": {
+    "saglik": 9,
+    "egitim": 3,
+    "toplanma": 9,
+    "sosyal": 22,
+    "transit": 54,
+    "transit_hizli": 0
+  },
+  "9343796": {
+    "saglik": 0,
+    "egitim": 2,
+    "toplanma": 8,
+    "sosyal": 6,
+    "transit": 52,
+    "transit_hizli": 0
+  },
+  "9345829": {
+    "saglik": 0,
+    "egitim": 7,
+    "toplanma": 19,
+    "sosyal": 54,
+    "transit": 88,
+    "transit_hizli": 5
+  },
+  "9343740": {
+    "saglik": 1,
+    "egitim": 6,
+    "toplanma": 9,
+    "sosyal": 38,
+    "transit": 28,
+    "transit_hizli": 5
+  },
+  "9644556": {
+    "saglik": 0,
+    "egitim": 7,
+    "toplanma": 3,
+    "sosyal": 29,
+    "transit": 60,
+    "transit_hizli": 6
+  },
+  "9644504": {
+    "saglik": 3,
+    "egitim": 13,
+    "toplanma": 8,
+    "sosyal": 40,
+    "transit": 90,
+    "transit_hizli": 10
+  },
+  "9644506": {
+    "saglik": 1,
+    "egitim": 7,
+    "toplanma": 10,
+    "sosyal": 41,
+    "transit": 80,
+    "transit_hizli": 1
+  },
+  "9644505": {
+    "saglik": 2,
+    "egitim": 8,
+    "toplanma": 9,
+    "sosyal": 50,
+    "transit": 84,
+    "transit_hizli": 15
+  },
+  "9475338": {
+    "saglik": 0,
+    "egitim": 2,
+    "toplanma": 1,
+    "sosyal": 7,
+    "transit": 28,
+    "transit_hizli": 0
+  },
+  "9475337": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 1,
+    "sosyal": 0,
+    "transit": 9,
+    "transit_hizli": 0
+  },
+  "9577224": {
+    "saglik": 0,
+    "egitim": 6,
+    "toplanma": 7,
+    "sosyal": 6,
+    "transit": 73,
+    "transit_hizli": 0
+  },
+  "9363037": {
+    "saglik": 2,
+    "egitim": 4,
+    "toplanma": 5,
+    "sosyal": 37,
+    "transit": 30,
+    "transit_hizli": 6
+  },
+  "9363127": {
+    "saglik": 1,
+    "egitim": 7,
+    "toplanma": 8,
+    "sosyal": 20,
+    "transit": 25,
+    "transit_hizli": 1
+  },
+  "8902002": {
+    "saglik": 2,
+    "egitim": 3,
+    "toplanma": 8,
+    "sosyal": 32,
+    "transit": 38,
+    "transit_hizli": 0
+  },
+  "8796660": {
+    "saglik": 1,
+    "egitim": 11,
+    "toplanma": 11,
+    "sosyal": 23,
+    "transit": 68,
+    "transit_hizli": 6
+  },
+  "9363124": {
+    "saglik": 1,
+    "egitim": 5,
+    "toplanma": 10,
+    "sosyal": 22,
+    "transit": 37,
+    "transit_hizli": 4
+  },
+  "9363158": {
+    "saglik": 0,
+    "egitim": 6,
+    "toplanma": 5,
+    "sosyal": 9,
+    "transit": 20,
+    "transit_hizli": 0
+  },
+  "9354260": {
+    "saglik": 2,
+    "egitim": 4,
+    "toplanma": 9,
+    "sosyal": 13,
+    "transit": 58,
+    "transit_hizli": 10
+  },
+  "9362930": {
+    "saglik": 2,
+    "egitim": 13,
+    "toplanma": 13,
+    "sosyal": 39,
+    "transit": 77,
+    "transit_hizli": 0
+  },
+  "9363201": {
+    "saglik": 1,
+    "egitim": 5,
+    "toplanma": 8,
+    "sosyal": 17,
+    "transit": 26,
+    "transit_hizli": 0
+  },
+  "9363232": {
+    "saglik": 2,
+    "egitim": 9,
+    "toplanma": 9,
+    "sosyal": 12,
+    "transit": 37,
+    "transit_hizli": 4
+  },
+  "9354239": {
+    "saglik": 3,
+    "egitim": 20,
+    "toplanma": 26,
+    "sosyal": 73,
+    "transit": 128,
+    "transit_hizli": 11
+  },
+  "9354273": {
+    "saglik": 1,
+    "egitim": 5,
+    "toplanma": 15,
+    "sosyal": 28,
+    "transit": 46,
+    "transit_hizli": 4
+  },
+  "9362979": {
+    "saglik": 2,
+    "egitim": 12,
+    "toplanma": 12,
+    "sosyal": 33,
+    "transit": 53,
+    "transit_hizli": 7
+  },
+  "9362961": {
+    "saglik": 1,
+    "egitim": 12,
+    "toplanma": 11,
+    "sosyal": 18,
+    "transit": 59,
+    "transit_hizli": 4
+  },
+  "9363036": {
+    "saglik": 0,
+    "egitim": 7,
+    "toplanma": 9,
+    "sosyal": 15,
+    "transit": 35,
+    "transit_hizli": 0
+  },
+  "9354191": {
+    "saglik": 2,
+    "egitim": 5,
+    "toplanma": 12,
+    "sosyal": 23,
+    "transit": 56,
+    "transit_hizli": 0
+  },
+  "9363133": {
+    "saglik": 0,
+    "egitim": 6,
+    "toplanma": 6,
+    "sosyal": 8,
+    "transit": 22,
+    "transit_hizli": 0
+  },
+  "9363203": {
+    "saglik": 1,
+    "egitim": 7,
+    "toplanma": 11,
+    "sosyal": 22,
+    "transit": 36,
+    "transit_hizli": 0
+  },
+  "8824054": {
+    "saglik": 1,
+    "egitim": 7,
+    "toplanma": 7,
+    "sosyal": 8,
+    "transit": 39,
+    "transit_hizli": 4
+  },
+  "9324445": {
+    "saglik": 14,
+    "egitim": 3,
+    "toplanma": 5,
+    "sosyal": 63,
+    "transit": 43,
+    "transit_hizli": 17
+  },
+  "9320236": {
+    "saglik": 2,
+    "egitim": 10,
+    "toplanma": 4,
+    "sosyal": 30,
+    "transit": 33,
+    "transit_hizli": 7
+  },
+  "9324438": {
+    "saglik": 3,
+    "egitim": 10,
+    "toplanma": 7,
+    "sosyal": 59,
+    "transit": 31,
+    "transit_hizli": 7
+  },
+  "9321930": {
+    "saglik": 2,
+    "egitim": 8,
+    "toplanma": 3,
+    "sosyal": 34,
+    "transit": 15,
+    "transit_hizli": 2
+  },
+  "9319943": {
+    "saglik": 2,
+    "egitim": 8,
+    "toplanma": 4,
+    "sosyal": 30,
+    "transit": 24,
+    "transit_hizli": 5
+  },
+  "9327603": {
+    "saglik": 12,
+    "egitim": 17,
+    "toplanma": 11,
+    "sosyal": 139,
+    "transit": 94,
+    "transit_hizli": 33
+  },
+  "9320234": {
+    "saglik": 1,
+    "egitim": 6,
+    "toplanma": 4,
+    "sosyal": 11,
+    "transit": 16,
+    "transit_hizli": 0
+  },
+  "9320291": {
+    "saglik": 1,
+    "egitim": 4,
+    "toplanma": 5,
+    "sosyal": 21,
+    "transit": 21,
+    "transit_hizli": 0
+  },
+  "9327583": {
+    "saglik": 15,
+    "egitim": 6,
+    "toplanma": 5,
+    "sosyal": 61,
+    "transit": 55,
+    "transit_hizli": 18
+  },
+  "9327610": {
+    "saglik": 5,
+    "egitim": 10,
+    "toplanma": 8,
+    "sosyal": 34,
+    "transit": 30,
+    "transit_hizli": 0
+  },
+  "9324450": {
+    "saglik": 7,
+    "egitim": 6,
+    "toplanma": 4,
+    "sosyal": 65,
+    "transit": 23,
+    "transit_hizli": 7
+  },
+  "9321912": {
+    "saglik": 5,
+    "egitim": 4,
+    "toplanma": 5,
+    "sosyal": 12,
+    "transit": 20,
+    "transit_hizli": 3
+  },
+  "9321890": {
+    "saglik": 1,
+    "egitim": 4,
+    "toplanma": 7,
+    "sosyal": 7,
+    "transit": 39,
+    "transit_hizli": 0
+  },
+  "9319824": {
+    "saglik": 12,
+    "egitim": 22,
+    "toplanma": 10,
+    "sosyal": 181,
+    "transit": 42,
+    "transit_hizli": 4
+  },
+  "9319855": {
+    "saglik": 2,
+    "egitim": 6,
+    "toplanma": 4,
+    "sosyal": 65,
+    "transit": 20,
+    "transit_hizli": 2
+  },
+  "9324375": {
+    "saglik": 1,
+    "egitim": 7,
+    "toplanma": 4,
+    "sosyal": 10,
+    "transit": 24,
+    "transit_hizli": 3
+  },
+  "9321891": {
+    "saglik": 5,
+    "egitim": 3,
+    "toplanma": 5,
+    "sosyal": 6,
+    "transit": 35,
+    "transit_hizli": 6
+  },
+  "9321888": {
+    "saglik": 1,
+    "egitim": 1,
+    "toplanma": 5,
+    "sosyal": 10,
+    "transit": 30,
+    "transit_hizli": 0
+  },
+  "9327605": {
+    "saglik": 8,
+    "egitim": 8,
+    "toplanma": 5,
+    "sosyal": 45,
+    "transit": 53,
+    "transit_hizli": 18
+  },
+  "9324437": {
+    "saglik": 12,
+    "egitim": 15,
+    "toplanma": 9,
+    "sosyal": 98,
+    "transit": 86,
+    "transit_hizli": 31
+  },
+  "9324472": {
+    "saglik": 16,
+    "egitim": 11,
+    "toplanma": 5,
+    "sosyal": 89,
+    "transit": 30,
+    "transit_hizli": 7
+  },
+  "9321929": {
+    "saglik": 1,
+    "egitim": 6,
+    "toplanma": 11,
+    "sosyal": 28,
+    "transit": 22,
+    "transit_hizli": 0
+  },
+  "9324473": {
+    "saglik": 18,
+    "egitim": 13,
+    "toplanma": 7,
+    "sosyal": 132,
+    "transit": 22,
+    "transit_hizli": 0
+  },
+  "9322001": {
+    "saglik": 1,
+    "egitim": 3,
+    "toplanma": 5,
+    "sosyal": 13,
+    "transit": 15,
+    "transit_hizli": 0
+  },
+  "9441320": {
+    "saglik": 3,
+    "egitim": 7,
+    "toplanma": 8,
+    "sosyal": 30,
+    "transit": 41,
+    "transit_hizli": 15
+  },
+  "9463420": {
+    "saglik": 2,
+    "egitim": 7,
+    "toplanma": 8,
+    "sosyal": 21,
+    "transit": 62,
+    "transit_hizli": 0
+  },
+  "9463421": {
+    "saglik": 3,
+    "egitim": 8,
+    "toplanma": 11,
+    "sosyal": 24,
+    "transit": 72,
+    "transit_hizli": 0
+  },
+  "9463417": {
+    "saglik": 3,
+    "egitim": 8,
+    "toplanma": 8,
+    "sosyal": 14,
+    "transit": 55,
+    "transit_hizli": 0
+  },
+  "9463416": {
+    "saglik": 2,
+    "egitim": 9,
+    "toplanma": 13,
+    "sosyal": 22,
+    "transit": 57,
+    "transit_hizli": 0
+  },
+  "9463414": {
+    "saglik": 2,
+    "egitim": 9,
+    "toplanma": 10,
+    "sosyal": 15,
+    "transit": 91,
+    "transit_hizli": 0
+  },
+  "9463410": {
+    "saglik": 1,
+    "egitim": 9,
+    "toplanma": 11,
+    "sosyal": 24,
+    "transit": 60,
+    "transit_hizli": 0
+  },
+  "9463407": {
+    "saglik": 3,
+    "egitim": 7,
+    "toplanma": 8,
+    "sosyal": 11,
+    "transit": 70,
+    "transit_hizli": 0
+  },
+  "9463397": {
+    "saglik": 4,
+    "egitim": 7,
+    "toplanma": 11,
+    "sosyal": 17,
+    "transit": 68,
+    "transit_hizli": 0
+  },
+  "9463396": {
+    "saglik": 8,
+    "egitim": 20,
+    "toplanma": 12,
+    "sosyal": 69,
+    "transit": 90,
+    "transit_hizli": 15
+  },
+  "9463391": {
+    "saglik": 2,
+    "egitim": 17,
+    "toplanma": 13,
+    "sosyal": 34,
+    "transit": 70,
+    "transit_hizli": 12
+  },
+  "9463388": {
+    "saglik": 0,
+    "egitim": 3,
+    "toplanma": 6,
+    "sosyal": 10,
+    "transit": 15,
+    "transit_hizli": 0
+  },
+  "9463387": {
+    "saglik": 1,
+    "egitim": 13,
+    "toplanma": 10,
+    "sosyal": 20,
+    "transit": 86,
+    "transit_hizli": 10
+  },
+  "9463385": {
+    "saglik": 2,
+    "egitim": 22,
+    "toplanma": 19,
+    "sosyal": 50,
+    "transit": 102,
+    "transit_hizli": 15
+  },
+  "9463376": {
+    "saglik": 3,
+    "egitim": 9,
+    "toplanma": 16,
+    "sosyal": 25,
+    "transit": 60,
+    "transit_hizli": 0
+  },
+  "9463364": {
+    "saglik": 1,
+    "egitim": 5,
+    "toplanma": 8,
+    "sosyal": 24,
+    "transit": 32,
+    "transit_hizli": 0
+  },
+  "9463333": {
+    "saglik": 2,
+    "egitim": 11,
+    "toplanma": 5,
+    "sosyal": 53,
+    "transit": 25,
+    "transit_hizli": 5
+  },
+  "9463324": {
+    "saglik": 0,
+    "egitim": 6,
+    "toplanma": 8,
+    "sosyal": 22,
+    "transit": 27,
+    "transit_hizli": 0
+  },
+  "9463313": {
+    "saglik": 2,
+    "egitim": 8,
+    "toplanma": 8,
+    "sosyal": 55,
+    "transit": 38,
+    "transit_hizli": 5
+  },
+  "9463286": {
+    "saglik": 2,
+    "egitim": 20,
+    "toplanma": 11,
+    "sosyal": 43,
+    "transit": 33,
+    "transit_hizli": 6
+  },
+  "9463285": {
+    "saglik": 2,
+    "egitim": 17,
+    "toplanma": 15,
+    "sosyal": 38,
+    "transit": 26,
+    "transit_hizli": 6
+  },
+  "9463281": {
+    "saglik": 5,
+    "egitim": 14,
+    "toplanma": 22,
+    "sosyal": 26,
+    "transit": 27,
+    "transit_hizli": 4
+  },
+  "9463280": {
+    "saglik": 11,
+    "egitim": 19,
+    "toplanma": 17,
+    "sosyal": 58,
+    "transit": 62,
+    "transit_hizli": 3
+  },
+  "9463276": {
+    "saglik": 4,
+    "egitim": 9,
+    "toplanma": 20,
+    "sosyal": 17,
+    "transit": 22,
+    "transit_hizli": 0
+  },
+  "9463258": {
+    "saglik": 4,
+    "egitim": 7,
+    "toplanma": 17,
+    "sosyal": 51,
+    "transit": 30,
+    "transit_hizli": 8
+  },
+  "9463242": {
+    "saglik": 7,
+    "egitim": 18,
+    "toplanma": 37,
+    "sosyal": 51,
+    "transit": 44,
+    "transit_hizli": 12
+  },
+  "9463238": {
+    "saglik": 4,
+    "egitim": 11,
+    "toplanma": 25,
+    "sosyal": 24,
+    "transit": 17,
+    "transit_hizli": 0
+  },
+  "9463235": {
+    "saglik": 5,
+    "egitim": 10,
+    "toplanma": 27,
+    "sosyal": 52,
+    "transit": 36,
+    "transit_hizli": 12
+  },
+  "9463224": {
+    "saglik": 5,
+    "egitim": 10,
+    "toplanma": 16,
+    "sosyal": 19,
+    "transit": 24,
+    "transit_hizli": 0
+  },
+  "9441289": {
+    "saglik": 7,
+    "egitim": 6,
+    "toplanma": 9,
+    "sosyal": 19,
+    "transit": 29,
+    "transit_hizli": 0
+  },
+  "3866327": {
+    "saglik": 1,
+    "egitim": 9,
+    "toplanma": 12,
+    "sosyal": 50,
+    "transit": 72,
+    "transit_hizli": 3
+  },
+  "3866467": {
+    "saglik": 10,
+    "egitim": 20,
+    "toplanma": 18,
+    "sosyal": 56,
+    "transit": 67,
+    "transit_hizli": 6
+  },
+  "3866468": {
+    "saglik": 10,
+    "egitim": 19,
+    "toplanma": 21,
+    "sosyal": 53,
+    "transit": 78,
+    "transit_hizli": 5
+  },
+  "3866328": {
+    "saglik": 2,
+    "egitim": 17,
+    "toplanma": 14,
+    "sosyal": 24,
+    "transit": 77,
+    "transit_hizli": 11
+  },
+  "9462984": {
+    "saglik": 0,
+    "egitim": 4,
+    "toplanma": 9,
+    "sosyal": 7,
+    "transit": 50,
+    "transit_hizli": 6
+  },
+  "9462981": {
+    "saglik": 0,
+    "egitim": 9,
+    "toplanma": 6,
+    "sosyal": 23,
+    "transit": 57,
+    "transit_hizli": 6
+  },
+  "9462977": {
+    "saglik": 0,
+    "egitim": 12,
+    "toplanma": 7,
+    "sosyal": 55,
+    "transit": 54,
+    "transit_hizli": 0
+  },
+  "9462967": {
+    "saglik": 0,
+    "egitim": 8,
+    "toplanma": 6,
+    "sosyal": 21,
+    "transit": 49,
+    "transit_hizli": 6
+  },
+  "9462968": {
+    "saglik": 0,
+    "egitim": 5,
+    "toplanma": 6,
+    "sosyal": 13,
+    "transit": 37,
+    "transit_hizli": 6
+  },
+  "9462941": {
+    "saglik": 1,
+    "egitim": 8,
+    "toplanma": 9,
+    "sosyal": 47,
+    "transit": 59,
+    "transit_hizli": 3
+  },
+  "9462938": {
+    "saglik": 2,
+    "egitim": 10,
+    "toplanma": 8,
+    "sosyal": 53,
+    "transit": 69,
+    "transit_hizli": 0
+  },
+  "9462915": {
+    "saglik": 4,
+    "egitim": 2,
+    "toplanma": 7,
+    "sosyal": 40,
+    "transit": 49,
+    "transit_hizli": 0
+  },
+  "9462905": {
+    "saglik": 0,
+    "egitim": 10,
+    "toplanma": 4,
+    "sosyal": 34,
+    "transit": 56,
+    "transit_hizli": 0
+  },
+  "9462897": {
+    "saglik": 1,
+    "egitim": 17,
+    "toplanma": 11,
+    "sosyal": 58,
+    "transit": 74,
+    "transit_hizli": 3
+  },
+  "9462890": {
+    "saglik": 1,
+    "egitim": 10,
+    "toplanma": 3,
+    "sosyal": 23,
+    "transit": 43,
+    "transit_hizli": 1
+  },
+  "9462888": {
+    "saglik": 3,
+    "egitim": 22,
+    "toplanma": 9,
+    "sosyal": 64,
+    "transit": 78,
+    "transit_hizli": 3
+  },
+  "9462886": {
+    "saglik": 0,
+    "egitim": 8,
+    "toplanma": 4,
+    "sosyal": 13,
+    "transit": 33,
+    "transit_hizli": 0
+  },
+  "9462868": {
+    "saglik": 4,
+    "egitim": 25,
+    "toplanma": 12,
+    "sosyal": 57,
+    "transit": 80,
+    "transit_hizli": 7
+  },
+  "9462845": {
+    "saglik": 0,
+    "egitim": 8,
+    "toplanma": 7,
+    "sosyal": 30,
+    "transit": 47,
+    "transit_hizli": 0
+  },
+  "9462835": {
+    "saglik": 1,
+    "egitim": 4,
+    "toplanma": 5,
+    "sosyal": 28,
+    "transit": 48,
+    "transit_hizli": 4
+  },
+  "9462821": {
+    "saglik": 8,
+    "egitim": 10,
+    "toplanma": 19,
+    "sosyal": 64,
+    "transit": 64,
+    "transit_hizli": 6
+  },
+  "9462798": {
+    "saglik": 5,
+    "egitim": 11,
+    "toplanma": 7,
+    "sosyal": 44,
+    "transit": 61,
+    "transit_hizli": 8
+  },
+  "9462770": {
+    "saglik": 11,
+    "egitim": 11,
+    "toplanma": 16,
+    "sosyal": 56,
+    "transit": 49,
+    "transit_hizli": 7
+  },
+  "9462749": {
+    "saglik": 2,
+    "egitim": 9,
+    "toplanma": 11,
+    "sosyal": 33,
+    "transit": 59,
+    "transit_hizli": 3
+  },
+  "9462693": {
+    "saglik": 8,
+    "egitim": 6,
+    "toplanma": 15,
+    "sosyal": 34,
+    "transit": 43,
+    "transit_hizli": 3
+  },
+  "9462686": {
+    "saglik": 1,
+    "egitim": 7,
+    "toplanma": 13,
+    "sosyal": 9,
+    "transit": 63,
+    "transit_hizli": 2
+  },
+  "9462671": {
+    "saglik": 1,
+    "egitim": 4,
+    "toplanma": 9,
+    "sosyal": 5,
+    "transit": 55,
+    "transit_hizli": 2
+  },
+  "9462650": {
+    "saglik": 1,
+    "egitim": 12,
+    "toplanma": 15,
+    "sosyal": 7,
+    "transit": 87,
+    "transit_hizli": 0
+  },
+  "9462638": {
+    "saglik": 2,
+    "egitim": 3,
+    "toplanma": 15,
+    "sosyal": 1,
+    "transit": 65,
+    "transit_hizli": 2
+  },
+  "9462625": {
+    "saglik": 1,
+    "egitim": 2,
+    "toplanma": 10,
+    "sosyal": 4,
+    "transit": 53,
+    "transit_hizli": 2
+  },
+  "9462597": {
+    "saglik": 0,
+    "egitim": 1,
+    "toplanma": 10,
+    "sosyal": 6,
+    "transit": 51,
+    "transit_hizli": 0
+  },
+  "9462585": {
+    "saglik": 0,
+    "egitim": 3,
+    "toplanma": 4,
+    "sosyal": 16,
+    "transit": 50,
+    "transit_hizli": 10
+  },
+  "9462548": {
+    "saglik": 1,
+    "egitim": 3,
+    "toplanma": 9,
+    "sosyal": 14,
+    "transit": 47,
+    "transit_hizli": 8
+  },
+  "9462535": {
+    "saglik": 0,
+    "egitim": 6,
+    "toplanma": 6,
+    "sosyal": 20,
+    "transit": 40,
+    "transit_hizli": 5
+  },
+  "9462528": {
+    "saglik": 1,
+    "egitim": 7,
+    "toplanma": 8,
+    "sosyal": 26,
+    "transit": 49,
+    "transit_hizli": 8
+  },
+  "9462526": {
+    "saglik": 2,
+    "egitim": 7,
+    "toplanma": 11,
+    "sosyal": 29,
+    "transit": 53,
+    "transit_hizli": 8
+  },
+  "9462497": {
+    "saglik": 2,
+    "egitim": 15,
+    "toplanma": 8,
+    "sosyal": 32,
+    "transit": 52,
+    "transit_hizli": 9
+  },
+  "9462498": {
+    "saglik": 0,
+    "egitim": 12,
+    "toplanma": 7,
+    "sosyal": 20,
+    "transit": 79,
+    "transit_hizli": 0
+  },
+  "9462467": {
+    "saglik": 0,
+    "egitim": 8,
+    "toplanma": 8,
+    "sosyal": 17,
+    "transit": 67,
+    "transit_hizli": 9
+  },
+  "9308675": {
+    "saglik": 1,
+    "egitim": 8,
+    "toplanma": 3,
+    "sosyal": 40,
+    "transit": 71,
+    "transit_hizli": 8
+  },
+  "9308676": {
+    "saglik": 1,
+    "egitim": 5,
+    "toplanma": 11,
+    "sosyal": 17,
+    "transit": 71,
+    "transit_hizli": 12
+  },
+  "9493958": {
+    "saglik": 0,
+    "egitim": 1,
+    "toplanma": 2,
+    "sosyal": 5,
+    "transit": 52,
+    "transit_hizli": 0
+  },
+  "9489001": {
+    "saglik": 0,
+    "egitim": 3,
+    "toplanma": 16,
+    "sosyal": 7,
+    "transit": 21,
+    "transit_hizli": 0
+  },
+  "9479839": {
+    "saglik": 0,
+    "egitim": 1,
+    "toplanma": 2,
+    "sosyal": 0,
+    "transit": 37,
+    "transit_hizli": 0
+  },
+  "9488959": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 1,
+    "sosyal": 1,
+    "transit": 35,
+    "transit_hizli": 0
+  },
+  "9488998": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 3,
+    "sosyal": 10,
+    "transit": 23,
+    "transit_hizli": 0
+  },
+  "9577603": {
+    "saglik": 0,
+    "egitim": 2,
+    "toplanma": 4,
+    "sosyal": 3,
+    "transit": 74,
+    "transit_hizli": 0
+  },
+  "9479745": {
+    "saglik": 0,
+    "egitim": 1,
+    "toplanma": 1,
+    "sosyal": 3,
+    "transit": 21,
+    "transit_hizli": 0
+  },
+  "9489348": {
+    "saglik": 0,
+    "egitim": 2,
+    "toplanma": 5,
+    "sosyal": 7,
+    "transit": 22,
+    "transit_hizli": 0
+  },
+  "9479804": {
+    "saglik": 0,
+    "egitim": 1,
+    "toplanma": 2,
+    "sosyal": 8,
+    "transit": 24,
+    "transit_hizli": 0
+  },
+  "9489253": {
+    "saglik": 0,
+    "egitim": 1,
+    "toplanma": 2,
+    "sosyal": 2,
+    "transit": 59,
+    "transit_hizli": 0
+  },
+  "9489133": {
+    "saglik": 0,
+    "egitim": 1,
+    "toplanma": 9,
+    "sosyal": 1,
+    "transit": 69,
+    "transit_hizli": 0
+  },
+  "9479806": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 1,
+    "sosyal": 2,
+    "transit": 10,
+    "transit_hizli": 0
+  },
+  "9479917": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 1,
+    "sosyal": 1,
+    "transit": 41,
+    "transit_hizli": 0
+  },
+  "9493939": {
+    "saglik": 0,
+    "egitim": 5,
+    "toplanma": 11,
+    "sosyal": 18,
+    "transit": 40,
+    "transit_hizli": 0
+  },
+  "9493940": {
+    "saglik": 1,
+    "egitim": 5,
+    "toplanma": 14,
+    "sosyal": 7,
+    "transit": 68,
+    "transit_hizli": 0
+  },
+  "9479743": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 0,
+    "sosyal": 3,
+    "transit": 23,
+    "transit_hizli": 0
+  },
+  "9488961": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 0,
+    "sosyal": 1,
+    "transit": 38,
+    "transit_hizli": 0
+  },
+  "9479744": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 1,
+    "sosyal": 1,
+    "transit": 12,
+    "transit_hizli": 0
+  },
+  "9479970": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 2,
+    "sosyal": 1,
+    "transit": 62,
+    "transit_hizli": 0
+  },
+  "9489100": {
+    "saglik": 2,
+    "egitim": 6,
+    "toplanma": 27,
+    "sosyal": 25,
+    "transit": 63,
+    "transit_hizli": 0
+  },
+  "9479805": {
+    "saglik": 0,
+    "egitim": 1,
+    "toplanma": 1,
+    "sosyal": 2,
+    "transit": 27,
+    "transit_hizli": 0
+  },
+  "9489220": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 6,
+    "sosyal": 1,
+    "transit": 66,
+    "transit_hizli": 0
+  },
+  "9489323": {
+    "saglik": 0,
+    "egitim": 5,
+    "toplanma": 21,
+    "sosyal": 13,
+    "transit": 35,
+    "transit_hizli": 0
+  },
+  "9493991": {
+    "saglik": 2,
+    "egitim": 2,
+    "toplanma": 6,
+    "sosyal": 7,
+    "transit": 27,
+    "transit_hizli": 0
+  },
+  "9479807": {
+    "saglik": 0,
+    "egitim": 1,
+    "toplanma": 3,
+    "sosyal": 2,
+    "transit": 40,
+    "transit_hizli": 0
+  },
+  "9479803": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 2,
+    "sosyal": 5,
+    "transit": 34,
+    "transit_hizli": 0
+  },
+  "9488997": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 1,
+    "sosyal": 6,
+    "transit": 22,
+    "transit_hizli": 0
+  },
+  "9479808": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 3,
+    "sosyal": 4,
+    "transit": 38,
+    "transit_hizli": 0
+  },
+  "9494014": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 7,
+    "sosyal": 1,
+    "transit": 41,
+    "transit_hizli": 0
+  },
+  "9488999": {
+    "saglik": 1,
+    "egitim": 2,
+    "toplanma": 7,
+    "sosyal": 4,
+    "transit": 34,
+    "transit_hizli": 0
+  },
+  "9493908": {
+    "saglik": 1,
+    "egitim": 3,
+    "toplanma": 8,
+    "sosyal": 10,
+    "transit": 22,
+    "transit_hizli": 0
+  },
+  "9489219": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 2,
+    "sosyal": 2,
+    "transit": 62,
+    "transit_hizli": 0
+  },
+  "9644016": {
+    "saglik": 0,
+    "egitim": 2,
+    "toplanma": 4,
+    "sosyal": 0,
+    "transit": 45,
+    "transit_hizli": 0
+  },
+  "9644017": {
+    "saglik": 0,
+    "egitim": 1,
+    "toplanma": 4,
+    "sosyal": 0,
+    "transit": 46,
+    "transit_hizli": 0
+  },
+  "9644018": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 5,
+    "sosyal": 1,
+    "transit": 48,
+    "transit_hizli": 0
+  },
+  "9463334": {
+    "saglik": 1,
+    "egitim": 7,
+    "toplanma": 8,
+    "sosyal": 21,
+    "transit": 36,
+    "transit_hizli": 0
+  },
+  "9577538": {
+    "saglik": 0,
+    "egitim": 4,
+    "toplanma": 8,
+    "sosyal": 7,
+    "transit": 44,
+    "transit_hizli": 0
+  },
+  "9577570": {
+    "saglik": 2,
+    "egitim": 5,
+    "toplanma": 14,
+    "sosyal": 8,
+    "transit": 77,
+    "transit_hizli": 0
+  },
+  "9577627": {
+    "saglik": 0,
+    "egitim": 1,
+    "toplanma": 3,
+    "sosyal": 1,
+    "transit": 28,
+    "transit_hizli": 0
+  },
+  "9577636": {
+    "saglik": 3,
+    "egitim": 6,
+    "toplanma": 3,
+    "sosyal": 25,
+    "transit": 42,
+    "transit_hizli": 0
+  },
+  "9578449": {
+    "saglik": 0,
+    "egitim": 3,
+    "toplanma": 4,
+    "sosyal": 22,
+    "transit": 23,
+    "transit_hizli": 0
+  },
+  "9578450": {
+    "saglik": 0,
+    "egitim": 3,
+    "toplanma": 2,
+    "sosyal": 8,
+    "transit": 22,
+    "transit_hizli": 0
+  },
+  "9578464": {
+    "saglik": 4,
+    "egitim": 10,
+    "toplanma": 7,
+    "sosyal": 34,
+    "transit": 68,
+    "transit_hizli": 0
+  },
+  "9578496": {
+    "saglik": 1,
+    "egitim": 1,
+    "toplanma": 9,
+    "sosyal": 6,
+    "transit": 40,
+    "transit_hizli": 0
+  },
+  "9578568": {
+    "saglik": 3,
+    "egitim": 11,
+    "toplanma": 3,
+    "sosyal": 44,
+    "transit": 57,
+    "transit_hizli": 0
+  },
+  "9445548": {
+    "saglik": 3,
+    "egitim": 8,
+    "toplanma": 9,
+    "sosyal": 17,
+    "transit": 67,
+    "transit_hizli": 7
+  },
+  "9445549": {
+    "saglik": 2,
+    "egitim": 13,
+    "toplanma": 8,
+    "sosyal": 6,
+    "transit": 53,
+    "transit_hizli": 3
+  },
+  "9445507": {
+    "saglik": 3,
+    "egitim": 15,
+    "toplanma": 14,
+    "sosyal": 51,
+    "transit": 78,
+    "transit_hizli": 13
+  },
+  "9445486": {
+    "saglik": 0,
+    "egitim": 6,
+    "toplanma": 4,
+    "sosyal": 7,
+    "transit": 49,
+    "transit_hizli": 0
+  },
+  "9445460": {
+    "saglik": 6,
+    "egitim": 19,
+    "toplanma": 9,
+    "sosyal": 134,
+    "transit": 53,
+    "transit_hizli": 13
+  },
+  "9445445": {
+    "saglik": 3,
+    "egitim": 15,
+    "toplanma": 12,
+    "sosyal": 40,
+    "transit": 123,
+    "transit_hizli": 10
+  },
+  "9445356": {
+    "saglik": 3,
+    "egitim": 6,
+    "toplanma": 5,
+    "sosyal": 28,
+    "transit": 40,
+    "transit_hizli": 6
+  },
+  "9445347": {
+    "saglik": 11,
+    "egitim": 17,
+    "toplanma": 9,
+    "sosyal": 112,
+    "transit": 45,
+    "transit_hizli": 6
+  },
+  "9445332": {
+    "saglik": 6,
+    "egitim": 7,
+    "toplanma": 5,
+    "sosyal": 122,
+    "transit": 26,
+    "transit_hizli": 3
+  },
+  "9445317": {
+    "saglik": 4,
+    "egitim": 12,
+    "toplanma": 5,
+    "sosyal": 106,
+    "transit": 59,
+    "transit_hizli": 12
+  },
+  "9445299": {
+    "saglik": 3,
+    "egitim": 9,
+    "toplanma": 7,
+    "sosyal": 60,
+    "transit": 31,
+    "transit_hizli": 7
+  },
+  "9445274": {
+    "saglik": 2,
+    "egitim": 9,
+    "toplanma": 7,
+    "sosyal": 36,
+    "transit": 41,
+    "transit_hizli": 10
+  },
+  "9445218": {
+    "saglik": 2,
+    "egitim": 13,
+    "toplanma": 15,
+    "sosyal": 37,
+    "transit": 146,
+    "transit_hizli": 2
+  },
+  "9445177": {
+    "saglik": 8,
+    "egitim": 28,
+    "toplanma": 16,
+    "sosyal": 67,
+    "transit": 175,
+    "transit_hizli": 0
+  },
+  "9445147": {
+    "saglik": 4,
+    "egitim": 15,
+    "toplanma": 8,
+    "sosyal": 15,
+    "transit": 59,
+    "transit_hizli": 4
+  },
+  "9445120": {
+    "saglik": 1,
+    "egitim": 12,
+    "toplanma": 6,
+    "sosyal": 41,
+    "transit": 51,
+    "transit_hizli": 7
+  },
+  "9441153": {
+    "saglik": 0,
+    "egitim": 8,
+    "toplanma": 8,
+    "sosyal": 48,
+    "transit": 68,
+    "transit_hizli": 0
+  },
+  "9387083": {
+    "saglik": 3,
+    "egitim": 11,
+    "toplanma": 6,
+    "sosyal": 72,
+    "transit": 45,
+    "transit_hizli": 9
+  },
+  "9444949": {
+    "saglik": 9,
+    "egitim": 19,
+    "toplanma": 8,
+    "sosyal": 160,
+    "transit": 54,
+    "transit_hizli": 11
+  },
+  "9444950": {
+    "saglik": 15,
+    "egitim": 17,
+    "toplanma": 7,
+    "sosyal": 161,
+    "transit": 34,
+    "transit_hizli": 4
+  },
+  "9444927": {
+    "saglik": 9,
+    "egitim": 17,
+    "toplanma": 9,
+    "sosyal": 93,
+    "transit": 61,
+    "transit_hizli": 4
+  },
+  "9444910": {
+    "saglik": 20,
+    "egitim": 14,
+    "toplanma": 3,
+    "sosyal": 175,
+    "transit": 29,
+    "transit_hizli": 1
+  },
+  "9444902": {
+    "saglik": 11,
+    "egitim": 30,
+    "toplanma": 10,
+    "sosyal": 64,
+    "transit": 67,
+    "transit_hizli": 4
+  },
+  "9444892": {
+    "saglik": 18,
+    "egitim": 26,
+    "toplanma": 6,
+    "sosyal": 115,
+    "transit": 39,
+    "transit_hizli": 4
+  },
+  "9444876": {
+    "saglik": 4,
+    "egitim": 18,
+    "toplanma": 9,
+    "sosyal": 28,
+    "transit": 42,
+    "transit_hizli": 7
+  },
+  "9444841": {
+    "saglik": 17,
+    "egitim": 13,
+    "toplanma": 4,
+    "sosyal": 122,
+    "transit": 25,
+    "transit_hizli": 3
+  },
+  "9444828": {
+    "saglik": 18,
+    "egitim": 10,
+    "toplanma": 5,
+    "sosyal": 89,
+    "transit": 29,
+    "transit_hizli": 3
+  },
+  "9444116": {
+    "saglik": 4,
+    "egitim": 10,
+    "toplanma": 9,
+    "sosyal": 27,
+    "transit": 38,
+    "transit_hizli": 5
+  },
+  "9286639": {
+    "saglik": 7,
+    "egitim": 8,
+    "toplanma": 7,
+    "sosyal": 201,
+    "transit": 42,
+    "transit_hizli": 11
+  },
+  "9286614": {
+    "saglik": 16,
+    "egitim": 12,
+    "toplanma": 4,
+    "sosyal": 211,
+    "transit": 31,
+    "transit_hizli": 9
+  },
+  "8852697": {
+    "saglik": 11,
+    "egitim": 18,
+    "toplanma": 8,
+    "sosyal": 142,
+    "transit": 65,
+    "transit_hizli": 21
+  },
+  "9286607": {
+    "saglik": 17,
+    "egitim": 16,
+    "toplanma": 7,
+    "sosyal": 171,
+    "transit": 74,
+    "transit_hizli": 21
+  },
+  "9444099": {
+    "saglik": 10,
+    "egitim": 18,
+    "toplanma": 9,
+    "sosyal": 62,
+    "transit": 40,
+    "transit_hizli": 5
+  },
+  "9444034": {
+    "saglik": 7,
+    "egitim": 7,
+    "toplanma": 3,
+    "sosyal": 80,
+    "transit": 23,
+    "transit_hizli": 4
+  },
+  "9443987": {
+    "saglik": 11,
+    "egitim": 24,
+    "toplanma": 14,
+    "sosyal": 149,
+    "transit": 65,
+    "transit_hizli": 12
+  },
+  "9441339": {
+    "saglik": 6,
+    "egitim": 15,
+    "toplanma": 9,
+    "sosyal": 82,
+    "transit": 62,
+    "transit_hizli": 16
+  },
+  "9441078": {
+    "saglik": 8,
+    "egitim": 6,
+    "toplanma": 9,
+    "sosyal": 49,
+    "transit": 37,
+    "transit_hizli": 5
+  },
+  "9441032": {
+    "saglik": 3,
+    "egitim": 16,
+    "toplanma": 6,
+    "sosyal": 427,
+    "transit": 32,
+    "transit_hizli": 7
+  },
+  "9426227": {
+    "saglik": 5,
+    "egitim": 14,
+    "toplanma": 6,
+    "sosyal": 410,
+    "transit": 41,
+    "transit_hizli": 11
+  },
+  "9288091": {
+    "saglik": 4,
+    "egitim": 11,
+    "toplanma": 7,
+    "sosyal": 52,
+    "transit": 62,
+    "transit_hizli": 5
+  },
+  "9397171": {
+    "saglik": 5,
+    "egitim": 9,
+    "toplanma": 10,
+    "sosyal": 34,
+    "transit": 43,
+    "transit_hizli": 4
+  },
+  "9397322": {
+    "saglik": 1,
+    "egitim": 4,
+    "toplanma": 5,
+    "sosyal": 6,
+    "transit": 38,
+    "transit_hizli": 5
+  },
+  "9397085": {
+    "saglik": 3,
+    "egitim": 10,
+    "toplanma": 11,
+    "sosyal": 24,
+    "transit": 57,
+    "transit_hizli": 2
+  },
+  "9397189": {
+    "saglik": 1,
+    "egitim": 6,
+    "toplanma": 5,
+    "sosyal": 24,
+    "transit": 40,
+    "transit_hizli": 0
+  },
+  "9397321": {
+    "saglik": 1,
+    "egitim": 3,
+    "toplanma": 4,
+    "sosyal": 2,
+    "transit": 27,
+    "transit_hizli": 0
+  },
+  "9397264": {
+    "saglik": 4,
+    "egitim": 5,
+    "toplanma": 9,
+    "sosyal": 14,
+    "transit": 42,
+    "transit_hizli": 5
+  },
+  "9287004": {
+    "saglik": 6,
+    "egitim": 23,
+    "toplanma": 10,
+    "sosyal": 77,
+    "transit": 87,
+    "transit_hizli": 9
+  },
+  "9288097": {
+    "saglik": 3,
+    "egitim": 12,
+    "toplanma": 7,
+    "sosyal": 52,
+    "transit": 66,
+    "transit_hizli": 4
+  },
+  "9286658": {
+    "saglik": 1,
+    "egitim": 6,
+    "toplanma": 8,
+    "sosyal": 20,
+    "transit": 33,
+    "transit_hizli": 0
+  },
+  "9397114": {
+    "saglik": 0,
+    "egitim": 12,
+    "toplanma": 10,
+    "sosyal": 24,
+    "transit": 62,
+    "transit_hizli": 0
+  },
+  "9397234": {
+    "saglik": 16,
+    "egitim": 27,
+    "toplanma": 10,
+    "sosyal": 122,
+    "transit": 107,
+    "transit_hizli": 6
+  },
+  "9397186": {
+    "saglik": 0,
+    "egitim": 4,
+    "toplanma": 4,
+    "sosyal": 14,
+    "transit": 38,
+    "transit_hizli": 0
+  },
+  "9286657": {
+    "saglik": 1,
+    "egitim": 3,
+    "toplanma": 8,
+    "sosyal": 7,
+    "transit": 81,
+    "transit_hizli": 0
+  },
+  "9397246": {
+    "saglik": 18,
+    "egitim": 44,
+    "toplanma": 22,
+    "sosyal": 147,
+    "transit": 90,
+    "transit_hizli": 5
+  },
+  "3403828": {
+    "saglik": 24,
+    "egitim": 38,
+    "toplanma": 15,
+    "sosyal": 217,
+    "transit": 132,
+    "transit_hizli": 22
+  },
+  "8857261": {
+    "saglik": 33,
+    "egitim": 66,
+    "toplanma": 20,
+    "sosyal": 225,
+    "transit": 86,
+    "transit_hizli": 7
+  },
+  "9623145": {
+    "saglik": 0,
+    "egitim": 24,
+    "toplanma": 39,
+    "sosyal": 64,
+    "transit": 84,
+    "transit_hizli": 7
+  },
+  "9623146": {
+    "saglik": 0,
+    "egitim": 7,
+    "toplanma": 7,
+    "sosyal": 17,
+    "transit": 45,
+    "transit_hizli": 0
+  },
+  "9623105": {
+    "saglik": 1,
+    "egitim": 4,
+    "toplanma": 8,
+    "sosyal": 5,
+    "transit": 32,
+    "transit_hizli": 0
+  },
+  "9623102": {
+    "saglik": 0,
+    "egitim": 4,
+    "toplanma": 5,
+    "sosyal": 10,
+    "transit": 29,
+    "transit_hizli": 0
+  },
+  "9623096": {
+    "saglik": 1,
+    "egitim": 5,
+    "toplanma": 8,
+    "sosyal": 6,
+    "transit": 32,
+    "transit_hizli": 0
+  },
+  "9623078": {
+    "saglik": 1,
+    "egitim": 8,
+    "toplanma": 6,
+    "sosyal": 10,
+    "transit": 48,
+    "transit_hizli": 0
+  },
+  "9623060": {
+    "saglik": 0,
+    "egitim": 7,
+    "toplanma": 5,
+    "sosyal": 14,
+    "transit": 39,
+    "transit_hizli": 0
+  },
+  "9623052": {
+    "saglik": 0,
+    "egitim": 21,
+    "toplanma": 17,
+    "sosyal": 44,
+    "transit": 80,
+    "transit_hizli": 2
+  },
+  "9623018": {
+    "saglik": 4,
+    "egitim": 20,
+    "toplanma": 15,
+    "sosyal": 28,
+    "transit": 80,
+    "transit_hizli": 5
+  },
+  "9623005": {
+    "saglik": 4,
+    "egitim": 10,
+    "toplanma": 4,
+    "sosyal": 42,
+    "transit": 44,
+    "transit_hizli": 2
+  },
+  "9620523": {
+    "saglik": 3,
+    "egitim": 9,
+    "toplanma": 20,
+    "sosyal": 41,
+    "transit": 37,
+    "transit_hizli": 5
+  },
+  "9620521": {
+    "saglik": 2,
+    "egitim": 8,
+    "toplanma": 3,
+    "sosyal": 40,
+    "transit": 32,
+    "transit_hizli": 2
+  },
+  "9495280": {
+    "saglik": 7,
+    "egitim": 12,
+    "toplanma": 15,
+    "sosyal": 54,
+    "transit": 41,
+    "transit_hizli": 7
+  },
+  "9483087": {
+    "saglik": 0,
+    "egitim": 1,
+    "toplanma": 2,
+    "sosyal": 7,
+    "transit": 15,
+    "transit_hizli": 0
+  },
+  "9480886": {
+    "saglik": 0,
+    "egitim": 13,
+    "toplanma": 9,
+    "sosyal": 19,
+    "transit": 45,
+    "transit_hizli": 2
+  },
+  "9480879": {
+    "saglik": 3,
+    "egitim": 18,
+    "toplanma": 8,
+    "sosyal": 68,
+    "transit": 59,
+    "transit_hizli": 8
+  },
+  "9480877": {
+    "saglik": 4,
+    "egitim": 13,
+    "toplanma": 5,
+    "sosyal": 26,
+    "transit": 37,
+    "transit_hizli": 2
+  },
+  "9480875": {
+    "saglik": 0,
+    "egitim": 13,
+    "toplanma": 5,
+    "sosyal": 12,
+    "transit": 40,
+    "transit_hizli": 2
+  },
+  "9466595": {
+    "saglik": 0,
+    "egitim": 11,
+    "toplanma": 4,
+    "sosyal": 15,
+    "transit": 36,
+    "transit_hizli": 0
+  },
+  "1276035": {
+    "saglik": 0,
+    "egitim": 9,
+    "toplanma": 4,
+    "sosyal": 7,
+    "transit": 26,
+    "transit_hizli": 0
+  },
+  "7666491": {
+    "saglik": 1,
+    "egitim": 11,
+    "toplanma": 8,
+    "sosyal": 27,
+    "transit": 39,
+    "transit_hizli": 0
+  },
+  "7666484": {
+    "saglik": 2,
+    "egitim": 8,
+    "toplanma": 12,
+    "sosyal": 12,
+    "transit": 55,
+    "transit_hizli": 0
+  },
+  "7666485": {
+    "saglik": 1,
+    "egitim": 9,
+    "toplanma": 9,
+    "sosyal": 11,
+    "transit": 48,
+    "transit_hizli": 0
+  },
+  "7666495": {
+    "saglik": 7,
+    "egitim": 27,
+    "toplanma": 10,
+    "sosyal": 88,
+    "transit": 51,
+    "transit_hizli": 0
+  },
+  "7666496": {
+    "saglik": 6,
+    "egitim": 32,
+    "toplanma": 12,
+    "sosyal": 83,
+    "transit": 85,
+    "transit_hizli": 0
+  },
+  "7666490": {
+    "saglik": 5,
+    "egitim": 7,
+    "toplanma": 11,
+    "sosyal": 38,
+    "transit": 38,
+    "transit_hizli": 3
+  },
+  "7666497": {
+    "saglik": 2,
+    "egitim": 21,
+    "toplanma": 10,
+    "sosyal": 22,
+    "transit": 64,
+    "transit_hizli": 0
+  },
+  "7666489": {
+    "saglik": 14,
+    "egitim": 23,
+    "toplanma": 16,
+    "sosyal": 91,
+    "transit": 36,
+    "transit_hizli": 3
+  },
+  "7772852": {
+    "saglik": 6,
+    "egitim": 16,
+    "toplanma": 9,
+    "sosyal": 103,
+    "transit": 42,
+    "transit_hizli": 2
+  },
+  "7666483": {
+    "saglik": 0,
+    "egitim": 4,
+    "toplanma": 9,
+    "sosyal": 13,
+    "transit": 25,
+    "transit_hizli": 0
+  },
+  "7666487": {
+    "saglik": 4,
+    "egitim": 9,
+    "toplanma": 16,
+    "sosyal": 24,
+    "transit": 44,
+    "transit_hizli": 0
+  },
+  "8320926": {
+    "saglik": 2,
+    "egitim": 7,
+    "toplanma": 15,
+    "sosyal": 21,
+    "transit": 45,
+    "transit_hizli": 0
+  },
+  "7666494": {
+    "saglik": 3,
+    "egitim": 13,
+    "toplanma": 8,
+    "sosyal": 14,
+    "transit": 27,
+    "transit_hizli": 0
+  },
+  "7666492": {
+    "saglik": 1,
+    "egitim": 9,
+    "toplanma": 9,
+    "sosyal": 13,
+    "transit": 31,
+    "transit_hizli": 0
+  },
+  "7666488": {
+    "saglik": 11,
+    "egitim": 19,
+    "toplanma": 18,
+    "sosyal": 96,
+    "transit": 46,
+    "transit_hizli": 2
+  },
+  "7666493": {
+    "saglik": 3,
+    "egitim": 8,
+    "toplanma": 12,
+    "sosyal": 43,
+    "transit": 28,
+    "transit_hizli": 2
+  },
+  "7666486": {
+    "saglik": 3,
+    "egitim": 10,
+    "toplanma": 15,
+    "sosyal": 21,
+    "transit": 43,
+    "transit_hizli": 0
+  },
+  "9285741": {
+    "saglik": 6,
+    "egitim": 15,
+    "toplanma": 12,
+    "sosyal": 37,
+    "transit": 73,
+    "transit_hizli": 6
+  },
+  "9285742": {
+    "saglik": 7,
+    "egitim": 14,
+    "toplanma": 7,
+    "sosyal": 92,
+    "transit": 90,
+    "transit_hizli": 13
+  },
+  "9285966": {
+    "saglik": 7,
+    "egitim": 21,
+    "toplanma": 6,
+    "sosyal": 56,
+    "transit": 55,
+    "transit_hizli": 3
+  },
+  "9285980": {
+    "saglik": 7,
+    "egitim": 16,
+    "toplanma": 9,
+    "sosyal": 45,
+    "transit": 66,
+    "transit_hizli": 8
+  },
+  "9286009": {
+    "saglik": 3,
+    "egitim": 13,
+    "toplanma": 8,
+    "sosyal": 36,
+    "transit": 77,
+    "transit_hizli": 1
+  },
+  "9286043": {
+    "saglik": 6,
+    "egitim": 18,
+    "toplanma": 5,
+    "sosyal": 66,
+    "transit": 60,
+    "transit_hizli": 7
+  },
+  "9286068": {
+    "saglik": 3,
+    "egitim": 25,
+    "toplanma": 14,
+    "sosyal": 62,
+    "transit": 79,
+    "transit_hizli": 9
+  },
+  "9286088": {
+    "saglik": 2,
+    "egitim": 1,
+    "toplanma": 4,
+    "sosyal": 49,
+    "transit": 22,
+    "transit_hizli": 0
+  },
+  "9286104": {
+    "saglik": 2,
+    "egitim": 17,
+    "toplanma": 14,
+    "sosyal": 68,
+    "transit": 53,
+    "transit_hizli": 3
+  },
+  "9286195": {
+    "saglik": 4,
+    "egitim": 8,
+    "toplanma": 4,
+    "sosyal": 33,
+    "transit": 58,
+    "transit_hizli": 3
+  },
+  "9286238": {
+    "saglik": 7,
+    "egitim": 9,
+    "toplanma": 9,
+    "sosyal": 16,
+    "transit": 62,
+    "transit_hizli": 3
+  },
+  "9286262": {
+    "saglik": 5,
+    "egitim": 7,
+    "toplanma": 5,
+    "sosyal": 9,
+    "transit": 49,
+    "transit_hizli": 5
+  },
+  "9286269": {
+    "saglik": 3,
+    "egitim": 8,
+    "toplanma": 6,
+    "sosyal": 15,
+    "transit": 26,
+    "transit_hizli": 2
+  },
+  "9286337": {
+    "saglik": 4,
+    "egitim": 15,
+    "toplanma": 5,
+    "sosyal": 37,
+    "transit": 85,
+    "transit_hizli": 9
+  },
+  "9286355": {
+    "saglik": 5,
+    "egitim": 10,
+    "toplanma": 5,
+    "sosyal": 36,
+    "transit": 48,
+    "transit_hizli": 5
+  },
+  "9286388": {
+    "saglik": 5,
+    "egitim": 9,
+    "toplanma": 6,
+    "sosyal": 22,
+    "transit": 35,
+    "transit_hizli": 9
+  },
+  "9286428": {
+    "saglik": 7,
+    "egitim": 6,
+    "toplanma": 10,
+    "sosyal": 38,
+    "transit": 38,
+    "transit_hizli": 0
+  },
+  "9286454": {
+    "saglik": 3,
+    "egitim": 21,
+    "toplanma": 11,
+    "sosyal": 42,
+    "transit": 96,
+    "transit_hizli": 4
+  },
+  "9286485": {
+    "saglik": 1,
+    "egitim": 8,
+    "toplanma": 7,
+    "sosyal": 32,
+    "transit": 41,
+    "transit_hizli": 0
+  },
+  "9286522": {
+    "saglik": 4,
+    "egitim": 4,
+    "toplanma": 7,
+    "sosyal": 21,
+    "transit": 39,
+    "transit_hizli": 0
+  },
+  "9306406": {
+    "saglik": 0,
+    "egitim": 1,
+    "toplanma": 5,
+    "sosyal": 9,
+    "transit": 25,
+    "transit_hizli": 0
+  },
+  "9526221": {
+    "saglik": 0,
+    "egitim": 8,
+    "toplanma": 5,
+    "sosyal": 8,
+    "transit": 28,
+    "transit_hizli": 0
+  },
+  "9526222": {
+    "saglik": 1,
+    "egitim": 5,
+    "toplanma": 5,
+    "sosyal": 5,
+    "transit": 24,
+    "transit_hizli": 0
+  },
+  "9526165": {
+    "saglik": 0,
+    "egitim": 4,
+    "toplanma": 3,
+    "sosyal": 7,
+    "transit": 27,
+    "transit_hizli": 0
+  },
+  "9679694": {
+    "saglik": 1,
+    "egitim": 6,
+    "toplanma": 4,
+    "sosyal": 10,
+    "transit": 48,
+    "transit_hizli": 0
+  },
+  "9679693": {
+    "saglik": 0,
+    "egitim": 1,
+    "toplanma": 1,
+    "sosyal": 0,
+    "transit": 16,
+    "transit_hizli": 0
+  },
+  "9679639": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 2,
+    "sosyal": 0,
+    "transit": 20,
+    "transit_hizli": 0
+  },
+  "9679582": {
+    "saglik": 0,
+    "egitim": 1,
+    "toplanma": 0,
+    "sosyal": 2,
+    "transit": 24,
+    "transit_hizli": 0
+  },
+  "9679519": {
+    "saglik": 4,
+    "egitim": 6,
+    "toplanma": 20,
+    "sosyal": 18,
+    "transit": 37,
+    "transit_hizli": 0
+  },
+  "9679518": {
+    "saglik": 0,
+    "egitim": 9,
+    "toplanma": 23,
+    "sosyal": 17,
+    "transit": 40,
+    "transit_hizli": 0
+  },
+  "9679498": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 1,
+    "sosyal": 2,
+    "transit": 28,
+    "transit_hizli": 0
+  },
+  "9679490": {
+    "saglik": 0,
+    "egitim": 2,
+    "toplanma": 1,
+    "sosyal": 5,
+    "transit": 7,
+    "transit_hizli": 0
+  },
+  "9679470": {
+    "saglik": 2,
+    "egitim": 8,
+    "toplanma": 4,
+    "sosyal": 12,
+    "transit": 47,
+    "transit_hizli": 0
+  },
+  "9644306": {
+    "saglik": 4,
+    "egitim": 4,
+    "toplanma": 4,
+    "sosyal": 13,
+    "transit": 27,
+    "transit_hizli": 0
+  },
+  "9644307": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 2,
+    "sosyal": 4,
+    "transit": 8,
+    "transit_hizli": 0
+  },
+  "9620544": {
+    "saglik": 3,
+    "egitim": 5,
+    "toplanma": 5,
+    "sosyal": 12,
+    "transit": 39,
+    "transit_hizli": 0
+  },
+  "9620538": {
+    "saglik": 2,
+    "egitim": 7,
+    "toplanma": 8,
+    "sosyal": 18,
+    "transit": 37,
+    "transit_hizli": 0
+  },
+  "9481748": {
+    "saglik": 1,
+    "egitim": 6,
+    "toplanma": 5,
+    "sosyal": 9,
+    "transit": 41,
+    "transit_hizli": 0
+  },
+  "9481740": {
+    "saglik": 1,
+    "egitim": 19,
+    "toplanma": 6,
+    "sosyal": 39,
+    "transit": 57,
+    "transit_hizli": 0
+  },
+  "9464444": {
+    "saglik": 1,
+    "egitim": 16,
+    "toplanma": 10,
+    "sosyal": 34,
+    "transit": 36,
+    "transit_hizli": 0
+  },
+  "9463512": {
+    "saglik": 2,
+    "egitim": 15,
+    "toplanma": 8,
+    "sosyal": 24,
+    "transit": 31,
+    "transit_hizli": 0
+  },
+  "9463508": {
+    "saglik": 3,
+    "egitim": 8,
+    "toplanma": 4,
+    "sosyal": 27,
+    "transit": 26,
+    "transit_hizli": 4
+  },
+  "9463491": {
+    "saglik": 3,
+    "egitim": 8,
+    "toplanma": 10,
+    "sosyal": 31,
+    "transit": 42,
+    "transit_hizli": 8
+  },
+  "9289278": {
+    "saglik": 3,
+    "egitim": 4,
+    "toplanma": 3,
+    "sosyal": 13,
+    "transit": 32,
+    "transit_hizli": 0
+  },
+  "9525823": {
+    "saglik": 0,
+    "egitim": 10,
+    "toplanma": 5,
+    "sosyal": 11,
+    "transit": 44,
+    "transit_hizli": 0
+  },
+  "9526253": {
+    "saglik": 0,
+    "egitim": 9,
+    "toplanma": 5,
+    "sosyal": 14,
+    "transit": 36,
+    "transit_hizli": 0
+  },
+  "9626534": {
+    "saglik": 0,
+    "egitim": 7,
+    "toplanma": 7,
+    "sosyal": 24,
+    "transit": 58,
+    "transit_hizli": 0
+  },
+  "8766844": {
+    "saglik": 0,
+    "egitim": 1,
+    "toplanma": 0,
+    "sosyal": 3,
+    "transit": 53,
+    "transit_hizli": 0
+  },
+  "8766278": {
+    "saglik": 0,
+    "egitim": 5,
+    "toplanma": 4,
+    "sosyal": 3,
+    "transit": 16,
+    "transit_hizli": 0
+  },
+  "8766077": {
+    "saglik": 3,
+    "egitim": 20,
+    "toplanma": 28,
+    "sosyal": 91,
+    "transit": 156,
+    "transit_hizli": 0
+  },
+  "8767843": {
+    "saglik": 5,
+    "egitim": 22,
+    "toplanma": 12,
+    "sosyal": 29,
+    "transit": 76,
+    "transit_hizli": 3
+  },
+  "8767105": {
+    "saglik": 0,
+    "egitim": 8,
+    "toplanma": 3,
+    "sosyal": 32,
+    "transit": 33,
+    "transit_hizli": 0
+  },
+  "8400991": {
+    "saglik": 1,
+    "egitim": 5,
+    "toplanma": 5,
+    "sosyal": 28,
+    "transit": 95,
+    "transit_hizli": 0
+  },
+  "8767841": {
+    "saglik": 5,
+    "egitim": 12,
+    "toplanma": 6,
+    "sosyal": 27,
+    "transit": 48,
+    "transit_hizli": 3
+  },
+  "8766279": {
+    "saglik": 0,
+    "egitim": 2,
+    "toplanma": 3,
+    "sosyal": 5,
+    "transit": 15,
+    "transit_hizli": 0
+  },
+  "8767842": {
+    "saglik": 5,
+    "egitim": 10,
+    "toplanma": 5,
+    "sosyal": 14,
+    "transit": 49,
+    "transit_hizli": 3
+  },
+  "8767043": {
+    "saglik": 1,
+    "egitim": 12,
+    "toplanma": 3,
+    "sosyal": 51,
+    "transit": 56,
+    "transit_hizli": 3
+  },
+  "8766082": {
+    "saglik": 0,
+    "egitim": 4,
+    "toplanma": 3,
+    "sosyal": 7,
+    "transit": 38,
+    "transit_hizli": 0
+  },
+  "8766897": {
+    "saglik": 1,
+    "egitim": 3,
+    "toplanma": 10,
+    "sosyal": 12,
+    "transit": 62,
+    "transit_hizli": 0
+  },
+  "8766277": {
+    "saglik": 0,
+    "egitim": 3,
+    "toplanma": 3,
+    "sosyal": 19,
+    "transit": 56,
+    "transit_hizli": 0
+  },
+  "8766663": {
+    "saglik": 0,
+    "egitim": 6,
+    "toplanma": 2,
+    "sosyal": 9,
+    "transit": 31,
+    "transit_hizli": 0
+  },
+  "8767167": {
+    "saglik": 1,
+    "egitim": 20,
+    "toplanma": 6,
+    "sosyal": 71,
+    "transit": 50,
+    "transit_hizli": 0
+  },
+  "8766896": {
+    "saglik": 3,
+    "egitim": 5,
+    "toplanma": 10,
+    "sosyal": 9,
+    "transit": 46,
+    "transit_hizli": 0
+  },
+  "8766662": {
+    "saglik": 0,
+    "egitim": 10,
+    "toplanma": 9,
+    "sosyal": 25,
+    "transit": 102,
+    "transit_hizli": 0
+  },
+  "8767114": {
+    "saglik": 5,
+    "egitim": 18,
+    "toplanma": 6,
+    "sosyal": 32,
+    "transit": 39,
+    "transit_hizli": 0
+  },
+  "9218225": {
+    "saglik": 3,
+    "egitim": 8,
+    "toplanma": 4,
+    "sosyal": 17,
+    "transit": 23,
+    "transit_hizli": 4
+  },
+  "9078111": {
+    "saglik": 0,
+    "egitim": 13,
+    "toplanma": 8,
+    "sosyal": 13,
+    "transit": 50,
+    "transit_hizli": 10
+  },
+  "9078093": {
+    "saglik": 0,
+    "egitim": 14,
+    "toplanma": 8,
+    "sosyal": 14,
+    "transit": 35,
+    "transit_hizli": 0
+  },
+  "9078094": {
+    "saglik": 0,
+    "egitim": 11,
+    "toplanma": 11,
+    "sosyal": 8,
+    "transit": 38,
+    "transit_hizli": 0
+  },
+  "9042592": {
+    "saglik": 0,
+    "egitim": 7,
+    "toplanma": 6,
+    "sosyal": 14,
+    "transit": 40,
+    "transit_hizli": 0
+  },
+  "9042591": {
+    "saglik": 1,
+    "egitim": 4,
+    "toplanma": 5,
+    "sosyal": 12,
+    "transit": 43,
+    "transit_hizli": 0
+  },
+  "9218021": {
+    "saglik": 5,
+    "egitim": 10,
+    "toplanma": 9,
+    "sosyal": 22,
+    "transit": 82,
+    "transit_hizli": 11
+  },
+  "9218075": {
+    "saglik": 14,
+    "egitim": 17,
+    "toplanma": 8,
+    "sosyal": 65,
+    "transit": 44,
+    "transit_hizli": 9
+  },
+  "9218100": {
+    "saglik": 9,
+    "egitim": 5,
+    "toplanma": 4,
+    "sosyal": 64,
+    "transit": 38,
+    "transit_hizli": 6
+  },
+  "9218298": {
+    "saglik": 2,
+    "egitim": 7,
+    "toplanma": 6,
+    "sosyal": 19,
+    "transit": 26,
+    "transit_hizli": 0
+  },
+  "9218332": {
+    "saglik": 14,
+    "egitim": 20,
+    "toplanma": 7,
+    "sosyal": 30,
+    "transit": 64,
+    "transit_hizli": 14
+  },
+  "9218331": {
+    "saglik": 15,
+    "egitim": 8,
+    "toplanma": 7,
+    "sosyal": 41,
+    "transit": 36,
+    "transit_hizli": 6
+  },
+  "8866766": {
+    "saglik": 0,
+    "egitim": 17,
+    "toplanma": 13,
+    "sosyal": 15,
+    "transit": 63,
+    "transit_hizli": 8
+  },
+  "9268907": {
+    "saglik": 2,
+    "egitim": 13,
+    "toplanma": 5,
+    "sosyal": 5,
+    "transit": 38,
+    "transit_hizli": 8
+  },
+  "9220784": {
+    "saglik": 4,
+    "egitim": 16,
+    "toplanma": 12,
+    "sosyal": 12,
+    "transit": 51,
+    "transit_hizli": 3
+  },
+  "9219471": {
+    "saglik": 5,
+    "egitim": 13,
+    "toplanma": 16,
+    "sosyal": 38,
+    "transit": 72,
+    "transit_hizli": 4
+  },
+  "9219444": {
+    "saglik": 0,
+    "egitim": 13,
+    "toplanma": 9,
+    "sosyal": 9,
+    "transit": 56,
+    "transit_hizli": 0
+  },
+  "9219465": {
+    "saglik": 1,
+    "egitim": 21,
+    "toplanma": 13,
+    "sosyal": 19,
+    "transit": 57,
+    "transit_hizli": 0
+  },
+  "9219466": {
+    "saglik": 1,
+    "egitim": 13,
+    "toplanma": 9,
+    "sosyal": 32,
+    "transit": 49,
+    "transit_hizli": 4
+  },
+  "9268910": {
+    "saglik": 0,
+    "egitim": 16,
+    "toplanma": 19,
+    "sosyal": 34,
+    "transit": 97,
+    "transit_hizli": 2
+  },
+  "9268921": {
+    "saglik": 1,
+    "egitim": 9,
+    "toplanma": 8,
+    "sosyal": 8,
+    "transit": 60,
+    "transit_hizli": 3
+  },
+  "9268783": {
+    "saglik": 1,
+    "egitim": 14,
+    "toplanma": 6,
+    "sosyal": 11,
+    "transit": 43,
+    "transit_hizli": 3
+  },
+  "8800853": {
+    "saglik": 1,
+    "egitim": 6,
+    "toplanma": 2,
+    "sosyal": 11,
+    "transit": 46,
+    "transit_hizli": 6
+  },
+  "9268730": {
+    "saglik": 5,
+    "egitim": 16,
+    "toplanma": 9,
+    "sosyal": 77,
+    "transit": 60,
+    "transit_hizli": 9
+  },
+  "9432147": {
+    "saglik": 5,
+    "egitim": 23,
+    "toplanma": 13,
+    "sosyal": 56,
+    "transit": 69,
+    "transit_hizli": 3
+  },
+  "9268801": {
+    "saglik": 1,
+    "egitim": 14,
+    "toplanma": 7,
+    "sosyal": 31,
+    "transit": 54,
+    "transit_hizli": 6
+  },
+  "9269124": {
+    "saglik": 1,
+    "egitim": 12,
+    "toplanma": 9,
+    "sosyal": 16,
+    "transit": 74,
+    "transit_hizli": 3
+  },
+  "9268920": {
+    "saglik": 0,
+    "egitim": 5,
+    "toplanma": 10,
+    "sosyal": 5,
+    "transit": 51,
+    "transit_hizli": 0
+  },
+  "9361618": {
+    "saglik": 3,
+    "egitim": 18,
+    "toplanma": 10,
+    "sosyal": 18,
+    "transit": 93,
+    "transit_hizli": 0
+  },
+  "9363902": {
+    "saglik": 5,
+    "egitim": 44,
+    "toplanma": 18,
+    "sosyal": 122,
+    "transit": 142,
+    "transit_hizli": 3
+  },
+  "9432146": {
+    "saglik": 0,
+    "egitim": 14,
+    "toplanma": 2,
+    "sosyal": 29,
+    "transit": 32,
+    "transit_hizli": 0
+  },
+  "9432145": {
+    "saglik": 0,
+    "egitim": 9,
+    "toplanma": 6,
+    "sosyal": 18,
+    "transit": 41,
+    "transit_hizli": 2
+  },
+  "9432148": {
+    "saglik": 0,
+    "egitim": 1,
+    "toplanma": 1,
+    "sosyal": 1,
+    "transit": 14,
+    "transit_hizli": 0
+  },
+  "9432149": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 1,
+    "sosyal": 2,
+    "transit": 10,
+    "transit_hizli": 0
+  },
+  "9432150": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 0,
+    "sosyal": 0,
+    "transit": 10,
+    "transit_hizli": 0
+  },
+  "8894351": {
+    "saglik": 0,
+    "egitim": 3,
+    "toplanma": 2,
+    "sosyal": 1,
+    "transit": 17,
+    "transit_hizli": 0
+  },
+  "9900629": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 0,
+    "sosyal": 0,
+    "transit": 0,
+    "transit_hizli": 0
+  },
+  "9619871": {
+    "saglik": 0,
+    "egitim": 1,
+    "toplanma": 1,
+    "sosyal": 5,
+    "transit": 5,
+    "transit_hizli": 0
+  },
+  "9619872": {
+    "saglik": 0,
+    "egitim": 3,
+    "toplanma": 1,
+    "sosyal": 9,
+    "transit": 7,
+    "transit_hizli": 0
+  },
+  "9619873": {
+    "saglik": 0,
+    "egitim": 1,
+    "toplanma": 1,
+    "sosyal": 3,
+    "transit": 8,
+    "transit_hizli": 0
+  },
+  "9619874": {
+    "saglik": 0,
+    "egitim": 3,
+    "toplanma": 1,
+    "sosyal": 8,
+    "transit": 7,
+    "transit_hizli": 0
+  },
+  "9619392": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 2,
+    "sosyal": 4,
+    "transit": 12,
+    "transit_hizli": 0
+  },
+  "9619158": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 1,
+    "sosyal": 3,
+    "transit": 8,
+    "transit_hizli": 0
+  },
+  "9619159": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 0,
+    "sosyal": 2,
+    "transit": 2,
+    "transit_hizli": 0
+  },
+  "9618736": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 1,
+    "sosyal": 3,
+    "transit": 1,
+    "transit_hizli": 0
+  },
+  "9618646": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 0,
+    "sosyal": 1,
+    "transit": 8,
+    "transit_hizli": 0
+  },
+  "9618406": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 1,
+    "sosyal": 1,
+    "transit": 25,
+    "transit_hizli": 0
+  },
+  "9618395": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 1,
+    "sosyal": 0,
+    "transit": 6,
+    "transit_hizli": 0
+  },
+  "9618275": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 1,
+    "sosyal": 0,
+    "transit": 10,
+    "transit_hizli": 0
+  },
+  "9618269": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 1,
+    "sosyal": 3,
+    "transit": 6,
+    "transit_hizli": 0
+  },
+  "9618065": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 1,
+    "sosyal": 0,
+    "transit": 7,
+    "transit_hizli": 0
+  },
+  "9617980": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 1,
+    "sosyal": 0,
+    "transit": 4,
+    "transit_hizli": 0
+  },
+  "9617957": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 1,
+    "sosyal": 0,
+    "transit": 16,
+    "transit_hizli": 0
+  },
+  "9586433": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 2,
+    "sosyal": 0,
+    "transit": 7,
+    "transit_hizli": 0
+  },
+  "9536790": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 0,
+    "sosyal": 0,
+    "transit": 3,
+    "transit_hizli": 0
+  },
+  "9536741": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 1,
+    "sosyal": 1,
+    "transit": 15,
+    "transit_hizli": 0
+  },
+  "9536586": {
+    "saglik": 1,
+    "egitim": 1,
+    "toplanma": 1,
+    "sosyal": 1,
+    "transit": 11,
+    "transit_hizli": 0
+  },
+  "9533923": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 1,
+    "sosyal": 0,
+    "transit": 14,
+    "transit_hizli": 0
+  },
+  "9533888": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 0,
+    "sosyal": 0,
+    "transit": 0,
+    "transit_hizli": 0
+  },
+  "9533881": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 1,
+    "sosyal": 1,
+    "transit": 3,
+    "transit_hizli": 0
+  },
+  "9533733": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 1,
+    "sosyal": 1,
+    "transit": 11,
+    "transit_hizli": 0
+  },
+  "9533706": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 1,
+    "sosyal": 0,
+    "transit": 5,
+    "transit_hizli": 0
+  },
+  "9533502": {
+    "saglik": 0,
+    "egitim": 2,
+    "toplanma": 2,
+    "sosyal": 11,
+    "transit": 21,
+    "transit_hizli": 0
+  },
+  "9533419": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 1,
+    "sosyal": 2,
+    "transit": 9,
+    "transit_hizli": 0
+  },
+  "9533391": {
+    "saglik": 1,
+    "egitim": 0,
+    "toplanma": 1,
+    "sosyal": 0,
+    "transit": 18,
+    "transit_hizli": 1
+  },
+  "9531810": {
+    "saglik": 0,
+    "egitim": 1,
+    "toplanma": 1,
+    "sosyal": 2,
+    "transit": 12,
+    "transit_hizli": 0
+  },
+  "9531802": {
+    "saglik": 0,
+    "egitim": 1,
+    "toplanma": 1,
+    "sosyal": 1,
+    "transit": 8,
+    "transit_hizli": 0
+  },
+  "9531489": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 1,
+    "sosyal": 0,
+    "transit": 0,
+    "transit_hizli": 0
+  },
+  "9531481": {
+    "saglik": 0,
+    "egitim": 1,
+    "toplanma": 1,
+    "sosyal": 2,
+    "transit": 0,
+    "transit_hizli": 0
+  },
+  "9530301": {
+    "saglik": 0,
+    "egitim": 2,
+    "toplanma": 2,
+    "sosyal": 0,
+    "transit": 1,
+    "transit_hizli": 0
+  },
+  "9483660": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 1,
+    "sosyal": 1,
+    "transit": 10,
+    "transit_hizli": 0
+  },
+  "9483212": {
+    "saglik": 0,
+    "egitim": 5,
+    "toplanma": 4,
+    "sosyal": 15,
+    "transit": 33,
+    "transit_hizli": 2
+  },
+  "9483017": {
+    "saglik": 1,
+    "egitim": 7,
+    "toplanma": 5,
+    "sosyal": 12,
+    "transit": 35,
+    "transit_hizli": 1
+  },
+  "9471951": {
+    "saglik": 0,
+    "egitim": 1,
+    "toplanma": 1,
+    "sosyal": 2,
+    "transit": 0,
+    "transit_hizli": 0
+  },
+  "9467293": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 1,
+    "sosyal": 1,
+    "transit": 0,
+    "transit_hizli": 0
+  },
+  "9460089": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 4,
+    "sosyal": 1,
+    "transit": 18,
+    "transit_hizli": 0
+  },
+  "9682747": {
+    "saglik": 0,
+    "egitim": 1,
+    "toplanma": 4,
+    "sosyal": 6,
+    "transit": 39,
+    "transit_hizli": 0
+  },
+  "9682749": {
+    "saglik": 0,
+    "egitim": 1,
+    "toplanma": 1,
+    "sosyal": 0,
+    "transit": 1,
+    "transit_hizli": 1
+  },
+  "9682748": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 0,
+    "sosyal": 0,
+    "transit": 4,
+    "transit_hizli": 0
+  },
+  "9682646": {
+    "saglik": 0,
+    "egitim": 1,
+    "toplanma": 1,
+    "sosyal": 1,
+    "transit": 1,
+    "transit_hizli": 0
+  },
+  "9682647": {
+    "saglik": 0,
+    "egitim": 1,
+    "toplanma": 1,
+    "sosyal": 1,
+    "transit": 3,
+    "transit_hizli": 0
+  },
+  "9682312": {
+    "saglik": 1,
+    "egitim": 0,
+    "toplanma": 1,
+    "sosyal": 3,
+    "transit": 6,
+    "transit_hizli": 0
+  },
+  "9682262": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 2,
+    "sosyal": 1,
+    "transit": 1,
+    "transit_hizli": 1
+  },
+  "9682263": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 1,
+    "sosyal": 1,
+    "transit": 1,
+    "transit_hizli": 1
+  },
+  "9682224": {
+    "saglik": 1,
+    "egitim": 0,
+    "toplanma": 5,
+    "sosyal": 7,
+    "transit": 17,
+    "transit_hizli": 0
+  },
+  "9682058": {
+    "saglik": 0,
+    "egitim": 1,
+    "toplanma": 1,
+    "sosyal": 6,
+    "transit": 8,
+    "transit_hizli": 1
+  },
+  "9682023": {
+    "saglik": 1,
+    "egitim": 1,
+    "toplanma": 4,
+    "sosyal": 6,
+    "transit": 34,
+    "transit_hizli": 0
+  },
+  "9682004": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 4,
+    "sosyal": 4,
+    "transit": 10,
+    "transit_hizli": 0
+  },
+  "9681982": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 1,
+    "sosyal": 0,
+    "transit": 0,
+    "transit_hizli": 0
+  },
+  "9681983": {
+    "saglik": 0,
+    "egitim": 1,
+    "toplanma": 1,
+    "sosyal": 3,
+    "transit": 19,
+    "transit_hizli": 0
+  },
+  "9679437": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 2,
+    "sosyal": 4,
+    "transit": 17,
+    "transit_hizli": 0
+  },
+  "9670918": {
+    "saglik": 0,
+    "egitim": 1,
+    "toplanma": 3,
+    "sosyal": 8,
+    "transit": 6,
+    "transit_hizli": 0
+  },
+  "9670364": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 1,
+    "sosyal": 2,
+    "transit": 11,
+    "transit_hizli": 0
+  },
+  "9669360": {
+    "saglik": 1,
+    "egitim": 1,
+    "toplanma": 4,
+    "sosyal": 5,
+    "transit": 18,
+    "transit_hizli": 0
+  },
+  "9643904": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 1,
+    "sosyal": 1,
+    "transit": 0,
+    "transit_hizli": 0
+  },
+  "9643897": {
+    "saglik": 0,
+    "egitim": 1,
+    "toplanma": 1,
+    "sosyal": 0,
+    "transit": 13,
+    "transit_hizli": 1
+  },
+  "9643888": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 0,
+    "sosyal": 0,
+    "transit": 3,
+    "transit_hizli": 0
+  },
+  "9643867": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 2,
+    "sosyal": 1,
+    "transit": 0,
+    "transit_hizli": 0
+  },
+  "9643345": {
+    "saglik": 2,
+    "egitim": 5,
+    "toplanma": 2,
+    "sosyal": 15,
+    "transit": 35,
+    "transit_hizli": 0
+  },
+  "9643346": {
+    "saglik": 2,
+    "egitim": 4,
+    "toplanma": 3,
+    "sosyal": 54,
+    "transit": 8,
+    "transit_hizli": 0
+  },
+  "9643347": {
+    "saglik": 3,
+    "egitim": 4,
+    "toplanma": 4,
+    "sosyal": 30,
+    "transit": 8,
+    "transit_hizli": 0
+  },
+  "9643348": {
+    "saglik": 1,
+    "egitim": 3,
+    "toplanma": 3,
+    "sosyal": 30,
+    "transit": 1,
+    "transit_hizli": 0
+  },
+  "9643323": {
+    "saglik": 4,
+    "egitim": 16,
+    "toplanma": 9,
+    "sosyal": 48,
+    "transit": 39,
+    "transit_hizli": 0
+  },
+  "9643322": {
+    "saglik": 1,
+    "egitim": 2,
+    "toplanma": 6,
+    "sosyal": 5,
+    "transit": 19,
+    "transit_hizli": 0
+  },
+  "9643220": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 1,
+    "sosyal": 0,
+    "transit": 0,
+    "transit_hizli": 0
+  },
+  "9643210": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 1,
+    "sosyal": 1,
+    "transit": 0,
+    "transit_hizli": 0
+  },
+  "9643200": {
+    "saglik": 1,
+    "egitim": 4,
+    "toplanma": 3,
+    "sosyal": 9,
+    "transit": 19,
+    "transit_hizli": 0
+  },
+  "9643199": {
+    "saglik": 0,
+    "egitim": 3,
+    "toplanma": 3,
+    "sosyal": 0,
+    "transit": 18,
+    "transit_hizli": 0
+  },
+  "9643188": {
+    "saglik": 0,
+    "egitim": 1,
+    "toplanma": 1,
+    "sosyal": 0,
+    "transit": 6,
+    "transit_hizli": 0
+  },
+  "9643178": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 1,
+    "sosyal": 3,
+    "transit": 15,
+    "transit_hizli": 0
+  },
+  "9531780": {
+    "saglik": 1,
+    "egitim": 6,
+    "toplanma": 8,
+    "sosyal": 17,
+    "transit": 27,
+    "transit_hizli": 0
+  },
+  "9464129": {
+    "saglik": 4,
+    "egitim": 10,
+    "toplanma": 6,
+    "sosyal": 9,
+    "transit": 39,
+    "transit_hizli": 4
+  },
+  "9464130": {
+    "saglik": 1,
+    "egitim": 3,
+    "toplanma": 3,
+    "sosyal": 21,
+    "transit": 28,
+    "transit_hizli": 0
+  },
+  "9464113": {
+    "saglik": 5,
+    "egitim": 12,
+    "toplanma": 6,
+    "sosyal": 97,
+    "transit": 36,
+    "transit_hizli": 0
+  },
+  "9464095": {
+    "saglik": 4,
+    "egitim": 17,
+    "toplanma": 6,
+    "sosyal": 20,
+    "transit": 53,
+    "transit_hizli": 0
+  },
+  "9464083": {
+    "saglik": 4,
+    "egitim": 5,
+    "toplanma": 5,
+    "sosyal": 40,
+    "transit": 7,
+    "transit_hizli": 0
+  },
+  "9463650": {
+    "saglik": 4,
+    "egitim": 8,
+    "toplanma": 5,
+    "sosyal": 32,
+    "transit": 19,
+    "transit_hizli": 0
+  },
+  "9463636": {
+    "saglik": 0,
+    "egitim": 4,
+    "toplanma": 2,
+    "sosyal": 3,
+    "transit": 25,
+    "transit_hizli": 0
+  },
+  "9463624": {
+    "saglik": 0,
+    "egitim": 5,
+    "toplanma": 3,
+    "sosyal": 10,
+    "transit": 22,
+    "transit_hizli": 0
+  },
+  "9463608": {
+    "saglik": 1,
+    "egitim": 4,
+    "toplanma": 3,
+    "sosyal": 11,
+    "transit": 21,
+    "transit_hizli": 0
+  },
+  "9463590": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 7,
+    "sosyal": 1,
+    "transit": 40,
+    "transit_hizli": 0
+  },
+  "9463584": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 4,
+    "sosyal": 2,
+    "transit": 42,
+    "transit_hizli": 0
+  },
+  "9463578": {
+    "saglik": 1,
+    "egitim": 7,
+    "toplanma": 4,
+    "sosyal": 38,
+    "transit": 34,
+    "transit_hizli": 0
+  },
+  "9463576": {
+    "saglik": 2,
+    "egitim": 10,
+    "toplanma": 2,
+    "sosyal": 42,
+    "transit": 40,
+    "transit_hizli": 0
+  },
+  "9463567": {
+    "saglik": 0,
+    "egitim": 3,
+    "toplanma": 2,
+    "sosyal": 26,
+    "transit": 26,
+    "transit_hizli": 0
+  },
+  "9460378": {
+    "saglik": 1,
+    "egitim": 6,
+    "toplanma": 8,
+    "sosyal": 11,
+    "transit": 45,
+    "transit_hizli": 0
+  },
+  "9460377": {
+    "saglik": 1,
+    "egitim": 3,
+    "toplanma": 4,
+    "sosyal": 13,
+    "transit": 44,
+    "transit_hizli": 0
+  },
+  "9460363": {
+    "saglik": 0,
+    "egitim": 6,
+    "toplanma": 3,
+    "sosyal": 10,
+    "transit": 48,
+    "transit_hizli": 0
+  },
+  "9460313": {
+    "saglik": 0,
+    "egitim": 3,
+    "toplanma": 7,
+    "sosyal": 1,
+    "transit": 67,
+    "transit_hizli": 0
+  },
+  "9460298": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 4,
+    "sosyal": 2,
+    "transit": 20,
+    "transit_hizli": 0
+  },
+  "9460292": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 1,
+    "sosyal": 0,
+    "transit": 7,
+    "transit_hizli": 0
+  },
+  "9460130": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 1,
+    "sosyal": 0,
+    "transit": 8,
+    "transit_hizli": 0
+  },
+  "9460117": {
+    "saglik": 0,
+    "egitim": 2,
+    "toplanma": 2,
+    "sosyal": 2,
+    "transit": 10,
+    "transit_hizli": 0
+  },
+  "9460103": {
+    "saglik": 0,
+    "egitim": 2,
+    "toplanma": 2,
+    "sosyal": 3,
+    "transit": 9,
+    "transit_hizli": 0
+  },
+  "9314634": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 2,
+    "sosyal": 1,
+    "transit": 6,
+    "transit_hizli": 0
+  },
+  "8996776": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 1,
+    "sosyal": 0,
+    "transit": 4,
+    "transit_hizli": 0
+  },
+  "8905922": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 0,
+    "sosyal": 0,
+    "transit": 0,
+    "transit_hizli": 0
+  },
+  "8996428": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 0,
+    "sosyal": 0,
+    "transit": 0,
+    "transit_hizli": 0
+  },
+  "9064777": {
+    "saglik": 0,
+    "egitim": 3,
+    "toplanma": 0,
+    "sosyal": 5,
+    "transit": 20,
+    "transit_hizli": 0
+  },
+  "8906049": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 0,
+    "sosyal": 0,
+    "transit": 8,
+    "transit_hizli": 0
+  },
+  "9399740": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 1,
+    "sosyal": 0,
+    "transit": 21,
+    "transit_hizli": 0
+  },
+  "9399761": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 0,
+    "sosyal": 0,
+    "transit": 2,
+    "transit_hizli": 0
+  },
+  "8917831": {
+    "saglik": 1,
+    "egitim": 3,
+    "toplanma": 3,
+    "sosyal": 21,
+    "transit": 12,
+    "transit_hizli": 0
+  },
+  "8900397": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 0,
+    "sosyal": 0,
+    "transit": 4,
+    "transit_hizli": 0
+  },
+  "8894395": {
+    "saglik": 0,
+    "egitim": 2,
+    "toplanma": 6,
+    "sosyal": 16,
+    "transit": 11,
+    "transit_hizli": 0
+  },
+  "9399866": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 1,
+    "sosyal": 0,
+    "transit": 9,
+    "transit_hizli": 0
+  },
+  "8894727": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 1,
+    "sosyal": 0,
+    "transit": 0,
+    "transit_hizli": 0
+  },
+  "8939333": {
+    "saglik": 2,
+    "egitim": 3,
+    "toplanma": 6,
+    "sosyal": 29,
+    "transit": 30,
+    "transit_hizli": 0
+  },
+  "9027503": {
+    "saglik": 0,
+    "egitim": 1,
+    "toplanma": 1,
+    "sosyal": 1,
+    "transit": 6,
+    "transit_hizli": 0
+  },
+  "1275323": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 1,
+    "sosyal": 0,
+    "transit": 6,
+    "transit_hizli": 0
+  },
+  "9064892": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 0,
+    "sosyal": 0,
+    "transit": 2,
+    "transit_hizli": 0
+  },
+  "9065274": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 1,
+    "sosyal": 1,
+    "transit": 1,
+    "transit_hizli": 0
+  },
+  "9064976": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 1,
+    "sosyal": 0,
+    "transit": 3,
+    "transit_hizli": 0
+  },
+  "9399760": {
+    "saglik": 0,
+    "egitim": 1,
+    "toplanma": 1,
+    "sosyal": 2,
+    "transit": 14,
+    "transit_hizli": 0
+  },
+  "9066804": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 0,
+    "sosyal": 0,
+    "transit": 2,
+    "transit_hizli": 0
+  },
+  "9399909": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 1,
+    "sosyal": 0,
+    "transit": 1,
+    "transit_hizli": 0
+  },
+  "8894396": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 4,
+    "sosyal": 0,
+    "transit": 6,
+    "transit_hizli": 0
+  },
+  "8894397": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 1,
+    "sosyal": 0,
+    "transit": 17,
+    "transit_hizli": 0
+  },
+  "8894729": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 1,
+    "sosyal": 0,
+    "transit": 4,
+    "transit_hizli": 0
+  },
+  "8894728": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 2,
+    "sosyal": 0,
+    "transit": 18,
+    "transit_hizli": 0
+  },
+  "8918298": {
+    "saglik": 0,
+    "egitim": 2,
+    "toplanma": 4,
+    "sosyal": 16,
+    "transit": 2,
+    "transit_hizli": 0
+  },
+  "8897385": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 2,
+    "sosyal": 0,
+    "transit": 0,
+    "transit_hizli": 0
+  },
+  "9064925": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 0,
+    "sosyal": 1,
+    "transit": 6,
+    "transit_hizli": 0
+  },
+  "8939334": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 0,
+    "sosyal": 1,
+    "transit": 10,
+    "transit_hizli": 0
+  },
+  "8900415": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 0,
+    "sosyal": 1,
+    "transit": 11,
+    "transit_hizli": 0
+  },
+  "8894446": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 1,
+    "sosyal": 0,
+    "transit": 14,
+    "transit_hizli": 0
+  },
+  "8906089": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 1,
+    "sosyal": 1,
+    "transit": 6,
+    "transit_hizli": 0
+  },
+  "1275322": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 1,
+    "sosyal": 0,
+    "transit": 1,
+    "transit_hizli": 0
+  },
+  "8894466": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 1,
+    "sosyal": 0,
+    "transit": 2,
+    "transit_hizli": 0
+  },
+  "8906003": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 0,
+    "sosyal": 0,
+    "transit": 8,
+    "transit_hizli": 0
+  },
+  "8900398": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 0,
+    "sosyal": 0,
+    "transit": 10,
+    "transit_hizli": 0
+  },
+  "9395063": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 0,
+    "sosyal": 0,
+    "transit": 10,
+    "transit_hizli": 0
+  },
+  "9066780": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 0,
+    "sosyal": 0,
+    "transit": 7,
+    "transit_hizli": 0
+  },
+  "9399878": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 2,
+    "sosyal": 0,
+    "transit": 19,
+    "transit_hizli": 0
+  },
+  "9399910": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 1,
+    "sosyal": 1,
+    "transit": 9,
+    "transit_hizli": 0
+  },
+  "9066783": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 0,
+    "sosyal": 0,
+    "transit": 6,
+    "transit_hizli": 0
+  },
+  "9064755": {
+    "saglik": 1,
+    "egitim": 0,
+    "toplanma": 1,
+    "sosyal": 8,
+    "transit": 6,
+    "transit_hizli": 0
+  },
+  "8894445": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 2,
+    "sosyal": 4,
+    "transit": 14,
+    "transit_hizli": 0
+  },
+  "9395077": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 0,
+    "sosyal": 0,
+    "transit": 6,
+    "transit_hizli": 0
+  },
+  "9399640": {
+    "saglik": 0,
+    "egitim": 3,
+    "toplanma": 1,
+    "sosyal": 6,
+    "transit": 17,
+    "transit_hizli": 0
+  },
+  "9064778": {
+    "saglik": 1,
+    "egitim": 2,
+    "toplanma": 1,
+    "sosyal": 7,
+    "transit": 7,
+    "transit_hizli": 0
+  },
+  "9065275": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 1,
+    "sosyal": 0,
+    "transit": 6,
+    "transit_hizli": 0
+  },
+  "9066781": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 0,
+    "sosyal": 0,
+    "transit": 2,
+    "transit_hizli": 0
+  },
+  "9400038": {
+    "saglik": 0,
+    "egitim": 1,
+    "toplanma": 1,
+    "sosyal": 1,
+    "transit": 16,
+    "transit_hizli": 0
+  },
+  "9066788": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 0,
+    "sosyal": 0,
+    "transit": 4,
+    "transit_hizli": 0
+  },
+  "9399739": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 0,
+    "sosyal": 3,
+    "transit": 14,
+    "transit_hizli": 0
+  },
+  "8894447": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 2,
+    "sosyal": 0,
+    "transit": 4,
+    "transit_hizli": 0
+  },
+  "8897352": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 2,
+    "sosyal": 1,
+    "transit": 9,
+    "transit_hizli": 0
+  },
+  "9064974": {
+    "saglik": 1,
+    "egitim": 1,
+    "toplanma": 2,
+    "sosyal": 0,
+    "transit": 18,
+    "transit_hizli": 0
+  },
+  "9065276": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 1,
+    "sosyal": 0,
+    "transit": 5,
+    "transit_hizli": 0
+  },
+  "9399929": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 1,
+    "sosyal": 0,
+    "transit": 12,
+    "transit_hizli": 0
+  },
+  "9064975": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 0,
+    "sosyal": 0,
+    "transit": 6,
+    "transit_hizli": 0
+  },
+  "9027455": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 1,
+    "sosyal": 0,
+    "transit": 2,
+    "transit_hizli": 0
+  },
+  "9064926": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 1,
+    "sosyal": 0,
+    "transit": 5,
+    "transit_hizli": 0
+  },
+  "9027454": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 1,
+    "sosyal": 0,
+    "transit": 4,
+    "transit_hizli": 0
+  },
+  "9399808": {
+    "saglik": 0,
+    "egitim": 0,
+    "toplanma": 1,
+    "sosyal": 1,
+    "transit": 7,
+    "transit_hizli": 0
+  },
+  "8894398": {
+    "saglik": 0,
+    "egitim": 3,
+    "toplanma": 3,
+    "sosyal": 25,
+    "transit": 14,
+    "transit_hizli": 0
+  }
+}
